@@ -100,8 +100,10 @@ def main():
                    help="s05b: zero-ablate instead of mean-ablate")
     p.add_argument("--self-repair-layers", dest="self_repair_layers",
                    help="s05b: comma-separated layer list for optional self-repair logging")
-    p.add_argument("--skip-generation", action="store_true", dest="skip_generation",
-                   help="s08: skip the (slow) generation arm")
+    p.add_argument("--skip-generation", action="store_true", dest="skip_generation", default=True,
+                   help="s08: skip the slow generation arm (default; kept for compatibility)")
+    p.add_argument("--with-generation", action="store_false", dest="skip_generation",
+                   help="s08: run the slow generation arm (off by default)")
     args = p.parse_args()
 
     if args.list or not (args.model and args.domain and args.stages):

@@ -1,0 +1,1314 @@
+[config] transformers=4.46.3  torch=2.4.0+cu118
+[LLaMA] Loading meta-llama/Llama-3.3-70B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:01<00:41,  1.45s/it]Loading checkpoint shards:   7%|▋         | 2/30 [00:02<00:32,  1.17s/it]Loading checkpoint shards:  10%|█         | 3/30 [00:03<00:30,  1.14s/it]Loading checkpoint shards:  13%|█▎        | 4/30 [00:04<00:28,  1.08s/it]Loading checkpoint shards:  17%|█▋        | 5/30 [00:05<00:26,  1.04s/it]Loading checkpoint shards:  20%|██        | 6/30 [00:06<00:24,  1.02s/it]Loading checkpoint shards:  23%|██▎       | 7/30 [00:07<00:23,  1.00s/it]Loading checkpoint shards:  27%|██▋       | 8/30 [00:08<00:22,  1.02s/it]Loading checkpoint shards:  30%|███       | 9/30 [00:09<00:21,  1.04s/it]Loading checkpoint shards:  33%|███▎      | 10/30 [00:10<00:20,  1.03s/it]Loading checkpoint shards:  37%|███▋      | 11/30 [00:11<00:19,  1.02s/it]Loading checkpoint shards:  40%|████      | 12/30 [00:12<00:18,  1.01s/it]Loading checkpoint shards:  43%|████▎     | 13/30 [00:13<00:17,  1.00s/it]Loading checkpoint shards:  47%|████▋     | 14/30 [00:14<00:15,  1.00it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:15<00:16,  1.07s/it]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:16<00:14,  1.05s/it]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:17<00:13,  1.06s/it]Loading checkpoint shards:  60%|██████    | 18/30 [00:18<00:12,  1.05s/it]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:19<00:11,  1.04s/it]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:20<00:10,  1.03s/it]Loading checkpoint shards:  70%|███████   | 21/30 [00:21<00:09,  1.02s/it]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:22<00:08,  1.00s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:23<00:07,  1.03s/it]Loading checkpoint shards:  80%|████████  | 24/30 [00:24<00:06,  1.03s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:25<00:05,  1.02s/it]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:27<00:04,  1.02s/it]Loading checkpoint shards:  90%|█████████ | 27/30 [00:27<00:03,  1.00s/it]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:28<00:01,  1.02it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:29<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:30<00:00,  1.18it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:30<00:00,  1.01s/it]
+[LLaMA] Loaded. N_LAYERS=80
+
+=== det_4x4_error: 192 cases -> /workspace/l78_predeclared/outputs/det_4x4_error_L78_expD_prime.json ===
+
+[expD'] llama | det_4x4_error | 192 questions
+[expD'] Targets: ['L78_push']
+[expD'] Computing MLP means for [78] + Attn means for []...
+[expD'] MLP means: [78]  Attn means: []
+
+  [NC_4x4_det_206]
+  baseline_ld=+3.2188
+    L78_push (L78, pusher): δ_ld=-2.9688  expected=-2.4770  repair_sum=0.585
+
+  [NC_4x4_det_207]
+  baseline_ld=-3.2500
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+1.5214  repair_sum=0.483
+
+  [NC_4x4_det_211]
+  baseline_ld=+1.0312
+    L78_push (L78, pusher): δ_ld=-0.6875  expected=+0.0457  repair_sum=0.734
+
+  [NC_4x4_det_214]
+  baseline_ld=+0.2500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+0.5710  repair_sum=0.741
+
+  [NC_4x4_det_216]
+  baseline_ld=-0.7500
+    L78_push (L78, pusher): δ_ld=-1.7500  expected=-2.6884  repair_sum=1.075
+
+  [NC_4x4_det_219]
+  baseline_ld=+9.5000
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-1.6506  repair_sum=0.322
+
+  [NC_4x4_det_225]
+  baseline_ld=+24.6250
+    L78_push (L78, pusher): δ_ld=-4.5000  expected=-6.7569  repair_sum=1.126
+
+  [NC_4x4_det_246]
+  baseline_ld=+0.2031
+    L78_push (L78, pusher): δ_ld=-2.5703  expected=-0.3262  repair_sum=2.067
+
+  [NC_4x4_det_253]
+  baseline_ld=+3.7500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-0.5678  repair_sum=0.654
+
+  [NC_4x4_det_268]
+  baseline_ld=+10.0000
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-2.2896  repair_sum=1.396
+
+  [NC_4x4_det_279]
+  baseline_ld=+5.3750
+    L78_push (L78, pusher): δ_ld=-2.5625  expected=-2.9898  repair_sum=0.445
+
+  [NC_4x4_det_312]
+  baseline_ld=+16.2500
+    L78_push (L78, pusher): δ_ld=-3.7500  expected=-2.2533  repair_sum=2.169
+
+  [NC_4x4_det_314]
+  baseline_ld=+1.5000
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=+0.1526  repair_sum=0.138
+
+  [NC_4x4_det_334]
+  baseline_ld=-1.5000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.4879  repair_sum=0.425
+
+  [NC_4x4_det_335]
+  baseline_ld=+0.5000
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=-0.4244  repair_sum=0.778
+
+  [NC_4x4_det_341]
+  baseline_ld=-7.0000
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+1.8060  repair_sum=0.747
+
+  [NC_4x4_det_350]
+  baseline_ld=+3.5000
+    L78_push (L78, pusher): δ_ld=+0.7500  expected=+1.3958  repair_sum=0.592
+
+  [NC_4x4_det_353]
+  baseline_ld=+0.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.8610  repair_sum=0.224
+
+  [NC_4x4_det_364]
+  baseline_ld=+2.3594
+    L78_push (L78, pusher): δ_ld=-1.9609  expected=-0.1876  repair_sum=1.721
+
+  [NC_4x4_det_373]
+  baseline_ld=+1.0000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.7483  repair_sum=0.290
+
+  [NC_4x4_det_394]
+  baseline_ld=+3.6875
+    L78_push (L78, pusher): δ_ld=-1.3750  expected=-1.8151  repair_sum=0.295
+
+  [NC_4x4_det_406]
+  baseline_ld=+9.0938
+    L78_push (L78, pusher): δ_ld=-2.7812  expected=-3.6205  repair_sum=0.663
+
+  [NC_4x4_det_423]
+  baseline_ld=-3.5000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+1.7288  repair_sum=0.510
+
+  [NC_4x4_det_431]
+  baseline_ld=+5.2500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.8504  repair_sum=0.268
+
+  [NC_4x4_det_432]
+  baseline_ld=+4.9141
+    L78_push (L78, pusher): δ_ld=-4.2969  expected=-1.9852  repair_sum=2.341
+
+  [NC_4x4_det_436]
+  baseline_ld=+8.7500
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=-0.2858  repair_sum=1.379
+
+  [NC_4x4_det_472]
+  baseline_ld=+16.7500
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.6792  repair_sum=0.043
+
+  [NC_4x4_det_478]
+  baseline_ld=-3.0000
+    L78_push (L78, pusher): δ_ld=-2.8125  expected=+0.5532  repair_sum=3.484
+
+  [NC_4x4_det_501]
+  baseline_ld=+9.3750
+    L78_push (L78, pusher): δ_ld=+1.3906  expected=-0.0078  repair_sum=0.972
+
+  [NC_4x4_det_525]
+  baseline_ld=+2.5000
+    L78_push (L78, pusher): δ_ld=+1.5000  expected=+0.0307  repair_sum=1.146
+
+  [NC_4x4_det_527]
+  baseline_ld=+20.0000
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-3.4401  repair_sum=0.429
+
+  [NC_4x4_det_532]
+  baseline_ld=+4.0000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.7312  repair_sum=0.409
+
+  [NC_4x4_det_534]
+  baseline_ld=+5.2500
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+1.3266  repair_sum=1.002
+
+  [NC_4x4_det_535]
+  baseline_ld=+11.0000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+1.0425  repair_sum=0.146
+
+  [NC_4x4_det_550]
+  baseline_ld=+8.5000
+    L78_push (L78, pusher): δ_ld=+2.7500  expected=-0.3585  repair_sum=1.902
+
+  [NC_4x4_det_559]
+  baseline_ld=+0.1875
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-1.8761  repair_sum=0.718
+
+  [NC_4x4_det_568]
+  baseline_ld=+9.3242
+    L78_push (L78, pusher): δ_ld=-2.8711  expected=-1.4161  repair_sum=1.008
+
+  [NC_4x4_det_577]
+  baseline_ld=+8.5000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-0.6730  repair_sum=0.601
+
+  [NC_4x4_det_591]
+  baseline_ld=+2.9688
+    L78_push (L78, pusher): δ_ld=-1.1250  expected=-2.2340  repair_sum=0.951
+
+  [NC_4x4_det_599]
+  baseline_ld=+3.2500
+    L78_push (L78, pusher): δ_ld=-2.2812  expected=-1.4953  repair_sum=0.974
+
+  [NC_4x4_det_601]
+  baseline_ld=-0.0625
+    L78_push (L78, pusher): δ_ld=-3.6719  expected=-1.3170  repair_sum=2.655
+
+  [NC_4x4_det_618]
+  baseline_ld=+16.7500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-3.6634  repair_sum=1.137
+
+  [NC_4x4_det_623]
+  baseline_ld=+9.1875
+    L78_push (L78, pusher): δ_ld=-3.4688  expected=-3.0771  repair_sum=0.462
+
+  [NC_4x4_det_630]
+  baseline_ld=+5.2500
+    L78_push (L78, pusher): δ_ld=+0.7500  expected=+0.4807  repair_sum=0.170
+
+  [NC_4x4_det_652]
+  baseline_ld=+4.2500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=+1.0688  repair_sum=0.641
+
+  [NC_4x4_det_676]
+  baseline_ld=+12.7500
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-2.5170  repair_sum=1.384
+
+  [NC_4x4_det_678]
+  baseline_ld=+1.7500
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-0.0011  repair_sum=0.863
+
+  [NC_4x4_det_683]
+  baseline_ld=+8.2500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-3.7571  repair_sum=0.953
+
+  [NC_4x4_det_685]
+  baseline_ld=+1.5625
+    L78_push (L78, pusher): δ_ld=-0.3750  expected=+0.1444  repair_sum=0.662
+
+  [NC_4x4_det_689]
+  baseline_ld=+2.1250
+    L78_push (L78, pusher): δ_ld=-3.8750  expected=-0.3319  repair_sum=3.549
+
+  [NC_4x4_det_711]
+  baseline_ld=+1.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-0.2087  repair_sum=0.102
+
+  [NC_4x4_det_745]
+  baseline_ld=+14.0000
+    L78_push (L78, pusher): δ_ld=-0.1250  expected=-1.0088  repair_sum=0.444
+
+  [NC_4x4_det_753]
+  baseline_ld=+4.0000
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+0.9330  repair_sum=0.161
+
+  [NC_4x4_det_761]
+  baseline_ld=+19.5000
+    L78_push (L78, pusher): δ_ld=-4.5000  expected=-4.7831  repair_sum=0.145
+
+  [NC_4x4_det_796]
+  baseline_ld=+12.0000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.0243  repair_sum=0.029
+
+  [NC_4x4_det_0839]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-2.0449  repair_sum=1.252
+
+  [NC_4x4_det_0855]
+  baseline_ld=-0.7500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=-0.3487  repair_sum=0.603
+
+  [NC_4x4_det_0887]
+  baseline_ld=+3.5000
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.7158  repair_sum=0.422
+
+  [NC_4x4_det_0901]
+  baseline_ld=+18.0000
+    L78_push (L78, pusher): δ_ld=-4.5000  expected=-3.7408  repair_sum=0.992
+
+  [NC_4x4_det_0915]
+  baseline_ld=+19.7500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.3558  repair_sum=0.001
+
+  [NC_4x4_det_0930]
+  baseline_ld=+9.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.1892  repair_sum=0.173
+
+  [NC_4x4_det_0936]
+  baseline_ld=+33.5000
+    L78_push (L78, pusher): δ_ld=-3.6250  expected=-2.3601  repair_sum=2.376
+
+  [NC_4x4_det_0944]
+  baseline_ld=+21.0000
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.7602  repair_sum=0.665
+
+  [NC_4x4_det_0945]
+  baseline_ld=+34.5000
+    L78_push (L78, pusher): δ_ld=-6.5000  expected=-9.6042  repair_sum=2.455
+
+  [NC_4x4_det_0949]
+  baseline_ld=+5.0000
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-0.9942  repair_sum=1.353
+
+  [NC_4x4_det_0959]
+  baseline_ld=-10.7500
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+3.3809  repair_sum=1.384
+
+  [NC_4x4_det_0984]
+  baseline_ld=+2.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.2543  repair_sum=0.180
+
+  [NC_4x4_det_1015]
+  baseline_ld=+2.7500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.5001  repair_sum=0.249
+
+  [NC_4x4_det_1022]
+  baseline_ld=+0.2500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.9129  repair_sum=0.116
+
+  [NC_4x4_det_1032]
+  baseline_ld=+4.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.3061  repair_sum=0.174
+
+  [NC_4x4_det_1042]
+  baseline_ld=+0.3281
+    L78_push (L78, pusher): δ_ld=-2.1094  expected=-1.7734  repair_sum=0.158
+
+  [NC_4x4_det_1043]
+  baseline_ld=+2.6562
+    L78_push (L78, pusher): δ_ld=-5.1289  expected=-1.4731  repair_sum=3.818
+
+  [NC_4x4_det_1047]
+  baseline_ld=+1.0000
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-1.7296  repair_sum=1.504
+
+  [NC_4x4_det_1067]
+  baseline_ld=+5.2500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.8449  repair_sum=0.154
+
+  [NC_4x4_det_1069]
+  baseline_ld=+1.7500
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-0.3022  repair_sum=0.829
+
+  [NC_4x4_det_1097]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-0.9569  repair_sum=1.563
+
+  [NC_4x4_det_1132]
+  baseline_ld=+4.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.3915  repair_sum=0.246
+
+  [NC_4x4_det_1148]
+  baseline_ld=+18.5000
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=+0.1132  repair_sum=0.921
+
+  [NC_4x4_det_1160]
+  baseline_ld=+4.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+0.5210  repair_sum=0.538
+
+  [NC_4x4_det_1181]
+  baseline_ld=+6.5000
+    L78_push (L78, pusher): δ_ld=-1.7500  expected=-2.1706  repair_sum=0.335
+
+  [NC_4x4_det_1199]
+  baseline_ld=+32.6250
+    L78_push (L78, pusher): δ_ld=-6.1250  expected=-7.3426  repair_sum=0.844
+
+  [NC_4x4_det_1217]
+  baseline_ld=+1.0000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.3214  repair_sum=0.108
+
+  [NC_4x4_det_1227]
+  baseline_ld=+0.0000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+1.7208  repair_sum=0.310
+
+  [NC_4x4_det_1251]
+  baseline_ld=+17.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-4.3947  repair_sum=1.086
+
+  [NC_4x4_det_1269]
+  baseline_ld=+14.7500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=+2.5873  repair_sum=3.403
+
+  [NC_4x4_det_1270]
+  baseline_ld=-7.7500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=+1.2307  repair_sum=0.653
+
+  [NC_4x4_det_1293]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=-5.6875  expected=+1.2076  repair_sum=6.972
+
+  [NC_4x4_det_1302]
+  baseline_ld=+5.0469
+    L78_push (L78, pusher): δ_ld=-5.2109  expected=+0.3485  repair_sum=5.548
+
+  [NC_4x4_det_1305]
+  baseline_ld=+3.7500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-0.5800  repair_sum=0.377
+
+  [NC_4x4_det_1309]
+  baseline_ld=+8.0000
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-1.1824  repair_sum=0.771
+
+  [NC_4x4_det_1316]
+  baseline_ld=+8.4062
+    L78_push (L78, pusher): δ_ld=-3.5312  expected=-3.8574  repair_sum=0.194
+
+  [NC_4x4_det_1336]
+  baseline_ld=+14.2500
+    L78_push (L78, pusher): δ_ld=-1.7500  expected=-3.7016  repair_sum=1.385
+
+  [NC_4x4_det_1339]
+  baseline_ld=+27.0000
+    L78_push (L78, pusher): δ_ld=-7.8750  expected=-9.2839  repair_sum=1.747
+
+  [NC_4x4_det_1346]
+  baseline_ld=+14.5000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-2.7232  repair_sum=0.201
+
+  [NC_4x4_det_1368]
+  baseline_ld=+6.7500
+    L78_push (L78, pusher): δ_ld=-7.7031  expected=-0.9979  repair_sum=6.695
+
+  [NC_4x4_det_1389]
+  baseline_ld=+11.7500
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-4.6662  repair_sum=1.663
+
+  [NC_4x4_det_1402]
+  baseline_ld=+15.2500
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-3.0407  repair_sum=0.252
+
+  [NC_4x4_det_1411]
+  baseline_ld=+5.7031
+    L78_push (L78, pusher): δ_ld=-2.2109  expected=-1.4601  repair_sum=0.688
+
+  [NC_4x4_det_1419]
+  baseline_ld=+3.7500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.5949  repair_sum=0.858
+
+  [NC_4x4_det_1430]
+  baseline_ld=-2.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=+0.5925  repair_sum=0.773
+
+  [NC_4x4_det_1462]
+  baseline_ld=+2.7500
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=-0.9593  repair_sum=1.840
+
+  [NC_4x4_det_1470]
+  baseline_ld=+19.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-1.0610  repair_sum=1.363
+
+  [NC_4x4_det_1478]
+  baseline_ld=-0.2500
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+1.1633  repair_sum=0.202
+
+  [NC_4x4_det_1487]
+  baseline_ld=+29.8750
+    L78_push (L78, pusher): δ_ld=-3.3750  expected=-5.5856  repair_sum=1.437
+
+  [NC_4x4_det_1507]
+  baseline_ld=-0.2500
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+0.5446  repair_sum=0.329
+
+  [NC_4x4_det_1516]
+  baseline_ld=-1.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+0.4294  repair_sum=0.070
+
+  [NC_4x4_det_1548]
+  baseline_ld=+28.5000
+    L78_push (L78, pusher): δ_ld=-6.8750  expected=-8.9560  repair_sum=0.985
+
+  [NC_4x4_det_1576]
+  baseline_ld=+4.7500
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-1.9819  repair_sum=0.646
+
+  [NC_4x4_det_1612]
+  baseline_ld=+2.0000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-0.9462  repair_sum=0.559
+
+  [NC_4x4_det_1624]
+  baseline_ld=+2.7500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+1.8433  repair_sum=1.775
+
+  [NC_4x4_det_1630]
+  baseline_ld=+5.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.4995  repair_sum=0.334
+
+  [NC_4x4_det_1636]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.4430  repair_sum=0.333
+
+  [NC_4x4_det_1637]
+  baseline_ld=-3.5000
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-1.0935  repair_sum=0.333
+
+  [NC_4x4_det_1641]
+  baseline_ld=+1.0000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+0.0944  repair_sum=0.039
+
+  [NC_4x4_det_1681]
+  baseline_ld=+10.5156
+    L78_push (L78, pusher): δ_ld=-3.5117  expected=-3.0056  repair_sum=0.365
+
+  [NC_4x4_det_1746]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-0.6423  repair_sum=0.820
+
+  [NC_4x4_det_1768]
+  baseline_ld=+0.2500
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-1.4781  repair_sum=0.355
+
+  [NC_4x4_det_1769]
+  baseline_ld=+4.8984
+    L78_push (L78, pusher): δ_ld=-3.3320  expected=-1.7277  repair_sum=1.631
+
+  [NC_4x4_det_1791]
+  baseline_ld=+4.7500
+    L78_push (L78, pusher): δ_ld=+0.7500  expected=+0.5269  repair_sum=0.316
+
+  [NC_4x4_det_1793]
+  baseline_ld=+18.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-2.8504  repair_sum=0.214
+
+  [NC_4x4_det_1813]
+  baseline_ld=+15.5000
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-2.8225  repair_sum=0.319
+
+  [NC_4x4_det_1815]
+  baseline_ld=+4.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.2894  repair_sum=0.309
+
+  [NC_4x4_det_1817]
+  baseline_ld=+5.7500
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.0982  repair_sum=0.400
+
+  [NC_4x4_det_1823]
+  baseline_ld=+4.5000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+3.0299  repair_sum=1.700
+
+  [NC_4x4_det_1840]
+  baseline_ld=+14.5000
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-1.7736  repair_sum=1.517
+
+  [NC_4x4_det_1852]
+  baseline_ld=+6.5000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-1.0963  repair_sum=0.962
+
+  [NC_4x4_det_1854]
+  baseline_ld=+1.8516
+    L78_push (L78, pusher): δ_ld=+0.3047  expected=-1.9874  repair_sum=2.150
+
+  [NC_4x4_det_1855]
+  baseline_ld=+32.1250
+    L78_push (L78, pusher): δ_ld=-6.6875  expected=-10.4507  repair_sum=2.216
+
+  [NC_4x4_det_1867]
+  baseline_ld=+2.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-1.9218  repair_sum=0.943
+
+  [NC_4x4_det_1870]
+  baseline_ld=+4.0000
+    L78_push (L78, pusher): δ_ld=+1.5000  expected=-1.6918  repair_sum=2.689
+
+  [NC_4x4_det_1892]
+  baseline_ld=+11.5000
+    L78_push (L78, pusher): δ_ld=+2.2500  expected=+0.2930  repair_sum=2.173
+
+  [NC_4x4_det_1896]
+  baseline_ld=+10.4062
+    L78_push (L78, pusher): δ_ld=-4.3750  expected=-3.3328  repair_sum=1.509
+
+  [NC_4x4_det_1898]
+  baseline_ld=+12.5000
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-3.2099  repair_sum=1.710
+
+  [NC_4x4_det_1912]
+  baseline_ld=-0.5000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+2.3956  repair_sum=2.137
+
+  [NC_4x4_det_1917]
+  baseline_ld=-2.2500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.0337  repair_sum=0.344
+
+  [NC_4x4_det_1923]
+  baseline_ld=+0.5000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+0.4910  repair_sum=0.327
+
+  [NC_4x4_det_1946]
+  baseline_ld=+3.7812
+    L78_push (L78, pusher): δ_ld=-1.5625  expected=-1.6358  repair_sum=0.119
+
+  [NC_4x4_det_1962]
+  baseline_ld=+6.2500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+0.1200  repair_sum=0.048
+
+  [NC_4x4_det_1982]
+  baseline_ld=+1.0469
+    L78_push (L78, pusher): δ_ld=-3.5078  expected=+0.2206  repair_sum=3.570
+
+  [NC_4x4_det_1992]
+  baseline_ld=-2.7500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.2985  repair_sum=0.176
+
+  [NC_4x4_det_1993]
+  baseline_ld=-1.0000
+    L78_push (L78, pusher): δ_ld=+0.7500  expected=+1.0568  repair_sum=0.519
+
+  [NC_4x4_det_2064]
+  baseline_ld=+1.8750
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.4607  repair_sum=0.202
+
+  [NC_4x4_det_2068]
+  baseline_ld=+0.5000
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.9708  repair_sum=0.175
+
+  [NC_4x4_det_2118]
+  baseline_ld=-2.0781
+    L78_push (L78, pusher): δ_ld=-1.6406  expected=-0.9721  repair_sum=0.888
+
+  [NC_4x4_det_2133]
+  baseline_ld=+7.0000
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-2.5045  repair_sum=1.230
+
+  [NC_4x4_det_2139]
+  baseline_ld=+11.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-1.9851  repair_sum=0.956
+
+  [NC_4x4_det_2176]
+  baseline_ld=+26.6250
+    L78_push (L78, pusher): δ_ld=-4.6250  expected=-5.3978  repair_sum=0.738
+
+  [NC_4x4_det_2183]
+  baseline_ld=+0.0000
+    L78_push (L78, pusher): δ_ld=+0.5938  expected=+0.3670  repair_sum=0.121
+
+  [NC_4x4_det_2189]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-0.0821  repair_sum=0.534
+
+  [NC_4x4_det_2197]
+  baseline_ld=+20.3750
+    L78_push (L78, pusher): δ_ld=-4.6250  expected=-5.6076  repair_sum=0.981
+
+  [NC_4x4_det_2223]
+  baseline_ld=+3.2500
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.4388  repair_sum=0.351
+
+  [NC_4x4_det_2248]
+  baseline_ld=+5.7500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.7375  repair_sum=0.498
+
+  [NC_4x4_det_2258]
+  baseline_ld=-8.5000
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=+2.1359  repair_sum=0.508
+
+  [NC_4x4_det_2259]
+  baseline_ld=+13.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+0.7457  repair_sum=0.921
+
+  [NC_4x4_det_2305]
+  baseline_ld=+24.7500
+    L78_push (L78, pusher): δ_ld=-4.5000  expected=-4.5681  repair_sum=0.067
+
+  [NC_4x4_det_2306]
+  baseline_ld=+3.7500
+    L78_push (L78, pusher): δ_ld=+1.5000  expected=+0.8225  repair_sum=0.562
+
+  [NC_4x4_det_2312]
+  baseline_ld=+4.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-0.4629  repair_sum=0.333
+
+  [NC_4x4_det_2329]
+  baseline_ld=-2.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+0.0259  repair_sum=0.029
+
+  [NC_4x4_det_2337]
+  baseline_ld=+3.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.6498  repair_sum=0.313
+
+  [NC_4x4_det_2350]
+  baseline_ld=+7.1250
+    L78_push (L78, pusher): δ_ld=-3.8750  expected=-3.0704  repair_sum=1.217
+
+  [NC_4x4_det_2367]
+  baseline_ld=+6.7500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-1.7461  repair_sum=1.437
+
+  [NC_4x4_det_2381]
+  baseline_ld=+8.7500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=+0.0014  repair_sum=0.460
+
+  [NC_4x4_det_2386]
+  baseline_ld=+5.3555
+    L78_push (L78, pusher): δ_ld=-2.1523  expected=-1.6819  repair_sum=0.401
+
+  [NC_4x4_det_2387]
+  baseline_ld=+34.3750
+    L78_push (L78, pusher): δ_ld=-6.3750  expected=-8.4862  repair_sum=2.269
+
+  [NC_4x4_det_2405]
+  baseline_ld=-1.7500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=+0.2326  repair_sum=0.196
+
+  [NC_4x4_det_2415]
+  baseline_ld=+6.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-0.0303  repair_sum=0.342
+
+  [NC_4x4_det_2437]
+  baseline_ld=+9.7500
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-0.3489  repair_sum=0.041
+
+  [NC_4x4_det_2450]
+  baseline_ld=+3.0000
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+0.0060  repair_sum=0.951
+
+  [NC_4x4_det_2451]
+  baseline_ld=-1.0312
+    L78_push (L78, pusher): δ_ld=-5.6719  expected=+1.9803  repair_sum=7.895
+
+  [NC_4x4_det_2456]
+  baseline_ld=+2.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-1.1821  repair_sum=0.498
+
+  [NC_4x4_det_2516]
+  baseline_ld=+5.5000
+    L78_push (L78, pusher): δ_ld=-3.2500  expected=-1.7940  repair_sum=1.538
+
+  [NC_4x4_det_2549]
+  baseline_ld=+19.0000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.7426  repair_sum=0.774
+
+  [NC_4x4_det_2556]
+  baseline_ld=+3.2500
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.3681  repair_sum=0.117
+
+  [NC_4x4_det_2562]
+  baseline_ld=+0.2500
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=+0.1254  repair_sum=0.989
+
+  [NC_4x4_det_2574]
+  baseline_ld=+4.7500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=+0.3068  repair_sum=0.548
+
+  [NC_4x4_det_2584]
+  baseline_ld=+0.5000
+    L78_push (L78, pusher): δ_ld=+1.0000  expected=+0.6010  repair_sum=0.224
+
+  [NC_4x4_det_2615]
+  baseline_ld=-7.7500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+2.2114  repair_sum=1.986
+
+  [NC_4x4_det_2618]
+  baseline_ld=+2.2500
+    L78_push (L78, pusher): δ_ld=+1.5000  expected=+2.9198  repair_sum=0.906
+
+  [NC_4x4_det_2640]
+  baseline_ld=+10.0000
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-2.7813  repair_sum=0.322
+
+  [NC_4x4_det_2643]
+  baseline_ld=+0.9688
+    L78_push (L78, pusher): δ_ld=-5.4766  expected=+1.4771  repair_sum=7.106
+
+  [NC_4x4_det_2651]
+  baseline_ld=-3.0000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.2303  repair_sum=0.020
+
+  [NC_4x4_det_2654]
+  baseline_ld=+4.0156
+    L78_push (L78, pusher): δ_ld=-1.2656  expected=-1.5000  repair_sum=0.253
+
+  [NC_4x4_det_2660]
+  baseline_ld=+5.0000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-0.4747  repair_sum=0.176
+
+  [NC_4x4_det_2665]
+  baseline_ld=+12.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-0.8482  repair_sum=0.904
+
+  [NC_4x4_det_2674]
+  baseline_ld=+28.1250
+    L78_push (L78, pusher): δ_ld=-7.8750  expected=-9.9089  repair_sum=2.064
+
+  [NC_4x4_det_2682]
+  baseline_ld=+31.3750
+    L78_push (L78, pusher): δ_ld=-5.1250  expected=-9.6204  repair_sum=3.119
+
+  [NC_4x4_det_2684]
+  baseline_ld=+14.2500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-2.3552  repair_sum=0.997
+
+  [NC_4x4_det_2704]
+  baseline_ld=+4.5000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-0.2217  repair_sum=0.238
+
+  [NC_4x4_det_2705]
+  baseline_ld=+5.0625
+    L78_push (L78, pusher): δ_ld=-2.0312  expected=-3.2315  repair_sum=1.114
+
+  [NC_4x4_det_2726]
+  baseline_ld=+21.0000
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-1.8197  repair_sum=1.675
+
+  [NC_4x4_det_2765]
+  baseline_ld=+14.5000
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-3.5501  repair_sum=1.479
+
+  [NC_4x4_det_2791]
+  baseline_ld=+2.7500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.7031  repair_sum=0.491
+
+[expD'] Done. 192 questions saved to /workspace/l78_predeclared/outputs/det_4x4_error_L78_expD_prime.json.part.json
+[resume] merged 192 new + 0 existing -> 192 in /workspace/l78_predeclared/outputs/det_4x4_error_L78_expD_prime.json
+
+=== det_4x4_correct: 130 cases -> /workspace/l78_predeclared/outputs/det_4x4_correct_L78_expD_prime.json ===
+
+[expD'] llama | det_4x4_correct | 130 questions
+[expD'] Targets: ['L78_push']
+[expD'] Computing MLP means for [78] + Attn means for []...
+[expD'] MLP means: [78]  Attn means: []
+
+  [NC_4x4_det_052]
+  baseline_ld=+21.3750
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.5159  repair_sum=0.589
+
+  [NC_4x4_det_055]
+  baseline_ld=+30.8750
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.9424  repair_sum=0.451
+
+  [NC_4x4_det_056]
+  baseline_ld=+25.0000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-3.9599  repair_sum=0.609
+
+  [NC_4x4_det_058]
+  baseline_ld=+29.3750
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-0.7885  repair_sum=2.325
+
+  [NC_4x4_det_061]
+  baseline_ld=+30.2500
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-2.8348  repair_sum=0.885
+
+  [NC_4x4_det_062]
+  baseline_ld=+23.2500
+    L78_push (L78, pusher): δ_ld=-3.3750  expected=-5.9490  repair_sum=1.899
+
+  [NC_4x4_det_064]
+  baseline_ld=+20.8750
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-2.4254  repair_sum=0.552
+
+  [NC_4x4_det_068]
+  baseline_ld=+28.7500
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-3.7491  repair_sum=0.531
+
+  [NC_4x4_det_070]
+  baseline_ld=+19.2500
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.8240  repair_sum=0.898
+
+  [NC_4x4_det_072]
+  baseline_ld=+27.3750
+    L78_push (L78, pusher): δ_ld=-2.3750  expected=-5.1960  repair_sum=1.744
+
+  [NC_4x4_det_073]
+  baseline_ld=+28.2500
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-1.4757  repair_sum=1.508
+
+  [NC_4x4_det_075]
+  baseline_ld=+32.7500
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-2.0671  repair_sum=1.010
+
+  [NC_4x4_det_076]
+  baseline_ld=+29.0000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-3.8883  repair_sum=2.869
+
+  [NC_4x4_det_077]
+  baseline_ld=+3.7500
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=-0.0543  repair_sum=0.220
+
+  [NC_4x4_det_078]
+  baseline_ld=+16.6250
+    L78_push (L78, pusher): δ_ld=-1.6250  expected=-1.9551  repair_sum=0.600
+
+  [NC_4x4_det_080]
+  baseline_ld=+1.7500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+0.4055  repair_sum=0.229
+
+  [NC_4x4_det_081]
+  baseline_ld=+27.2500
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-3.2124  repair_sum=0.873
+
+  [NC_4x4_det_082]
+  baseline_ld=+30.0000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-4.5909  repair_sum=1.372
+
+  [NC_4x4_det_087]
+  baseline_ld=+28.1250
+    L78_push (L78, pusher): δ_ld=-2.6250  expected=-1.7132  repair_sum=1.052
+
+  [NC_4x4_det_091]
+  baseline_ld=+23.0000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.8113  repair_sum=0.344
+
+  [NC_4x4_det_093]
+  baseline_ld=+27.5000
+    L78_push (L78, pusher): δ_ld=-2.6250  expected=-1.0172  repair_sum=1.682
+
+  [NC_4x4_det_094]
+  baseline_ld=+29.2500
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-2.1478  repair_sum=0.537
+
+  [NC_4x4_det_096]
+  baseline_ld=+25.2500
+    L78_push (L78, pusher): δ_ld=-1.7500  expected=-4.3382  repair_sum=1.555
+
+  [NC_4x4_det_098]
+  baseline_ld=+27.3750
+    L78_push (L78, pusher): δ_ld=-2.3750  expected=+0.0183  repair_sum=2.805
+
+  [NC_4x4_det_102]
+  baseline_ld=+23.5000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-4.0117  repair_sum=0.511
+
+  [NC_4x4_det_103]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-1.5000  expected=-2.6315  repair_sum=0.981
+
+  [NC_4x4_det_106]
+  baseline_ld=+27.3750
+    L78_push (L78, pusher): δ_ld=-2.8750  expected=-1.6363  repair_sum=2.376
+
+  [NC_4x4_det_108]
+  baseline_ld=+21.5000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.7467  repair_sum=0.265
+
+  [NC_4x4_det_109]
+  baseline_ld=+21.2500
+    L78_push (L78, pusher): δ_ld=-3.7500  expected=-4.6669  repair_sum=0.529
+
+  [NC_4x4_det_111]
+  baseline_ld=+24.5000
+    L78_push (L78, pusher): δ_ld=-0.5000  expected=-1.2443  repair_sum=0.498
+
+  [NC_4x4_det_114]
+  baseline_ld=+11.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-1.2925  repair_sum=1.485
+
+  [NC_4x4_det_115]
+  baseline_ld=+29.5000
+    L78_push (L78, pusher): δ_ld=-3.6250  expected=-4.3102  repair_sum=0.500
+
+  [NC_4x4_det_116]
+  baseline_ld=+23.8750
+    L78_push (L78, pusher): δ_ld=-4.1250  expected=-4.4590  repair_sum=0.188
+
+  [NC_4x4_det_117]
+  baseline_ld=+28.6250
+    L78_push (L78, pusher): δ_ld=-3.1250  expected=-5.7363  repair_sum=2.543
+
+  [NC_4x4_det_118]
+  baseline_ld=+25.7500
+    L78_push (L78, pusher): δ_ld=-2.7500  expected=-4.1408  repair_sum=0.807
+
+  [NC_4x4_det_121]
+  baseline_ld=+25.6250
+    L78_push (L78, pusher): δ_ld=-2.8750  expected=-3.7338  repair_sum=0.435
+
+  [NC_4x4_det_122]
+  baseline_ld=+25.7500
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-0.3657  repair_sum=1.466
+
+  [NC_4x4_det_124]
+  baseline_ld=+28.2500
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.7463  repair_sum=0.239
+
+  [NC_4x4_det_125]
+  baseline_ld=+22.7500
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-2.8055  repair_sum=0.466
+
+  [NC_4x4_det_126]
+  baseline_ld=+25.7500
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-4.2039  repair_sum=0.290
+
+  [NC_4x4_det_127]
+  baseline_ld=+24.5000
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-5.5227  repair_sum=1.331
+
+  [NC_4x4_det_128]
+  baseline_ld=+25.0000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-4.2475  repair_sum=0.059
+
+  [NC_4x4_det_130]
+  baseline_ld=+28.1250
+    L78_push (L78, pusher): δ_ld=-2.1250  expected=-5.8464  repair_sum=3.236
+
+  [NC_4x4_det_132]
+  baseline_ld=+26.1250
+    L78_push (L78, pusher): δ_ld=-1.8750  expected=+0.6950  repair_sum=3.472
+
+  [NC_4x4_det_135]
+  baseline_ld=+21.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-3.6957  repair_sum=1.074
+
+  [NC_4x4_det_136]
+  baseline_ld=+30.1250
+    L78_push (L78, pusher): δ_ld=+0.8750  expected=-3.4772  repair_sum=3.842
+
+  [NC_4x4_det_138]
+  baseline_ld=+28.6250
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=-3.5950  repair_sum=4.470
+
+  [NC_4x4_det_139]
+  baseline_ld=+23.5000
+    L78_push (L78, pusher): δ_ld=-1.3750  expected=-1.5642  repair_sum=0.668
+
+  [NC_4x4_det_142]
+  baseline_ld=+27.0000
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-4.2968  repair_sum=3.646
+
+  [NC_4x4_det_143]
+  baseline_ld=+25.2500
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-1.5589  repair_sum=0.778
+
+  [NC_4x4_det_144]
+  baseline_ld=+26.3750
+    L78_push (L78, pusher): δ_ld=-1.6250  expected=-2.3113  repair_sum=0.483
+
+  [NC_4x4_det_145]
+  baseline_ld=+32.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-2.2233  repair_sum=0.663
+
+  [NC_4x4_det_149]
+  baseline_ld=+25.0000
+    L78_push (L78, pusher): δ_ld=-1.6250  expected=-3.8055  repair_sum=1.966
+
+  [NC_4x4_det_151]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-1.6422  repair_sum=0.030
+
+  [NC_4x4_det_152]
+  baseline_ld=+18.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-2.6431  repair_sum=0.168
+
+  [NC_4x4_det_153]
+  baseline_ld=+22.7500
+    L78_push (L78, pusher): δ_ld=-5.0000  expected=-5.5639  repair_sum=0.203
+
+  [NC_4x4_det_155]
+  baseline_ld=+0.7500
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.2366  repair_sum=0.203
+
+  [NC_4x4_det_156]
+  baseline_ld=+0.7500
+    L78_push (L78, pusher): δ_ld=+0.7500  expected=+0.4288  repair_sum=0.368
+
+  [NC_4x4_det_157]
+  baseline_ld=+5.5000
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=-0.2208  repair_sum=1.288
+
+  [NC_4x4_det_159]
+  baseline_ld=+30.5000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-3.9926  repair_sum=1.136
+
+  [NC_4x4_det_160]
+  baseline_ld=+22.6250
+    L78_push (L78, pusher): δ_ld=-0.3750  expected=-0.7943  repair_sum=0.116
+
+  [NC_4x4_det_161]
+  baseline_ld=+18.6250
+    L78_push (L78, pusher): δ_ld=-1.6250  expected=-2.5083  repair_sum=0.758
+
+  [NC_4x4_det_162]
+  baseline_ld=+27.5000
+    L78_push (L78, pusher): δ_ld=-3.7500  expected=-4.6359  repair_sum=0.162
+
+  [NC_4x4_det_163]
+  baseline_ld=+28.6250
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-4.0643  repair_sum=0.630
+
+  [NC_4x4_det_164]
+  baseline_ld=+29.1250
+    L78_push (L78, pusher): δ_ld=-1.8750  expected=-2.4179  repair_sum=0.383
+
+  [NC_4x4_det_166]
+  baseline_ld=+27.3750
+    L78_push (L78, pusher): δ_ld=-4.6250  expected=-4.1588  repair_sum=0.498
+
+  [NC_4x4_det_167]
+  baseline_ld=+28.3750
+    L78_push (L78, pusher): δ_ld=-1.8750  expected=-3.1001  repair_sum=0.395
+
+  [NC_4x4_det_168]
+  baseline_ld=+8.5000
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=-1.2490  repair_sum=1.857
+
+  [NC_4x4_det_169]
+  baseline_ld=+27.0000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-3.3797  repair_sum=1.060
+
+  [NC_4x4_det_170]
+  baseline_ld=+28.1250
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-4.6269  repair_sum=0.432
+
+  [NC_4x4_det_171]
+  baseline_ld=+28.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-1.3286  repair_sum=1.585
+
+  [NC_4x4_det_172]
+  baseline_ld=+5.5000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-0.7212  repair_sum=1.206
+
+  [NC_4x4_det_173]
+  baseline_ld=+30.2500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-2.3816  repair_sum=0.063
+
+  [NC_4x4_det_175]
+  baseline_ld=+16.0000
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-3.2401  repair_sum=0.755
+
+  [NC_4x4_det_176]
+  baseline_ld=+27.5000
+    L78_push (L78, pusher): δ_ld=-2.2500  expected=-0.6898  repair_sum=2.251
+
+  [NC_4x4_det_179]
+  baseline_ld=+28.7500
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-4.4659  repair_sum=0.084
+
+  [NC_4x4_det_183]
+  baseline_ld=+27.2500
+    L78_push (L78, pusher): δ_ld=-2.1250  expected=-2.5149  repair_sum=0.080
+
+  [NC_4x4_det_186]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-4.2500  expected=-4.2499  repair_sum=0.609
+
+  [NC_4x4_det_187]
+  baseline_ld=+31.2500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-2.2991  repair_sum=1.706
+
+  [NC_4x4_det_189]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-0.7500  expected=-4.9237  repair_sum=3.655
+
+  [NC_4x4_det_192]
+  baseline_ld=+26.7500
+    L78_push (L78, pusher): δ_ld=-4.5000  expected=-4.7476  repair_sum=0.726
+
+  [NC_4x4_det_193]
+  baseline_ld=+13.5000
+    L78_push (L78, pusher): δ_ld=-1.2500  expected=-1.9554  repair_sum=1.077
+
+  [NC_4x4_det_195]
+  baseline_ld=+20.7500
+    L78_push (L78, pusher): δ_ld=-2.5000  expected=-3.5640  repair_sum=0.698
+
+  [NC_4x4_det_196]
+  baseline_ld=+21.1250
+    L78_push (L78, pusher): δ_ld=-4.0000  expected=-3.1405  repair_sum=1.133
+
+  [NC_4x4_det_197]
+  baseline_ld=+30.8750
+    L78_push (L78, pusher): δ_ld=-0.8750  expected=-2.9482  repair_sum=1.317
+
+  [NC_4x4_det_051]
+  baseline_ld=+29.3750
+    L78_push (L78, pusher): δ_ld=-2.8750  expected=-2.9118  repair_sum=0.610
+
+  [NC_4x4_det_057]
+  baseline_ld=+16.5000
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-0.9320  repair_sum=0.853
+
+  [NC_4x4_det_059]
+  baseline_ld=+24.8750
+    L78_push (L78, pusher): δ_ld=-1.3750  expected=-1.8569  repair_sum=0.466
+
+  [NC_4x4_det_060]
+  baseline_ld=+32.8750
+    L78_push (L78, pusher): δ_ld=-7.3750  expected=-6.4404  repair_sum=0.979
+
+  [NC_4x4_det_063]
+  baseline_ld=+23.2500
+    L78_push (L78, pusher): δ_ld=-2.0000  expected=-1.5690  repair_sum=0.823
+
+  [NC_4x4_det_066]
+  baseline_ld=+17.2500
+    L78_push (L78, pusher): δ_ld=-4.0000  expected=-4.3047  repair_sum=0.977
+
+  [NC_4x4_det_069]
+  baseline_ld=+22.5000
+    L78_push (L78, pusher): δ_ld=-7.2500  expected=-6.7211  repair_sum=0.307
+
+  [NC_4x4_det_071]
+  baseline_ld=+20.0000
+    L78_push (L78, pusher): δ_ld=-1.0000  expected=-0.3771  repair_sum=0.381
+
+  [NC_4x4_det_074]
+  baseline_ld=+29.2500
+    L78_push (L78, pusher): δ_ld=-7.5000  expected=-6.8245  repair_sum=0.233
+
+  [NC_4x4_det_079]
+  baseline_ld=+8.7500
+    L78_push (L78, pusher): δ_ld=+1.7500  expected=-0.1202  repair_sum=1.262
+
+  [NC_4x4_det_084]
+  baseline_ld=+30.6250
+    L78_push (L78, pusher): δ_ld=-4.2500  expected=-4.8921  repair_sum=0.298
+
+  [NC_4x4_det_085]
+  baseline_ld=+18.2500
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=+1.6580  repair_sum=1.001
+
+  [NC_4x4_det_089]
+  baseline_ld=+25.1250
+    L78_push (L78, pusher): δ_ld=-6.1250  expected=-5.4705  repair_sum=0.647
+
+  [NC_4x4_det_090]
+  baseline_ld=+30.5000
+    L78_push (L78, pusher): δ_ld=-4.6250  expected=-4.4482  repair_sum=0.187
+
+  [NC_4x4_det_092]
+  baseline_ld=+25.6250
+    L78_push (L78, pusher): δ_ld=-1.6250  expected=-2.8888  repair_sum=1.531
+
+  [NC_4x4_det_097]
+  baseline_ld=+25.7500
+    L78_push (L78, pusher): δ_ld=-3.7500  expected=-3.9812  repair_sum=0.166
+
+  [NC_4x4_det_099]
+  baseline_ld=+30.2500
+    L78_push (L78, pusher): δ_ld=-5.5000  expected=-5.9698  repair_sum=0.247
+
+  [NC_4x4_det_100]
+  baseline_ld=+23.1250
+    L78_push (L78, pusher): δ_ld=-5.6250  expected=-5.7962  repair_sum=0.495
+
+  [NC_4x4_det_101]
+  baseline_ld=+6.2500
+    L78_push (L78, pusher): δ_ld=+0.0000  expected=-1.5304  repair_sum=1.753
+
+  [NC_4x4_det_104]
+  baseline_ld=+29.5000
+    L78_push (L78, pusher): δ_ld=-5.7500  expected=-6.0708  repair_sum=0.117
+
+  [NC_4x4_det_107]
+  baseline_ld=+26.0000
+    L78_push (L78, pusher): δ_ld=-3.2500  expected=-3.0095  repair_sum=0.133
+
+  [NC_4x4_det_112]
+  baseline_ld=+27.7500
+    L78_push (L78, pusher): δ_ld=-6.7500  expected=-6.0282  repair_sum=0.718
+
+  [NC_4x4_det_119]
+  baseline_ld=+30.7500
+    L78_push (L78, pusher): δ_ld=-1.7500  expected=-2.3344  repair_sum=0.317
+
+  [NC_4x4_det_120]
+  baseline_ld=+31.2500
+    L78_push (L78, pusher): δ_ld=-3.7500  expected=-3.7715  repair_sum=0.063
+
+  [NC_4x4_det_123]
+  baseline_ld=+21.2500
+    L78_push (L78, pusher): δ_ld=+0.8750  expected=-0.4059  repair_sum=1.187
+
+  [NC_4x4_det_131]
+  baseline_ld=+30.5000
+    L78_push (L78, pusher): δ_ld=-4.7500  expected=-5.0999  repair_sum=0.324
+
+  [NC_4x4_det_134]
+  baseline_ld=+11.2500
+    L78_push (L78, pusher): δ_ld=+1.2500  expected=-1.6837  repair_sum=3.108
+
+  [NC_4x4_det_140]
+  baseline_ld=+31.0000
+    L78_push (L78, pusher): δ_ld=-4.2500  expected=-4.5032  repair_sum=0.019
+
+  [NC_4x4_det_141]
+  baseline_ld=+26.7500
+    L78_push (L78, pusher): δ_ld=-6.7500  expected=-5.9427  repair_sum=0.841
+
+  [NC_4x4_det_147]
+  baseline_ld=+31.0000
+    L78_push (L78, pusher): δ_ld=-9.0000  expected=-7.7653  repair_sum=0.698
+
+  [NC_4x4_det_150]
+  baseline_ld=+27.2500
+    L78_push (L78, pusher): δ_ld=-3.5000  expected=-2.6167  repair_sum=0.488
+
+  [NC_4x4_det_174]
+  baseline_ld=+6.2500
+    L78_push (L78, pusher): δ_ld=+2.0000  expected=-0.6700  repair_sum=2.763
+
+  [NC_4x4_det_177]
+  baseline_ld=+30.0000
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-3.3478  repair_sum=0.019
+
+  [NC_4x4_det_178]
+  baseline_ld=+27.2500
+    L78_push (L78, pusher): δ_ld=-2.8750  expected=-3.0529  repair_sum=0.038
+
+  [NC_4x4_det_180]
+  baseline_ld=+30.0000
+    L78_push (L78, pusher): δ_ld=-6.8750  expected=-6.2223  repair_sum=0.418
+
+  [NC_4x4_det_181]
+  baseline_ld=+16.5000
+    L78_push (L78, pusher): δ_ld=+0.5000  expected=+1.5289  repair_sum=0.512
+
+  [NC_4x4_det_184]
+  baseline_ld=+26.8750
+    L78_push (L78, pusher): δ_ld=-3.3750  expected=-4.9197  repair_sum=1.503
+
+  [NC_4x4_det_185]
+  baseline_ld=+29.5000
+    L78_push (L78, pusher): δ_ld=-3.2500  expected=-3.9703  repair_sum=0.218
+
+  [NC_4x4_det_188]
+  baseline_ld=+31.1250
+    L78_push (L78, pusher): δ_ld=-4.1250  expected=-4.4529  repair_sum=0.368
+
+  [NC_4x4_det_190]
+  baseline_ld=+26.7500
+    L78_push (L78, pusher): δ_ld=-3.0000  expected=-1.1442  repair_sum=2.147
+
+  [NC_4x4_det_191]
+  baseline_ld=+31.6250
+    L78_push (L78, pusher): δ_ld=-1.8750  expected=-3.1286  repair_sum=0.954
+
+  [NC_4x4_det_194]
+  baseline_ld=+14.5000
+    L78_push (L78, pusher): δ_ld=-0.2500  expected=-2.9185  repair_sum=1.665
+
+  [NC_4x4_det_198]
+  baseline_ld=+18.0000
+    L78_push (L78, pusher): δ_ld=+0.2500  expected=-1.7198  repair_sum=2.719
+
+  [NC_4x4_det_199]
+  baseline_ld=+29.0000
+    L78_push (L78, pusher): δ_ld=-5.0000  expected=-5.6799  repair_sum=0.301
+
+  [NC_4x4_det_200]
+  baseline_ld=+27.8750
+    L78_push (L78, pusher): δ_ld=-3.1250  expected=-4.0102  repair_sum=0.407
+
+[expD'] Done. 130 questions saved to /workspace/l78_predeclared/outputs/det_4x4_correct_L78_expD_prime.json.part.json
+[resume] merged 130 new + 0 existing -> 130 in /workspace/l78_predeclared/outputs/det_4x4_correct_L78_expD_prime.json
+
+[L78] ALL DONE.

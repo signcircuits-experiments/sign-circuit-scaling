@@ -1,0 +1,890 @@
+
+=== model=qwen_heldout domain=ibp_error stages=['s09'] gpu=yes ===
+
+[Qwen] Loading Qwen/Qwen2.5-72B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/37 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/37 [00:01<00:48,  1.34s/it]Loading checkpoint shards:   5%|▌         | 2/37 [00:02<00:46,  1.34s/it]Loading checkpoint shards:   8%|▊         | 3/37 [00:05<01:02,  1.84s/it]Loading checkpoint shards:  11%|█         | 4/37 [00:07<01:11,  2.15s/it]Loading checkpoint shards:  14%|█▎        | 5/37 [00:10<01:13,  2.29s/it]Loading checkpoint shards:  16%|█▌        | 6/37 [00:12<01:15,  2.43s/it]Loading checkpoint shards:  19%|█▉        | 7/37 [00:14<01:00,  2.02s/it]Loading checkpoint shards:  22%|██▏       | 8/37 [00:15<00:51,  1.76s/it]Loading checkpoint shards:  24%|██▍       | 9/37 [00:16<00:44,  1.58s/it]Loading checkpoint shards:  27%|██▋       | 10/37 [00:17<00:38,  1.44s/it]Loading checkpoint shards:  30%|██▉       | 11/37 [00:18<00:35,  1.37s/it]Loading checkpoint shards:  32%|███▏      | 12/37 [00:19<00:31,  1.25s/it]Loading checkpoint shards:  35%|███▌      | 13/37 [00:21<00:29,  1.23s/it]Loading checkpoint shards:  38%|███▊      | 14/37 [00:22<00:27,  1.20s/it]Loading checkpoint shards:  41%|████      | 15/37 [00:23<00:25,  1.17s/it]Loading checkpoint shards:  43%|████▎     | 16/37 [00:24<00:24,  1.16s/it]Loading checkpoint shards:  46%|████▌     | 17/37 [00:25<00:23,  1.16s/it]Loading checkpoint shards:  49%|████▊     | 18/37 [00:26<00:22,  1.16s/it]Loading checkpoint shards:  51%|█████▏    | 19/37 [00:27<00:20,  1.13s/it]Loading checkpoint shards:  54%|█████▍    | 20/37 [00:28<00:19,  1.14s/it]Loading checkpoint shards:  57%|█████▋    | 21/37 [00:30<00:18,  1.14s/it]Loading checkpoint shards:  59%|█████▉    | 22/37 [00:31<00:16,  1.13s/it]Loading checkpoint shards:  62%|██████▏   | 23/37 [00:32<00:15,  1.11s/it]Loading checkpoint shards:  65%|██████▍   | 24/37 [00:33<00:14,  1.12s/it]Loading checkpoint shards:  68%|██████▊   | 25/37 [00:34<00:13,  1.10s/it]Loading checkpoint shards:  70%|███████   | 26/37 [00:35<00:11,  1.01s/it]Loading checkpoint shards:  73%|███████▎  | 27/37 [00:36<00:10,  1.04s/it]Loading checkpoint shards:  76%|███████▌  | 28/37 [00:37<00:09,  1.07s/it]Loading checkpoint shards:  78%|███████▊  | 29/37 [00:38<00:08,  1.09s/it]Loading checkpoint shards:  81%|████████  | 30/37 [00:39<00:07,  1.12s/it]Loading checkpoint shards:  84%|████████▍ | 31/37 [00:40<00:06,  1.11s/it]Loading checkpoint shards:  86%|████████▋ | 32/37 [00:41<00:05,  1.08s/it]Loading checkpoint shards:  89%|████████▉ | 33/37 [00:43<00:04,  1.12s/it]Loading checkpoint shards:  92%|█████████▏| 34/37 [00:44<00:03,  1.12s/it]Loading checkpoint shards:  95%|█████████▍| 35/37 [00:45<00:02,  1.08s/it]Loading checkpoint shards:  97%|█████████▋| 36/37 [00:46<00:01,  1.10s/it]Loading checkpoint shards: 100%|██████████| 37/37 [00:47<00:00,  1.01s/it]Loading checkpoint shards: 100%|██████████| 37/37 [00:47<00:00,  1.28s/it]
+[Qwen] Loaded. N_LAYERS=80
+
+──── s09 judge ────
+[s09] check-layer override: L66 (outputs suffixed '_L66')
+[s09] candidates: ['L66_mlp', 'L30_mlp']
+[data] qwen_heldout/ibp_error: 26 rows from qwen_heldout_ibp_error_experiment_ready.xlsx
+
+[judgeB] Arm B: boost candidates on 25 error questions
+  [ibp_pts_n10_b13]  L77@γ=2: ?
+  [ibp_pts_n10_b31]  L77@γ=2: ?
+  [ibp_pts_n11_b19]  L77@γ=2: ?
+  [ibp_pts_n11_b29]  L77@γ=2: ?
+  [ibp_pts_n11_b3]  L77@γ=2: ?
+  [ibp_pts_n11_b31]  L77@γ=2: ?
+  [ibp_pts_n12_b23]  L77@γ=2: ?
+  [ibp_pts_n12_b5]  L77@γ=2: ?
+  [ibp_pts_n13_b13]  L77@γ=2: ?
+  [ibp_pts_n14_b17]  L77@γ=2: ?
+  [ibp_pts_n15_b1]  L77@γ=2: ?
+  [ibp_pts_n6_b17]  L77@γ=2: ?
+  [ibp_pts_n6_b29]  L77@γ=2: ?
+  [ibp_pts_n7_b29]  L77@γ=2: ?
+  [ibp_pts_n7_b33]  L77@γ=2: ?
+  [ibp_pts_n7_b41]  L77@γ=2: ?
+  [ibp_pts_n7_b43]  L77@γ=2: ?
+  [ibp_pts_n7_b47]  L77@γ=2: ?
+  [ibp_pts_n8_b37]  L77@γ=2: ?
+  [ibp_pts_n8_b39]  L77@γ=2: ?
+  [ibp_pts_n8_b41]  L77@γ=2: ?
+  [ibp_pts_n8_b49]  L77@γ=2: ?
+  [ibp_pts_n8_b51]  L77@γ=2: ?
+  [ibp_pts_n9_b19]  L77@γ=2: ?
+  [ibp_pts_n9_b21]  L77@γ=2: ?
+
+[judgeB] 25 questions → /workspace/heldout_results/Qwen_heldout/ibp_error/v2_mean_ablation/exp_judge_candidates_armB_L66.json.part.json
+[resume] merged 2 new + 0 existing -> 2 in /workspace/heldout_results/Qwen_heldout/ibp_error/v2_mean_ablation/exp_judge_candidates_armB_L66.json
+[data] qwen_heldout/ibp_correct: 50 rows from qwen_heldout_ibp_correct_experiment_ready.xlsx
+[data] qwen_heldout/ibp_error: 26 rows from qwen_heldout_ibp_error_experiment_ready.xlsx
+
+[judgeA] Computing sign-matched error-set means for Arm A...
+  [means] L66_mlp sign='-': n=25
+  [means] L30_mlp sign='-': n=25
+  [ibp_pts_n10_b109] -  L77@A1_Δ=?
+  [ibp_pts_n10_b131] -  L77@A1_Δ=?
+  [ibp_pts_n10_b137] -  L77@A1_Δ=?
+  [ibp_pts_n10_b163] -  L77@A1_Δ=?
+  [ibp_pts_n10_b229] -  L77@A1_Δ=?
+  [ibp_pts_n10_b233] -  L77@A1_Δ=?
+  [ibp_pts_n10_b41] -  L77@A1_Δ=?
+  [ibp_pts_n10_b73] -  L77@A1_Δ=?
+  [ibp_pts_n10_b79] -  L77@A1_Δ=?
+  [ibp_pts_n11_b139] -  L77@A1_Δ=?
+  [ibp_pts_n11_b163] -  L77@A1_Δ=?
+  [ibp_pts_n11_b181] -  L77@A1_Δ=?
+  [ibp_pts_n11_b193] -  L77@A1_Δ=?
+  [ibp_pts_n11_b197] -  L77@A1_Δ=?
+  [ibp_pts_n11_b233] -  L77@A1_Δ=?
+  [ibp_pts_n5_b101] -  L77@A1_Δ=?
+  [ibp_pts_n5_b103] -  L77@A1_Δ=?
+  [ibp_pts_n5_b107] -  L77@A1_Δ=?
+  [ibp_pts_n5_b109] -  L77@A1_Δ=?
+  [ibp_pts_n5_b113] -  L77@A1_Δ=?
+  [ibp_pts_n5_b127] -  L77@A1_Δ=?
+  [ibp_pts_n5_b131] -  L77@A1_Δ=?
+  [ibp_pts_n5_b137] -  L77@A1_Δ=?
+  [ibp_pts_n5_b139] -  L77@A1_Δ=?
+  [ibp_pts_n5_b149] -  L77@A1_Δ=?
+  [ibp_pts_n5_b151] -  L77@A1_Δ=?
+  [ibp_pts_n5_b157] -  L77@A1_Δ=?
+  [ibp_pts_n5_b163] -  L77@A1_Δ=?
+  [ibp_pts_n5_b167] -  L77@A1_Δ=?
+  [ibp_pts_n5_b173] -  L77@A1_Δ=?
+  [ibp_pts_n5_b179] -  L77@A1_Δ=?
+  [ibp_pts_n5_b181] -  L77@A1_Δ=?
+  [ibp_pts_n5_b191] -  L77@A1_Δ=?
+  [ibp_pts_n5_b193] -  L77@A1_Δ=?
+  [ibp_pts_n5_b197] -  L77@A1_Δ=?
+  [ibp_pts_n5_b199] -  L77@A1_Δ=?
+  [ibp_pts_n5_b211] -  L77@A1_Δ=?
+  [ibp_pts_n5_b223] -  L77@A1_Δ=?
+  [ibp_pts_n5_b227] -  L77@A1_Δ=?
+  [ibp_pts_n5_b229] -  L77@A1_Δ=?
+  [ibp_pts_n5_b31] -  L77@A1_Δ=?
+  [ibp_pts_n5_b37] -  L77@A1_Δ=?
+  [ibp_pts_n5_b43] -  L77@A1_Δ=?
+  [ibp_pts_n5_b47] -  L77@A1_Δ=?
+  [ibp_pts_n5_b53] -  L77@A1_Δ=?
+  [ibp_pts_n5_b59] -  L77@A1_Δ=?
+  [ibp_pts_n5_b61] -  L77@A1_Δ=?
+  [ibp_pts_n5_b67] -  L77@A1_Δ=?
+  [ibp_pts_n5_b71] -  L77@A1_Δ=?
+  [ibp_pts_n5_b73] -  L77@A1_Δ=?
+
+[judgeA] 50 questions → /workspace/heldout_results/Qwen_heldout/ibp_correct/v2_mean_ablation/exp_judge_candidates_armA_L66.json.part.json
+[resume] merged 2 new + 0 existing -> 2 in /workspace/heldout_results/Qwen_heldout/ibp_correct/v2_mean_ablation/exp_judge_candidates_armA_L66.json
+
+[run] unloading model ...
+
+[run] done.
+
+=== model=qwen_heldout domain=ibp_error stages=['s06'] gpu=yes ===
+
+[Qwen] Loading Qwen/Qwen2.5-72B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/37 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/37 [00:01<00:47,  1.33s/it]Loading checkpoint shards:   5%|▌         | 2/37 [00:02<00:41,  1.17s/it]Loading checkpoint shards:   8%|▊         | 3/37 [00:03<00:35,  1.04s/it]Loading checkpoint shards:  11%|█         | 4/37 [00:04<00:31,  1.06it/s]Loading checkpoint shards:  14%|█▎        | 5/37 [00:04<00:28,  1.11it/s]Loading checkpoint shards:  16%|█▌        | 6/37 [00:05<00:27,  1.15it/s]Loading checkpoint shards:  19%|█▉        | 7/37 [00:06<00:27,  1.11it/s]Loading checkpoint shards:  22%|██▏       | 8/37 [00:07<00:29,  1.00s/it]Loading checkpoint shards:  24%|██▍       | 9/37 [00:09<00:29,  1.05s/it]Loading checkpoint shards:  27%|██▋       | 10/37 [00:10<00:28,  1.07s/it]Loading checkpoint shards:  30%|██▉       | 11/37 [00:11<00:28,  1.09s/it]Loading checkpoint shards:  32%|███▏      | 12/37 [00:12<00:26,  1.07s/it]Loading checkpoint shards:  35%|███▌      | 13/37 [00:13<00:26,  1.11s/it]Loading checkpoint shards:  38%|███▊      | 14/37 [00:14<00:25,  1.11s/it]Loading checkpoint shards:  41%|████      | 15/37 [00:15<00:24,  1.10s/it]Loading checkpoint shards:  43%|████▎     | 16/37 [00:16<00:23,  1.11s/it]Loading checkpoint shards:  46%|████▌     | 17/37 [00:17<00:22,  1.12s/it]Loading checkpoint shards:  49%|████▊     | 18/37 [00:19<00:21,  1.14s/it]Loading checkpoint shards:  51%|█████▏    | 19/37 [00:20<00:20,  1.13s/it]Loading checkpoint shards:  54%|█████▍    | 20/37 [00:21<00:19,  1.14s/it]Loading checkpoint shards:  57%|█████▋    | 21/37 [00:22<00:18,  1.15s/it]Loading checkpoint shards:  59%|█████▉    | 22/37 [00:23<00:17,  1.15s/it]Loading checkpoint shards:  62%|██████▏   | 23/37 [00:24<00:15,  1.14s/it]Loading checkpoint shards:  65%|██████▍   | 24/37 [00:25<00:14,  1.13s/it]Loading checkpoint shards:  68%|██████▊   | 25/37 [00:27<00:13,  1.12s/it]Loading checkpoint shards:  70%|███████   | 26/37 [00:27<00:11,  1.04s/it]Loading checkpoint shards:  73%|███████▎  | 27/37 [00:29<00:10,  1.07s/it]Loading checkpoint shards:  76%|███████▌  | 28/37 [00:30<00:09,  1.10s/it]Loading checkpoint shards:  78%|███████▊  | 29/37 [00:31<00:08,  1.12s/it]Loading checkpoint shards:  81%|████████  | 30/37 [00:32<00:07,  1.14s/it]Loading checkpoint shards:  84%|████████▍ | 31/37 [00:33<00:06,  1.14s/it]Loading checkpoint shards:  86%|████████▋ | 32/37 [00:34<00:05,  1.10s/it]Loading checkpoint shards:  89%|████████▉ | 33/37 [00:35<00:04,  1.13s/it]Loading checkpoint shards:  92%|█████████▏| 34/37 [00:37<00:03,  1.14s/it]Loading checkpoint shards:  95%|█████████▍| 35/37 [00:38<00:02,  1.10s/it]Loading checkpoint shards:  97%|█████████▋| 36/37 [00:39<00:01,  1.12s/it]Loading checkpoint shards: 100%|██████████| 37/37 [00:40<00:00,  1.03s/it]Loading checkpoint shards: 100%|██████████| 37/37 [00:40<00:00,  1.08s/it]
+[Qwen] Loaded. N_LAYERS=80
+
+──── s06 bias_subtraction ────
+[s06] expG' sites: ['L75_mlp', 'L78_mlp', 'L30_mlp', 'L50_mlp']
+[s06] alpha override: [3.0] (output suffixed '_a3')
+[data] qwen_heldout/ibp_error: 26 rows from qwen_heldout_ibp_error_experiment_ready.xlsx
+
+[expG'] qwen_heldout | ibp_error | 25 late-circuit questions
+[expG'] Targets: ['L75_mlp', 'L78_mlp', 'L30_mlp', 'L50_mlp'] | Alphas: [3.0]
+
+  [ibp_pts_n10_b13] written='-'
+    L75_mlp α=3.0: Δld=-2.625  flipped=False
+    L78_mlp α=3.0: Δld=-4.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.250  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [ibp_pts_n10_b31] written='-'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=-2.250  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [ibp_pts_n11_b19] written='-'
+    L75_mlp α=3.0: Δld=-2.875  flipped=False
+    L78_mlp α=3.0: Δld=-4.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.250  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [ibp_pts_n11_b29] written='-'
+    L75_mlp α=3.0: Δld=-2.750  flipped=False
+    L78_mlp α=3.0: Δld=-3.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n11_b3] written='-'
+    L75_mlp α=3.0: Δld=-3.250  flipped=False
+    L78_mlp α=3.0: Δld=-4.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n11_b31] written='-'
+    L75_mlp α=3.0: Δld=-3.125  flipped=False
+    L78_mlp α=3.0: Δld=-4.750  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n12_b23] written='-'
+    L75_mlp α=3.0: Δld=-2.875  flipped=False
+    L78_mlp α=3.0: Δld=-4.625  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n12_b5] written='-'
+    L75_mlp α=3.0: Δld=-3.625  flipped=False
+    L78_mlp α=3.0: Δld=-5.375  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [ibp_pts_n13_b13] written='-'
+    L75_mlp α=3.0: Δld=-3.375  flipped=False
+    L78_mlp α=3.0: Δld=-5.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [ibp_pts_n14_b17] written='-'
+    L75_mlp α=3.0: Δld=-3.000  flipped=False
+    L78_mlp α=3.0: Δld=-5.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n15_b1] written='-'
+    L75_mlp α=3.0: Δld=-1.250  flipped=False
+    L78_mlp α=3.0: Δld=-2.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n6_b17] written='-'
+    L75_mlp α=3.0: Δld=-3.000  flipped=False
+    L78_mlp α=3.0: Δld=-5.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [ibp_pts_n6_b29] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-2.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n7_b29] written='-'
+    L75_mlp α=3.0: Δld=-0.625  flipped=False
+    L78_mlp α=3.0: Δld=-2.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [ibp_pts_n7_b33] written='-'
+    L75_mlp α=3.0: Δld=-3.125  flipped=False
+    L78_mlp α=3.0: Δld=-4.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n7_b41] written='-'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=-2.500  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n7_b43] written='-'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=-2.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n7_b47] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-2.000  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n8_b37] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-2.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [ibp_pts_n8_b39] written='-'
+    L75_mlp α=3.0: Δld=-0.625  flipped=False
+    L78_mlp α=3.0: Δld=-2.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n8_b41] written='-'
+    L75_mlp α=3.0: Δld=-0.625  flipped=False
+    L78_mlp α=3.0: Δld=-2.125  flipped=True
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n8_b49] written='-'
+    L75_mlp α=3.0: Δld=-3.250  flipped=False
+    L78_mlp α=3.0: Δld=-5.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.250  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n8_b51] written='-'
+    L75_mlp α=3.0: Δld=-0.625  flipped=False
+    L78_mlp α=3.0: Δld=-2.125  flipped=True
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [ibp_pts_n9_b19] written='-'
+    L75_mlp α=3.0: Δld=-3.000  flipped=False
+    L78_mlp α=3.0: Δld=-4.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.375  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [ibp_pts_n9_b21] written='-'
+    L75_mlp α=3.0: Δld=-1.125  flipped=False
+    L78_mlp α=3.0: Δld=-2.125  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+[expG'] 25 questions → /workspace/heldout_results/Qwen_heldout/ibp_error/v2_mean_ablation/expG_prime_bias_subtraction_a3.json.part.json
+[resume] merged 25 new + 0 existing -> 25 in /workspace/heldout_results/Qwen_heldout/ibp_error/v2_mean_ablation/expG_prime_bias_subtraction_a3.json
+
+[run] unloading model ...
+
+[run] done.
+
+=== model=qwen_heldout domain=det_4x4_error stages=['s06'] gpu=yes ===
+
+[Qwen] Loading Qwen/Qwen2.5-72B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/37 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/37 [00:00<00:33,  1.08it/s]Loading checkpoint shards:   5%|▌         | 2/37 [00:01<00:32,  1.07it/s]Loading checkpoint shards:   8%|▊         | 3/37 [00:02<00:32,  1.06it/s]Loading checkpoint shards:  11%|█         | 4/37 [00:03<00:32,  1.00it/s]Loading checkpoint shards:  14%|█▎        | 5/37 [00:04<00:32,  1.02s/it]Loading checkpoint shards:  16%|█▌        | 6/37 [00:06<00:32,  1.04s/it]Loading checkpoint shards:  19%|█▉        | 7/37 [00:07<00:30,  1.03s/it]Loading checkpoint shards:  22%|██▏       | 8/37 [00:07<00:27,  1.04it/s]Loading checkpoint shards:  24%|██▍       | 9/37 [00:08<00:25,  1.09it/s]Loading checkpoint shards:  27%|██▋       | 10/37 [00:09<00:23,  1.14it/s]Loading checkpoint shards:  30%|██▉       | 11/37 [00:10<00:22,  1.16it/s]Loading checkpoint shards:  32%|███▏      | 12/37 [00:11<00:22,  1.10it/s]Loading checkpoint shards:  35%|███▌      | 13/37 [00:12<00:21,  1.14it/s]Loading checkpoint shards:  38%|███▊      | 14/37 [00:12<00:19,  1.19it/s]Loading checkpoint shards:  41%|████      | 15/37 [00:13<00:17,  1.23it/s]Loading checkpoint shards:  43%|████▎     | 16/37 [00:14<00:16,  1.25it/s]Loading checkpoint shards:  46%|████▌     | 17/37 [00:15<00:15,  1.26it/s]Loading checkpoint shards:  49%|████▊     | 18/37 [00:15<00:15,  1.26it/s]Loading checkpoint shards:  51%|█████▏    | 19/37 [00:16<00:14,  1.26it/s]Loading checkpoint shards:  54%|█████▍    | 20/37 [00:17<00:13,  1.25it/s]Loading checkpoint shards:  57%|█████▋    | 21/37 [00:18<00:12,  1.25it/s]Loading checkpoint shards:  59%|█████▉    | 22/37 [00:19<00:11,  1.26it/s]Loading checkpoint shards:  62%|██████▏   | 23/37 [00:19<00:10,  1.28it/s]Loading checkpoint shards:  65%|██████▍   | 24/37 [00:20<00:10,  1.24it/s]Loading checkpoint shards:  68%|██████▊   | 25/37 [00:21<00:10,  1.17it/s]Loading checkpoint shards:  70%|███████   | 26/37 [00:22<00:10,  1.07it/s]Loading checkpoint shards:  73%|███████▎  | 27/37 [00:23<00:08,  1.13it/s]Loading checkpoint shards:  76%|███████▌  | 28/37 [00:24<00:07,  1.17it/s]Loading checkpoint shards:  78%|███████▊  | 29/37 [00:25<00:06,  1.20it/s]Loading checkpoint shards:  81%|████████  | 30/37 [00:26<00:05,  1.20it/s]Loading checkpoint shards:  84%|████████▍ | 31/37 [00:26<00:04,  1.23it/s]Loading checkpoint shards:  86%|████████▋ | 32/37 [00:27<00:04,  1.16it/s]Loading checkpoint shards:  89%|████████▉ | 33/37 [00:28<00:03,  1.19it/s]Loading checkpoint shards:  92%|█████████▏| 34/37 [00:29<00:02,  1.21it/s]Loading checkpoint shards:  95%|█████████▍| 35/37 [00:30<00:01,  1.20it/s]Loading checkpoint shards:  97%|█████████▋| 36/37 [00:31<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 37/37 [00:31<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 37/37 [00:31<00:00,  1.16it/s]
+[Qwen] Loaded. N_LAYERS=80
+
+──── s06 bias_subtraction ────
+[s06] expG' sites: ['L75_mlp', 'L78_mlp', 'L30_mlp', 'L50_mlp']
+[s06] alpha override: [3.0] (output suffixed '_a3')
+[data] qwen_heldout/det_4x4_error: 147 rows from qwen_heldout_det_4x4_error_experiment_ready.xlsx
+
+[expG'] qwen_heldout | det_4x4_error | 99 late-circuit questions
+[expG'] Targets: ['L75_mlp', 'L78_mlp', 'L30_mlp', 'L50_mlp'] | Alphas: [3.0]
+
+  [NC_4x4_det_202] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+2.250  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_203] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_204] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_205] written='-'
+    L75_mlp α=3.0: Δld=-1.875  flipped=False
+    L78_mlp α=3.0: Δld=-7.250  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_207] written='-'
+    L75_mlp α=3.0: Δld=-2.250  flipped=False
+    L78_mlp α=3.0: Δld=-7.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_211] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_213] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_217] written='-'
+    L75_mlp α=3.0: Δld=-1.250  flipped=False
+    L78_mlp α=3.0: Δld=-3.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_218] written='-'
+    L75_mlp α=3.0: Δld=-2.938  flipped=False
+    L78_mlp α=3.0: Δld=-10.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.062  flipped=False
+
+  [NC_4x4_det_221] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_223] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.625  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_226] written='+'
+    L75_mlp α=3.0: Δld=+0.000  flipped=False
+    L78_mlp α=3.0: Δld=+1.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_230] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_231] written='+'
+    L75_mlp α=3.0: Δld=-1.250  flipped=False
+    L78_mlp α=3.0: Δld=+0.125  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.250  flipped=False
+
+  [NC_4x4_det_235] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+2.188  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_239] written='+'
+    L75_mlp α=3.0: Δld=-0.500  flipped=False
+    L78_mlp α=3.0: Δld=+0.750  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_242] written='+'
+    L75_mlp α=3.0: Δld=+1.250  flipped=False
+    L78_mlp α=3.0: Δld=+2.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_248] written='-'
+    L75_mlp α=3.0: Δld=-1.875  flipped=False
+    L78_mlp α=3.0: Δld=-3.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_252] written='+'
+    L75_mlp α=3.0: Δld=+0.250  flipped=False
+    L78_mlp α=3.0: Δld=-0.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_253] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+2.688  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_256] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=-0.750  flipped=True
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_258] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_266] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+1.625  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_268] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_269] written='-'
+    L75_mlp α=3.0: Δld=-1.125  flipped=False
+    L78_mlp α=3.0: Δld=-4.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_273] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-3.500  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_275] written='+'
+    L75_mlp α=3.0: Δld=+0.250  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.250  flipped=False
+
+  [NC_4x4_det_276] written='-'
+    L75_mlp α=3.0: Δld=-0.625  flipped=False
+    L78_mlp α=3.0: Δld=-4.000  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_277] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_278] written='+'
+    L75_mlp α=3.0: Δld=+1.000  flipped=False
+    L78_mlp α=3.0: Δld=+4.562  flipped=False
+    L30_mlp α=3.0: Δld=+0.062  flipped=False
+    L50_mlp α=3.0: Δld=+0.062  flipped=False
+
+  [NC_4x4_det_279] written='+'
+    L75_mlp α=3.0: Δld=+0.000  flipped=False
+    L78_mlp α=3.0: Δld=+2.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_280] written='-'
+    L75_mlp α=3.0: Δld=-1.375  flipped=False
+    L78_mlp α=3.0: Δld=-3.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_281] written='-'
+    L75_mlp α=3.0: Δld=-1.375  flipped=False
+    L78_mlp α=3.0: Δld=-3.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_282] written='-'
+    L75_mlp α=3.0: Δld=-1.875  flipped=False
+    L78_mlp α=3.0: Δld=-4.250  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.375  flipped=False
+
+  [NC_4x4_det_283] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_284] written='+'
+    L75_mlp α=3.0: Δld=-0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_289] written='+'
+    L75_mlp α=3.0: Δld=+1.000  flipped=False
+    L78_mlp α=3.0: Δld=+2.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_291] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+2.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_292] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_293] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_295] written='-'
+    L75_mlp α=3.0: Δld=-1.625  flipped=False
+    L78_mlp α=3.0: Δld=-4.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_296] written='+'
+    L75_mlp α=3.0: Δld=-0.250  flipped=False
+    L78_mlp α=3.0: Δld=+0.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_297] written='-'
+    L75_mlp α=3.0: Δld=-3.562  flipped=False
+    L78_mlp α=3.0: Δld=-6.562  flipped=False
+    L30_mlp α=3.0: Δld=-0.062  flipped=False
+    L50_mlp α=3.0: Δld=+0.188  flipped=False
+
+  [NC_4x4_det_298] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_299] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-11.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [NC_4x4_det_306] written='+'
+    L75_mlp α=3.0: Δld=+0.250  flipped=False
+    L78_mlp α=3.0: Δld=+1.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_307] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.250  flipped=False
+
+  [NC_4x4_det_309] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+0.875  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_311] written='+'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=+0.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_313] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+2.188  flipped=False
+    L30_mlp α=3.0: Δld=-0.375  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_317] written='+'
+    L75_mlp α=3.0: Δld=-0.500  flipped=False
+    L78_mlp α=3.0: Δld=+3.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_320] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+2.438  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_324] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+2.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_328] written='-'
+    L75_mlp α=3.0: Δld=-0.875  flipped=False
+    L78_mlp α=3.0: Δld=-2.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [NC_4x4_det_333] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+3.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_334] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+2.562  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_335] written='+'
+    L75_mlp α=3.0: Δld=+0.875  flipped=False
+    L78_mlp α=3.0: Δld=+2.438  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_336] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_339] written='+'
+    L75_mlp α=3.0: Δld=-1.250  flipped=False
+    L78_mlp α=3.0: Δld=+0.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_340] written='-'
+    L75_mlp α=3.0: Δld=-1.000  flipped=False
+    L78_mlp α=3.0: Δld=-3.625  flipped=False
+    L30_mlp α=3.0: Δld=+0.250  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_344] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+4.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_346] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_347] written='+'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=+0.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_349] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+0.750  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_351] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+1.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_356] written='+'
+    L75_mlp α=3.0: Δld=-0.125  flipped=False
+    L78_mlp α=3.0: Δld=+0.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_359] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_361] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_364] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.250  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_365] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.250  flipped=False
+
+  [NC_4x4_det_367] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+2.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_368] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_370] written='+'
+    L75_mlp α=3.0: Δld=-0.375  flipped=False
+    L78_mlp α=3.0: Δld=-0.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_371] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_373] written='-'
+    L75_mlp α=3.0: Δld=-1.625  flipped=False
+    L78_mlp α=3.0: Δld=-4.625  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_374] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.500  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_376] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_377] written='-'
+    L75_mlp α=3.0: Δld=-1.375  flipped=False
+    L78_mlp α=3.0: Δld=-3.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_380] written='-'
+    L75_mlp α=3.0: Δld=-1.625  flipped=False
+    L78_mlp α=3.0: Δld=-4.000  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_383] written='+'
+    L75_mlp α=3.0: Δld=-1.375  flipped=False
+    L78_mlp α=3.0: Δld=+0.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.375  flipped=False
+
+  [NC_4x4_det_384] written='-'
+    L75_mlp α=3.0: Δld=-2.875  flipped=False
+    L78_mlp α=3.0: Δld=-7.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.250  flipped=False
+
+  [NC_4x4_det_385] written='-'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=-3.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_386] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_389] written='-'
+    L75_mlp α=3.0: Δld=-1.875  flipped=False
+    L78_mlp α=3.0: Δld=-3.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.375  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_390] written='+'
+    L75_mlp α=3.0: Δld=+0.250  flipped=False
+    L78_mlp α=3.0: Δld=+1.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_391] written='+'
+    L75_mlp α=3.0: Δld=+0.500  flipped=False
+    L78_mlp α=3.0: Δld=+1.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_394] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+2.188  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_396] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.125  flipped=False
+    L30_mlp α=3.0: Δld=+0.125  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_399] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_404] written='-'
+    L75_mlp α=3.0: Δld=-1.750  flipped=False
+    L78_mlp α=3.0: Δld=-3.875  flipped=False
+    L30_mlp α=3.0: Δld=-0.250  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_413] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+1.750  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_418] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+2.438  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_424] written='-'
+    L75_mlp α=3.0: Δld=-1.000  flipped=False
+    L78_mlp α=3.0: Δld=-5.250  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_427] written='+'
+    L75_mlp α=3.0: Δld=+0.750  flipped=False
+    L78_mlp α=3.0: Δld=+2.375  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_429] written='+'
+    L75_mlp α=3.0: Δld=-0.750  flipped=False
+    L78_mlp α=3.0: Δld=+1.500  flipped=False
+    L30_mlp α=3.0: Δld=-0.125  flipped=False
+    L50_mlp α=3.0: Δld=-0.125  flipped=False
+
+  [NC_4x4_det_430] written='+'
+    L75_mlp α=3.0: Δld=+0.375  flipped=False
+    L78_mlp α=3.0: Δld=+2.000  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_431] written='+'
+    L75_mlp α=3.0: Δld=-1.250  flipped=False
+    L78_mlp α=3.0: Δld=+3.312  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+  [NC_4x4_det_435] written='-'
+    L75_mlp α=3.0: Δld=-1.625  flipped=False
+    L78_mlp α=3.0: Δld=-6.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.250  flipped=False
+    L50_mlp α=3.0: Δld=+0.000  flipped=False
+
+  [NC_4x4_det_436] written='+'
+    L75_mlp α=3.0: Δld=+0.625  flipped=False
+    L78_mlp α=3.0: Δld=+0.875  flipped=False
+    L30_mlp α=3.0: Δld=+0.000  flipped=False
+    L50_mlp α=3.0: Δld=+0.125  flipped=False
+
+[expG'] 99 questions → /workspace/heldout_results/Qwen_heldout/det_4x4_error/v2_mean_ablation/expG_prime_bias_subtraction_a3.json.part.json
+[resume] merged 99 new + 0 existing -> 99 in /workspace/heldout_results/Qwen_heldout/det_4x4_error/v2_mean_ablation/expG_prime_bias_subtraction_a3.json
+
+[run] unloading model ...
+
+[run] done.
