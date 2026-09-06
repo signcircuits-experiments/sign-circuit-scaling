@@ -1,0 +1,197 @@
+{
+  "model_id": "Qwen/Qwen2.5-72B-Instruct",
+  "minus_tok_id": 481,
+  "plus_tok_id": 488,
+  "minus_tok_str": "\u0120-",
+  "plus_tok_str": "\u0120+",
+  "tie_word_embeddings": false,
+  "dtype": "bfloat16",
+  "hidden_size": 8192,
+  "vocab_size": 152064,
+  "vocab_coverage": 24998,
+  "vocab_coverage_pct": 16.44,
+  "pct_leaning_minus_raw": 49.6,
+  "pct_leaning_minus_norm": 49.3,
+  "mean_diff_raw": -0.0001,
+  "median_diff_raw": -0.0,
+  "mean_diff_norm": -0.0442,
+  "median_diff_norm": -0.0,
+  "probe_tok_diffs": {
+    "267": {
+      "token_str": "st",
+      "diff_raw": 0.01736399345099926,
+      "diff_norm": 3.6247596740722656
+    },
+    "256": {
+      "token_str": "\u0120\u0120",
+      "diff_raw": 0.0005424674600362778,
+      "diff_norm": 0.449002742767334
+    },
+    "257": {
+      "token_str": "\u0120\u0120\u0120\u0120",
+      "diff_raw": 0.020568788051605225,
+      "diff_norm": 4.107814788818359
+    },
+    "258": {
+      "token_str": "in",
+      "diff_raw": 0.002635167445987463,
+      "diff_norm": 0.2945481538772583
+    },
+    "513": {
+      "token_str": "--------",
+      "diff_raw": -0.006164399441331625,
+      "diff_norm": -1.1895759105682373
+    },
+    "1796": {
+      "token_str": "content",
+      "diff_raw": 0.003513694740831852,
+      "diff_norm": 0.676163911819458
+    },
+    "261": {
+      "token_str": "er",
+      "diff_raw": 0.008032206445932388,
+      "diff_norm": 1.77505362033844
+    },
+    "262": {
+      "token_str": "\u0120\u0120\u0120",
+      "diff_raw": 0.011158507317304611,
+      "diff_norm": 2.6365089416503906
+    },
+    "1415": {
+      "token_str": "ets",
+      "diff_raw": -0.007462585810571909,
+      "diff_norm": -2.1171393394470215
+    },
+    "264": {
+      "token_str": "\u0120a",
+      "diff_raw": 0.004936542361974716,
+      "diff_norm": 1.340933918952942
+    },
+    "263": {
+      "token_str": "on",
+      "diff_raw": 0.025387801229953766,
+      "diff_norm": 6.188891887664795
+    },
+    "250": {
+      "token_str": "\u013e",
+      "diff_raw": 0.0038577718660235405,
+      "diff_norm": -0.2211906909942627
+    },
+    "251": {
+      "token_str": "\u013f",
+      "diff_raw": 0.017900953069329262,
+      "diff_norm": 2.9943978786468506
+    },
+    "254": {
+      "token_str": "\u0142",
+      "diff_raw": 0.008878659456968307,
+      "diff_norm": 1.3447813987731934
+    },
+    "255": {
+      "token_str": "\u0143",
+      "diff_raw": 0.010166184976696968,
+      "diff_norm": 1.4306163787841797
+    }
+  },
+  "interpretable_tok_diffs": {
+    "equals": {
+      "token_id": 28,
+      "token_str": "=",
+      "diff_raw": -0.0069025917910039425,
+      "diff_norm": -1.523754596710205
+    },
+    "rparen": {
+      "token_id": 8,
+      "token_str": ")",
+      "diff_raw": 0.0007892074063420296,
+      "diff_norm": 0.928825855255127
+    },
+    "digit_0": {
+      "token_id": 15,
+      "token_str": "0",
+      "diff_raw": 0.004600857384502888,
+      "diff_norm": 1.6613210439682007
+    },
+    "digit_1": {
+      "token_id": 16,
+      "token_str": "1",
+      "diff_raw": 0.02207018807530403,
+      "diff_norm": 6.0517449378967285
+    },
+    "digit_2": {
+      "token_id": 17,
+      "token_str": "2",
+      "diff_raw": 0.008851313963532448,
+      "diff_norm": 2.1490700244903564
+    },
+    "digit_3": {
+      "token_id": 18,
+      "token_str": "3",
+      "diff_raw": 0.003750996198505163,
+      "diff_norm": 0.7768362760543823
+    },
+    "digit_4": {
+      "token_id": 19,
+      "token_str": "4",
+      "diff_raw": 0.005140305496752262,
+      "diff_norm": 0.6180500984191895
+    },
+    "digit_5": {
+      "token_id": 20,
+      "token_str": "5",
+      "diff_raw": 0.011574003845453262,
+      "diff_norm": 2.560889720916748
+    },
+    "digit_6": {
+      "token_id": 21,
+      "token_str": "6",
+      "diff_raw": 0.004210091196000576,
+      "diff_norm": 0.8910305500030518
+    },
+    "digit_7": {
+      "token_id": 22,
+      "token_str": "7",
+      "diff_raw": 0.00862891599535942,
+      "diff_norm": 1.7943956851959229
+    },
+    "digit_8": {
+      "token_id": 23,
+      "token_str": "8",
+      "diff_raw": 0.011541884392499924,
+      "diff_norm": 2.0434515476226807
+    },
+    "digit_9": {
+      "token_id": 24,
+      "token_str": "9",
+      "diff_raw": -0.0012566496152430773,
+      "diff_norm": -0.6177941560745239
+    },
+    "minus_bare": {
+      "token_id": 12,
+      "token_str": "-",
+      "diff_raw": 0.010689781978726387,
+      "diff_norm": 2.827387809753418
+    },
+    "plus_bare": {
+      "token_id": 10,
+      "token_str": "+",
+      "diff_raw": 0.009548546746373177,
+      "diff_norm": 2.84922194480896
+    },
+    "space_minus": {
+      "token_id": 481,
+      "token_str": "\u0120-",
+      "diff_raw": 0.01178816333413124,
+      "diff_norm": 3.4311251640319824
+    },
+    "space_plus": {
+      "token_id": 488,
+      "token_str": "\u0120+",
+      "diff_raw": -0.0006370637565851212,
+      "diff_norm": 0.43642330169677734
+    }
+  },
+  "observed_layer0_logit_diff": 4.5,
+  "note": "diff = dot(u_minus - u_plus, f(e_t)); positive = lean toward '-'",
+  "verdict": "NOT SUPPORTED: the \u2212 bias is not a simple property of embedding geometry"
+}

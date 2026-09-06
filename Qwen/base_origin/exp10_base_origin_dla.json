@@ -1,0 +1,1233 @@
+{
+ "__note__": [
+  "EXP10 - Habit origin: matched DLA on identical text through base and instruct models (pod 7)",
+  "SOURCE: results/Qwen_base/arith_simple/v2_mean_ablation/expB_dla.json (BASE model, base text);",
+  "        results/Qwen/arith_simple_base_text/v2_mean_ablation/expB_dla.json (INSTRUCT model, same base text);",
+  "        results/Qwen/arith_simple/v2_mean_ablation/expB_dla.json (INSTRUCT model, instruct text)",
+  "RESULT: L78.mlp tracks the written sign already in the BASE model (+3.44 '-' vs -1.23 '+') -> PRETRAINING origin.",
+  "Instruct on the same text: +4.82/-1.99. Instruct on its own text: +5.39/-1.51 -> instruct-tuning amplifies ~40-60%.",
+  "BONUS: L75 is NOT a fixed '-' feature in the base model ('+' writers +1.50).",
+  "Verified against raw JSONs."
+ ],
+ "__generated__": "exported 1:1 from exp10_base_origin_dla.xlsx (Raw and Calc sheets), no values changed",
+ "raw": [
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_001",
+   "written_sign": "+",
+   "mlp75_dla": 0.4632,
+   "mlp78_dla": -1.5388,
+   "mlp79_dla": -0.4282
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_002",
+   "written_sign": "-",
+   "mlp75_dla": 0.7637,
+   "mlp78_dla": 5.0215,
+   "mlp79_dla": -3.3318
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_003",
+   "written_sign": "-",
+   "mlp75_dla": 1.8809,
+   "mlp78_dla": 2.8224,
+   "mlp79_dla": -2.7617
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_004",
+   "written_sign": "+",
+   "mlp75_dla": 1.5599,
+   "mlp78_dla": -1.2506,
+   "mlp79_dla": 0.5076
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_005",
+   "written_sign": "+",
+   "mlp75_dla": 0.4068,
+   "mlp78_dla": -1.5505,
+   "mlp79_dla": -0.4987
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_006",
+   "written_sign": "+",
+   "mlp75_dla": 1.5101,
+   "mlp78_dla": -1.3087,
+   "mlp79_dla": 0.5235
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_007",
+   "written_sign": "+",
+   "mlp75_dla": 1.551,
+   "mlp78_dla": -1.3025,
+   "mlp79_dla": 0.0767
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_008",
+   "written_sign": "-",
+   "mlp75_dla": 2.0836,
+   "mlp78_dla": 2.9444,
+   "mlp79_dla": -2.9241
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_009",
+   "written_sign": "+",
+   "mlp75_dla": 1.8743,
+   "mlp78_dla": -0.9586,
+   "mlp79_dla": 0.2389
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_011",
+   "written_sign": "+",
+   "mlp75_dla": 1.582,
+   "mlp78_dla": -1.3024,
+   "mlp79_dla": 0.3931
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_012",
+   "written_sign": "-",
+   "mlp75_dla": 0.9217,
+   "mlp78_dla": 5.1295,
+   "mlp79_dla": -3.5649
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_013",
+   "written_sign": "+",
+   "mlp75_dla": 1.6928,
+   "mlp78_dla": -1.1192,
+   "mlp79_dla": 0.5743
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_014",
+   "written_sign": "-",
+   "mlp75_dla": 0.7929,
+   "mlp78_dla": 4.9856,
+   "mlp79_dla": -3.4667
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_015",
+   "written_sign": "-",
+   "mlp75_dla": 1.9205,
+   "mlp78_dla": 2.9142,
+   "mlp79_dla": -2.9645
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_016",
+   "written_sign": "+",
+   "mlp75_dla": 1.6442,
+   "mlp78_dla": -1.0647,
+   "mlp79_dla": 0.0862
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_017",
+   "written_sign": "-",
+   "mlp75_dla": 1.9573,
+   "mlp78_dla": 2.9609,
+   "mlp79_dla": -2.9369
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_018",
+   "written_sign": "+",
+   "mlp75_dla": 1.5954,
+   "mlp78_dla": -1.1047,
+   "mlp79_dla": 0.5084
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_019",
+   "written_sign": "+",
+   "mlp75_dla": 1.6752,
+   "mlp78_dla": -1.1317,
+   "mlp79_dla": 0.1761
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_020",
+   "written_sign": "+",
+   "mlp75_dla": 1.8655,
+   "mlp78_dla": -1.3666,
+   "mlp79_dla": 0.6361
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_021",
+   "written_sign": "-",
+   "mlp75_dla": 1.9423,
+   "mlp78_dla": 3.0582,
+   "mlp79_dla": -2.7687
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_022",
+   "written_sign": "-",
+   "mlp75_dla": 2.0965,
+   "mlp78_dla": 3.0954,
+   "mlp79_dla": -2.8782
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_023",
+   "written_sign": "+",
+   "mlp75_dla": 1.6249,
+   "mlp78_dla": -1.3123,
+   "mlp79_dla": 0.3193
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_024",
+   "written_sign": "+",
+   "mlp75_dla": 1.7092,
+   "mlp78_dla": -1.2702,
+   "mlp79_dla": 0.565
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_025",
+   "written_sign": "-",
+   "mlp75_dla": 2.0581,
+   "mlp78_dla": 2.8428,
+   "mlp79_dla": -2.5169
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_026",
+   "written_sign": "+",
+   "mlp75_dla": 1.5322,
+   "mlp78_dla": -0.8963,
+   "mlp79_dla": 0.6625
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_027",
+   "written_sign": "-",
+   "mlp75_dla": 0.4558,
+   "mlp78_dla": 4.5218,
+   "mlp79_dla": -2.5196
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_028",
+   "written_sign": "+",
+   "mlp75_dla": 1.5128,
+   "mlp78_dla": -1.2117,
+   "mlp79_dla": -0.7762
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_029",
+   "written_sign": "-",
+   "mlp75_dla": 1.8373,
+   "mlp78_dla": 2.998,
+   "mlp79_dla": -2.814
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_030",
+   "written_sign": "+",
+   "mlp75_dla": 1.6866,
+   "mlp78_dla": -1.3732,
+   "mlp79_dla": 0.5709
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_031",
+   "written_sign": "-",
+   "mlp75_dla": 1.9596,
+   "mlp78_dla": 2.8282,
+   "mlp79_dla": -2.6729
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_032",
+   "written_sign": "+",
+   "mlp75_dla": 1.5785,
+   "mlp78_dla": -1.0911,
+   "mlp79_dla": 0.3997
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_033",
+   "written_sign": "-",
+   "mlp75_dla": 0.8368,
+   "mlp78_dla": 4.9361,
+   "mlp79_dla": -3.4425
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_034",
+   "written_sign": "+",
+   "mlp75_dla": 0.4255,
+   "mlp78_dla": -1.6037,
+   "mlp79_dla": -0.641
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_035",
+   "written_sign": "+",
+   "mlp75_dla": 1.8773,
+   "mlp78_dla": -1.1553,
+   "mlp79_dla": 0.6093
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_036",
+   "written_sign": "-",
+   "mlp75_dla": 0.9113,
+   "mlp78_dla": 4.9994,
+   "mlp79_dla": -3.6172
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_037",
+   "written_sign": "-",
+   "mlp75_dla": 0.8357,
+   "mlp78_dla": 4.9922,
+   "mlp79_dla": -3.4442
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_038",
+   "written_sign": "-",
+   "mlp75_dla": 0.4998,
+   "mlp78_dla": 1.0527,
+   "mlp79_dla": -2.7912
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_039",
+   "written_sign": "-",
+   "mlp75_dla": 2.0492,
+   "mlp78_dla": 2.8483,
+   "mlp79_dla": -2.8321
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_040",
+   "written_sign": "-",
+   "mlp75_dla": 2.0635,
+   "mlp78_dla": 3.0425,
+   "mlp79_dla": -2.8975
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_041",
+   "written_sign": "-",
+   "mlp75_dla": 2.0805,
+   "mlp78_dla": 3.0943,
+   "mlp79_dla": -2.7012
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_042",
+   "written_sign": "-",
+   "mlp75_dla": 0.8389,
+   "mlp78_dla": 1.0796,
+   "mlp79_dla": -2.9918
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_043",
+   "written_sign": "-",
+   "mlp75_dla": 1.1861,
+   "mlp78_dla": 3.8763,
+   "mlp79_dla": -3.574
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_044",
+   "written_sign": "+",
+   "mlp75_dla": 1.6682,
+   "mlp78_dla": -1.2735,
+   "mlp79_dla": 0.4792
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_045",
+   "written_sign": "+",
+   "mlp75_dla": 1.5897,
+   "mlp78_dla": -1.0232,
+   "mlp79_dla": 0.4087
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_046",
+   "written_sign": "+",
+   "mlp75_dla": 1.8211,
+   "mlp78_dla": -1.2188,
+   "mlp79_dla": 0.5263
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_047",
+   "written_sign": "-",
+   "mlp75_dla": 1.1304,
+   "mlp78_dla": 3.7566,
+   "mlp79_dla": -3.3676
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_048",
+   "written_sign": "-",
+   "mlp75_dla": 0.882,
+   "mlp78_dla": 5.0203,
+   "mlp79_dla": -3.6054
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_049",
+   "written_sign": "+",
+   "mlp75_dla": 1.621,
+   "mlp78_dla": -1.1662,
+   "mlp79_dla": 0.2062
+  },
+  {
+   "setting": "base_model_base_text",
+   "id": "arith_050",
+   "written_sign": "-",
+   "mlp75_dla": 1.0752,
+   "mlp78_dla": 1.0706,
+   "mlp79_dla": -2.9735
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_001",
+   "written_sign": "+",
+   "mlp75_dla": 4.1463,
+   "mlp78_dla": -2.57,
+   "mlp79_dla": 1.8058
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_002",
+   "written_sign": "-",
+   "mlp75_dla": 0.7526,
+   "mlp78_dla": 5.8783,
+   "mlp79_dla": -0.8961
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_003",
+   "written_sign": "-",
+   "mlp75_dla": 2.3497,
+   "mlp78_dla": 4.9754,
+   "mlp79_dla": 0.5401
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_004",
+   "written_sign": "+",
+   "mlp75_dla": 2.1109,
+   "mlp78_dla": -1.984,
+   "mlp79_dla": 2.0915
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_005",
+   "written_sign": "+",
+   "mlp75_dla": 4.2201,
+   "mlp78_dla": -2.3875,
+   "mlp79_dla": 1.9102
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_006",
+   "written_sign": "+",
+   "mlp75_dla": 2.2765,
+   "mlp78_dla": -2.3323,
+   "mlp79_dla": 2.2454
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_007",
+   "written_sign": "+",
+   "mlp75_dla": 2.1464,
+   "mlp78_dla": -1.1874,
+   "mlp79_dla": 2.2005
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_008",
+   "written_sign": "-",
+   "mlp75_dla": 2.7682,
+   "mlp78_dla": 5.174,
+   "mlp79_dla": 0.9282
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_009",
+   "written_sign": "+",
+   "mlp75_dla": 2.3662,
+   "mlp78_dla": -1.4119,
+   "mlp79_dla": 1.9434
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_011",
+   "written_sign": "+",
+   "mlp75_dla": 1.9632,
+   "mlp78_dla": -2.3113,
+   "mlp79_dla": 1.9214
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_012",
+   "written_sign": "-",
+   "mlp75_dla": 1.9146,
+   "mlp78_dla": 7.102,
+   "mlp79_dla": -1.2385
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_013",
+   "written_sign": "+",
+   "mlp75_dla": 2.3795,
+   "mlp78_dla": -2.4279,
+   "mlp79_dla": 2.1996
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_014",
+   "written_sign": "-",
+   "mlp75_dla": 0.8724,
+   "mlp78_dla": 6.219,
+   "mlp79_dla": -1.0447
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_015",
+   "written_sign": "-",
+   "mlp75_dla": 2.6819,
+   "mlp78_dla": 5.0894,
+   "mlp79_dla": 0.836
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_016",
+   "written_sign": "+",
+   "mlp75_dla": 2.4352,
+   "mlp78_dla": -1.0,
+   "mlp79_dla": 1.7416
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_017",
+   "written_sign": "-",
+   "mlp75_dla": 2.3568,
+   "mlp78_dla": 4.9727,
+   "mlp79_dla": 0.649
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_018",
+   "written_sign": "+",
+   "mlp75_dla": 2.2348,
+   "mlp78_dla": -2.0415,
+   "mlp79_dla": 1.7833
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_019",
+   "written_sign": "+",
+   "mlp75_dla": 2.1227,
+   "mlp78_dla": -1.2735,
+   "mlp79_dla": 1.9918
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_020",
+   "written_sign": "+",
+   "mlp75_dla": 2.2117,
+   "mlp78_dla": -2.1048,
+   "mlp79_dla": 1.8213
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_021",
+   "written_sign": "-",
+   "mlp75_dla": 2.4598,
+   "mlp78_dla": 5.2385,
+   "mlp79_dla": 0.1144
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_022",
+   "written_sign": "-",
+   "mlp75_dla": 2.8046,
+   "mlp78_dla": 4.9498,
+   "mlp79_dla": 0.3732
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_023",
+   "written_sign": "+",
+   "mlp75_dla": 2.0143,
+   "mlp78_dla": -2.1692,
+   "mlp79_dla": 2.0582
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_024",
+   "written_sign": "+",
+   "mlp75_dla": 2.0696,
+   "mlp78_dla": -2.3255,
+   "mlp79_dla": 1.7857
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_025",
+   "written_sign": "-",
+   "mlp75_dla": 2.8369,
+   "mlp78_dla": 5.2339,
+   "mlp79_dla": 0.7409
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_026",
+   "written_sign": "+",
+   "mlp75_dla": 2.3217,
+   "mlp78_dla": -2.2012,
+   "mlp79_dla": 2.1345
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_027",
+   "written_sign": "-",
+   "mlp75_dla": 0.7664,
+   "mlp78_dla": 4.5064,
+   "mlp79_dla": -2.325
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_028",
+   "written_sign": "+",
+   "mlp75_dla": 4.1955,
+   "mlp78_dla": -1.9082,
+   "mlp79_dla": 1.4335
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_029",
+   "written_sign": "-",
+   "mlp75_dla": 2.3988,
+   "mlp78_dla": 5.1407,
+   "mlp79_dla": 0.4753
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_030",
+   "written_sign": "+",
+   "mlp75_dla": 2.2996,
+   "mlp78_dla": -2.098,
+   "mlp79_dla": 1.7816
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_031",
+   "written_sign": "-",
+   "mlp75_dla": 2.7418,
+   "mlp78_dla": 5.012,
+   "mlp79_dla": 0.9017
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_032",
+   "written_sign": "+",
+   "mlp75_dla": 2.2996,
+   "mlp78_dla": -1.8817,
+   "mlp79_dla": 1.9694
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_033",
+   "written_sign": "-",
+   "mlp75_dla": 0.6412,
+   "mlp78_dla": 6.2171,
+   "mlp79_dla": -1.3468
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_034",
+   "written_sign": "+",
+   "mlp75_dla": 3.972,
+   "mlp78_dla": -2.3917,
+   "mlp79_dla": 1.5985
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_035",
+   "written_sign": "+",
+   "mlp75_dla": 2.4621,
+   "mlp78_dla": -2.0828,
+   "mlp79_dla": 2.0413
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_036",
+   "written_sign": "-",
+   "mlp75_dla": 0.5032,
+   "mlp78_dla": 6.2858,
+   "mlp79_dla": -0.9725
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_037",
+   "written_sign": "-",
+   "mlp75_dla": 0.5787,
+   "mlp78_dla": 5.9607,
+   "mlp79_dla": -0.9693
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_038",
+   "written_sign": "-",
+   "mlp75_dla": 0.5534,
+   "mlp78_dla": 1.1349,
+   "mlp79_dla": -0.9055
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_039",
+   "written_sign": "-",
+   "mlp75_dla": 2.8455,
+   "mlp78_dla": 5.1405,
+   "mlp79_dla": 0.4521
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_040",
+   "written_sign": "-",
+   "mlp75_dla": 2.3777,
+   "mlp78_dla": 5.143,
+   "mlp79_dla": 0.241
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_041",
+   "written_sign": "-",
+   "mlp75_dla": 2.5708,
+   "mlp78_dla": 5.062,
+   "mlp79_dla": 0.7718
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_042",
+   "written_sign": "-",
+   "mlp75_dla": 1.029,
+   "mlp78_dla": 1.0757,
+   "mlp79_dla": -0.6073
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_043",
+   "written_sign": "-",
+   "mlp75_dla": 2.7059,
+   "mlp78_dla": 4.1433,
+   "mlp79_dla": -2.4723
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_044",
+   "written_sign": "+",
+   "mlp75_dla": 2.2496,
+   "mlp78_dla": -2.1804,
+   "mlp79_dla": 1.9577
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_045",
+   "written_sign": "+",
+   "mlp75_dla": 2.1629,
+   "mlp78_dla": -2.2345,
+   "mlp79_dla": 2.1847
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_046",
+   "written_sign": "+",
+   "mlp75_dla": 2.3033,
+   "mlp78_dla": -2.0439,
+   "mlp79_dla": 1.9529
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_047",
+   "written_sign": "-",
+   "mlp75_dla": 2.6606,
+   "mlp78_dla": 4.0919,
+   "mlp79_dla": -2.2106
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_048",
+   "written_sign": "-",
+   "mlp75_dla": 0.8644,
+   "mlp78_dla": 5.9196,
+   "mlp79_dla": -0.6338
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_049",
+   "written_sign": "+",
+   "mlp75_dla": 2.4257,
+   "mlp78_dla": -1.2098,
+   "mlp79_dla": 2.2799
+  },
+  {
+   "setting": "instruct_base_text",
+   "id": "arith_050",
+   "written_sign": "-",
+   "mlp75_dla": 1.2532,
+   "mlp78_dla": 0.8809,
+   "mlp79_dla": 0.0009
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_001",
+   "written_sign": "+",
+   "mlp75_dla": 1.8009,
+   "mlp78_dla": 0.4257,
+   "mlp79_dla": 7.6481
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_002",
+   "written_sign": "-",
+   "mlp75_dla": 0.9284,
+   "mlp78_dla": 6.6971,
+   "mlp79_dla": 2.0936
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_003",
+   "written_sign": "-",
+   "mlp75_dla": 1.6328,
+   "mlp78_dla": 7.1023,
+   "mlp79_dla": 2.9037
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_004",
+   "written_sign": "+",
+   "mlp75_dla": 3.0542,
+   "mlp78_dla": -0.9475,
+   "mlp79_dla": 2.9735
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_005",
+   "written_sign": "+",
+   "mlp75_dla": 3.7329,
+   "mlp78_dla": -0.7974,
+   "mlp79_dla": 3.0147
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_006",
+   "written_sign": "+",
+   "mlp75_dla": 3.3949,
+   "mlp78_dla": -1.8114,
+   "mlp79_dla": 6.0846
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_007",
+   "written_sign": "+",
+   "mlp75_dla": 3.0167,
+   "mlp78_dla": -1.5515,
+   "mlp79_dla": 4.2206
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_008",
+   "written_sign": "-",
+   "mlp75_dla": 0.8041,
+   "mlp78_dla": 2.8172,
+   "mlp79_dla": 3.0712
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_009",
+   "written_sign": "+",
+   "mlp75_dla": 3.2071,
+   "mlp78_dla": -2.2824,
+   "mlp79_dla": 4.743
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_010",
+   "written_sign": "+",
+   "mlp75_dla": 4.2414,
+   "mlp78_dla": -2.7821,
+   "mlp79_dla": 7.3147
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_011",
+   "written_sign": "+",
+   "mlp75_dla": 2.7204,
+   "mlp78_dla": -2.8734,
+   "mlp79_dla": 4.6408
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_012",
+   "written_sign": "-",
+   "mlp75_dla": 1.4145,
+   "mlp78_dla": 6.964,
+   "mlp79_dla": 2.3523
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_013",
+   "written_sign": "+",
+   "mlp75_dla": 3.1513,
+   "mlp78_dla": -0.8023,
+   "mlp79_dla": 3.7209
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_014",
+   "written_sign": "-",
+   "mlp75_dla": 1.7734,
+   "mlp78_dla": 7.486,
+   "mlp79_dla": 2.6888
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_015",
+   "written_sign": "-",
+   "mlp75_dla": 1.5558,
+   "mlp78_dla": 7.5482,
+   "mlp79_dla": 2.6744
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_016",
+   "written_sign": "+",
+   "mlp75_dla": 2.9908,
+   "mlp78_dla": -1.8918,
+   "mlp79_dla": 4.8809
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_017",
+   "written_sign": "-",
+   "mlp75_dla": 1.6957,
+   "mlp78_dla": 6.8797,
+   "mlp79_dla": 2.2817
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_019",
+   "written_sign": "+",
+   "mlp75_dla": 3.1076,
+   "mlp78_dla": -2.8527,
+   "mlp79_dla": 5.1051
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_020",
+   "written_sign": "+",
+   "mlp75_dla": 3.2572,
+   "mlp78_dla": -1.1131,
+   "mlp79_dla": 2.5195
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_021",
+   "written_sign": "-",
+   "mlp75_dla": 1.8532,
+   "mlp78_dla": 7.0858,
+   "mlp79_dla": 2.39
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_022",
+   "written_sign": "-",
+   "mlp75_dla": 1.2588,
+   "mlp78_dla": 6.48,
+   "mlp79_dla": 2.1285
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_024",
+   "written_sign": "+",
+   "mlp75_dla": 2.8224,
+   "mlp78_dla": -1.7928,
+   "mlp79_dla": 4.2136
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_025",
+   "written_sign": "-",
+   "mlp75_dla": 0.7789,
+   "mlp78_dla": 4.9518,
+   "mlp79_dla": 0.6446
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_026",
+   "written_sign": "+",
+   "mlp75_dla": 2.8201,
+   "mlp78_dla": -1.0333,
+   "mlp79_dla": 2.3376
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_027",
+   "written_sign": "-",
+   "mlp75_dla": 0.9328,
+   "mlp78_dla": 4.8811,
+   "mlp79_dla": 0.48
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_028",
+   "written_sign": "+",
+   "mlp75_dla": 3.7612,
+   "mlp78_dla": -0.5244,
+   "mlp79_dla": 2.9295
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_029",
+   "written_sign": "-",
+   "mlp75_dla": 1.2969,
+   "mlp78_dla": 6.7704,
+   "mlp79_dla": 2.0893
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_030",
+   "written_sign": "+",
+   "mlp75_dla": 2.9193,
+   "mlp78_dla": -0.8686,
+   "mlp79_dla": 2.11
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_031",
+   "written_sign": "-",
+   "mlp75_dla": 1.3564,
+   "mlp78_dla": 6.0957,
+   "mlp79_dla": 1.8224
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_032",
+   "written_sign": "+",
+   "mlp75_dla": 2.8073,
+   "mlp78_dla": -2.3952,
+   "mlp79_dla": 4.9349
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_033",
+   "written_sign": "-",
+   "mlp75_dla": 1.5734,
+   "mlp78_dla": 7.1234,
+   "mlp79_dla": 2.5053
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_034",
+   "written_sign": "+",
+   "mlp75_dla": 3.1235,
+   "mlp78_dla": -0.5028,
+   "mlp79_dla": 2.3387
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_035",
+   "written_sign": "+",
+   "mlp75_dla": 4.863,
+   "mlp78_dla": -3.5952,
+   "mlp79_dla": 7.4183
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_036",
+   "written_sign": "-",
+   "mlp75_dla": 0.7056,
+   "mlp78_dla": 0.9124,
+   "mlp79_dla": 1.4053
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_037",
+   "written_sign": "-",
+   "mlp75_dla": 1.6836,
+   "mlp78_dla": 6.8961,
+   "mlp79_dla": 2.5392
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_038",
+   "written_sign": "-",
+   "mlp75_dla": 0.7014,
+   "mlp78_dla": 2.8004,
+   "mlp79_dla": 3.3353
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_039",
+   "written_sign": "-",
+   "mlp75_dla": 0.4954,
+   "mlp78_dla": 1.3097,
+   "mlp79_dla": 0.9684
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_040",
+   "written_sign": "-",
+   "mlp75_dla": 0.4585,
+   "mlp78_dla": 1.154,
+   "mlp79_dla": 0.8234
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_041",
+   "written_sign": "-",
+   "mlp75_dla": 1.5554,
+   "mlp78_dla": 7.0468,
+   "mlp79_dla": 2.9127
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_042",
+   "written_sign": "-",
+   "mlp75_dla": 1.5247,
+   "mlp78_dla": 7.1284,
+   "mlp79_dla": 2.6338
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_043",
+   "written_sign": "-",
+   "mlp75_dla": 0.7394,
+   "mlp78_dla": 0.5966,
+   "mlp79_dla": 1.2827
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_044",
+   "written_sign": "+",
+   "mlp75_dla": 2.9998,
+   "mlp78_dla": -2.9682,
+   "mlp79_dla": 5.3835
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_045",
+   "written_sign": "+",
+   "mlp75_dla": 2.778,
+   "mlp78_dla": -0.9815,
+   "mlp79_dla": 2.2855
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_046",
+   "written_sign": "+",
+   "mlp75_dla": 2.1536,
+   "mlp78_dla": 1.0685,
+   "mlp79_dla": 7.1727
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_047",
+   "written_sign": "-",
+   "mlp75_dla": 1.8006,
+   "mlp78_dla": 6.9624,
+   "mlp79_dla": 2.4108
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_048",
+   "written_sign": "-",
+   "mlp75_dla": 0.8561,
+   "mlp78_dla": 5.1533,
+   "mlp79_dla": 0.609
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_049",
+   "written_sign": "+",
+   "mlp75_dla": 3.5961,
+   "mlp78_dla": -1.949,
+   "mlp79_dla": 5.5911
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "id": "arith_050",
+   "written_sign": "-",
+   "mlp75_dla": 2.3067,
+   "mlp78_dla": 5.8169,
+   "mlp79_dla": -0.1445
+  }
+ ],
+ "summary": [
+  {
+   "setting": "base_model_base_text",
+   "written_sign": "-",
+   "n": 25,
+   "mean_mlp78": 3.435672,
+   "mean_mlp75": 1.402384,
+   "mean_mlp79": -3.054364
+  },
+  {
+   "setting": "base_model_base_text",
+   "written_sign": "+",
+   "n": 24,
+   "mean_mlp78": -1.23310416666667,
+   "mean_mlp75": 1.50280833333333,
+   "mean_mlp79": 0.2551625
+  },
+  {
+   "setting": "instruct_base_text",
+   "written_sign": "-",
+   "n": 25,
+   "mean_mlp78": 4.8219,
+   "mean_mlp75": 1.851524,
+   "mean_mlp79": -0.343912
+  },
+  {
+   "setting": "instruct_base_text",
+   "written_sign": "+",
+   "n": 24,
+   "mean_mlp78": -1.98995833333333,
+   "mean_mlp75": 2.55789166666667,
+   "mean_mlp79": 1.95140416666667
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "written_sign": "-",
+   "n": 25,
+   "mean_mlp78": 5.386388,
+   "mean_mlp75": 1.2673,
+   "mean_mlp79": 1.956076
+  },
+  {
+   "setting": "instruct_instruct_text",
+   "written_sign": "+",
+   "n": 23,
+   "mean_mlp78": -1.51401739130435,
+   "mean_mlp75": 3.1443347826087,
+   "mean_mlp79": 4.50355652173913
+  }
+ ]
+}

@@ -1,0 +1,447 @@
+{
+ "model_id": "google/gemma-3-27b-it",
+ "n_records": 37,
+ "L0_lean_positive": 14,
+ "peak_L8_13_positive": 37,
+ "correlations": {
+  "peak_vs_minus_last5": 0.419,
+  "peak_vs_minus_last50": 0.153
+ },
+ "minus_kinds_last50_all_records": {
+  "subtraction operator in expansion": 21,
+  "negative number (matrix entry / operand)": 102,
+  "negative result after =": 11,
+  "other": 3
+ },
+ "category_table": [
+  {
+   "category": "literal \"-\" within 5 chars",
+   "n": 17,
+   "mean_peak_L8_13": 16.61,
+   "min": 3.97,
+   "max": 68.09,
+   "mean_L0": 6.28
+  },
+  {
+   "category": "other",
+   "n": 6,
+   "mean_peak_L8_13": 10.96,
+   "min": 5.64,
+   "max": 16.0,
+   "mean_L0": 0.8
+  },
+  {
+   "category": "right after computed number",
+   "n": 2,
+   "mean_peak_L8_13": 9.26,
+   "min": 7.98,
+   "max": 10.53,
+   "mean_L0": 6.18
+  },
+  {
+   "category": "after \"})\"",
+   "n": 5,
+   "mean_peak_L8_13": 5.74,
+   "min": 4.86,
+   "max": 8.81,
+   "mean_L0": -1.69
+  },
+  {
+   "category": "after \")\"",
+   "n": 1,
+   "mean_peak_L8_13": 4.01,
+   "min": 4.01,
+   "max": 4.01,
+   "mean_L0": -3.38
+  },
+  {
+   "category": "after cofactor C_{ij}",
+   "n": 2,
+   "mean_peak_L8_13": 2.59,
+   "min": 2.47,
+   "max": 2.7,
+   "mean_L0": -2.71
+  },
+  {
+   "category": "after \"}\" (env close)",
+   "n": 4,
+   "mean_peak_L8_13": 2.14,
+   "min": 0.24,
+   "max": 2.86,
+   "mean_L0": -3.18
+  }
+ ],
+ "verdict": "COPYING, NOT LOOKUP: Gemma has no layer-0 lean (14/37 positive, ~chance) but a universal L8-13 lean (37/37 positive), graded by nearby literal '-' tokens (r=0.419 with '-' count in the last 5 chars; strongest group: literal '-' within 5 chars, mean +16.6; weakest: after bare '}', mean +2.3). The lean is computed by layers 1-8 from the model's own expansion text (negative matrix entries, negative operands, subtraction signs, negative results) - the shallow-copy mechanism. Opposite mechanism to Qwen's embedding-table bigram, same symptom.",
+ "per_record": [
+  {
+   "id": "C_4x4_det_058",
+   "written": "+",
+   "L0_lean": 9.422,
+   "peak_L8_13_lean": 10.531,
+   "category": "right after computed number",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": " + 3 * (32) - (-4) * (10) = 2 "
+  },
+  {
+   "id": "C_4x4_det_062",
+   "written": "-",
+   "L0_lean": -4.688,
+   "peak_L8_13_lean": 8.281,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 3,
+   "context_tail": "(A) = -2(83) + 3(37) - 3(-86) "
+  },
+  {
+   "id": "C_4x4_det_064",
+   "written": "+",
+   "L0_lean": 2.938,
+   "peak_L8_13_lean": 7.984,
+   "category": "right after computed number",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": "3 * (112) - (-1) * (26)\n = 24 "
+  },
+  {
+   "id": "C_4x4_det_072",
+   "written": "-",
+   "L0_lean": -4.656,
+   "peak_L8_13_lean": 7.887,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 0,
+   "minus_last50": 3,
+   "context_tail": ") = -4(182) + 1(52) - 5(-216) "
+  },
+  {
+   "id": "C_4x4_det_073",
+   "written": "+",
+   "L0_lean": 6.062,
+   "peak_L8_13_lean": 13.688,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 7,
+   "context_tail": "9) + 1 * 7 - (-5) * 76\n = -60 "
+  },
+  {
+   "id": "C_4x4_det_075",
+   "written": "+",
+   "L0_lean": 4.844,
+   "peak_L8_13_lean": 9.88,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 7,
+   "context_tail": "* (-64) - (-5) * (148)\n = -58 "
+  },
+  {
+   "id": "C_4x4_det_096",
+   "written": "+",
+   "L0_lean": 6.5,
+   "peak_L8_13_lean": 9.0,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 7,
+   "context_tail": " 3 * (-8) - (-3) * (80) = -32 "
+  },
+  {
+   "id": "C_4x4_det_113",
+   "written": "+",
+   "L0_lean": 5.594,
+   "peak_L8_13_lean": 15.312,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 0,
+   "minus_last50": 6,
+   "context_tail": "* (930) - 5 * (-471)\n = -3240 "
+  },
+  {
+   "id": "C_4x4_det_119",
+   "written": "-",
+   "L0_lean": -4.812,
+   "peak_L8_13_lean": 4.0,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " 545 + 2 * (-80) + 1 * (-130) "
+  },
+  {
+   "id": "C_4x4_det_120",
+   "written": "+",
+   "L0_lean": 6.75,
+   "peak_L8_13_lean": 14.5,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": "(442) - (-6) * (749)\n = -1695 "
+  },
+  {
+   "id": "C_4x4_det_126",
+   "written": "+",
+   "L0_lean": 6.875,
+   "peak_L8_13_lean": 16.594,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": "(481) - (-6) * (180)\n = -2765 "
+  },
+  {
+   "id": "C_4x4_det_128",
+   "written": "-",
+   "L0_lean": -4.906,
+   "peak_L8_13_lean": 7.25,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 4,
+   "context_tail": "A) = -5(93) + 7(-693) - 3(-4) "
+  },
+  {
+   "id": "C_4x4_det_131",
+   "written": "-",
+   "L0_lean": -4.75,
+   "peak_L8_13_lean": 3.969,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 5,
+   "context_tail": "416) + 7 * (-346) - 7 * (-84) "
+  },
+  {
+   "id": "C_4x4_det_151",
+   "written": "+",
+   "L0_lean": -3.504,
+   "peak_L8_13_lean": 0.242,
+   "category": "after \"}\" (env close)",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": "7 \\\\ -7 & 7 & 2 \\end{vmatrix} "
+  },
+  {
+   "id": "C_4x4_det_152",
+   "written": "+",
+   "L0_lean": -1.719,
+   "peak_L8_13_lean": 4.984,
+   "category": "after \"})\"",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " \\\\ -7 & 4 & 2 \\end{bmatrix}) "
+  },
+  {
+   "id": "C_4x4_det_154",
+   "written": "+",
+   "L0_lean": -1.641,
+   "peak_L8_13_lean": 4.984,
+   "category": "after \"})\"",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " \\\\ -7 & 7 & 1 \\end{bmatrix}) "
+  },
+  {
+   "id": "C_4x4_det_156",
+   "written": "+",
+   "L0_lean": -1.656,
+   "peak_L8_13_lean": 4.859,
+   "category": "after \"})\"",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " \\\\ -7 & 1 & 1 \\end{bmatrix}) "
+  },
+  {
+   "id": "C_5x5_det_001",
+   "written": "-",
+   "L0_lean": 1.281,
+   "peak_L8_13_lean": 24.5,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 1,
+   "context_tail": "rix})\n det(M_{41}) = 4 * (-4*("
+  },
+  {
+   "id": "C_5x5_det_010",
+   "written": "-",
+   "L0_lean": -0.25,
+   "peak_L8_13_lean": 5.637,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 0,
+   "context_tail": "he first column:\n det(B''') = "
+  },
+  {
+   "id": "C_5x5_det_013",
+   "written": "-",
+   "L0_lean": -6.25,
+   "peak_L8_13_lean": 8.25,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " & -3 & -5 & 2 & 0 \\\\ 0 & 4 & "
+  },
+  {
+   "id": "C_5x5_det_015",
+   "written": "-",
+   "L0_lean": 8.109,
+   "peak_L8_13_lean": 12.625,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 4,
+   "context_tail": "5 & -4 \\end{bmatrix}) - 0 + 0 "
+  },
+  {
+   "id": "C_5x5_det_017",
+   "written": "+",
+   "L0_lean": -2.949,
+   "peak_L8_13_lean": 2.688,
+   "category": "after \"}\" (env close)",
+   "minus_last5": 0,
+   "minus_last50": 1,
+   "context_tail": " 1 \\\\ 5 & 0 & 3 \\end{bmatrix} "
+  },
+  {
+   "id": "C_5x5_det_028",
+   "written": "+",
+   "L0_lean": -2.465,
+   "peak_L8_13_lean": 2.469,
+   "category": "after cofactor C_{ij}",
+   "minus_last5": 0,
+   "minus_last50": 1,
+   "context_tail": "22} - 1 * C_{23} + 0 * C_{24} "
+  },
+  {
+   "id": "C_5x5_det_031",
+   "written": "-",
+   "L0_lean": -1.797,
+   "peak_L8_13_lean": 8.812,
+   "category": "after \"})\"",
+   "minus_last5": 0,
+   "minus_last50": 3,
+   "context_tail": " \\\\ 5 & 0 & -4 \\end{bmatrix}) "
+  },
+  {
+   "id": "C_5x5_det_033",
+   "written": "+",
+   "L0_lean": -2.961,
+   "peak_L8_13_lean": 2.703,
+   "category": "after cofactor C_{ij}",
+   "minus_last5": 0,
+   "minus_last50": 0,
+   "context_tail": "\n $$ \\det(B) = 0 \\cdot C_{11} "
+  },
+  {
+   "id": "C_5x5_det_034",
+   "written": "+",
+   "L0_lean": -2.834,
+   "peak_L8_13_lean": 2.766,
+   "category": "after \"}\" (env close)",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": " & -4 & -2 & -3 \\end{bmatrix} "
+  },
+  {
+   "id": "C_5x5_det_059",
+   "written": "-",
+   "L0_lean": 13.438,
+   "peak_L8_13_lean": 16.0,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 0,
+   "context_tail": " row:\n $$ R_5 \\rightarrow R_5 "
+  },
+  {
+   "id": "C_5x5_det_067",
+   "written": "+",
+   "L0_lean": -3.375,
+   "peak_L8_13_lean": 4.008,
+   "category": "after \")\"",
+   "minus_last5": 0,
+   "minus_last50": 4,
+   "context_tail": " -4 & -3 & -1 \\end{bmatrix} ) "
+  },
+  {
+   "id": "C_5x5_det_081",
+   "written": "-",
+   "L0_lean": -4.75,
+   "peak_L8_13_lean": 6.0,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 4,
+   "context_tail": " -3 & -6 & 6 & -5 & 1 \\\\ -1 & "
+  },
+  {
+   "id": "C_5x5_det_096",
+   "written": "-",
+   "L0_lean": -5.25,
+   "peak_L8_13_lean": 14.125,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 5,
+   "context_tail": "0 & -6 & -1 & 1 \\\\ 0 & -3/2 & "
+  },
+  {
+   "id": "C_5x5_det_101",
+   "written": "+",
+   "L0_lean": 12.375,
+   "peak_L8_13_lean": 15.25,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 5,
+   "context_tail": "7) & 13 - (19/17)*7 \\\\ 0 & -2 "
+  },
+  {
+   "id": "C_5x5_det_123",
+   "written": "-",
+   "L0_lean": -5.0,
+   "peak_L8_13_lean": 11.5,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 7,
+   "context_tail": "& -11 & -12 & -2 \\\\ -2 & -1 & "
+  },
+  {
+   "id": "C_5x5_det_131",
+   "written": "-",
+   "L0_lean": -5.0,
+   "peak_L8_13_lean": 9.125,
+   "category": "other",
+   "minus_last5": 0,
+   "minus_last50": 4,
+   "context_tail": "& -6 & 0 & -1 & 3 \\\\ -2 & 6 & "
+  },
+  {
+   "id": "C_5x5_det_142",
+   "written": "-",
+   "L0_lean": 57.125,
+   "peak_L8_13_lean": 68.094,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 2,
+   "context_tail": "2C_1$\n \\begin{bmatrix} -3 & -6"
+  },
+  {
+   "id": "C_5x5_det_143",
+   "written": "-",
+   "L0_lean": -3.418,
+   "peak_L8_13_lean": 2.859,
+   "category": "after \"}\" (env close)",
+   "minus_last5": 0,
+   "minus_last50": 7,
+   "context_tail": " & -7 & -1 & -4 \\end{vmatrix} "
+  },
+  {
+   "id": "C_4x4_det_163",
+   "written": "+",
+   "L0_lean": -1.641,
+   "peak_L8_13_lean": 5.078,
+   "category": "after \"})\"",
+   "minus_last5": 0,
+   "minus_last50": 2,
+   "context_tail": " \\\\ -2 & 7 & 7 \\end{bmatrix}) "
+  },
+  {
+   "id": "C_5x5_det_036",
+   "written": "-",
+   "L0_lean": 32.938,
+   "peak_L8_13_lean": 46.734,
+   "category": "literal \"-\" within 5 chars",
+   "minus_last5": 1,
+   "minus_last50": 8,
+   "context_tail": "0-(-5)*2))\n = -3((-3)(-4) - 4("
+  }
+ ]
+}

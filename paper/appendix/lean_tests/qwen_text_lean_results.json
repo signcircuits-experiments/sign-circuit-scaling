@@ -1,0 +1,222 @@
+{
+  "model_id": "Qwen/Qwen2.5-72B-Instruct",
+  "minus_tok_id": 481,
+  "plus_tok_id": 488,
+  "n_texts": 288,
+  "total_token_occurrences": 108229,
+  "n_unique_tokens": 273,
+  "pct_occurrences_leaning_minus_norm": 68.17,
+  "pct_occurrences_leaning_minus_raw": 65.1,
+  "pct_unique_tokens_leaning_minus_norm": 56.04,
+  "weighted_mean_diff_norm": 0.9904,
+  "weighted_mean_diff_raw": 0.003508,
+  "top_contributors": [
+    {
+      "token_id": 16,
+      "token_str": "1",
+      "count": 4232,
+      "diff_raw": 0.02207018807530403,
+      "diff_norm": 6.0517449378967285,
+      "contribution": 0.2366
+    },
+    {
+      "token_id": 481,
+      "token_str": "\u0120-",
+      "count": 6073,
+      "diff_raw": 0.01178816333413124,
+      "diff_norm": 3.4311251640319824,
+      "contribution": 0.1925
+    },
+    {
+      "token_id": 1124,
+      "token_str": "\u0120\\",
+      "count": 6028,
+      "diff_raw": 0.00750221312046051,
+      "diff_norm": 1.9428510665893555,
+      "contribution": 0.1082
+    },
+    {
+      "token_id": 220,
+      "token_str": "\u0120",
+      "count": 8417,
+      "diff_raw": 0.004630237817764282,
+      "diff_norm": 1.155276894569397,
+      "contribution": 0.0898
+    },
+    {
+      "token_id": 20,
+      "token_str": "5",
+      "count": 2813,
+      "diff_raw": 0.011574003845453262,
+      "diff_norm": 2.560889720916748,
+      "contribution": 0.0666
+    },
+    {
+      "token_id": 13,
+      "token_str": ".",
+      "count": 1188,
+      "diff_raw": 0.017819277942180634,
+      "diff_norm": 5.8042402267456055,
+      "contribution": 0.0637
+    },
+    {
+      "token_id": 17,
+      "token_str": "2",
+      "count": 3117,
+      "diff_raw": 0.008851313963532448,
+      "diff_norm": 2.1490700244903564,
+      "contribution": 0.0619
+    },
+    {
+      "token_id": 59,
+      "token_str": "\\",
+      "count": 1347,
+      "diff_raw": 0.013975095003843307,
+      "diff_norm": 3.571145534515381,
+      "contribution": 0.0444
+    },
+    {
+      "token_id": 65,
+      "token_str": "b",
+      "count": 2124,
+      "diff_raw": -0.00823826715350151,
+      "diff_norm": -2.1563572883605957,
+      "contribution": -0.0423
+    },
+    {
+      "token_id": 362,
+      "token_str": "\u0120A",
+      "count": 1337,
+      "diff_raw": 0.01132478192448616,
+      "diff_norm": 2.498363733291626,
+      "contribution": 0.0309
+    },
+    {
+      "token_id": 5410,
+      "token_str": "})",
+      "count": 672,
+      "diff_raw": 0.023314105346798897,
+      "diff_norm": 4.866767883300781,
+      "contribution": 0.0302
+    },
+    {
+      "token_id": 92,
+      "token_str": "}",
+      "count": 1983,
+      "diff_raw": -0.007744109258055687,
+      "diff_norm": -1.5380550622940063,
+      "contribution": -0.0282
+    },
+    {
+      "token_id": 7265,
+      "token_str": "begin",
+      "count": 1092,
+      "diff_raw": 0.010090743191540241,
+      "diff_norm": 2.238068103790283,
+      "contribution": 0.0226
+    },
+    {
+      "token_id": 19,
+      "token_str": "4",
+      "count": 3607,
+      "diff_raw": 0.005140305496752262,
+      "diff_norm": 0.6180500984191895,
+      "contribution": 0.0206
+    },
+    {
+      "token_id": 15,
+      "token_str": "0",
+      "count": 1302,
+      "diff_raw": 0.004600857384502888,
+      "diff_norm": 1.6613210439682007,
+      "contribution": 0.02
+    },
+    {
+      "token_id": 18,
+      "token_str": "3",
+      "count": 2775,
+      "diff_raw": 0.003750996198505163,
+      "diff_norm": 0.7768362760543823,
+      "contribution": 0.0199
+    },
+    {
+      "token_id": 609,
+      "token_str": "\u0120&",
+      "count": 8368,
+      "diff_raw": -0.0019071893766522408,
+      "diff_norm": -0.241335928440094,
+      "contribution": -0.0187
+    },
+    {
+      "token_id": 382,
+      "token_str": ".\u010a\u010a",
+      "count": 799,
+      "diff_raw": -0.009125333279371262,
+      "diff_norm": -2.5019586086273193,
+      "contribution": -0.0185
+    },
+    {
+      "token_id": 198,
+      "token_str": "\u010a",
+      "count": 1782,
+      "diff_raw": 0.0013431073166429996,
+      "diff_norm": 1.0592176914215088,
+      "contribution": 0.0174
+    },
+    {
+      "token_id": 6928,
+      "token_str": "\u0120Show",
+      "count": 576,
+      "diff_raw": 0.015911458060145378,
+      "diff_norm": 3.035773277282715,
+      "contribution": 0.0162
+    },
+    {
+      "token_id": 279,
+      "token_str": "\u0120the",
+      "count": 2181,
+      "diff_raw": 0.0032780615147203207,
+      "diff_norm": 0.7566879987716675,
+      "contribution": 0.0152
+    },
+    {
+      "token_id": 90,
+      "token_str": "{",
+      "count": 2185,
+      "diff_raw": -0.004650603514164686,
+      "diff_norm": -0.7394757270812988,
+      "contribution": -0.0149
+    },
+    {
+      "token_id": 4226,
+      "token_str": "\u0120answer",
+      "count": 576,
+      "diff_raw": -0.014181815087795258,
+      "diff_norm": -2.8043212890625,
+      "contribution": -0.0149
+    },
+    {
+      "token_id": 18110,
+      "token_str": "matrix",
+      "count": 2133,
+      "diff_raw": -0.002261179033666849,
+      "diff_norm": -0.7083812952041626,
+      "contribution": -0.014
+    },
+    {
+      "token_id": 23240,
+      "token_str": "\u0120Always",
+      "count": 288,
+      "diff_raw": -0.02454971894621849,
+      "diff_norm": -5.157188415527344,
+      "contribution": -0.0137
+    }
+  ],
+  "vocab_baseline": {
+    "pct_leaning_minus_norm": 49.3,
+    "source": "qwen_embed_geometry_results.json"
+  },
+  "observed_layer0_logit_diff": 4.5,
+  "note": "diff = dot(u_minus - u_plus, f(e_t)); positive = lean toward '-'. Weighted by how often each token occurs in the question text (cut at sign_char_offset where available).",
+  "verdict": "SUPPORTED: the token mass of our question text leans '-' (68.17% of occurrences, weighted mean +0.99) vs a 49.3% vocab baseline - token composition contributes to the layer-0 lean"
+}
