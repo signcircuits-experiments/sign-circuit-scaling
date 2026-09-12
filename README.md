@@ -1,16 +1,19 @@
-# sign-circuit-anon
+# sign-circuit-scaling
 
-Anonymous release for a pre-registered mechanistic-interpretability study of
-sign errors in Qwen2.5-72B-Instruct (4×4 determinants, plus an integration-by-parts
-transfer domain). A small set of late MLPs (L75/L78) writes the minus sign; a
-separate late component (L79) detects wrong signs but never overrides them.
-Sign errors are commitment failures, not knowledge failures.
+Pre-registered mechanistic-interpretability study of sign errors in large
+language models, across models and scales. Primary study: Qwen2.5-72B-Instruct
+(4×4 determinants, plus an integration-by-parts transfer domain), replicated in
+Llama-3.3-70B-Instruct and probed in Mistral-Large-675B. A small set of late
+MLPs writes the minus sign; a separate late component detects wrong signs but
+never overrides them. Sign errors are commitment failures, not knowledge
+failures.
 
 ## Folder map
 
 | Folder | Contents |
 |---|---|
 | `preregistration_qwen/` | `PREREGISTRATION.md` — frozen data counts, frozen instruments, 17 numeric pass bars, exclusions. Committed before held-out measurement. |
+| `preregistration_llama/` | Llama pre-registrations (det 4×4 + IBP), frozen targets, held-out data. Committed before held-out measurement. |
 | `pipeline_release/` | The full experiment pipeline (stages s01–s09, one driver, model adapters). See `pipeline_release/PIPELINE.md`. |
 | `Qwen/raw_data_4x4_DET/` | Frozen experiment_ready inputs: discovery (59 errors / 47 corrects) and held-out (147 / 141). |
 | `Qwen/raw_data_IBP/` | Frozen experiment_ready inputs for the IBP domain: discovery (10 / 25) and held-out (26 / 50). |
@@ -20,7 +23,11 @@ Sign errors are commitment failures, not knowledge failures.
 | `Qwen/discovery_IBP/` | Per-stage IBP result JSONs from the discovery set. |
 | `Qwen/heldout_IBP/` | Per-stage IBP result JSONs from the single pre-registered held-out run, plus the one-shot pod runs (`s09_judge/*_L66.json`, `s06_direction_subtraction/*_a3.json`). |
 | `Qwen/workbooks_IBP/` | 9 per-stage IBP discovery-vs-held-out Excel workbooks + `FINDINGS_ibp.md` (narrative summary: minus-writer machinery replicates; judge reversed at L63, null at L66 — no identified judge). |
+| `Qwen/arith_control/` | s00 arithmetic-control lens/DLA data (shared 48-problem set). |
+| `Llama/` | Llama-3.3-70B replication: discovery + held-out data and per-stage result JSONs (det 4×4 + IBP), adjudications. |
+| `Mistral-Large-675B/` | Determinant results (raw): logit lens + DLA, n=25 case data. |
 | `predeclarations/` | Second-generation pre-declared tests, written after the original pre-registration froze and content-frozen BEFORE execution. Currently: `2026-08_ibp_L66_armA.md` (single-shot causal judge test at L66, IBP domain — executed once; outcome recorded in the file, run log alongside as `2026-08_ibp_L66_armA_run.log`). |
+| `paper/` | Figures (PNG + PDF), figure/regeneration scripts, verification ledger + `verify_all.py`. |
 
 ## Reproducing
 
@@ -46,11 +53,11 @@ shasum -a 256 -c CHECKSUMS.sha256
 
 ## Note on commit timing
 
-The pre-registration file was frozen (content-final) before the held-out data
+The pre-registration files were frozen (content-final) before the held-out data
 was measured; repository assembly and the public commits happened afterward, so
 the commit sequence (pre-registration first, results second) preserves the
 ordering of the protocol rather than the original calendar dates.
 
 ## License
 
-Code: MIT. Data (`Qwen/`): CC-BY-4.0. See `LICENSE`.
+Code: MIT. Data (`Qwen/`, `Llama/`, `Mistral-Large-675B/`): CC-BY-4.0. See `LICENSE`.
