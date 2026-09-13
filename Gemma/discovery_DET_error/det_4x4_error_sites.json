@@ -1,0 +1,50 @@
+[
+  {
+    "layer": 60,
+    "head": 4,
+    "role": "corrector",
+    "name": "L60_H4_corr"
+  },
+  {
+    "layer": 57,
+    "head": 8,
+    "role": "corrector",
+    "name": "L57_H8_corr"
+  },
+  {
+    "layer": 60,
+    "head": 5,
+    "role": "pusher",
+    "name": "L60_H5_push"
+  },
+  {
+    "layer": 54,
+    "head": 11,
+    "role": "corrector",
+    "name": "L54_H11_corr"
+  },
+  {
+    "layer": 54,
+    "head": 10,
+    "role": "pusher",
+    "name": "L54_H10_push"
+  },
+  {
+    "layer": 54,
+    "head": 3,
+    "role": "corrector",
+    "name": "L54_H3_corr"
+  },
+  {
+    "layer": 49,
+    "head": 2,
+    "role": "control",
+    "name": "L49_H2_ctrl"
+  },
+  {
+    "layer": 49,
+    "head": 5,
+    "role": "control",
+    "name": "L49_H5_ctrl"
+  }
+]

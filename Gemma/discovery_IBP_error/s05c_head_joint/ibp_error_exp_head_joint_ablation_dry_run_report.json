@@ -1,0 +1,171 @@
+{
+  "n_groups": 4,
+  "groups": [
+    {
+      "name": "J1_pushers",
+      "role": "pusher_pair",
+      "sites": [
+        [
+          60,
+          5
+        ],
+        [
+          54,
+          10
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 60,
+          "heads": [
+            5
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 54,
+          "heads": [
+            10
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J2_pushers_plus_corrector",
+      "role": "pushers_plus_corrector",
+      "sites": [
+        [
+          60,
+          5
+        ],
+        [
+          54,
+          10
+        ],
+        [
+          60,
+          4
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 60,
+          "heads": [
+            5,
+            4
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 54,
+          "heads": [
+            10
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J3_correctors",
+      "role": "correctors",
+      "sites": [
+        [
+          60,
+          4
+        ],
+        [
+          54,
+          11
+        ],
+        [
+          57,
+          8
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 60,
+          "heads": [
+            4
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 54,
+          "heads": [
+            11
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 57,
+          "heads": [
+            8
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J4_ctrl",
+      "role": "control",
+      "sites": [
+        [
+          49,
+          2
+        ],
+        [
+          49,
+          4
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 49,
+          "heads": [
+            2,
+            4
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    }
+  ]
+}
