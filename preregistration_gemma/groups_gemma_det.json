@@ -1,0 +1,10 @@
+[
+  {"name": "J1_pushers", "role": "pusher_pair",
+   "sites": [{"layer": 60, "head": 5}, {"layer": 54, "head": 10}]},
+  {"name": "J2_pushers_plus_corrector", "role": "pushers_plus_corrector",
+   "sites": [{"layer": 60, "head": 5}, {"layer": 54, "head": 10}, {"layer": 60, "head": 4}]},
+  {"name": "J3_correctors", "role": "correctors",
+   "sites": [{"layer": 60, "head": 4}, {"layer": 54, "head": 11}, {"layer": 57, "head": 8}]},
+  {"name": "J4_ctrl", "role": "control",
+   "sites": [{"layer": 49, "head": 2}, {"layer": 49, "head": 5}]}
+]
