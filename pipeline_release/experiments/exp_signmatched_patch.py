@@ -187,7 +187,7 @@ def run_exp_signmatched_patch(adapter: BaseAdapter,
             fixed    = base_ld > 0 and edit_ld < 0
 
             q_result["patches"][tname] = {
-                "prediction": "null" if tdef.get("control") or tname in ("L75_mlp","L78_mlp") else "movement",
+                "prediction": tdef.get("prediction", "null" if tdef.get("control") else "movement"),
                 "donor_sign": donor_sign,
                 "donor_n":    donor_n,
                 "edit_ld":    round(edit_ld, 4),
@@ -197,8 +197,9 @@ def run_exp_signmatched_patch(adapter: BaseAdapter,
             del out_edit, lg_edit
 
         results[qid] = q_result
-        print(f"  [{qid}] {wrong_sign}  L75Δ={q_result['patches'].get('L75_mlp',{}).get('delta_ld','?')}"
-              f"  L77Δ={q_result['patches'].get('L77_attn',{}).get('delta_ld','?')}")
+        _pk = list(q_result['patches'])[:2]
+        print(f"  [{qid}] {wrong_sign}  " + "  ".join(
+            f"{k}Δ={q_result['patches'][k].get('delta_ld','?')}" for k in _pk))
         del full_ids, logits_base
         gc.collect(); torch.cuda.empty_cache()
 
@@ -207,7 +208,7 @@ def run_exp_signmatched_patch(adapter: BaseAdapter,
         "donor_domain": "det_4x4_correct",
         "d_hat_recipe": "N/A — mean-patch, no d_hat",
         "sign_matching": "error written sign matched to correct donor sign",
-        "prediction": "L75/L78 near-null; L77 corrective; L30/L50 null",
+        "prediction": "per-site; see patches[*].prediction (from TARGETS)",
         "note": "label_inversion: correct files have written_sign = row.wrong_sign",
     }
     output = {"meta": meta, "results": results}

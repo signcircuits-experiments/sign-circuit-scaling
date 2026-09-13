@@ -84,6 +84,19 @@ MODEL_CONFIGS = {
         "model_col"       : "Llama-3.3-70B",
         "results_name"    : "Llama",
     },
+    "llama_heldout": {
+        "model_id"        : "meta-llama/Llama-3.3-70B-Instruct",
+        "n_layers"        : 80,
+        "n_heads"         : 64,
+        "n_kv_heads"      : 8,
+        "head_dim"        : 128,
+        "hidden_dim"      : 8192,
+        "has_softcap"     : False,
+        "norm_type"       : "standard",
+        "response_marker" : "<|start_header_id|>assistant<|end_header_id|>\n\n",
+        "model_col"       : "Llama-3.3-70B",
+        "results_name"    : "Llama_heldout",
+    },
     "llama_base": {
         "model_id"        : "meta-llama/Llama-3.1-70B",   # base (non-Instruct)
         "n_layers"        : 80,
@@ -110,6 +123,21 @@ MODEL_CONFIGS = {
         "response_marker" : "<start_of_turn>model\n",      # confirmed against actual full_input text
         "model_col"       : "Gemma-3",
         "results_name"    : "Gemma",
+    },
+    "gemma_heldout": {
+        # Exact copy of "gemma" except results_name — held-out confirmatory run.
+        "model_id"        : "google/gemma-3-27b-it",
+        "revision"        : "005ad3404e59d6023443cb575daa05336842228a",
+        "n_layers"        : 62,      # LOW-MED CONFIDENCE — verify against AutoConfig at pod-launch
+        "n_heads"         : 32,      # LOW-MED CONFIDENCE
+        "n_kv_heads"      : 16,      # LOW-MED CONFIDENCE (GQA)
+        "head_dim"        : 128,     # LOW-MED CONFIDENCE
+        "hidden_dim"      : 5376,    # LOW-MED CONFIDENCE
+        "has_softcap"     : False,   # Gemma-3 dropped softcap (QK-norm instead) — verify model.config.final_logit_softcapping is None
+        "norm_type"       : "gemma_sandwich_1plusweight",  # NOT "standard" — see gemma_adapter.py docstring
+        "response_marker" : "<start_of_turn>model\n",      # confirmed against actual full_input text
+        "model_col"       : "Gemma-3",
+        "results_name"    : "Gemma_heldout",
     },
     "phi": {
         "model_id"        : "microsoft/phi-4",
@@ -149,9 +177,14 @@ KNOWN_DOMAINS = [
     "det_5x5_error", "det_5x5_correct",
     "ibp_error",     "ibp_correct",
     "arith_simple",
+    "det_4x4_correct_deepsign", "det_4x4_correct_heldout_deepsign",
+    "ibp_correct_deepsign", "ibp_correct_heldout_deepsign",
     # New small-model domains (gemma/phi/mistral) — error-only, no correct-domain
     # counterpart exists for any of these (condition=='failure' 100% in all 5 source files).
     "determinant", "rank", "nullity", "eigenvalue", "integration_by_parts",
+    # 5-bin depthgrid domains (det_4x4_correct + ibp_correct)
+    "det_4x4_correct_depthbin10", "det_4x4_correct_depthbin30", "det_4x4_correct_depthbin50", "det_4x4_correct_depthbin70", "det_4x4_correct_depthbin90",
+    "ibp_correct_depthbin10", "ibp_correct_depthbin30", "ibp_correct_depthbin50", "ibp_correct_depthbin70", "ibp_correct_depthbin90",
 ]
 
 # New small models: error-only domains (no *_correct pairing exists in the source data).
@@ -170,6 +203,10 @@ DOMAIN_PAIRS = {
 CORRECT_DATASETS = {
     "det_3x3_correct", "det_4x4_correct", "det_5x5_correct",
     "ibp_correct", "arith_simple",
+    "det_4x4_correct_deepsign", "det_4x4_correct_heldout_deepsign",
+    "ibp_correct_deepsign", "ibp_correct_heldout_deepsign",
+    "det_4x4_correct_depthbin10", "det_4x4_correct_depthbin30", "det_4x4_correct_depthbin50", "det_4x4_correct_depthbin70", "det_4x4_correct_depthbin90",
+    "ibp_correct_depthbin10", "ibp_correct_depthbin30", "ibp_correct_depthbin50", "ibp_correct_depthbin70", "ibp_correct_depthbin90",
 }
 
 # ── Data files: convention + legacy overrides ────────────────────────────────
@@ -187,7 +224,7 @@ _LEGACY_QWEN = {
 _LEGACY_LLAMA = {
     "det_5x5_error":   "llama_det_5x5_error_n50_experiment_ready.xlsx",
     "det_4x4_error":   "llama_det_4x4_error_n16_experiment_ready.xlsx",
-    "ibp_error":       "llama_ibp_error_n10_experiment_ready.xlsx",
+    "ibp_error":       "llama_ibp_error_n22_experiment_ready.xlsx",
     "det_4x4_correct": "llama_det_4x4_correct_set1_n80_experiment_ready.xlsx",
     "ibp_correct":     "llama_ibp_correct_n23_experiment_ready.xlsx",
 }

@@ -10,11 +10,13 @@ _ADAPTERS = {
     "qwen_heldout" : QwenAdapter,
     "llama"     : LLaMAAdapter,
     "llama_base": LLaMAAdapter,   # same architecture, different model_id
+    "llama_heldout": LLaMAAdapter,
     # New (offline prep, unverified against real checkpoints; included for
     # forthcoming releases — untested against the current Qwen det_4x4 data
     # drop). Registered here so run.py --model {gemma,phi,mistral} resolves
     # once corresponding MODEL_CONFIGS entries are added to config.py.
     "gemma"     : GemmaAdapter,
+    "gemma_heldout" : GemmaAdapter,
     "phi"       : PhiAdapter,
     "mistral"   : MistralAdapter,
 }

@@ -1,6 +1,6 @@
 # PRE-REGISTRATION — Gemma-3-27B-it held-out validation (sign-flip circuit)
 
-> **STATUS: APPROVED 2026-09-13 — pass bars signed off by the PI. Ready to commit (commit 1) before any held-out measurement.**
+> **STATUS: APPROVED 2026-09-13 — pass bars signed off by the PI. AMENDED 2026-09-13, before any held-out measurement: the correct-domain deepsign battery is promoted from Phase-2 (§7) to Arm 2 of this run (measured-and-reported, NO pass bars), and the role-matched deepsign sidecar files are added as frozen instruments. No confirmatory bar, anchor, or exclusion changed. The amended file supersedes the committed original; both remain in git history.**
 
 **Rules.** This file is committed **before** any held-out measurement (commit 1);
 raw results are committed afterwards (commit 2); history is never rewritten. The
@@ -9,10 +9,13 @@ disliked result may not. All numbers below are FINAL at commit. Verdict
 vocabulary: CONFIRMED / NEAR-MISS / NULL / MIXED / FAILED-TECHNICAL, judged only
 against the table below.
 
-**Scope.** The confirmatory battery runs on the **error domains only** (untouched
-by any prior measurement). The correct-domain files were previously included in
-one descriptive scan (no causal measurement); all correct-domain analyses are
-therefore EXPLORATORY (§7), outside the confirmatory battery.
+**Scope.** Two arms. **Arm 1 (confirmatory)** runs on the **error domains only**
+(untouched by any prior measurement) and is judged against the pass bars in §3.
+**Arm 2 (deepsign correct-domain battery, §7)** runs in the same pod on the
+held-out correct files at role-matched deepsign positions; it is
+measured-and-reported with NO pass bars, because the correct-domain files were
+previously included in one descriptive scan (no causal measurement) and so
+cannot claim fully-untouched status. Verdict vocabulary applies to Arm 1 only.
 
 ## 1. Data (frozen)
 
@@ -33,7 +36,16 @@ exact).
 
 The two error files are untouched by any measurement. The two correct files
 were previously included in one descriptive scan (no causal measurement) and
-serve only the exploratory arm (§7).
+serve Arm 2 (§7).
+
+**Arm-2 sidecar files (frozen, added at the 2026-09-13 amendment):**
+`gemma_det4x4_correct_validation_heldout_n138_deepsign_rolematched.csv` (138
+rows) and `gemma_ibp_correct_validation_heldout_n150_deepsign_rolematched.csv`
+(150 rows) — role-matched deepsign annotations (deep sign character offsets,
+roles, target depths) for the two correct files; one sidecar row per correct
+row, verified: no duplicate ids, no fallback rows. The paired discovery
+sidecars (n=50 each) are committed alongside for provenance. Sidecars were
+produced from the correct files' text only — no model measurement.
 
 ## 2. Frozen instruments (nothing tuned on held-out data)
 
@@ -95,7 +107,8 @@ were excluded by those stages).
   addendum carrying the DG6 per-bin predictions; committed before that run, not
   covered here.
 - L55 single-site ablation (documented plus-side pusher; captured only).
-- **All correct-domain analyses** — exploratory only (§7), not confirmatory.
+- **All correct-domain analyses from Arm 1's verdicts** — Arm 2 (§7) is
+  measured-and-reported only and contributes to no CONFIRMED/NULL verdict.
 - Any analysis whose composition cell is empty.
 
 ## 5. Small-n
@@ -120,21 +133,47 @@ descriptively with exact counts (x/n) alongside the point estimate.
 4. Discovery anchors' historical (superseded) workbook sheets are banner-marked
    "do NOT quote" in `Gemma_discovery_anchors.xlsx`.
 
-## 7. Phase 2 (EXPLORATORY, only after Phase-1 verdicts lock)
+## 7. Arm 2 — deepsign correct-domain battery (measured-and-reported, NO pass bars)
 
-The held-out set may then be re-mined as a larger discovery set (joint head
-groups beyond the pre-registered J1–J4, depth-bin slices, head-level screens,
-weight-space checks). The **correct-domain causal battery** (habit-site MLP
-ablations at L58/L60 on the held-out correct files, deepsign discovery anchors
-det L58 −1.86 / L60 −0.85, ibp −1.53 / −1.47) runs here, not in the
-confirmatory battery. Everything Phase-2 is labeled EXPLORATORY in the paper and
-needs its own future held-out set.
+Runs in the same pod, **after** Arm 1 completes, on the two held-out correct
+files at the deepsign positions given by the frozen role-matched sidecars.
+Same frozen instruments as Arm 1 (habit L58/L60, check L56, ctrls L23/L39,
+TARGET_SETs, per-case sign-token ids); label-inversion convention on corrects;
+all arms teacher-forced, no free-text.
+
+Full deepsign stage set (mirroring the discovery deepsign battery):
+
+1. s01 logit lens (expA) at deepsign positions.
+2. s02 DLA (expB) + matched-DLA comparison.
+3. s04 projections onto d-hat at the capture layers.
+4. s05 expD′ habit-site MLP mean-ablations (L58, L60; ctrls) and expE′ joint
+   TARGET_SET mean-ablation with 40 null sets.
+5. s06 expG′ direction subtraction (α grid, L58 + L60, ctrls incl. random).
+6. s08 c2-on-correct steering (α grid, CTRL_MAG).
+7. s09 cross-domain judge (armB logit boosts, L56 + ctrl L23).
+
+**No pass bars.** Every Arm-2 result is reported descriptively — exact means,
+counts (x/n), and strata — next to its discovery deepsign anchor for context
+(habit-site ablations: det L58 −1.86 / L60 −0.85; ibp L58 −1.53 / L60 −1.47).
+Arm 2 feeds no verdict and is labeled measured-and-reported (non-confirmatory)
+in the paper, with the prior-descriptive-scan disclosure attached.
+
+**Phase 3 (future, unchanged rules):** the held-out set may later be re-mined
+as a larger discovery set (head groups beyond J1–J4, depth-bin slices,
+head-level screens, weight-space checks); anything found there is EXPLORATORY
+and needs its own future held-out set.
 
 ## 8. Run mapping
 
-- Pipeline `pipeline_release`: s01, s02, s04, s05, s05b, s05c (frozen
+- Pipeline `pipeline_release`: Arm 1 = s01, s02, s04, s05, s05b, s05c (frozen
   `groups_gemma_det.json` / `groups_gemma_ibp.json`, mean ablation, no
-  fallback), s06, s08, s09. Never s00/s03.
+  fallback), s06, s08, s09 on the error files; Arm 2 = the §7 stage set on the
+  correct files + sidecars, after Arm 1. Never s00/s03; never `--with-heads`
+  (reaches hardcoded non-Gemma head constants).
+- Correct-domain data converted to
+  `gemma_heldout_{correct_domain}_experiment_ready.xlsx` with deepsign
+  positions merged from the sidecars by id (join verified 1:1 at pre-flight,
+  sha256 of sidecars recorded).
 - Config: new `MODEL_CONFIGS` entry `gemma_heldout` (exact copy of `gemma`,
   `results_name: "Gemma_heldout"`); data converted to
   `gemma_heldout_{domain}_experiment_ready.xlsx`, byte-equivalent to the frozen

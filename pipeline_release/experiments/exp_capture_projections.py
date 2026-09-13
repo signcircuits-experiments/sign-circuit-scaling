@@ -39,13 +39,13 @@ def _compute_d_hat(adapter) -> torch.Tensor:
     m_ids = tok.encode(' -', add_special_tokens=False)
     p_ids = tok.encode(' +', add_special_tokens=False)
     W_U   = adapter.model.lm_head.weight.detach().float().cpu()
-    norm_w = adapter.model.model.norm.weight.detach().float().cpu()
+    norm_w = adapter.get_final_norm().weight.detach().float().cpu()
     d = (W_U[m_ids[-1]] - W_U[p_ids[-1]]) * norm_w
     return (d / d.norm()).cpu()
 
 
 def _mlp(adapter, L):
-    return adapter.model.model.layers[L].mlp
+    return adapter.get_mlp_module(L)
 
 
 def _load_df(model_name, domain):
@@ -61,6 +61,9 @@ def _load_df(model_name, domain):
 
 def run_exp_capture_projections(adapter: BaseAdapter, model_name: str, out_file: str):
     d_hat = _compute_d_hat(adapter)
+
+    n_total_layers = len(adapter.get_layer_modules())
+    capture_layers = [L for L in CAPTURE_LAYERS if L < n_total_layers]
 
     print(f"\n[expCapture] {model_name} | Domains: {DOMAINS}")
     results = []
@@ -102,7 +105,7 @@ def run_exp_capture_projections(adapter: BaseAdapter, model_name: str, out_file:
                 return hook
 
             handles = [_mlp(adapter, L).register_forward_hook(make_cap(L, probe_tok))
-                       for L in CAPTURE_LAYERS]
+                       for L in capture_layers]
             try:
                 with torch.no_grad():
                     out_base = adapter.model(full_ids, use_cache=False)
@@ -119,26 +122,48 @@ def run_exp_capture_projections(adapter: BaseAdapter, model_name: str, out_file:
                 "written_sign": written_sign,
                 "baseline_ld":  round(base_ld, 4),
             }
+            n_missing_layers = 0
             for L in CAPTURE_LAYERS:
                 if L in captured:
                     h_vec = captured[L]
                     entry[f"proj_d_L{L}"] = round(torch.dot(h_vec, d_hat).item(), 5)
                     entry[f"norm_h_L{L}"] = round(h_vec.norm().item(), 4)
                 else:
+                    # Previously written silently as None with no warning
+                    # (red-team 2026-09-10) — now counted and reported.
                     entry[f"proj_d_L{L}"] = None
                     entry[f"norm_h_L{L}"] = None
+                    n_missing_layers += 1
+            if n_missing_layers:
+                print(f"  ⚠ [expCapture] {qid}: {n_missing_layers}/"
+                      f"{len(CAPTURE_LAYERS)} capture layers MISSING "
+                      f"(hook did not fire) — writing None fields")
 
             results.append(entry)
             del full_ids
             gc.collect(); torch.cuda.empty_cache()
 
     print(f"\n[expCapture] Total: {len(results)} entries")
+
+    # ZERO-CAPTURE GUARD (red-team 2026-09-10): fail loudly if nothing was
+    # produced, or if EVERY entry has all-None projections (hooks never fired).
+    if len(results) == 0:
+        raise RuntimeError(
+            "[expCapture] ZERO entries produced — '960/960 no-capture' "
+            "failure class. Refusing to exit cleanly.")
+    _proj_keys = [k for k in results[0] if k.startswith("proj_d_L")]
+    if _proj_keys and all(
+            all(r.get(k) is None for k in _proj_keys) for r in results):
+        raise RuntimeError(
+            "[expCapture] ALL entries have all-None projections — hooks "
+            "never fired (wrong module path / wrong adapter). Refusing to "
+            "save a file full of Nones as a clean exit.")
     meta = {
         "n_entries": len(results),
         "domains": DOMAINS, "capture_layers": CAPTURE_LAYERS,
         "fields": "proj_d = h_L · d_hat (signed); norm_h = ||h_L||",
         "d_hat_recipe": "space-prefixed, norm-weighted",
-        "purpose": "L78 error-modulated magnitude analysis (volume-knob claim)",
+        "purpose": "habit-layer error-modulated magnitude analysis at capture_layers (volume-knob claim)",
     }
     output = {"meta": meta, "data": results}
     os.makedirs(os.path.dirname(out_file), exist_ok=True)

@@ -45,7 +45,7 @@ def _compute_d_hat(adapter) -> torch.Tensor:
     m_ids = tok.encode(' -', add_special_tokens=False)
     p_ids = tok.encode(' +', add_special_tokens=False)
     W_U   = adapter.model.lm_head.weight.detach().float().cpu()
-    norm_w = adapter.model.model.norm.weight.detach().float().cpu()
+    norm_w = adapter.get_final_norm().weight.detach().float().cpu()
     d = (W_U[m_ids[-1]] - W_U[p_ids[-1]]) * norm_w
     return (d / d.norm()).cpu()
 
@@ -59,7 +59,7 @@ def _make_ortho_random(hidden_dim: int, d_hat: torch.Tensor, seed: int = 0) -> t
 
 
 def _mlp(adapter, L):
-    return adapter.model.model.layers[L].mlp
+    return adapter.get_mlp_module(L)
 
 
 def _make_ctrl_mag_hook(r_hat, m_L, alpha, pt):
@@ -139,8 +139,8 @@ def run_exp_ctrl_mag(adapter: BaseAdapter, df: pd.DataFrame,
 
         q_result = {
             "id": qid, "written_sign": wrong_sign, "baseline_ld": round(base_ld, 4),
-            "m_L75": round(m_vals.get(HL1, float("nan")), 4),
-            "m_L78": round(m_vals.get(HL2, float("nan")), 4),
+            f"m_L{HL1}": round(m_vals.get(HL1, float("nan")), 4),
+            f"m_L{HL2}": round(m_vals.get(HL2, float("nan")), 4),
             "conditions": {}
         }
 
@@ -173,7 +173,7 @@ def run_exp_ctrl_mag(adapter: BaseAdapter, df: pd.DataFrame,
                 h = [_mlp(adapter, HL1).register_forward_hook(
                          _make_ctrl_mag_hook(r_hat, m_vals[HL1], alpha, probe_tok))]
                 ld, delta, fl, t1 = run_edit(h)
-                q_result["conditions"].setdefault("CTRL_MAG_L75", {})[f"a{alpha}"] = {
+                q_result["conditions"].setdefault(f"CTRL_MAG_L{HL1}", {})[f"a{alpha}"] = {
                     "edit_ld": ld, "delta_ld": delta, "flipped": fl, "top1_now_correct": t1}
 
             # CTRL_MAG boring layers

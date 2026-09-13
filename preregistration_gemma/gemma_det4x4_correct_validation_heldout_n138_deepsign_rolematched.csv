@@ -1,0 +1,384 @@
+id,wrong_sign_deep,correct_sign_deep,sign_char_offset_deep,rel_pos_deep,rel_pos_c1,target_depth,same_as_c1,context_check_deep,confidence,reasoning,role_deep,role_target,fallback
+NC_4x4_det_407,+,-,844,0.2316,0.1828,0.2082,False,5 & -1 & 0 \end{bmatrix} [+] 4 \cdot \det \begin{bma,high,role_target=parity; picked depth=23.2%,parity,parity,False
+NC_4x4_det_326,-,+,1230,0.5612,0.2118,0.5614,False,"3 - 1 * (-3)
+= -52 + 3 = [-]49
+
+det(\begin{bmatrix} ",high,role_target=parity; picked depth=56.1%,parity,parity,False
+NC_4x4_det_308,+,-,833,0.2738,0.2163,0.2739,False,4 & 0 & -2 \end{bmatrix} [+] (-1) \cdot \det \begin{,high,role_target=parity; picked depth=27.4%,parity,parity,False
+NC_4x4_det_398,-,+,648,0.1477,0.2,0.1499,False,"e first column.
+det(A) = [-]2 * det(\begin{bmatrix} ",high,role_target=parity; picked depth=14.8%,parity,parity,False
+NC_4x4_det_348,+,-,808,0.217,0.1746,0.216,False,4 & 2 & -4 \end{vmatrix} [+] (-1) \begin{vmatrix} -5,high,role_target=parity; picked depth=21.7%,parity,parity,False
+NC_4x4_det_385,-,+,841,0.2263,0.1769,0.2287,False, -3 & 2 \end{bmatrix} + ([-]2) \cdot \det \begin{bma,high,role_target=parity; picked depth=22.6%,parity,parity,False
+NC_4x4_det_287,-,+,816,0.2455,0.1965,0.2496,False,-2 & -3 \end{vmatrix} + ([-]3) \begin{vmatrix} 1 & -,high,role_target=parity; picked depth=24.6%,parity,parity,False
+NC_4x4_det_411,-,+,829,0.2653,0.2059,0.2789,False,-3 & -1 \end{bmatrix} + ([-]3) \cdot \det \begin{bma,high,role_target=parity; picked depth=26.5%,parity,parity,False
+NC_4x4_det_354,-,+,1550,0.6732,0.1821,0.6732,False,*1 - (-1)*4) - (-3)(-5*1 [-] (-1)*5) + 5(-5*4 - (-2),high,role_target=arith; picked depth=67.3%,arith,arith,False
+NC_4x4_det_391,+,-,1458,0.6605,0.2006,0.6593,False,"3))
+= -4(-4 + 9) - 2(-20 [+] 9) + 3(15 - 3)
+= -4(5) ",high,role_target=arith; picked depth=66.0%,arith,arith,False
+NC_4x4_det_269,-,+,1791,0.6663,0.1453,0.6328,False, \\ 1 & 1 \end{bmatrix}) [-] 0 * det(\begin{bmatrix},high,role_target=arith; picked depth=66.6%,arith,arith,False
+NC_4x4_det_323,+,-,1293,0.603,0.1653,0.6033,False," + 4(-1 + 8)]
+= 1 * [-12 [+] 6 + 4(7)]
+= 1 * [-12 + ",high,role_target=arith; picked depth=60.3%,arith,arith,False
+NC_4x4_det_416,-,+,1399,0.6685,0.2065,0.6681,False,"5) - (-5)(4))
+= 2(5 + 5) [-] 5(-3 + 4) + 5(15 + 20)
+",high,role_target=arith; picked depth=66.8%,arith,arith,False
+NC_4x4_det_335,+,-,1550,0.6799,0.182,0.6809,False,5) - 2 * (-2*4 - (-2)*4) [+] 1 * (-2*5 - (-2)*4) = -,high,role_target=arith; picked depth=68.0%,arith,arith,False
+NC_4x4_det_313,-,+,1136,0.7032,0.2194,0.7022,False,")
+= 1 * ((-1)((2)(-1) - ([-]3)(-1)) - 4((-1)(-1) - (",high,role_target=arith; picked depth=70.3%,arith,arith,False
+NC_4x4_det_345,-,+,1861,0.8124,0.1382,0.8106,False,"} $$
+$$ = 0(1(3) - 1(5)) [-] 2((-5)(3) - 1(-1)) + 2(",high,role_target=arith; picked depth=81.2%,arith,arith,False
+NC_4x4_det_362,-,+,1418,0.8365,0.2452,0.8338,False,end{bmatrix}) = 4 * (5*0 [-] 4*5) - 4 * (5*0 - 4*0) ,high,role_target=arith; picked depth=83.7%,arith,arith,False
+NC_4x4_det_305,-,+,1288,0.5686,0.1634,0.5674,False,(1(4-10) - 4(-20+20) - 3([-]10+4)) = -1 \cdot (1(-6),high,role_target=arith; picked depth=56.9%,arith,arith,False
+NC_4x4_det_375,+,-,1856,0.7841,0.6549,0.7932,False," (-3)(-5) - (2)(-2) = 15 [+] 4 = 19$
+2. $\begin{vmat",high,role_target=arith; picked depth=78.4%,arith,arith,False
+NC_4x4_det_254,-,+,1285,0.7466,0.2043,0.7375,False,"d{vmatrix}
+= - [ -5(2(3) [-] (-4)(-2)) - (-5)(-5(3) ",high,role_target=arith; picked depth=74.7%,arith,arith,False
+NC_4x4_det_357,-,+,2213,0.8931,0.6484,0.8725,False,"t(M)$:
+$$\det(M) = 3(35) [-] 5(35) + 4(-7)$$
+$$\det(",high,role_target=arith; picked depth=89.3%,arith,arith,False
+NC_4x4_det_401,+,-,1104,0.4734,0.1615,0.4982,False,") = 138
+
+C_{13} = (-1)^{1[+]3} * det(\begin{bmatrix}",high,role_target=arith; picked depth=47.3%,arith,arith,False
+NC_4x4_det_321,+,-,1074,0.4547,0.1612,0.4599,False,"]
+= 116
+
+C_{13} = (-1)^{1[+]3} * det(\begin{bmatrix}",high,role_target=arith; picked depth=45.5%,arith,arith,False
+NC_4x4_det_250,-,+,1694,0.9049,0.2172,0.9012,False,"r det(A):
+det(A) = -5 * ([-]8) + 5 * 6 + 5 * (-9) + ",high,role_target=arith; picked depth=90.5%,arith,arith,False
+NC_4x4_det_403,+,-,863,0.4576,0.2421,0.4546,False,"*2) - 1((-1)*(-2) - 5*5) [+] (-2)((-1)*2 - 2*5)]
+= -",high,role_target=arith; picked depth=45.8%,arith,arith,False
+NC_4x4_det_353,+,-,1169,0.4385,0.1524,0.4513,False," = 79$
+
+$C_{13} = (-1)^{1[+]3} \det \begin{bmatrix} ",high,role_target=arith; picked depth=43.9%,arith,arith,False
+NC_4x4_det_265,-,+,1039,0.445,0.1679,0.4456,False,"(-6))
+= -1 * (-150 + 100 [-] 12)
+= -1 * (-62) = 62
+
+",high,role_target=arith; picked depth=44.5%,arith,arith,False
+NC_4x4_det_258,+,-,2002,0.9026,0.1778,0.9103,False,"4 * 8 + 1 * 2
+= -12 - 32 [+] 2
+= -42
+
+Now, substitut",high,role_target=arith; picked depth=90.3%,arith,arith,False
+NC_4x4_det_289,-,+,1028,0.4345,0.1696,0.4402,False,"(25 - 16))
+= -1 * (3*(1) [-] 5*(9))
+= -1 * (3 - 45)
+",high,role_target=arith; picked depth=43.5%,arith,arith,False
+NC_4x4_det_344,+,-,2223,0.9139,0.1206,0.9121,False,"2}) = 36
+C_{32} = (-1)^{3[+]2} * 36 = -1 * 36 = -36
+",high,role_target=arith; picked depth=91.4%,arith,arith,False
+NC_4x4_det_248,+,-,2195,0.9142,0.1208,0.915,False,"2}) = 92
+C_{32} = (-1)^{3[+]2} * 92 = -1 * 92 = -92
+",high,role_target=arith; picked depth=91.4%,arith,arith,False
+NC_4x4_det_337,+,-,1011,0.4214,0.1686,0.4259,False,"(16))
+= -1 * (60 - (-18) [+] 80)
+= -1 * (60 + 18 + 8",high,role_target=arith; picked depth=42.1%,arith,arith,False
+NC_4x4_det_272,+,-,1357,0.927,0.2318,0.9174,False,"4} + 5 * C_{44}
+= 4 * 18 [+] 5 * (-12)
+= 72 - 60
+= 1",high,role_target=arith; picked depth=92.7%,arith,arith,False
+NC_4x4_det_327,-,+,991,0.4094,0.1696,0.4103,False,"(20 + 1) + 3 * (-16 - 2) [-] 3 * (-4 + 10)
+= 3 * 21 ",high,role_target=arith; picked depth=40.9%,arith,arith,False
+NC_4x4_det_303,+,-,2000,0.9177,0.2243,0.918,False," 3(-5 - 0)$$
+$$= -4(-19) [+] 3(-5) = 76 - 15 = 61$$
+",high,role_target=arith; picked depth=91.8%,arith,arith,False
+NC_4x4_det_281,-,+,1408,0.9016,0.2158,0.9189,False," 36 - 30 = 116
+C_{33} = ([-]1)^6 * 116 = 116
+
+det(A)",high,role_target=arith; picked depth=90.2%,arith,arith,False
+NC_4x4_det_384,-,+,1366,0.918,0.2259,0.9199,False,"} + 3 * C_{42}
+= (-5) * ([-]159) + 3 * (76)
+= 795 + ",high,role_target=arith; picked depth=91.8%,arith,arith,False
+NC_4x4_det_329,-,+,1744,0.943,0.2167,0.9202,False,"n for det(A):
+
+det(A) = ([-]1)(8) + 5(22)
+= -8 + 110",high,role_target=arith; picked depth=94.3%,arith,arith,False
+NC_4x4_det_280,-,+,963,0.3991,0.1738,0.4006,False,"))]
+= -1 * [(-5)(9 - 16) [-] 3(8 + 9)]
+= -1 * [(-5)(",high,role_target=arith; picked depth=39.9%,arith,arith,False
+NC_4x4_det_319,-,+,1455,0.9233,0.2123,0.922,False," * (-66) + 0 * C_{31} + ([-]5) * (-50)
+= 0 + 264 + 0",high,role_target=arith; picked depth=92.3%,arith,arith,False
+NC_4x4_det_377,+,-,1383,0.9225,0.2287,0.9231,False,"5) * C_{42}
+= 0 - 3 * 18 [+] 0 - 5 * 42
+= -54 - 210
+",high,role_target=arith; picked depth=92.2%,arith,arith,False
+NC_4x4_det_286,-,+,2595,0.9096,0.1347,0.9241,False,"-8) - 4 * (12)
+= 16 - 40 [-] 48
+= -72
+
+Now, substitu",high,role_target=arith; picked depth=91.0%,arith,arith,False
+NC_4x4_det_351,+,-,1411,0.9266,0.2054,0.9257,False,"* C_{43}
+= 0 + 3 * (-29) [+] 0 + 2 * (61)
+= -87 + 12",high,role_target=arith; picked depth=92.7%,arith,arith,False
+NC_4x4_det_336,-,+,1986,0.9233,0.1846,0.9268,False,"5(15) + 1(-14)
+= 19 - 75 [-] 14 = -70
+
+det(A) = -1(6",high,role_target=arith; picked depth=92.3%,arith,arith,False
+NC_4x4_det_381,+,-,1836,0.9282,0.1966,0.927,False, * (-43) = 68 - 158 - 91 [+] 215 = 68 - 158 - 91 + 2,high,role_target=arith; picked depth=92.8%,arith,arith,False
+NC_4x4_det_304,+,-,1693,0.9249,0.2146,0.9272,False,et(A) = 4 * 147 - 5 * 37 [+] 5 * (-164) - 0 = 588 - ,high,role_target=arith; picked depth=92.5%,arith,arith,False
+NC_4x4_det_346,-,+,1827,0.9265,0.1976,0.9284,False," det(A):
+det(A) = 5 * 32 [-] 1 * (-4) + (-4) * (-20)",high,role_target=arith; picked depth=92.7%,arith,arith,False
+NC_4x4_det_284,-,+,1930,0.9286,0.1908,0.9291,False,1 * (-17) - 3 * (-75) + ([-]3) * (-36) - (-4) * (-44,high,role_target=arith; picked depth=92.9%,arith,arith,False
+NC_4x4_det_369,-,+,1856,0.9236,0.2087,0.9296,False,"- 147 = -140 + 274 + 328 [-] 147 = 315 $$
+Therefore,",high,role_target=arith; picked depth=92.4%,arith,arith,False
+NC_4x4_det_380,-,+,1984,0.9337,0.1839,0.9309,False,"or det(A):
+det(A) = 3 * ([-]30) - (-5) * (0) + 2 * (",high,role_target=arith; picked depth=93.4%,arith,arith,False
+NC_4x4_det_405,-,+,4460,0.9095,0.2948,0.9314,False,"(A) = \frac{(-3) \times ([-]337)}{3} = 337$.
+Let me ",high,role_target=arith; picked depth=91.0%,arith,arith,False
+NC_4x4_det_355,-,+,2793,0.9499,0.1246,0.9319,False,"tion:
+det(A) = -4 * (32) [-] (-3) * (6) + (-5) * (-1",high,role_target=arith; picked depth=95.0%,arith,arith,False
+NC_4x4_det_266,-,+,1760,0.9411,0.209,0.9325,False," det(A):
+
+det(A) = -3 * ([-]111) + 5 * (123)
+= 333 +",high,role_target=arith; picked depth=94.1%,arith,arith,False
+NC_4x4_det_415,-,+,2679,0.9492,0.1277,0.933,False,"equation:
+det(A) = -3 * ([-]190) - 4 * (-138) + 2 * ",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_314,-,+,2120,0.9357,0.171,0.9333,False,"quation:
+
+det(A) = -5 * ([-]105) - (-1) * (99) + 2 *",high,role_target=arith; picked depth=93.6%,arith,arith,False
+NC_4x4_det_294,+,-,1686,0.9338,0.22,0.934,False,t(A) = 3 * 12 - (-1) * 0 [+] (-2) * 0 - 0 * ... = 36,high,role_target=arith; picked depth=93.4%,arith,arith,False
+NC_4x4_det_356,-,+,1033,0.3516,0.1429,0.3506,False,(-10-4) = 4(-1) + 19 + 4([-]14) = -4 + 19 - 56 = -41,high,role_target=arith; picked depth=35.2%,arith,arith,False
+NC_4x4_det_367,-,+,1985,0.9338,0.1812,0.9359,False,-100) + (-1) * 60 - 1 * ([-]40) = -700 + 400 - 60 + ,high,role_target=arith; picked depth=93.4%,arith,arith,False
+NC_4x4_det_299,-,+,2028,0.9377,0.1771,0.937,False,5) + 2 * (-27) - (-3) * ([-]77) = -145 - 65 - 54 - 2,high,role_target=arith; picked depth=93.8%,arith,arith,False
+NC_4x4_det_334,+,-,2028,0.941,0.1758,0.9373,False, + 172 + 73 + 423 = -276 [+] 172 + 73 + 423 = -104 +,high,role_target=arith; picked depth=94.1%,arith,arith,False
+NC_4x4_det_297,-,+,1381,0.9396,0.2376,0.938,False,"2) * (99) + 0 + 0
+= -348 [-] 198
+= -546
+
+Final Answe",high,role_target=arith; picked depth=94.0%,arith,arith,False
+NC_4x4_det_331,-,+,1634,0.9383,0.1829,0.9388,False,"78 + (-3) * (-52) + 0 * ([-]78)
+= 78 + 390 + 156 + 0",high,role_target=arith; picked depth=93.8%,arith,arith,False
+NC_4x4_det_312,-,+,2023,0.9386,0.1785,0.9392,False, - 5 * (82) + 3 * (-102) [-] (-1) * (22) = 128 - 410,high,role_target=arith; picked depth=93.9%,arith,arith,False
+NC_4x4_det_359,-,+,2092,0.9383,0.1834,0.9393,False,"A)$:
+$$ \det(A) = -1(27) [-] 5(90) + 5(-90) - 5(45) ",high,role_target=arith; picked depth=93.8%,arith,arith,False
+NC_4x4_det_339,-,+,2018,0.9416,0.1835,0.9395,False,* (15) - 3 * (-84) = 330 [-] 30 - 45 + 252 = 330 - 7,high,role_target=arith; picked depth=94.2%,arith,arith,False
+NC_4x4_det_300,-,+,2186,0.9434,0.1617,0.9399,False,"or det(A):
+det(A) = 5 * ([-]2) - 1 * (-8) + 4 * (-2)",high,role_target=arith; picked depth=94.3%,arith,arith,False
+NC_4x4_det_395,+,-,2069,0.9406,0.1769,0.9403,False,et(A) = -4(3) - (-4)(31) [+] (-2)(-220) - (-1)(-197),high,role_target=arith; picked depth=94.1%,arith,arith,False
+NC_4x4_det_417,-,+,1838,0.9397,0.2048,0.9411,False,"A) = -1(72) - 1(-74) + 0 [-] 2(68)
+= -72 + 74 - 136
+",high,role_target=arith; picked depth=94.0%,arith,arith,False
+NC_4x4_det_318,+,-,2018,0.9412,0.1788,0.9415,False, - (-4) * 24 = 180 - 470 [+] 45 + 96 = 180 + 45 + 96,high,role_target=arith; picked depth=94.1%,arith,arith,False
+NC_4x4_det_349,+,-,1930,0.941,0.1839,0.9417,False, (-76) - 4 * (62) = -153 [+] 10 - 76 - 248 = -153 + ,high,role_target=arith; picked depth=94.1%,arith,arith,False
+NC_4x4_det_292,-,+,2081,0.9421,0.1747,0.9418,False,"(-2) * (-24) + 3 * (100) [-] 3 * (-94)
+= -84 - 48 + ",high,role_target=arith; picked depth=94.2%,arith,arith,False
+NC_4x4_det_278,+,-,1784,0.9421,0.2074,0.9424,False,"- 3 * (-26)
+= 6 + 0 - 96 [+] 78
+= 6 - 96 + 78
+= -90 ",high,role_target=arith; picked depth=94.2%,arith,arith,False
+NC_4x4_det_371,+,-,2094,0.9453,0.1715,0.9435,False,"A) = -1 * 14 - (-1) * 84 [+] 4 * 74 - 1 * (-20)
+= -1",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_315,-,+,2003,0.943,0.1794,0.944,False,- 5 * (-23) + 2 * (-108) [-] 4 * (12) = 220 + 115 - ,high,role_target=arith; picked depth=94.3%,arith,arith,False
+NC_4x4_det_291,-,+,1348,0.9377,0.2312,0.9441,False,"
+= 5 * 20 - 5 * 48
+= 100 [-] 240
+= -140
+
+Final Answe",high,role_target=arith; picked depth=93.8%,arith,arith,False
+NC_4x4_det_379,+,-,1689,0.9456,0.1773,0.9442,False,"* (26) + 2 * (-62)
+= -32 [+] 32 - 104 - 124
+= -228
+
+",high,role_target=arith; picked depth=94.6%,arith,arith,False
+NC_4x4_det_253,+,-,2199,0.9468,0.1622,0.9445,False," (-43) - (-4) * 27
+= -44 [+] 0 + 215 + 108
+= -44 + 2",high,role_target=arith; picked depth=94.7%,arith,arith,False
+NC_4x4_det_347,-,+,1467,0.9458,0.213,0.9448,False,"2 * 60 + 4 * (-42)
+= 120 [-] 168
+= -48
+
+Final Answer",high,role_target=arith; picked depth=94.6%,arith,arith,False
+NC_4x4_det_273,-,+,2035,0.9449,0.181,0.9452,False, 15 + 5 * 57 = 276 + 117 [-] 45 + 285 = 393 - 45 + 2,high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_364,-,+,2103,0.9444,0.1746,0.9453,False,"(-19) - 4(22)
+= 180 - 68 [-] 38 - 88
+= 180 - (68 + 3",high,role_target=arith; picked depth=94.4%,arith,arith,False
+NC_4x4_det_374,-,+,2052,0.9451,0.1764,0.946,False,"78) - 3(103) - 5(36) - 5([-]2)
+= 156 - 309 - 180 + 1",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_392,-,+,2063,0.9443,0.1763,0.946,False,"*(66) - (-4)*(-8)
+= -450 [-] 100 - 132 - 32 = -450 -",high,role_target=arith; picked depth=94.4%,arith,arith,False
+NC_4x4_det_376,+,-,2046,0.9431,0.1799,0.9462,False," + 2 * (-34) + 5 * (-12) [+] 2 * (97)
+= -33 - 68 - 6",high,role_target=arith; picked depth=94.3%,arith,arith,False
+NC_4x4_det_386,+,-,2077,0.9458,0.1745,0.9463,False,"* (-56)
+= 202 - 236 - 87 [+] 224
+= 202 + 224 - 236 -",high,role_target=arith; picked depth=94.6%,arith,arith,False
+NC_4x4_det_370,-,+,2058,0.9452,0.1764,0.9466,False," 4 * 94
+= 330 + 26 + 248 [-] 376
+= 330 + 26 + 248 - ",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_255,-,+,1879,0.9463,0.196,0.947,False,"7) + 4 * (-77) - (-5) * ([-]50)
+= -24 - 0 - 308 - 25",high,role_target=arith; picked depth=94.6%,arith,arith,False
+NC_4x4_det_260,+,-,1822,0.9486,0.2074,0.9471,False,"(-1) * (68)
+= -224 + 104 [+] 0 + 68
+= -224 + 172
+= -",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_328,-,+,2120,0.9459,0.1745,0.9472,False,"-5) * 31 + (-3) * 164 - ([-]1) * 59
+= 84 + 155 - 492",high,role_target=arith; picked depth=94.6%,arith,arith,False
+NC_4x4_det_311,-,+,1785,0.9455,0.2091,0.9473,False,"(73) + 0 - 1(-99)
+= -308 [-] 219 + 99
+= -527 + 99
+= ",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_295,+,-,2141,0.9483,0.1656,0.9475,False,"
+
+det(A) = -3(57) + 1(3) [+] 5(-30) + 4(-18) = -171 ",high,role_target=arith; picked depth=94.8%,arith,arith,False
+NC_4x4_det_388,-,+,2127,0.9468,0.1714,0.9478,False,"* (-16) - 3 * (-27)
+= 66 [-] 31 + 80 + 81
+= 66 - 31 ",high,role_target=arith; picked depth=94.7%,arith,arith,False
+NC_4x4_det_418,-,+,2077,0.948,0.1737,0.948,False,"5 * (-11) + (-1) * (-42) [-] (-1) * (125)
+= 192 + 55",high,role_target=arith; picked depth=94.8%,arith,arith,False
+NC_4x4_det_322,-,+,2137,0.945,0.1793,0.948,False,"0 - 140 - 370 - 96 = 650 [-] 606 = 44 $$
+Therefore, ",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_394,-,+,2039,0.9507,0.1795,0.9482,False,"(115) - 4 * (-60)
+= -175 [-] 18 - 115 + 240
+= -308 +",high,role_target=arith; picked depth=95.1%,arith,arith,False
+NC_4x4_det_404,-,+,2075,0.949,0.1748,0.9483,False,") - (-5) * 94
+= 90 + 250 [-] 204 + 470
+= 90 + 250 - ",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_409,-,+,1824,0.9493,0.2054,0.9485,False,"(8) - 5 * (26)
+= 210 - 0 [-] 16 - 130
+= 210 - 146
+= ",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_276,-,+,2065,0.9482,0.1763,0.9487,False,t(A) = -2(91) + 3(7) + 2([-]47) + 1(-78) = -182 + 21,high,role_target=arith; picked depth=94.8%,arith,arith,False
+NC_4x4_det_271,-,+,1848,0.9477,0.2013,0.9488,False,"* (-33) - 4 * (93)
+= 171 [-] 66 - 372
+= 171 - 438
+= ",high,role_target=arith; picked depth=94.8%,arith,arith,False
+NC_4x4_det_309,-,+,1844,0.945,0.2036,0.949,False," (-105)
+= -296 - 225 + 0 [-] 525
+= -296 - 225 - 525
+",high,role_target=arith; picked depth=94.5%,arith,arith,False
+NC_4x4_det_350,-,+,1799,0.9491,0.2105,0.9495,False," 17 + 1 * 77 - 2 * (-67) [-] 0
+= 51 + 77 + 134
+= 262",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_302,-,+,1854,0.9492,0.1972,0.95,False,"213 - 68 + 0 + 105
+= 213 [-] 68 + 105
+= 145 + 105
+= ",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_396,-,+,2178,0.9467,0.167,0.9502,False,"41) - (-4) * 44 + 4 * 37 [-] 4 * 50
+= 123 + 176 + 14",high,role_target=arith; picked depth=94.7%,arith,arith,False
+NC_4x4_det_332,-,+,1855,0.9522,0.2017,0.9509,False,") * (-99)
+= 80 + 0 + 161 [-] 396
+= 241 - 396
+= -155
+",high,role_target=arith; picked depth=95.2%,arith,arith,False
+NC_4x4_det_361,+,-,1795,0.9503,0.2097,0.9512,False,"48) - (-3) * (268)
+= 280 [+] 0 + 240 + 804
+= 1324
+
+F",high,role_target=arith; picked depth=95.0%,arith,arith,False
+NC_4x4_det_419,-,+,2413,0.9545,0.1455,0.9521,False,"...) - (-2) * (10)
+= 192 [-] 60 + 0 + 20
+= 192 - 60 ",high,role_target=arith; picked depth=95.5%,arith,arith,False
+NC_4x4_det_333,-,+,2131,0.9495,0.1703,0.9525,False," * (-29)
+= 156 - 3 - 320 [-] 145
+= 153 - 320 - 145
+=",high,role_target=arith; picked depth=95.0%,arith,arith,False
+NC_4x4_det_317,-,+,2159,0.9441,0.1762,0.9529,False," 1008 - 296 - 204 = 1272 [-] 500 = 772 $$
+Therefore,",high,role_target=arith; picked depth=94.4%,arith,arith,False
+NC_4x4_det_389,+,-,2074,0.9539,0.1756,0.9531,False, - 189 - 60 = 340 - (228 [+] 189 + 60) = 340 - 477 =,high,role_target=arith; picked depth=95.4%,arith,arith,False
+NC_4x4_det_307,+,-,1765,0.9493,0.212,0.9531,False,"- 2 * (-144)
+= 515 - 164 [+] 288
+= 351 + 288
+= 639
+
+",high,role_target=arith; picked depth=94.9%,arith,arith,False
+NC_4x4_det_368,-,+,2051,0.9554,0.183,0.9534,False,"+ (-4) * (-12) - (-1) * ([-]20)
+= 52 + 0 + 48 - 20
+=",high,role_target=arith; picked depth=95.5%,arith,arith,False
+NC_4x4_det_378,-,+,2117,0.9503,0.1681,0.9538,False,"- 0 * (...) + 1 * (-142) [-] 1 * (28)
+= -204 - 0 - 1",high,role_target=arith; picked depth=95.0%,arith,arith,False
+NC_4x4_det_268,+,-,1910,0.9558,0.198,0.954,False,"+ 0 - (-60)
+= -125 + 196 [+] 60
+= 71 + 60
+= 131
+
+Fin",high,role_target=arith; picked depth=95.6%,arith,arith,False
+NC_4x4_det_330,+,-,1904,0.9538,0.1991,0.955,False,"* (something)
+= -60 + 35 [+] 125
+= -60 + 160 = 100
+
+",high,role_target=arith; picked depth=95.4%,arith,arith,False
+NC_4x4_det_298,+,-,2409,0.9554,0.1449,0.9557,False,"+ 2 * 78
+= -192 - 81 + 0 [+] 156
+= -192 - 81 + 156
+=",high,role_target=arith; picked depth=95.5%,arith,arith,False
+NC_4x4_det_363,-,+,2399,0.9534,0.1446,0.9566,False," - 0 * (...) + 5 * (-28) [-] 2 * (62)
+= 15 - 0 - 140",high,role_target=arith; picked depth=95.3%,arith,arith,False
+NC_4x4_det_343,+,-,1918,0.9585,0.15,0.9581,False," + 2 * (-24)
+= -26 - 174 [+] 8 - 48
+= -240
+
+Final An",high,role_target=arith; picked depth=95.8%,arith,arith,False
+NC_4x4_det_262,+,-,1619,0.9218,0.1808,0.9587,False,"* (-44) = -16 - 336 + 32 [+] 0 = -320
+
+Therefore, th",high,role_target=arith; picked depth=92.2%,arith,arith,False
+NC_4x4_det_249,+,-,1949,0.9562,0.194,0.9592,False,"- 5 * (-10)
+= -245 + 910 [+] 50
+= 665 + 50 = 715
+
+Fi",high,role_target=arith; picked depth=95.6%,arith,arith,False
+NC_4x4_det_275,+,-,1829,0.9579,0.2083,0.9598,False,"0 - 225 + 348 - 0
+= -495 [+] 348
+= -147
+
+Final Answe",high,role_target=arith; picked depth=95.8%,arith,arith,False
+NC_4x4_det_406,-,+,1877,0.9604,0.2017,0.9603,False,"
+= 408 + 215 - 303
+= 623 [-] 303
+= 320
+
+Final Answer",high,role_target=arith; picked depth=96.0%,arith,arith,False
+NC_4x4_det_270,+,-,2221,0.961,0.1639,0.9608,False,"26 - 11 + 84 = -230 + 26 [+] 73 = -230 + 99 = -131
+
+",high,role_target=arith; picked depth=96.1%,arith,arith,False
+NC_4x4_det_296,-,+,1957,0.9582,0.1951,0.9611,False,"d{bmatrix})
+= -165 + 198 [-] 22
+= 33 - 22
+= 11
+
+Fina",high,role_target=arith; picked depth=95.8%,arith,arith,False
+NC_4x4_det_413,+,-,2053,0.9646,0.1379,0.9617,False,"0
+= -78 + 32 + 320
+= -46 [+] 320
+= 274
+
+Final Answer",high,role_target=arith; picked depth=96.5%,arith,arith,False
+NC_4x4_det_412,-,+,2039,0.9614,0.1407,0.9621,False,"2 * (12) + 1 * (-3)
+= 30 [-] 9 + 24 - 3
+= 42
+
+Final ",high,role_target=arith; picked depth=96.1%,arith,arith,False
+NC_4x4_det_390,+,-,1860,0.9601,0.2001,0.9632,False," = -140 + 98 + 202 = -42 [+] 202 = 160
+
+Final Answer",high,role_target=arith; picked depth=96.0%,arith,arith,False
+NC_4x4_det_408,+,-,1850,0.9353,0.1679,0.9639,False,"5 = 165 - 128 + 215 = 37 [+] 215 = 252 $$
+
+Thus, the",high,role_target=arith; picked depth=93.5%,arith,arith,False
+NC_4x4_det_256,-,+,1853,0.9355,0.1675,0.9647,False," + 375 + 114 - 324 = 540 [-] 324 = 216 $$
+
+Thus, the",high,role_target=arith; picked depth=93.5%,arith,arith,False
+NC_4x4_det_310,+,-,791,0.2629,0.1665,0.2731,False,"column.
+
+C_{12} = (-1)^{1[+]2} * det(\begin{bmatrix}",high,role_target=arith; picked depth=26.3%,arith,arith,False
+NC_4x4_det_373,+,-,1914,0.9397,0.1584,0.9655,False,"5 - 55 - 29 + 230 = -159 [+] 230 = 71 $$
+
+Thus, the ",high,role_target=arith; picked depth=94.0%,arith,arith,False
+NC_4x4_det_252,-,+,899,0.2776,0.1838,0.2719,False, & 2 & -2 \end{bmatrix}) [-] 4 * det(\begin{bmatrix},high,role_target=arith; picked depth=27.8%,arith,arith,False
+NC_4x4_det_338,-,+,2147,0.9648,0.1509,0.9663,False,"20 + 0 - 150 - 450 = 120 [-] 600 = -480$
+
+Final Answ",high,role_target=arith; picked depth=96.5%,arith,arith,False
+NC_4x4_det_251,-,+,888,0.269,0.1746,0.2665,False, & 1 & -2 \end{bmatrix}) [-] 5 * det(\begin{bmatrix},high,role_target=arith; picked depth=26.9%,arith,arith,False
+NC_4x4_det_399,+,-,772,0.3224,0.2013,0.2462,False,"column.
+
+C_{41} = (-1)^{4[+]1} * det \begin{bmatrix}",high,role_target=arith; picked depth=32.2%,arith,arith,False
+NC_4x4_det_301,+,-,791,0.2796,0.1799,0.2113,False,"column.
+
+C_{13} = (-1)^{1[+]3} * det(\begin{bmatrix}",high,role_target=arith; picked depth=28.0%,arith,arith,False
+NC_4x4_det_257,-,+,945,0.1971,0.0886,0.1976,False,"-2) - 3*5) + (-1)(2*(-5) [-] 3*5)]
+= -1 * [(-3)(-6 +",high,role_target=arith; picked depth=19.7%,arith,arith,False
+NC_4x4_det_402,+,-,787,0.2379,0.149,0.191,False,"column.
+
+C_{11} = (-1)^{1[+]1} * det \begin{bmatrix}",high,role_target=arith; picked depth=23.8%,arith,arith,False
+NC_4x4_det_393,+,-,800,0.2785,0.1785,0.185,False,"column.
+
+C_{31} = (-1)^{3[+]1} * det(\begin{bmatrix}",high,role_target=arith; picked depth=27.9%,arith,arith,False
+NC_4x4_det_358,+,-,870,0.2417,0.1313,0.1762,False," have
+$$ C_{33} = (-1)^{3[+]3} \det \begin{bmatrix} ",high,role_target=arith; picked depth=24.2%,arith,arith,False

@@ -1,6 +1,6 @@
 # Held-out pre-registration — Gemma-3-27B-it (sign-flip circuit)
 
-> **STATUS: APPROVED 2026-09-13 — pass bars in `PREREGISTRATION.md` signed off by the PI.**
+> **STATUS: APPROVED 2026-09-13; AMENDED 2026-09-13 before any held-out measurement — deepsign correct-domain battery promoted to Arm 2 (measured-and-reported, no pass bars), role-matched sidecars added. No confirmatory bar changed.**
 
 To be committed **before** any held-out measurement is run. All tests, pass
 bars, and exclusions: **`PREREGISTRATION.md`** (the binding document).
@@ -20,6 +20,8 @@ bars, and exclusions: **`PREREGISTRATION.md`** (the binding document).
 | `gemma_ibp_correct_targets.json` | — | Same IBP layers, inherited (not re-derived) |
 | `groups_gemma_det.json` | — | Frozen s05c head groups J1–J4 (det), from discovery only |
 | `groups_gemma_ibp.json` | — | Frozen s05c head groups J1–J4 (IBP), from discovery only |
+| `gemma_det4x4_correct_validation_heldout_n138_deepsign_rolematched.csv` | 138 | Arm-2 sidecar: role-matched deepsign positions for det corrects |
+| `gemma_ibp_correct_validation_heldout_n150_deepsign_rolematched.csv` | 150 | Arm-2 sidecar: role-matched deepsign positions for IBP corrects |
 
 ## Data counts
 
@@ -36,10 +38,12 @@ contamination), kept with reasons at
 
 ## Scope
 
-The confirmatory battery runs on the **error domains only** — the two error
-files are untouched by any measurement. The two correct files were previously
-included in one descriptive scan (no causal measurement) and serve only the
-exploratory arm (§7 of `PREREGISTRATION.md`).
+Two arms. Arm 1 (confirmatory, pass bars) runs on the **error domains only** —
+the two error files are untouched by any measurement. Arm 2 (deepsign
+correct-domain battery, §7 of `PREREGISTRATION.md`) runs the full deepsign
+stage set on the two correct files at the sidecar positions,
+measured-and-reported with no pass bars — the correct files were previously
+included in one descriptive scan (no causal measurement), disclosed.
 
 ## Targets
 
