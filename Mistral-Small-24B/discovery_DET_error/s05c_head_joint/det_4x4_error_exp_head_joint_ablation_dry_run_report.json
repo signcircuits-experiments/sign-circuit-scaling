@@ -1,0 +1,151 @@
+{
+  "n_groups": 4,
+  "groups": [
+    {
+      "name": "J1_pushers",
+      "role": "pusher_pair",
+      "sites": [
+        [
+          38,
+          29
+        ],
+        [
+          38,
+          7
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 38,
+          "heads": [
+            29,
+            7
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J2_pushers_plus_corrector",
+      "role": "pushers_plus_corrector",
+      "sites": [
+        [
+          38,
+          29
+        ],
+        [
+          38,
+          7
+        ],
+        [
+          38,
+          30
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 38,
+          "heads": [
+            29,
+            7,
+            30
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J3_correctors",
+      "role": "correctors",
+      "sites": [
+        [
+          38,
+          30
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          36,
+          30
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 38,
+          "heads": [
+            30,
+            5
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 36,
+          "heads": [
+            30
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "name": "J4_ctrl",
+      "role": "control",
+      "sites": [
+        [
+          32,
+          22
+        ],
+        [
+          36,
+          9
+        ]
+      ],
+      "checks": [
+        {
+          "layer": 32,
+          "heads": [
+            22
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        },
+        {
+          "layer": 36,
+          "heads": [
+            9
+          ],
+          "module_class": "Linear",
+          "in_features": 4096,
+          "expected_in_features": 4096,
+          "heads_out_of_bounds": [],
+          "hook_registerable": true
+        }
+      ],
+      "status": "OK"
+    }
+  ]
+}

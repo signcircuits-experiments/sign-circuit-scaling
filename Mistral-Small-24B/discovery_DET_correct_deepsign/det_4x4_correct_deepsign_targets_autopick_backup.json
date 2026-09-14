@@ -1,0 +1,107 @@
+{
+  "model": "mistral",
+  "domain": "det_4x4_correct_deepsign",
+  "n_layers": 40,
+  "human_reviewed": true,
+  "habit_layers": [
+    37,
+    38,
+    39
+  ],
+  "check_layer": 32,
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    31,
+    37,
+    38
+  ],
+  "late_window_start": 30,
+  "n_cases": {
+    "total": 78,
+    "emb_peak": 0,
+    "late_peak": 78,
+    "minus_writers": 57,
+    "plus_writers": 21
+  },
+  "emb_peak_ids": [],
+  "peak_layer_histogram": {
+    "10": 2,
+    "11": 3,
+    "13": 1,
+    "29": 1,
+    "30": 1,
+    "32": 4,
+    "33": 1,
+    "36": 2,
+    "38": 21,
+    "39": 42
+  },
+  "sign_token_modes": [
+    {
+      "wrong_sign_tok": 1462,
+      "correct_sign_tok": 1867,
+      "written_sign": "-",
+      "n": 31
+    },
+    {
+      "wrong_sign_tok": 1045,
+      "correct_sign_tok": 1043,
+      "written_sign": "-",
+      "n": 26
+    },
+    {
+      "wrong_sign_tok": 1867,
+      "correct_sign_tok": 1462,
+      "written_sign": "+",
+      "n": 18
+    },
+    {
+      "wrong_sign_tok": 1043,
+      "correct_sign_tok": 1045,
+      "written_sign": "+",
+      "n": 3
+    }
+  ],
+  "evidence_mean_mlp_dla": {
+    "late_all": {
+      "30": 0.1191,
+      "31": -0.0318,
+      "32": 0.0884,
+      "33": 0.0985,
+      "34": 0.5928,
+      "35": 0.3529,
+      "36": 0.3264,
+      "37": 1.4545,
+      "38": 1.7234,
+      "39": 0.9541
+    },
+    "late_minus": {
+      "30": 0.086,
+      "31": -0.0052,
+      "32": -0.0431,
+      "33": 0.2852,
+      "34": 0.8381,
+      "35": 0.4758,
+      "36": 0.2529,
+      "37": 1.3228,
+      "38": 1.6869,
+      "39": 0.8234
+    },
+    "late_plus": {
+      "30": 0.209,
+      "31": -0.1041,
+      "32": 0.4454,
+      "33": -0.4082,
+      "34": -0.0728,
+      "35": 0.0194,
+      "36": 0.5258,
+      "37": 1.8117,
+      "38": 1.8224,
+      "39": 1.3087
+    }
+  },
+  "frozen_source": "mistral_targets_frozen.json (PI-approved 2026-09-11)"
+}

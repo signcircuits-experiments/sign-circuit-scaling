@@ -1,0 +1,3122 @@
+{
+  "ibp_ptc_n7_b79": {
+    "id": "ibp_ptc_n7_b79",
+    "domain": "ibp_error",
+    "baseline_ld": 2.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.875,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n10_b31": {
+    "id": "ibp_pts_n10_b31",
+    "domain": "ibp_error",
+    "baseline_ld": 2.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n10_b149": {
+    "id": "ibp_ptc_n10_b149",
+    "domain": "ibp_error",
+    "baseline_ld": -0.375,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -0.375,
+        "edit_ld": -0.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n15_b71": {
+    "id": "ibp_pts_n15_b71",
+    "domain": "ibp_error",
+    "baseline_ld": 0.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b283": {
+    "id": "ibp_ptc_n7_b283",
+    "domain": "ibp_error",
+    "baseline_ld": 8.6719,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.375,
+        "delta_ld": -0.2969,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.7188,
+        "delta_ld": 0.0469,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.75,
+        "delta_ld": 0.0781,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.5312,
+        "delta_ld": -0.1406,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.8125,
+        "delta_ld": 0.1406,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.7031,
+        "delta_ld": 0.0312,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.6562,
+        "delta_ld": -0.0156,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 8.6719,
+        "edit_ld": 8.7031,
+        "delta_ld": 0.0312,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n11_b173": {
+    "id": "ibp_pts_n11_b173",
+    "domain": "ibp_error",
+    "baseline_ld": -4.375,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.625,
+        "delta_ld": -0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -4.375,
+        "edit_ld": -4.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n10_b193": {
+    "id": "ibp_ptc_n10_b193",
+    "domain": "ibp_error",
+    "baseline_ld": 3.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n14_b79": {
+    "id": "ibp_pts_n14_b79",
+    "domain": "ibp_error",
+    "baseline_ld": 2.125,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.375,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b107": {
+    "id": "ibp_ptc_n5_b107",
+    "domain": "ibp_error",
+    "baseline_ld": 3.875,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.875,
+        "edit_ld": 4.0,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b89": {
+    "id": "ibp_ptc_n5_b89",
+    "domain": "ibp_error",
+    "baseline_ld": 3.0,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.125,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.25,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n11_b211": {
+    "id": "ibp_pts_n11_b211",
+    "domain": "ibp_error",
+    "baseline_ld": 2.125,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.125,
+        "edit_ld": 2.25,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b149": {
+    "id": "ibp_ptc_n5_b149",
+    "domain": "ibp_error",
+    "baseline_ld": 3.75,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.625,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b157": {
+    "id": "ibp_ptc_n7_b157",
+    "domain": "ibp_error",
+    "baseline_ld": 4.75,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 4.75,
+        "edit_ld": 4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n11_b113": {
+    "id": "ibp_pts_n11_b113",
+    "domain": "ibp_error",
+    "baseline_ld": -4.75,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.875,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.875,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -4.75,
+        "edit_ld": -5.0,
+        "delta_ld": -0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -4.75,
+        "edit_ld": -4.875,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b227": {
+    "id": "ibp_ptc_n5_b227",
+    "domain": "ibp_error",
+    "baseline_ld": 7.9688,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.6562,
+        "delta_ld": -0.3125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.9062,
+        "delta_ld": -0.0625,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 7.9688,
+        "edit_ld": 8.0312,
+        "delta_ld": 0.0625,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.7812,
+        "delta_ld": -0.1875,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.9688,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.9062,
+        "delta_ld": -0.0625,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.9375,
+        "delta_ld": -0.0312,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 7.9688,
+        "edit_ld": 7.9688,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b89": {
+    "id": "ibp_ptc_n7_b89",
+    "domain": "ibp_error",
+    "baseline_ld": 3.5,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.75,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.75,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b179": {
+    "id": "ibp_ptc_n5_b179",
+    "domain": "ibp_error",
+    "baseline_ld": 4.875,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.625,
+        "delta_ld": -0.25,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.875,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 4.875,
+        "edit_ld": 4.625,
+        "delta_ld": -0.25,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n13_b47": {
+    "id": "ibp_pts_n13_b47",
+    "domain": "ibp_error",
+    "baseline_ld": 0.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 0.625,
+        "edit_ld": 0.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n8_b61": {
+    "id": "ibp_pts_n8_b61",
+    "domain": "ibp_error",
+    "baseline_ld": 0.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n16_b49": {
+    "id": "ibp_ptc_n16_b49",
+    "domain": "ibp_error",
+    "baseline_ld": -0.125,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.25,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b59": {
+    "id": "ibp_ptc_n5_b59",
+    "domain": "ibp_error",
+    "baseline_ld": 13.5625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.625,
+        "delta_ld": 0.0625,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.1875,
+        "delta_ld": -0.375,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.25,
+        "delta_ld": -0.3125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.5,
+        "delta_ld": -0.0625,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.625,
+        "delta_ld": 0.0625,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 13.5625,
+        "edit_ld": 13.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n15_b1": {
+    "id": "ibp_ptc_n15_b1",
+    "domain": "ibp_error",
+    "baseline_ld": 7.5625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.0,
+        "delta_ld": -0.5625,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.4375,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.375,
+        "delta_ld": -0.1875,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.25,
+        "delta_ld": -0.3125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.5,
+        "delta_ld": -0.0625,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 7.5625,
+        "edit_ld": 7.5625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n7_b37": {
+    "id": "ibp_pts_n7_b37",
+    "domain": "ibp_error",
+    "baseline_ld": -2.75,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -2.75,
+        "edit_ld": -2.625,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n12_b1": {
+    "id": "ibp_pts_n12_b1",
+    "domain": "ibp_error",
+    "baseline_ld": 3.0,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 2.875,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.125,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.0,
+        "edit_ld": 3.0,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n15_b39": {
+    "id": "ibp_pts_n15_b39",
+    "domain": "ibp_error",
+    "baseline_ld": 1.375,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 1.375,
+        "edit_ld": 1.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n7_b67": {
+    "id": "ibp_pts_n7_b67",
+    "domain": "ibp_error",
+    "baseline_ld": -3.625,
+    "is_error_case": false,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": -3.625,
+        "edit_ld": -3.75,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n16_b67": {
+    "id": "ibp_pts_n16_b67",
+    "domain": "ibp_error",
+    "baseline_ld": 2.75,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.875,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.75,
+        "edit_ld": 2.75,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b7": {
+    "id": "ibp_ptc_n7_b7",
+    "domain": "ibp_error",
+    "baseline_ld": 3.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.875,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b211": {
+    "id": "ibp_ptc_n7_b211",
+    "domain": "ibp_error",
+    "baseline_ld": 2.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b127": {
+    "id": "ibp_ptc_n7_b127",
+    "domain": "ibp_error",
+    "baseline_ld": 3.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n7_b307": {
+    "id": "ibp_ptc_n7_b307",
+    "domain": "ibp_error",
+    "baseline_ld": 2.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b79": {
+    "id": "ibp_ptc_n5_b79",
+    "domain": "ibp_error",
+    "baseline_ld": 3.5,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.375,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n13_b51": {
+    "id": "ibp_ptc_n13_b51",
+    "domain": "ibp_error",
+    "baseline_ld": 2.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n12_b39": {
+    "id": "ibp_pts_n12_b39",
+    "domain": "ibp_error",
+    "baseline_ld": 3.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.125,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.25,
+        "edit_ld": 3.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_pts_n12_b43": {
+    "id": "ibp_pts_n12_b43",
+    "domain": "ibp_error",
+    "baseline_ld": 2.25,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.375,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b103": {
+    "id": "ibp_ptc_n5_b103",
+    "domain": "ibp_error",
+    "baseline_ld": 3.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.875,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.75,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.875,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.625,
+        "edit_ld": 3.875,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n11_b179": {
+    "id": "ibp_ptc_n11_b179",
+    "domain": "ibp_error",
+    "baseline_ld": 2.625,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.625,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 2.625,
+        "edit_ld": 2.5,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b199": {
+    "id": "ibp_ptc_n5_b199",
+    "domain": "ibp_error",
+    "baseline_ld": 3.375,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.625,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.625,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.625,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.625,
+        "delta_ld": 0.25,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      }
+    }
+  },
+  "ibp_ptc_n5_b73": {
+    "id": "ibp_ptc_n5_b73",
+    "domain": "ibp_error",
+    "baseline_ld": 3.375,
+    "is_error_case": true,
+    "sites": {
+      "L38_H7_push": {
+        "layer": 38,
+        "head": 7,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H6_push": {
+        "layer": 38,
+        "head": 6,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.25,
+        "delta_ld": -0.125,
+        "self_repair": {}
+      },
+      "L38_H5_corr": {
+        "layer": 38,
+        "head": 5,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H28_corr": {
+        "layer": 38,
+        "head": 28,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L38_H30_corr": {
+        "layer": 38,
+        "head": 30,
+        "role": "corrector",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L38_H4_push": {
+        "layer": 38,
+        "head": 4,
+        "role": "pusher",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      },
+      "L39_H16_ctrl": {
+        "layer": 39,
+        "head": 16,
+        "role": "control",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "self_repair": {}
+      },
+      "L32_H26_ctrl": {
+        "layer": 32,
+        "head": 26,
+        "role": "control",
+        "baseline_ld": 3.375,
+        "edit_ld": 3.5,
+        "delta_ld": 0.125,
+        "self_repair": {}
+      }
+    }
+  }
+}

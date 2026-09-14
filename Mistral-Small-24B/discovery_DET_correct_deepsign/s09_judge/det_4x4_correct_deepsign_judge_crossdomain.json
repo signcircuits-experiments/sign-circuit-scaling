@@ -1,0 +1,3218 @@
+{
+  "meta": {
+    "n_questions": 78,
+    "gammas": [
+      1.5,
+      2.0,
+      3.0
+    ],
+    "domain": "det_4x4_correct_deepsign",
+    "exploratory": false,
+    "candidates_tested": [
+      "L32_mlp",
+      "L15_mlp"
+    ],
+    "l77_dropped": "resolved in an earlier run: L77.attn near-null, L77.mlp no fixes",
+    "prediction": "fixes at gamma=3 in 5x5; IBP exploratory (n=10). DLA-split: fixes concentrate where L79 DLA already opposes written sign."
+  },
+  "results": {
+    "NC_4x4_det_1300": {
+      "id": "NC_4x4_det_1300",
+      "written_sign": "+",
+      "baseline_ld": 15.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 15.0,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 14.75,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 14.25,
+            "delta_ld": -1.0,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 15.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 14.875,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 14.25,
+            "delta_ld": -1.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_598": {
+      "id": "NC_4x4_det_598",
+      "written_sign": "-",
+      "baseline_ld": 8.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.4531,
+            "delta_ld": -0.0469,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.3281,
+            "delta_ld": -0.1719,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.8594,
+            "delta_ld": -0.6406,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 8.2344,
+            "delta_ld": -0.2656,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.0156,
+            "delta_ld": -0.4844,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.0938,
+            "delta_ld": -1.4062,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1092": {
+      "id": "NC_4x4_det_1092",
+      "written_sign": "-",
+      "baseline_ld": 7.5625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.3438,
+            "delta_ld": -0.2188,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.0938,
+            "delta_ld": -0.4688,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.75,
+            "delta_ld": -0.8125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.4375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -0.1875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.3438,
+            "delta_ld": -0.2188,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1669": {
+      "id": "NC_4x4_det_1669",
+      "written_sign": "-",
+      "baseline_ld": 10.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 10.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_022": {
+      "id": "C_4x4_det_022",
+      "written_sign": "-",
+      "baseline_ld": 6.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.25,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.875,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_023": {
+      "id": "C_4x4_det_023",
+      "written_sign": "+",
+      "baseline_ld": 4.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.75,
+            "delta_ld": 0.75,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.75,
+            "delta_ld": 1.75,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.0,
+            "delta_ld": -1.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_003": {
+      "id": "NC_4x4_det_003",
+      "written_sign": "+",
+      "baseline_ld": 7.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.625,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.125,
+            "delta_ld": 1.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.625,
+            "delta_ld": 2.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.25,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.375,
+            "delta_ld": -1.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_270": {
+      "id": "NC_4x4_det_270",
+      "written_sign": "-",
+      "baseline_ld": 7.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.5625,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.6875,
+            "delta_ld": 0.1875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.4375,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.25,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1716": {
+      "id": "NC_4x4_det_1716",
+      "written_sign": "-",
+      "baseline_ld": 7.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.75,
+            "delta_ld": -1.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1471": {
+      "id": "NC_4x4_det_1471",
+      "written_sign": "-",
+      "baseline_ld": 6.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.75,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.125,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.125,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_568": {
+      "id": "NC_4x4_det_568",
+      "written_sign": "-",
+      "baseline_ld": -3.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -3.625,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -3.625,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -3.625,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -2.875,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -2.0,
+            "delta_ld": 1.75,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -1.375,
+            "delta_ld": 2.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1168": {
+      "id": "NC_4x4_det_1168",
+      "written_sign": "+",
+      "baseline_ld": 8.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.75,
+            "delta_ld": 0.75,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.375,
+            "delta_ld": 1.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.625,
+            "delta_ld": 2.625,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -0.625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.375,
+            "delta_ld": -1.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_024": {
+      "id": "C_4x4_det_024",
+      "written_sign": "-",
+      "baseline_ld": 8.0625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.125,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.125,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.5625,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.9375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.6875,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.8125,
+            "delta_ld": -1.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_065": {
+      "id": "NC_4x4_det_065",
+      "written_sign": "+",
+      "baseline_ld": 6.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.25,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.5,
+            "delta_ld": -1.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.375,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.25,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.375,
+            "delta_ld": -1.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0804": {
+      "id": "NC_4x4_det_0804",
+      "written_sign": "-",
+      "baseline_ld": 9.875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 10.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.0938,
+            "delta_ld": 0.2188,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.1875,
+            "delta_ld": 0.3125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.9375,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.0625,
+            "delta_ld": 0.1875,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_057": {
+      "id": "NC_4x4_det_057",
+      "written_sign": "-",
+      "baseline_ld": 7.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_259": {
+      "id": "NC_4x4_det_259",
+      "written_sign": "-",
+      "baseline_ld": 9.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 9.8125,
+            "delta_ld": 0.1875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.7812,
+            "delta_ld": 0.1562,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.5625,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.6562,
+            "delta_ld": 0.0312,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.4688,
+            "delta_ld": -0.1562,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_799": {
+      "id": "NC_4x4_det_799",
+      "written_sign": "-",
+      "baseline_ld": 4.1875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.5234,
+            "delta_ld": 0.3359,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.8242,
+            "delta_ld": 0.6367,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.2617,
+            "delta_ld": 1.0742,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.2969,
+            "delta_ld": 0.1094,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.3047,
+            "delta_ld": 0.1172,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.1328,
+            "delta_ld": -0.0547,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1080": {
+      "id": "NC_4x4_det_1080",
+      "written_sign": "+",
+      "baseline_ld": 6.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.625,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.75,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.0,
+            "delta_ld": 0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.5,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.75,
+            "delta_ld": -0.75,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_625": {
+      "id": "NC_4x4_det_625",
+      "written_sign": "-",
+      "baseline_ld": 5.5625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 5.4375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.3125,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.125,
+            "delta_ld": -0.4375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 5.5,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.375,
+            "delta_ld": -0.1875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.9375,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_566": {
+      "id": "NC_4x4_det_566",
+      "written_sign": "+",
+      "baseline_ld": 3.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.875,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.25,
+            "delta_ld": 0.75,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.625,
+            "delta_ld": 1.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.25,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_009": {
+      "id": "NC_4x4_det_009",
+      "written_sign": "-",
+      "baseline_ld": 11.5625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 11.8125,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.8125,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.625,
+            "delta_ld": 0.0625,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 11.5312,
+            "delta_ld": -0.0312,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.3438,
+            "delta_ld": -0.2188,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.8125,
+            "delta_ld": -0.75,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0815": {
+      "id": "NC_4x4_det_0815",
+      "written_sign": "-",
+      "baseline_ld": 2.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 1.75,
+            "delta_ld": -0.75,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 1.125,
+            "delta_ld": -1.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -0.375,
+            "delta_ld": -2.875,
+            "fixed": true
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 2.875,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.0625,
+            "delta_ld": 0.5625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.5625,
+            "delta_ld": 1.0625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_025": {
+      "id": "C_4x4_det_025",
+      "written_sign": "+",
+      "baseline_ld": 8.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.875,
+            "delta_ld": -1.125,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_133": {
+      "id": "NC_4x4_det_133",
+      "written_sign": "-",
+      "baseline_ld": 6.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.75,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.875,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.375,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1588": {
+      "id": "NC_4x4_det_1588",
+      "written_sign": "+",
+      "baseline_ld": 11.875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 11.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.5,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.0,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 12.125,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.625,
+            "delta_ld": -1.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1690": {
+      "id": "NC_4x4_det_1690",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 8.5,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.375,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.125,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1540": {
+      "id": "NC_4x4_det_1540",
+      "written_sign": "-",
+      "baseline_ld": 2.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.125,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.375,
+            "delta_ld": 0.625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.0,
+            "delta_ld": 1.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 2.125,
+            "delta_ld": -0.625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 1.625,
+            "delta_ld": -1.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 1.0,
+            "delta_ld": -1.75,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1855": {
+      "id": "NC_4x4_det_1855",
+      "written_sign": "-",
+      "baseline_ld": -4.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -4.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -4.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -4.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -3.5,
+            "delta_ld": 0.75,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -2.875,
+            "delta_ld": 1.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -2.125,
+            "delta_ld": 2.125,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0816": {
+      "id": "NC_4x4_det_0816",
+      "written_sign": "+",
+      "baseline_ld": 2.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 2.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 2.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 2.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 2.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 2.375,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 2.0,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_024": {
+      "id": "NC_4x4_det_024",
+      "written_sign": "-",
+      "baseline_ld": 7.375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.375,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.0,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.0,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1001": {
+      "id": "NC_4x4_det_1001",
+      "written_sign": "+",
+      "baseline_ld": -1.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -0.875,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -0.875,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -0.75,
+            "delta_ld": 0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -1.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -1.125,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -1.625,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_447": {
+      "id": "NC_4x4_det_447",
+      "written_sign": "-",
+      "baseline_ld": 18.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 18.3125,
+            "delta_ld": 0.3125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 18.0625,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 17.8125,
+            "delta_ld": -0.1875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 18.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 18.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 17.9375,
+            "delta_ld": -0.0625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1323": {
+      "id": "NC_4x4_det_1323",
+      "written_sign": "-",
+      "baseline_ld": 7.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.75,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1556": {
+      "id": "NC_4x4_det_1556",
+      "written_sign": "-",
+      "baseline_ld": -4.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -4.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -4.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -4.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -3.25,
+            "delta_ld": 1.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -2.375,
+            "delta_ld": 1.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -1.875,
+            "delta_ld": 2.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_732": {
+      "id": "NC_4x4_det_732",
+      "written_sign": "-",
+      "baseline_ld": 4.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.4258,
+            "delta_ld": 0.3008,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.7305,
+            "delta_ld": 0.6055,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.1641,
+            "delta_ld": 1.0391,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.2305,
+            "delta_ld": 0.1055,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.2734,
+            "delta_ld": 0.1484,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.1328,
+            "delta_ld": 0.0078,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_044": {
+      "id": "NC_4x4_det_044",
+      "written_sign": "-",
+      "baseline_ld": 3.9375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.75,
+            "delta_ld": -0.1875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.5625,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.125,
+            "delta_ld": -0.8125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.8125,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.6875,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.875,
+            "delta_ld": -0.0625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_075": {
+      "id": "NC_4x4_det_075",
+      "written_sign": "+",
+      "baseline_ld": 14.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 14.875,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 14.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 13.875,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 14.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 14.75,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 15.625,
+            "delta_ld": 0.875,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_018": {
+      "id": "NC_4x4_det_018",
+      "written_sign": "-",
+      "baseline_ld": 7.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.6875,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.6875,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.5938,
+            "delta_ld": -0.0312,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.6875,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.6875,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.6562,
+            "delta_ld": 0.0312,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_131": {
+      "id": "NC_4x4_det_131",
+      "written_sign": "-",
+      "baseline_ld": 3.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.5,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.5,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.375,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.25,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1940": {
+      "id": "NC_4x4_det_1940",
+      "written_sign": "-",
+      "baseline_ld": 7.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_038": {
+      "id": "C_4x4_det_038",
+      "written_sign": "-",
+      "baseline_ld": 8.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.25,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.875,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_094": {
+      "id": "NC_4x4_det_094",
+      "written_sign": "+",
+      "baseline_ld": 8.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.0,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.0,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.75,
+            "delta_ld": -0.75,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 8.125,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.625,
+            "delta_ld": -0.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.125,
+            "delta_ld": -2.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1929": {
+      "id": "NC_4x4_det_1929",
+      "written_sign": "-",
+      "baseline_ld": 2.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 2.875,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.125,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.25,
+            "delta_ld": 0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 2.625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 2.375,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 1.75,
+            "delta_ld": -1.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_035": {
+      "id": "C_4x4_det_035",
+      "written_sign": "+",
+      "baseline_ld": 12.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 12.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 12.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 12.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 12.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_176": {
+      "id": "NC_4x4_det_176",
+      "written_sign": "-",
+      "baseline_ld": 7.375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 7.5,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.625,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.0,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.375,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1806": {
+      "id": "NC_4x4_det_1806",
+      "written_sign": "+",
+      "baseline_ld": 10.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 9.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.75,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.5,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.25,
+            "delta_ld": -1.75,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1107": {
+      "id": "NC_4x4_det_1107",
+      "written_sign": "+",
+      "baseline_ld": 8.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 9.0,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.25,
+            "delta_ld": 0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.625,
+            "delta_ld": 0.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 8.625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.375,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.375,
+            "delta_ld": -1.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1926": {
+      "id": "NC_4x4_det_1926",
+      "written_sign": "-",
+      "baseline_ld": 6.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.1406,
+            "delta_ld": -0.1094,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.9062,
+            "delta_ld": -0.3438,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.4375,
+            "delta_ld": -0.8125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.1875,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.125,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1975": {
+      "id": "NC_4x4_det_1975",
+      "written_sign": "-",
+      "baseline_ld": 4.875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.875,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.125,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.875,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.875,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_058": {
+      "id": "NC_4x4_det_058",
+      "written_sign": "-",
+      "baseline_ld": 2.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 1.875,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 1.75,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 1.25,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 1.625,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 1.125,
+            "delta_ld": -1.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 0.125,
+            "delta_ld": -2.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_045": {
+      "id": "C_4x4_det_045",
+      "written_sign": "-",
+      "baseline_ld": 3.9375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.875,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.75,
+            "delta_ld": -0.1875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.6875,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.875,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.8125,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.75,
+            "delta_ld": -0.1875,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0892": {
+      "id": "NC_4x4_det_0892",
+      "written_sign": "-",
+      "baseline_ld": 7.1875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.9688,
+            "delta_ld": -0.2188,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.6875,
+            "delta_ld": -0.5,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.9375,
+            "delta_ld": -1.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.0625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.0625,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": -0.5625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1060": {
+      "id": "NC_4x4_det_1060",
+      "written_sign": "+",
+      "baseline_ld": 10.375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 10.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.875,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 10.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.5,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1040": {
+      "id": "NC_4x4_det_1040",
+      "written_sign": "-",
+      "baseline_ld": -3.5,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -3.5,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -3.375,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -3.25,
+            "delta_ld": 0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -2.5,
+            "delta_ld": 1.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -1.75,
+            "delta_ld": 1.75,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -1.125,
+            "delta_ld": 2.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1547": {
+      "id": "NC_4x4_det_1547",
+      "written_sign": "+",
+      "baseline_ld": 9.75,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 9.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.375,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.125,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.375,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.125,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1796": {
+      "id": "NC_4x4_det_1796",
+      "written_sign": "-",
+      "baseline_ld": 8.0625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.0469,
+            "delta_ld": -0.0156,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.0,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 7.3906,
+            "delta_ld": -0.6719,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 7.8906,
+            "delta_ld": -0.1719,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 7.6406,
+            "delta_ld": -0.4219,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.8281,
+            "delta_ld": -1.2344,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1860": {
+      "id": "NC_4x4_det_1860",
+      "written_sign": "+",
+      "baseline_ld": 16.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 16.25,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 16.375,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 16.375,
+            "delta_ld": 0.375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 16.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 16.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 16.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_069": {
+      "id": "NC_4x4_det_069",
+      "written_sign": "-",
+      "baseline_ld": -3.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -3.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -3.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -3.5,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -3.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -3.125,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -3.375,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_056": {
+      "id": "NC_4x4_det_056",
+      "written_sign": "-",
+      "baseline_ld": 11.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 11.3125,
+            "delta_ld": 0.1875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.6562,
+            "delta_ld": 0.5312,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.875,
+            "delta_ld": 0.75,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 11.0312,
+            "delta_ld": -0.0938,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.0625,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 10.625,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0805": {
+      "id": "NC_4x4_det_0805",
+      "written_sign": "-",
+      "baseline_ld": 18.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 18.0625,
+            "delta_ld": -0.5625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 17.75,
+            "delta_ld": -0.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 16.75,
+            "delta_ld": -1.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 18.3125,
+            "delta_ld": -0.3125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 18.3125,
+            "delta_ld": -0.3125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 17.125,
+            "delta_ld": -1.5,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_534": {
+      "id": "NC_4x4_det_534",
+      "written_sign": "-",
+      "baseline_ld": 9.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 10.0,
+            "delta_ld": 0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 10.5,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.5,
+            "delta_ld": 1.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.5,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.75,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_128": {
+      "id": "NC_4x4_det_128",
+      "written_sign": "-",
+      "baseline_ld": 6.375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.375,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.5,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.625,
+            "delta_ld": 0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.375,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1529": {
+      "id": "NC_4x4_det_1529",
+      "written_sign": "-",
+      "baseline_ld": 4.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.457,
+            "delta_ld": 0.332,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.7695,
+            "delta_ld": 0.6445,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.1719,
+            "delta_ld": 1.0469,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.1914,
+            "delta_ld": 0.0664,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.2305,
+            "delta_ld": 0.1055,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.0547,
+            "delta_ld": -0.0703,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1792": {
+      "id": "NC_4x4_det_1792",
+      "written_sign": "-",
+      "baseline_ld": 12.0,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 12.5,
+            "delta_ld": 0.5,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 12.875,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 13.25,
+            "delta_ld": 1.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 12.0,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 11.625,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_225": {
+      "id": "NC_4x4_det_225",
+      "written_sign": "-",
+      "baseline_ld": 3.2188,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 3.4141,
+            "delta_ld": 0.1953,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.6562,
+            "delta_ld": 0.4375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.0273,
+            "delta_ld": 0.8086,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 3.3047,
+            "delta_ld": 0.0859,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.3594,
+            "delta_ld": 0.1406,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.2734,
+            "delta_ld": 0.0547,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0914": {
+      "id": "NC_4x4_det_0914",
+      "written_sign": "+",
+      "baseline_ld": 4.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.625,
+            "delta_ld": 0.5,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.0,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.125,
+            "delta_ld": 2.0,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.375,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.375,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_013": {
+      "id": "C_4x4_det_013",
+      "written_sign": "-",
+      "baseline_ld": 5.875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 5.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.625,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.625,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0862": {
+      "id": "NC_4x4_det_0862",
+      "written_sign": "+",
+      "baseline_ld": 4.375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.25,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.5,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.875,
+            "delta_ld": 0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.125,
+            "delta_ld": -0.25,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "C_4x4_det_044": {
+      "id": "C_4x4_det_044",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 8.5,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.4375,
+            "delta_ld": -0.1875,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.125,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 8.5625,
+            "delta_ld": -0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 8.5625,
+            "delta_ld": -0.0625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0807": {
+      "id": "NC_4x4_det_0807",
+      "written_sign": "-",
+      "baseline_ld": 4.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.25,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.25,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.375,
+            "delta_ld": 0.25,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 3.75,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.125,
+            "delta_ld": -1.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_1456": {
+      "id": "NC_4x4_det_1456",
+      "written_sign": "-",
+      "baseline_ld": 9.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 9.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.6875,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.2812,
+            "delta_ld": -0.3438,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 9.5312,
+            "delta_ld": -0.0938,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 9.4688,
+            "delta_ld": -0.1562,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 9.0625,
+            "delta_ld": -0.5625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_588": {
+      "id": "NC_4x4_det_588",
+      "written_sign": "-",
+      "baseline_ld": 6.2188,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.0,
+            "delta_ld": -0.2188,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.8438,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.3438,
+            "delta_ld": -0.875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.1875,
+            "delta_ld": -0.0312,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.0625,
+            "delta_ld": -0.1562,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.8438,
+            "delta_ld": -0.375,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0865": {
+      "id": "NC_4x4_det_0865",
+      "written_sign": "-",
+      "baseline_ld": 4.25,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 4.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.3125,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 4.4375,
+            "delta_ld": 0.1875,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 4.3125,
+            "delta_ld": 0.0625,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 4.25,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 3.625,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_738": {
+      "id": "NC_4x4_det_738",
+      "written_sign": "-",
+      "baseline_ld": 5.625,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 5.875,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.875,
+            "delta_ld": 0.25,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.25,
+            "delta_ld": 0.625,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 5.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.75,
+            "delta_ld": 0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.625,
+            "delta_ld": 0.0,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0852": {
+      "id": "NC_4x4_det_0852",
+      "written_sign": "-",
+      "baseline_ld": 6.875,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.875,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.75,
+            "delta_ld": -0.125,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.375,
+            "delta_ld": -0.5,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.5,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.5,
+            "delta_ld": -0.375,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 6.125,
+            "delta_ld": -0.75,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0833": {
+      "id": "NC_4x4_det_0833",
+      "written_sign": "-",
+      "baseline_ld": 6.4375,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": 6.1562,
+            "delta_ld": -0.2812,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 5.875,
+            "delta_ld": -0.5625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.0,
+            "delta_ld": -1.4375,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": 6.4688,
+            "delta_ld": 0.0312,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": 6.4062,
+            "delta_ld": -0.0312,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": 5.8125,
+            "delta_ld": -0.625,
+            "fixed": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_0870": {
+      "id": "NC_4x4_det_0870",
+      "written_sign": "-",
+      "baseline_ld": -4.125,
+      "boosts": {
+        "L32_mlp": {
+          "g1.5": {
+            "edit_ld": -4.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -4.125,
+            "delta_ld": 0.0,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -4.0,
+            "delta_ld": 0.125,
+            "fixed": false
+          }
+        },
+        "L15_mlp": {
+          "g1.5": {
+            "edit_ld": -3.25,
+            "delta_ld": 0.875,
+            "fixed": false
+          },
+          "g2.0": {
+            "edit_ld": -2.5,
+            "delta_ld": 1.625,
+            "fixed": false
+          },
+          "g3.0": {
+            "edit_ld": -1.875,
+            "delta_ld": 2.25,
+            "fixed": false
+          }
+        }
+      }
+    }
+  }
+}

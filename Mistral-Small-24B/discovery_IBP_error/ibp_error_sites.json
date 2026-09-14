@@ -1,0 +1,50 @@
+[
+  {
+    "layer": 38,
+    "head": 7,
+    "role": "pusher",
+    "name": "L38_H7_push"
+  },
+  {
+    "layer": 38,
+    "head": 6,
+    "role": "pusher",
+    "name": "L38_H6_push"
+  },
+  {
+    "layer": 38,
+    "head": 5,
+    "role": "corrector",
+    "name": "L38_H5_corr"
+  },
+  {
+    "layer": 38,
+    "head": 28,
+    "role": "corrector",
+    "name": "L38_H28_corr"
+  },
+  {
+    "layer": 38,
+    "head": 30,
+    "role": "corrector",
+    "name": "L38_H30_corr"
+  },
+  {
+    "layer": 38,
+    "head": 4,
+    "role": "pusher",
+    "name": "L38_H4_push"
+  },
+  {
+    "layer": 39,
+    "head": 16,
+    "role": "control",
+    "name": "L39_H16_ctrl"
+  },
+  {
+    "layer": 32,
+    "head": 26,
+    "role": "control",
+    "name": "L32_H26_ctrl"
+  }
+]

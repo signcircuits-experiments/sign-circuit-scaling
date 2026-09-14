@@ -1,0 +1,8186 @@
+{
+  "NC_4x4_det_1337": {
+    "id": "NC_4x4_det_1337",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 1.875,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 1.875,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 2.0,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 2.0,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1396": {
+    "id": "NC_4x4_det_1396",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.625,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 1.0,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1772": {
+    "id": "NC_4x4_det_1772",
+    "domain": "det_4x4_error",
+    "baseline_ld": 11.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 11.25,
+        "edit_ld": 8.0,
+        "delta_ld": -3.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 11.25,
+        "edit_ld": 8.625,
+        "delta_ld": -2.625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 11.25,
+        "edit_ld": 12.75,
+        "delta_ld": 1.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 11.25,
+        "edit_ld": 11.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1901": {
+    "id": "NC_4x4_det_1901",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.625,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 1.25,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1297": {
+    "id": "NC_4x4_det_1297",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.125,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 4.125,
+        "delta_ld": 0.625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_431": {
+    "id": "NC_4x4_det_431",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.5,
+        "edit_ld": 3.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0860": {
+    "id": "NC_4x4_det_0860",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.375,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.375,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.625,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_526": {
+    "id": "NC_4x4_det_526",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.625,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.625,
+        "edit_ld": -1.25,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.625,
+        "edit_ld": -1.375,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.625,
+        "edit_ld": -1.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.625,
+        "edit_ld": -1.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1919": {
+    "id": "NC_4x4_det_1919",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.5,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.5,
+        "edit_ld": -3.25,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.5,
+        "edit_ld": -3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.5,
+        "edit_ld": -3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.5,
+        "edit_ld": -3.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_249": {
+    "id": "NC_4x4_det_249",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.25,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.0,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.625,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_677": {
+    "id": "NC_4x4_det_677",
+    "domain": "det_4x4_error",
+    "baseline_ld": 4.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 4.5,
+        "edit_ld": 4.125,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 4.5,
+        "edit_ld": 4.25,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 4.5,
+        "edit_ld": 4.875,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 4.5,
+        "edit_ld": 4.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1315": {
+    "id": "NC_4x4_det_1315",
+    "domain": "det_4x4_error",
+    "baseline_ld": -6.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -6.875,
+        "edit_ld": -6.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -6.875,
+        "edit_ld": -6.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -6.875,
+        "edit_ld": -7.375,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -6.875,
+        "edit_ld": -6.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1220": {
+    "id": "NC_4x4_det_1220",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.25,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.0,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.75,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.25,
+        "edit_ld": -3.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1979": {
+    "id": "NC_4x4_det_1979",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 1.875,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.375,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_657": {
+    "id": "NC_4x4_det_657",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 3.125,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1000": {
+    "id": "NC_4x4_det_1000",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.875,
+        "edit_ld": 3.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.875,
+        "edit_ld": 3.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.875,
+        "edit_ld": 4.25,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.875,
+        "edit_ld": 4.125,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1455": {
+    "id": "NC_4x4_det_1455",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_0927": {
+    "id": "NC_4x4_det_0927",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.375,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.375,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -3.0,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1099": {
+    "id": "NC_4x4_det_1099",
+    "domain": "det_4x4_error",
+    "baseline_ld": 5.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 5.875,
+        "edit_ld": 5.625,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 5.875,
+        "edit_ld": 5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 5.875,
+        "edit_ld": 6.5,
+        "delta_ld": 0.625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 5.875,
+        "edit_ld": 5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1125": {
+    "id": "NC_4x4_det_1125",
+    "domain": "det_4x4_error",
+    "baseline_ld": -4.25,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -4.25,
+        "edit_ld": -3.75,
+        "delta_ld": 0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -4.25,
+        "edit_ld": -4.0,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -4.25,
+        "edit_ld": -4.875,
+        "delta_ld": -0.625,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -4.25,
+        "edit_ld": -4.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_0866": {
+    "id": "NC_4x4_det_0866",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.5,
+        "edit_ld": 2.25,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.5,
+        "edit_ld": 2.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.5,
+        "edit_ld": 2.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.5,
+        "edit_ld": 2.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1885": {
+    "id": "NC_4x4_det_1885",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.5,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_073": {
+    "id": "NC_4x4_det_073",
+    "domain": "det_4x4_error",
+    "baseline_ld": 7.625,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 7.625,
+        "edit_ld": 7.125,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 7.625,
+        "edit_ld": 7.375,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 7.625,
+        "edit_ld": 8.375,
+        "delta_ld": 0.75,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 7.625,
+        "edit_ld": 7.875,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0905": {
+    "id": "NC_4x4_det_0905",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.375,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_032": {
+    "id": "C_4x4_det_032",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.25,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.25,
+        "edit_ld": 0.125,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.25,
+        "edit_ld": 0.125,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.25,
+        "edit_ld": -0.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.25,
+        "edit_ld": -0.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1532": {
+    "id": "NC_4x4_det_1532",
+    "domain": "det_4x4_error",
+    "baseline_ld": 7.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 7.0,
+        "edit_ld": 5.8125,
+        "delta_ld": -1.1875,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 7.0,
+        "edit_ld": 6.1875,
+        "delta_ld": -0.8125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 7.0,
+        "edit_ld": 7.3125,
+        "delta_ld": 0.3125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 7.0,
+        "edit_ld": 7.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1243": {
+    "id": "NC_4x4_det_1243",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_0858": {
+    "id": "NC_4x4_det_0858",
+    "domain": "det_4x4_error",
+    "baseline_ld": -5.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_060": {
+    "id": "NC_4x4_det_060",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.375,
+        "edit_ld": -3.0,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.375,
+        "edit_ld": -3.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.375,
+        "edit_ld": -3.875,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.375,
+        "edit_ld": -3.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_084": {
+    "id": "NC_4x4_det_084",
+    "domain": "det_4x4_error",
+    "baseline_ld": -6.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -6.125,
+        "edit_ld": -5.875,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -6.125,
+        "edit_ld": -6.375,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -6.125,
+        "edit_ld": -6.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -6.125,
+        "edit_ld": -6.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1576": {
+    "id": "NC_4x4_det_1576",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.125,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.125,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_021": {
+    "id": "C_4x4_det_021",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.0,
+        "delta_ld": -0.25,
+        "flipped": true,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.125,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0950": {
+    "id": "NC_4x4_det_0950",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 1.625,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 1.75,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 2.5,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.125,
+        "edit_ld": 2.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_002": {
+    "id": "C_4x4_det_002",
+    "domain": "det_4x4_error",
+    "baseline_ld": -5.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -5.125,
+        "edit_ld": -5.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -5.125,
+        "edit_ld": -5.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -5.125,
+        "edit_ld": -5.625,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -5.125,
+        "edit_ld": -5.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_197": {
+    "id": "NC_4x4_det_197",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.5,
+        "delta_ld": 0.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.25,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.0,
+        "edit_ld": 2.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_785": {
+    "id": "NC_4x4_det_785",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.0,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.0,
+        "edit_ld": -0.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.0,
+        "edit_ld": -0.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.0,
+        "edit_ld": -0.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.0,
+        "edit_ld": -1.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_146": {
+    "id": "NC_4x4_det_146",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.0,
+        "edit_ld": 1.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.0,
+        "edit_ld": 0.875,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.0,
+        "edit_ld": 1.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.0,
+        "edit_ld": 1.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_479": {
+    "id": "NC_4x4_det_479",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.0,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.0,
+        "edit_ld": -2.125,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.0,
+        "edit_ld": -2.125,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.0,
+        "edit_ld": -2.25,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.0,
+        "edit_ld": -2.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1544": {
+    "id": "NC_4x4_det_1544",
+    "domain": "det_4x4_error",
+    "baseline_ld": 15.625,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 15.625,
+        "edit_ld": 12.25,
+        "delta_ld": -3.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 15.625,
+        "edit_ld": 12.875,
+        "delta_ld": -2.75,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 15.625,
+        "edit_ld": 16.875,
+        "delta_ld": 1.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 15.625,
+        "edit_ld": 15.625,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_303": {
+    "id": "NC_4x4_det_303",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.875,
+        "edit_ld": -3.5,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.875,
+        "edit_ld": -3.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.875,
+        "edit_ld": -4.375,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.875,
+        "edit_ld": -3.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1400": {
+    "id": "NC_4x4_det_1400",
+    "domain": "det_4x4_error",
+    "baseline_ld": -8.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -8.75,
+        "edit_ld": -7.75,
+        "delta_ld": 1.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -8.75,
+        "edit_ld": -8.125,
+        "delta_ld": 0.625,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -8.75,
+        "edit_ld": -10.125,
+        "delta_ld": -1.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -8.75,
+        "edit_ld": -8.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_0930": {
+    "id": "NC_4x4_det_0930",
+    "domain": "det_4x4_error",
+    "baseline_ld": 4.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 4.0,
+        "edit_ld": 3.625,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 4.0,
+        "edit_ld": 3.625,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 4.0,
+        "edit_ld": 4.125,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 4.0,
+        "edit_ld": 4.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0922": {
+    "id": "NC_4x4_det_0922",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.0,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.0,
+        "edit_ld": -2.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.0,
+        "edit_ld": -2.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.0,
+        "edit_ld": -3.375,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.0,
+        "edit_ld": -3.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_1419": {
+    "id": "NC_4x4_det_1419",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.75,
+        "edit_ld": 1.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.75,
+        "edit_ld": 1.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.75,
+        "edit_ld": 2.25,
+        "delta_ld": 0.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.75,
+        "edit_ld": 2.0,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_195": {
+    "id": "NC_4x4_det_195",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_396": {
+    "id": "NC_4x4_det_396",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.125,
+        "edit_ld": 1.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.125,
+        "edit_ld": 1.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.125,
+        "edit_ld": 1.375,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.125,
+        "edit_ld": 1.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_412": {
+    "id": "NC_4x4_det_412",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.625,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.625,
+        "edit_ld": -3.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.625,
+        "edit_ld": -3.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.625,
+        "edit_ld": -3.625,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "NC_4x4_det_201": {
+    "id": "NC_4x4_det_201",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_001": {
+    "id": "C_4x4_det_001",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.25,
+        "edit_ld": 0.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_002_ARCH": {
+    "id": "C_4x4_det_002_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.75,
+        "edit_ld": -3.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.75,
+        "edit_ld": -3.875,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.75,
+        "edit_ld": -4.125,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.75,
+        "edit_ld": -3.875,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_005_ARCH": {
+    "id": "C_4x4_det_005_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.625,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -3.125,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.625,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_006_ARCH": {
+    "id": "C_4x4_det_006_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.625,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.625,
+        "edit_ld": 0.8125,
+        "delta_ld": -2.8125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.625,
+        "edit_ld": 1.3125,
+        "delta_ld": -2.3125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.625,
+        "edit_ld": 4.5625,
+        "delta_ld": 0.9375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.625,
+        "edit_ld": 3.6875,
+        "delta_ld": 0.0625,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_007_ARCH": {
+    "id": "C_4x4_det_007_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.75,
+        "edit_ld": -0.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_008_ARCH": {
+    "id": "C_4x4_det_008_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": 6.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 6.5,
+        "edit_ld": 6.125,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 6.5,
+        "edit_ld": 6.25,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 6.5,
+        "edit_ld": 6.875,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 6.5,
+        "edit_ld": 6.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_011_ARCH": {
+    "id": "C_4x4_det_011_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.625,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.375,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.375,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.875,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.625,
+        "edit_ld": -2.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_012_ARCH": {
+    "id": "C_4x4_det_012_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": 5.0,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 5.0,
+        "edit_ld": 2.5,
+        "delta_ld": -2.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 5.0,
+        "edit_ld": 3.0625,
+        "delta_ld": -1.9375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 5.0,
+        "edit_ld": 5.4375,
+        "delta_ld": 0.4375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 5.0,
+        "edit_ld": 5.0,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_014_ARCH": {
+    "id": "C_4x4_det_014_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -3.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -3.125,
+        "edit_ld": -2.75,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -3.125,
+        "edit_ld": -2.875,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -3.125,
+        "edit_ld": -3.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -3.125,
+        "edit_ld": -3.0,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_015_ARCH": {
+    "id": "C_4x4_det_015_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_020": {
+    "id": "C_4x4_det_020",
+    "domain": "det_4x4_error",
+    "baseline_ld": 12.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 12.25,
+        "edit_ld": 9.5,
+        "delta_ld": -2.75,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 12.25,
+        "edit_ld": 10.0,
+        "delta_ld": -2.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 12.25,
+        "edit_ld": 13.625,
+        "delta_ld": 1.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 12.25,
+        "edit_ld": 12.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_021_ARCH": {
+    "id": "C_4x4_det_021_ARCH",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.375,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.375,
+        "edit_ld": 0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.375,
+        "edit_ld": 0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.375,
+        "edit_ld": 0.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.375,
+        "edit_ld": 0.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_051": {
+    "id": "C_4x4_det_051",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.5,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_055": {
+    "id": "C_4x4_det_055",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.375,
+        "edit_ld": -1.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_056": {
+    "id": "C_4x4_det_056",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.125,
+        "edit_ld": 0.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.125,
+        "edit_ld": 0.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.125,
+        "edit_ld": 0.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.125,
+        "edit_ld": 0.0,
+        "delta_ld": -0.125,
+        "flipped": true,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_058": {
+    "id": "C_4x4_det_058",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.25,
+        "edit_ld": 2.125,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.25,
+        "edit_ld": 2.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.25,
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_062": {
+    "id": "C_4x4_det_062",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.5,
+        "edit_ld": 1.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.5,
+        "edit_ld": 1.375,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.5,
+        "edit_ld": 1.625,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.5,
+        "edit_ld": 1.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_067": {
+    "id": "C_4x4_det_067",
+    "domain": "det_4x4_error",
+    "baseline_ld": -1.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -1.875,
+        "edit_ld": -1.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -1.875,
+        "edit_ld": -1.75,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -1.875,
+        "edit_ld": -2.125,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -1.875,
+        "edit_ld": -1.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_068": {
+    "id": "C_4x4_det_068",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.375,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.75,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.375,
+        "edit_ld": 2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_073": {
+    "id": "C_4x4_det_073",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.75,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.375,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -3.125,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.75,
+        "edit_ld": -2.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_076": {
+    "id": "C_4x4_det_076",
+    "domain": "det_4x4_error",
+    "baseline_ld": 2.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.625,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 3.25,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 2.875,
+        "edit_ld": 2.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_080": {
+    "id": "C_4x4_det_080",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.75,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_086": {
+    "id": "C_4x4_det_086",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_087": {
+    "id": "C_4x4_det_087",
+    "domain": "det_4x4_error",
+    "baseline_ld": -5.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.375,
+        "delta_ld": 0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.5,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -6.75,
+        "delta_ld": -0.875,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_090": {
+    "id": "C_4x4_det_090",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.875,
+        "edit_ld": -2.5,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.875,
+        "edit_ld": -2.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.875,
+        "edit_ld": -3.375,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.875,
+        "edit_ld": -2.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_094": {
+    "id": "C_4x4_det_094",
+    "domain": "det_4x4_error",
+    "baseline_ld": 10.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 10.75,
+        "edit_ld": 6.875,
+        "delta_ld": -3.875,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 10.75,
+        "edit_ld": 7.625,
+        "delta_ld": -3.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 10.75,
+        "edit_ld": 12.125,
+        "delta_ld": 1.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 10.75,
+        "edit_ld": 10.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_100": {
+    "id": "C_4x4_det_100",
+    "domain": "det_4x4_error",
+    "baseline_ld": 5.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 2.25,
+        "delta_ld": -2.875,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 2.875,
+        "delta_ld": -2.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 5.6875,
+        "delta_ld": 0.5625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 5.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_102": {
+    "id": "C_4x4_det_102",
+    "domain": "det_4x4_error",
+    "baseline_ld": -2.375,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.125,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.25,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.75,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -2.375,
+        "edit_ld": -2.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_105": {
+    "id": "C_4x4_det_105",
+    "domain": "det_4x4_error",
+    "baseline_ld": 8.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 8.125,
+        "edit_ld": 5.375,
+        "delta_ld": -2.75,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 8.125,
+        "edit_ld": 6.0,
+        "delta_ld": -2.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 8.125,
+        "edit_ld": 9.625,
+        "delta_ld": 1.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 8.125,
+        "edit_ld": 8.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_107": {
+    "id": "C_4x4_det_107",
+    "domain": "det_4x4_error",
+    "baseline_ld": 5.125,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 4.75,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 4.875,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 5.375,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 5.125,
+        "edit_ld": 5.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_108": {
+    "id": "C_4x4_det_108",
+    "domain": "det_4x4_error",
+    "baseline_ld": -5.875,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.25,
+        "delta_ld": 0.625,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -6.75,
+        "delta_ld": -0.875,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -5.875,
+        "edit_ld": -5.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_118": {
+    "id": "C_4x4_det_118",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_121": {
+    "id": "C_4x4_det_121",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.25,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.25,
+        "edit_ld": 1.125,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.25,
+        "edit_ld": 1.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.25,
+        "edit_ld": 1.5,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.25,
+        "edit_ld": 1.25,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_129": {
+    "id": "C_4x4_det_129",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.125,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.125,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": 0.0,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.125,
+        "edit_ld": -0.25,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_130": {
+    "id": "C_4x4_det_130",
+    "domain": "det_4x4_error",
+    "baseline_ld": -0.5,
+    "is_error_case": false,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.25,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.375,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": true
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": -0.5,
+        "edit_ld": -0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": true
+      }
+    }
+  },
+  "C_4x4_det_143": {
+    "id": "C_4x4_det_143",
+    "domain": "det_4x4_error",
+    "baseline_ld": 4.0625,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 4.0625,
+        "edit_ld": 2.0,
+        "delta_ld": -2.0625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 4.0625,
+        "edit_ld": 2.1875,
+        "delta_ld": -1.875,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 4.0625,
+        "edit_ld": 5.1875,
+        "delta_ld": 1.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 4.0625,
+        "edit_ld": 4.0625,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_145": {
+    "id": "C_4x4_det_145",
+    "domain": "det_4x4_error",
+    "baseline_ld": 1.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 1.875,
+        "edit_ld": 1.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 1.875,
+        "edit_ld": 1.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 1.875,
+        "edit_ld": 1.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 1.875,
+        "edit_ld": 1.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "C_4x4_det_008": {
+    "id": "C_4x4_det_008",
+    "domain": "det_4x4_error",
+    "baseline_ld": 6.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 6.75,
+        "edit_ld": 6.5,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 6.75,
+        "edit_ld": 6.625,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 6.75,
+        "edit_ld": 7.375,
+        "delta_ld": 0.625,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 6.75,
+        "edit_ld": 6.875,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0808": {
+    "id": "NC_4x4_det_0808",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.625,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.875,
+        "edit_ld": 0.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0919": {
+    "id": "NC_4x4_det_0919",
+    "domain": "det_4x4_error",
+    "baseline_ld": 4.375,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 4.375,
+        "edit_ld": 4.0,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 4.375,
+        "edit_ld": 4.125,
+        "delta_ld": -0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 4.375,
+        "edit_ld": 4.625,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 4.375,
+        "edit_ld": 4.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_0998": {
+    "id": "NC_4x4_det_0998",
+    "domain": "det_4x4_error",
+    "baseline_ld": 5.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 5.75,
+        "edit_ld": 5.25,
+        "delta_ld": -0.5,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 5.75,
+        "edit_ld": 5.375,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 5.75,
+        "edit_ld": 6.0,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 5.75,
+        "edit_ld": 5.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1083": {
+    "id": "NC_4x4_det_1083",
+    "domain": "det_4x4_error",
+    "baseline_ld": 9.875,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 9.875,
+        "edit_ld": 9.5,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 9.875,
+        "edit_ld": 9.75,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 9.875,
+        "edit_ld": 10.25,
+        "delta_ld": 0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 9.875,
+        "edit_ld": 9.875,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1179": {
+    "id": "NC_4x4_det_1179",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.375,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.375,
+        "edit_ld": 3.5,
+        "delta_ld": 0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.375,
+        "edit_ld": 3.375,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1275": {
+    "id": "NC_4x4_det_1275",
+    "domain": "det_4x4_error",
+    "baseline_ld": 0.5,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.5,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 0.5,
+        "edit_ld": 0.75,
+        "delta_ld": 0.25,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  },
+  "NC_4x4_det_1530": {
+    "id": "NC_4x4_det_1530",
+    "domain": "det_4x4_error",
+    "baseline_ld": 3.75,
+    "is_error_case": true,
+    "groups": {
+      "J1_pushers": {
+        "role": "pusher_pair",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.375,
+        "delta_ld": -0.375,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J2_pushers_plus_corrector": {
+        "role": "pushers_plus_corrector",
+        "sites": [
+          [
+            38,
+            29
+          ],
+          [
+            38,
+            7
+          ],
+          [
+            38,
+            30
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.625,
+        "delta_ld": -0.125,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J3_correctors": {
+        "role": "correctors",
+        "sites": [
+          [
+            38,
+            30
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            36,
+            30
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      },
+      "J4_ctrl": {
+        "role": "control",
+        "sites": [
+          [
+            32,
+            22
+          ],
+          [
+            36,
+            9
+          ]
+        ],
+        "baseline_ld": 3.75,
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "flipped": false,
+        "top1_now_correct": false
+      }
+    }
+  }
+}

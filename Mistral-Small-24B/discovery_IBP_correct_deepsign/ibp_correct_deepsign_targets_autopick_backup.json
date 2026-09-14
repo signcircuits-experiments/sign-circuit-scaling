@@ -1,0 +1,98 @@
+{
+  "model": "mistral",
+  "domain": "ibp_correct_deepsign",
+  "n_layers": 40,
+  "human_reviewed": false,
+  "habit_layers": [
+    37,
+    38
+  ],
+  "check_layer": 31,
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    31,
+    37,
+    38
+  ],
+  "late_window_start": 30,
+  "n_cases": {
+    "total": 43,
+    "emb_peak": 1,
+    "late_peak": 42,
+    "minus_writers": 23,
+    "plus_writers": 20
+  },
+  "emb_peak_ids": [
+    "ibp_pts_n0_b11"
+  ],
+  "peak_layer_histogram": {
+    "1": 1,
+    "19": 1,
+    "29": 2,
+    "30": 1,
+    "32": 2,
+    "38": 6,
+    "39": 30
+  },
+  "sign_token_modes": [
+    {
+      "wrong_sign_tok": 1462,
+      "correct_sign_tok": 1867,
+      "written_sign": "-",
+      "n": 20
+    },
+    {
+      "wrong_sign_tok": 1867,
+      "correct_sign_tok": 1462,
+      "written_sign": "+",
+      "n": 20
+    },
+    {
+      "wrong_sign_tok": 1045,
+      "correct_sign_tok": 1043,
+      "written_sign": "-",
+      "n": 3
+    }
+  ],
+  "evidence_mean_mlp_dla": {
+    "late_all": {
+      "30": 0.1116,
+      "31": -0.0094,
+      "32": 0.0409,
+      "33": -0.0034,
+      "34": 0.2375,
+      "35": 0.1799,
+      "36": 0.3676,
+      "37": 1.7761,
+      "38": 1.9559,
+      "39": 1.105
+    },
+    "late_minus": {
+      "30": 0.0406,
+      "31": 0.1712,
+      "32": -0.1747,
+      "33": 0.2896,
+      "34": 0.7064,
+      "35": 0.2786,
+      "36": 0.588,
+      "37": 1.8899,
+      "38": 1.7829,
+      "39": 1.771
+    },
+    "late_plus": {
+      "30": 0.1932,
+      "31": -0.217,
+      "32": 0.2889,
+      "33": -0.3403,
+      "34": -0.3017,
+      "35": 0.0664,
+      "36": 0.1142,
+      "37": 1.6451,
+      "38": 2.155,
+      "39": 0.3391
+    }
+  }
+}
