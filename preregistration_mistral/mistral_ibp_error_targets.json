@@ -1,0 +1,85 @@
+{
+  "model": "mistral",
+  "domain": "ibp_error",
+  "n_layers": 40,
+  "human_reviewed": true,
+  "habit_layers": [
+    37,
+    38
+  ],
+  "check_layer": 32,
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    32,
+    37,
+    38
+  ],
+  "late_window_start": 30,
+  "n_cases": {
+    "total": 39,
+    "emb_peak": 4,
+    "late_peak": 35,
+    "minus_writers": 39,
+    "plus_writers": 0
+  },
+  "emb_peak_ids": [
+    "ibp_pts_n11_b173",
+    "ibp_pts_n11_b113",
+    "ibp_pts_n7_b37",
+    "ibp_pts_n7_b67"
+  ],
+  "peak_layer_histogram": {
+    "1": 4,
+    "7": 2,
+    "9": 1,
+    "11": 1,
+    "37": 1,
+    "38": 16,
+    "39": 14
+  },
+  "sign_token_modes": [
+    {
+      "wrong_sign_tok": 1462,
+      "correct_sign_tok": 1867,
+      "written_sign": "-",
+      "n": 37
+    },
+    {
+      "wrong_sign_tok": 1045,
+      "correct_sign_tok": 1043,
+      "written_sign": "-",
+      "n": 2
+    }
+  ],
+  "evidence_mean_mlp_dla": {
+    "late_all": {
+      "30": -0.0093,
+      "31": -0.0358,
+      "32": -0.2143,
+      "33": 0.0875,
+      "34": 0.496,
+      "35": -0.0082,
+      "36": 0.1544,
+      "37": 1.0115,
+      "38": 0.819,
+      "39": 0.4739
+    },
+    "late_minus": {
+      "30": -0.0093,
+      "31": -0.0358,
+      "32": -0.2143,
+      "33": 0.0875,
+      "34": 0.496,
+      "35": -0.0082,
+      "36": 0.1544,
+      "37": 1.0115,
+      "38": 0.819,
+      "39": 0.4739
+    },
+    "late_plus": {}
+  },
+  "pi_review_date": "2026-09-14"
+}

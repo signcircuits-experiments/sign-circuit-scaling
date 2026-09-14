@@ -1,0 +1,303 @@
+id,wrong_sign_deep,correct_sign_deep,sign_char_offset_deep,rel_pos_deep,rel_pos_c1,target_depth,same_as_c1,context_check_deep,confidence,reasoning,role_deep,role_target,fallback
+ibp_ptc_n2_b15,-,+,743,0.2023,0.2023,0.2022,True, = x^2 · (1/15) sin(15x) [-] ∫ (1/15) sin(15x) · 2x ,high,role_target=formula; picked depth=20.2%,formula,formula,False
+ibp_pts_n2_b18,-,+,547,0.1063,0.2569,0.1069,False,"s given by:
+
+∫ u dv = uv [-] ∫ v du
+
+We will choose ",high,role_target=formula; picked depth=10.6%,formula,formula,False
+ibp_ptc_n6_b6,-,+,1213,0.1624,0.0794,0.2038,False,= x^5 · (-(1/6) cos(6x)) [-] ∫ (-(1/6) cos(6x)) · 5x,high,role_target=formula; picked depth=16.2%,formula,formula,False
+ibp_pts_n8_b193,-,+,812,0.0609,0.0609,0.0593,True, dx = -x^8 cos(193x)/193 [-] ∫ (-cos(193x)/193) · 8x,high,role_target=formula; picked depth=6.1%,formula,formula,False
+ibp_ptc_n12_b79,-,+,830,0.1524,0.1524,0.1546,True,= x^12 · (1/79) sin(79x) [-] ∫ (1/79) sin(79x) · 12x,high,role_target=formula; picked depth=15.2%,formula,formula,False
+ibp_ptc_n2_b14,-,+,742,0.2,0.2,0.2027,True,x = x² · (1/14) sin(14x) [-] ∫ (1/14) sin(14x) · 2x ,high,role_target=formula; picked depth=20.0%,formula,formula,False
+ibp_pts_n2_b9,-,+,731,0.2106,0.2106,0.2033,True,"x) dx = -1/9 x^2 cos(9x) [-] ∫ -1/9 cos(9x) · 2x dx
+",high,role_target=formula; picked depth=21.1%,formula,formula,False
+ibp_pts_n2_b19,+,-,1516,0.7668,0.2311,0.7669,False," (2/19) [x · sin(19x)/19 [+] cos(19x)/19^2]
+
+Simplif",high,role_target=symbolic; picked depth=76.7%,symbolic,symbolic,False
+ibp_pts_n5_b73,+,-,2852,0.7413,0.1253,0.7441,False,3x) + 3x^2/73^2 sin(73x) [+] 6x/73^3 cos(73x) - 6/73,high,role_target=symbolic; picked depth=74.1%,symbolic,symbolic,False
+ibp_ptc_n7_b13,-,+,4618,0.7377,0.0706,0.7376,False,^5 sin(13x) - (5/13) · [([-]1/13) x^4 cos(13x) + (4/,high,role_target=symbolic; picked depth=73.8%,symbolic,symbolic,False
+ibp_ptc_n5_b3,-,+,3215,0.7661,0.1077,0.766,False,"os(3x) - (2/9) x sin(3x) [-] (2/27) cos(3x)
+
+Now, su",high,role_target=symbolic; picked depth=76.6%,symbolic,symbolic,False
+ibp_ptc_n12_b71,+,-,2157,0.6387,0.1485,0.6388,False,ac{x^{12} \sin(71x)}{71} [+] \frac{12 x^{11} \cos(71,high,role_target=symbolic; picked depth=63.9%,symbolic,symbolic,False
+ibp_ptc_n7_b103,-,+,4903,0.7333,0.0662,0.7334,False,5 sin(103x) - (5/103) · [[-](1/103) x^4 cos(103x) + ,high,role_target=symbolic; picked depth=73.3%,symbolic,symbolic,False
+ibp_pts_n5_b227,-,+,2898,0.7612,0.1287,0.7624,False,) dx = x^4/227 sin(227x) [-] 4/227 (-x^3/227 cos(227,high,role_target=symbolic; picked depth=76.1%,symbolic,symbolic,False
+ibp_pts_n2_b11,+,-,1609,0.765,0.2217,0.7651,False,"1x) + (2/11)cos(11x)/121 [+] (2/11)C
+
+= -x^2/11 · co",high,role_target=symbolic; picked depth=76.5%,symbolic,symbolic,False
+ibp_pts_n7_b137,-,+,1494,0.5903,0.2291,0.5905,False,"dx]
+= -x^7/137 cos(137x) [-] 7x^6/137^2 sin(137x) + ",high,role_target=symbolic; picked depth=59.0%,symbolic,symbolic,False
+ibp_ptc_n7_b269,-,+,5067,0.7485,0.0704,0.7483,False, = (1/269) x^5 sin(269x) [-] (5/269) [-(1/269) x^4 c,high,role_target=symbolic; picked depth=74.8%,symbolic,symbolic,False
+ibp_ptc_n0_b5,+,-,910,0.8588,0.7568,0.859,False,"(5x) - 0
+= (1/5) sin(5x) [+] C
+
+So, the final simpli",high,role_target=symbolic; picked depth=85.9%,symbolic,symbolic,False
+ibp_ptc_n5_b193,-,+,1448,0.5425,0.2131,0.5483,False,x^5 sin(193x) - (5/193) [[-](1/193) x^4 cos(193x) + ,high,role_target=symbolic; picked depth=54.2%,symbolic,symbolic,False
+ibp_ptc_n6_b4,+,-,3735,0.758,0.0899,0.7601,False,x) - [(-1/4) x^3 cos(4x) [+] (3/16) x^2 sin(4x) + (3,high,role_target=symbolic; picked depth=75.8%,symbolic,symbolic,False
+ibp_ptc_n0_b2,+,-,910,0.8844,0.7793,0.8847,False,"(2x) - 0
+= (1/2) sin(2x) [+] C
+
+So, the antiderivati",high,role_target=symbolic; picked depth=88.4%,symbolic,symbolic,False
+ibp_ptc_n8_b67,+,-,4205,0.8095,0.0859,0.8092,False,7) [-(1/67) x^7 cos(67x) [+] (7/67) [(1/67) x^6 sin(,high,role_target=symbolic; picked depth=81.0%,symbolic,symbolic,False
+ibp_ptc_n5_b223,+,-,3022,0.7129,0.1156,0.7161,False,"
+= (1/223) x^3 sin(223x) [+] (3/223^2) x^2 cos(223x)",high,role_target=symbolic; picked depth=71.3%,symbolic,symbolic,False
+ibp_ptc_n5_b173,-,+,2820,0.672,0.1133,0.6689,False,+ (5/173^2)x^4 cos(173x) [-] (20/173^3)x^3 sin(173x),high,role_target=symbolic; picked depth=67.2%,symbolic,symbolic,False
+ibp_pts_n7_b233,-,+,3628,0.8064,0.101,0.8031,False,/233) [x^6/233 sin(233x) [-] (6/233) [-x^5/233 cos(2,high,role_target=symbolic; picked depth=80.6%,symbolic,symbolic,False
+ibp_ptc_n8_b281,+,-,5058,0.693,0.0629,0.6926,False, (5/281^2) x^4 sin(281x) [+] (20/281^3) x^3 cos(281x,high,role_target=symbolic; picked depth=69.3%,symbolic,symbolic,False
+ibp_pts_n7_b149,+,-,5106,0.7432,0.069,0.7428,False,x = -x^5/149 · cos(149x) [+] 5/149 · (x^4/149 · sin(,high,role_target=symbolic; picked depth=74.3%,symbolic,symbolic,False
+ibp_pts_n1_b6,+,-,952,0.7792,0.4615,0.7797,False,"ression:
+
+-1/6 x cos(6x) [+] 1/6 (1/6 sin(6x) + C)
+=",high,role_target=symbolic; picked depth=77.9%,symbolic,symbolic,False
+ibp_ptc_n5_b211,+,-,2439,0.7858,0.1276,0.7863,False,) [-(1/211)x^4 cos(211x) [+] (4/211) [(1/211)x^3 sin,high,role_target=symbolic; picked depth=78.6%,symbolic,symbolic,False
+ibp_pts_n5_b211,-,+,2444,0.8327,0.1624,0.836,False,"
+
+∫ x^5 · sin(211x) dx = [-]x^5/211 cos(211x) + (5/2",high,role_target=symbolic; picked depth=83.3%,symbolic,symbolic,False
+ibp_pts_n1_b12,+,-,954,0.7675,0.458,0.7682,False,"ession:
+-1/12 x cos(12x) [+] 1/12 (1/12 sin(12x) + C",high,role_target=symbolic; picked depth=76.8%,symbolic,symbolic,False
+ibp_pts_n5_b197,-,+,2930,0.7691,0.1284,0.77,False,) dx = x^4/197 sin(197x) [-] 4/197 (-x^3/197 cos(197,high,role_target=symbolic; picked depth=76.9%,symbolic,symbolic,False
+ibp_pts_n10_b227,-,+,5182,0.8534,0.073,0.8533,False,227 sin(227x) - (7/227) [[-]x^6/227 cos(227x) + (6/2,high,role_target=symbolic; picked depth=85.3%,symbolic,symbolic,False
+ibp_pts_n5_b109,-,+,2728,0.6751,0.1223,0.6761,False,) [(1/109) x^2 sin(109x) [-] (2/109) ∫ x sin(109x) d,high,role_target=symbolic; picked depth=67.5%,symbolic,symbolic,False
+ibp_ptc_n3_b10,-,+,1798,0.7464,0.1823,0.7416,False,"x) + (1/100)cos(10x)]
+= ([-]1/10)x^2 cos(10x) + (1/5",high,role_target=symbolic; picked depth=74.6%,symbolic,symbolic,False
+ibp_ptc_n2_b18,-,+,1361,0.6354,0.2409,0.6342,False,/18)x² sin(18x) - (1/9) [[-](1/18)x cos(18x) + (1/32,high,role_target=symbolic; picked depth=63.5%,symbolic,symbolic,False
+ibp_ptc_n8_b1,+,-,4690,0.7545,0.066,0.7533,False,sin(x) - 336x^5 · cos(x) [+] 1680x^4 · sin(x) + 6720,high,role_target=symbolic; picked depth=75.5%,symbolic,symbolic,False
+ibp_ptc_n7_b3,+,-,4479,0.7634,0.074,0.7631,False,3) · [-(1/3) x^4 cos(3x) [+] (4/9) x^3 sin(3x) + (4/,high,role_target=symbolic; picked depth=76.3%,symbolic,symbolic,False
+ibp_pts_n5_b163,+,-,2748,0.8248,0.141,0.8264,False,2/163) [-x cos(163x)/163 [+] (1/163^2) sin(163x)]]]],high,role_target=symbolic; picked depth=82.5%,symbolic,symbolic,False
+ibp_ptc_n0_b7,-,+,1082,0.8679,0.8103,0.8696,False,"· (0 dx)
+= (1/7) sin(7x) [-] 0
+= (1/7) sin(7x) + C
+
+",high,role_target=symbolic; picked depth=86.8%,symbolic,symbolic,False
+ibp_ptc_n7_b139,-,+,3696,0.8143,0.1018,0.8121,False,) [(1/139) x^5 sin(139x) [-] (5/139) [-(1/139) x^4 c,high,role_target=symbolic; picked depth=81.4%,symbolic,symbolic,False
+ibp_ptc_n12_b73,+,-,2324,0.8612,0.1959,0.861,False,73^4) x^9 cos(73x) + ... [+] (12!/73^12) sin(73x) + ,high,role_target=symbolic; picked depth=86.1%,symbolic,symbolic,False
+ibp_pts_n5_b41,-,+,2815,0.7757,0.1228,0.7572,False,1x) dx = x^4/41 sin(41x) [-] 4/41 (-x^3/41 cos(41x) ,high,role_target=symbolic; picked depth=77.6%,symbolic,symbolic,False
+ibp_ptc_n3_b3,+,-,1871,0.792,0.2253,0.7947,False,"cos(3x) + (2/9)x sin(3x) [+] (2/27)cos(3x)]
+= (1/3)x",high,role_target=symbolic; picked depth=79.2%,symbolic,symbolic,False
+ibp_ptc_n3_b1,+,-,1674,0.8332,0.2725,0.8326,False,3 sin(x) - (-3x^2 cos(x) [+] 6x sin(x) + 6 cos(x) + ,high,role_target=symbolic; picked depth=83.3%,symbolic,symbolic,False
+ibp_pts_n5_b79,-,+,2908,0.7764,0.1208,0.773,False,9x) dx = x^4/79 sin(79x) [-] 4/79 (-x^3/79 cos(79x) ,high,role_target=symbolic; picked depth=77.6%,symbolic,symbolic,False
+ibp_ptc_n0_b3,+,-,892,0.8544,0.7474,0.8478,False,"(3x) - 0
+= (1/3) sin(3x) [+] C
+
+So, the final simpli",high,role_target=symbolic; picked depth=85.4%,symbolic,symbolic,False
+ibp_ptc_n5_b127,-,+,2751,0.8111,0.1384,0.8069,False,) [(1/127) x^3 sin(127x) [-] (3/127) [-(1/127) x^2 c,high,role_target=symbolic; picked depth=81.1%,symbolic,symbolic,False
+ibp_ptc_n10_b151,-,+,2370,0.664,0.1499,0.6612,False,= (1/151) x^10 sin(151x) [-] (10/151) [-(1/151) x^9 ,high,role_target=symbolic; picked depth=66.4%,symbolic,symbolic,False
+ibp_ptc_n5_b29,-,+,3419,0.7653,0.1011,0.7638,False,"dx:
+
+∫ x^4 sin(29x) dx = [-](1/29) x^4 cos(29x) + (4",high,role_target=symbolic; picked depth=76.5%,symbolic,symbolic,False
+ibp_pts_n5_b103,+,-,3640,0.7689,0.0964,0.7645,False,"x))
+
+= x^4/103 sin(103x) [+] (4x^3/103^2) cos(103x) ",high,role_target=symbolic; picked depth=76.9%,symbolic,symbolic,False
+ibp_pts_n1_b10,-,+,944,0.6634,0.4032,0.6507,False,"the previous expression:
+[-]1/10 x cos(10x) + 1/10 (",high,role_target=symbolic; picked depth=66.3%,symbolic,symbolic,False
+ibp_ptc_n5_b97,+,-,2312,0.8216,0.1737,0.8158,False,(2/97) [(1/97)x sin(97x) [+] (1/97^2)cos(97x)]]] + C,high,role_target=symbolic; picked depth=82.2%,symbolic,symbolic,False
+ibp_pts_n5_b137,-,+,2625,0.6434,0.1176,0.6403,False,(2x cos(137x)) / (137^2) [-] (2 sin(137x)) / (137^3),high,role_target=symbolic; picked depth=64.3%,symbolic,symbolic,False
+ibp_pts_n7_b131,-,+,3466,0.8189,0.1085,0.8201,False,/131) [x^2/131 sin(131x) [-] (2/131) [-x/131 cos(131,high,role_target=symbolic; picked depth=81.9%,symbolic,symbolic,False
+ibp_ptc_n6_b12,-,+,3690,0.6698,0.0822,0.6383,False,":
+
+= (1/12) x^2 sin(12x) [-] (2/12) ∫ x sin(12x) dx
+",high,role_target=symbolic; picked depth=67.0%,symbolic,symbolic,False
+ibp_ptc_n7_b199,+,-,3827,0.62,0.0727,0.6283,False,"x) - (6/199^4) cos(199x) [+] C
+
+Now, substitute this",high,role_target=symbolic; picked depth=62.0%,symbolic,symbolic,False
+ibp_pts_n11_b89,-,+,7235,0.6241,0.0367,0.6232,False,9x) dx = x^6/89 sin(89x) [-] (6/89) * (-x^5/89 cos(8,high,role_target=symbolic; picked depth=62.4%,symbolic,symbolic,False
+ibp_ptc_n1_b11,-,+,950,0.6311,0.3631,0.6194,False,"ion:
+= (1/11) x sin(11x) [-] (1/11) [(-1/11) cos(11x",high,role_target=symbolic; picked depth=63.1%,symbolic,symbolic,False
+ibp_pts_n11_b67,+,-,7121,0.6155,0.0368,0.6161,False,"67x) + 120/67^6 sin(67x) [+] C
+
+Now, we can substitu",high,role_target=symbolic; picked depth=61.5%,symbolic,symbolic,False
+ibp_pts_n1_b4,-,+,925,0.6484,0.4102,0.6158,False,"to our previous result:
+
+[-]1/4 x cos(4x) + 1/4 (1/4",high,role_target=symbolic; picked depth=64.8%,symbolic,symbolic,False
+ibp_ptc_n1_b3,-,+,951,0.6393,0.3665,0.6156,False,"ssion:
+
+= (1/3)x sin(3x) [-] (1/3) [ - (1/3)cos(3x) ",high,role_target=symbolic; picked depth=63.9%,symbolic,symbolic,False
+ibp_ptc_n4_b11,-,+,2838,0.8521,0.1395,0.833,False,dx = (1/11) x^4 sin(11x) [-] (4/11) [(-1/11) x^3 cos,high,role_target=symbolic; picked depth=85.2%,symbolic,symbolic,False
+ibp_ptc_n6_b5,-,+,4392,0.836,0.0828,0.8331,False,"plify the expression:
+
+= [-](1/5) x^5 cos(5x) + (1/5",high,role_target=symbolic; picked depth=83.6%,symbolic,symbolic,False
+ibp_pts_n5_b151,+,-,4224,0.8335,0.0878,0.8344,False,/151^2 (5x^4 - 60x^2/151 [+] 120/151^3) sin(151x) + ,high,role_target=symbolic; picked depth=83.3%,symbolic,symbolic,False
+ibp_pts_n3_b9,+,-,1703,0.8308,0.2776,0.8375,False,x) dx = -1/9 x^3 cos(9x) [+] 1/3 (1/9 x^2 sin(9x) + ,high,role_target=symbolic; picked depth=83.1%,symbolic,symbolic,False
+ibp_pts_n7_b251,-,+,5179,0.8385,0.0708,0.8387,False,) + 6x^5/251^2 cos(251x) [-] 30x^4/251^3 sin(251x) -,high,role_target=symbolic; picked depth=83.8%,symbolic,symbolic,False
+ibp_ptc_n3_b4,-,+,2166,0.8418,0.2141,0.8404,False,"(4x) + (3/16)x^2 cos(4x) [-] (3/128)cos(4x) + C
+
+We ",high,role_target=symbolic; picked depth=84.2%,symbolic,symbolic,False
+ibp_ptc_n10_b139,-,+,6499,0.6032,0.0405,0.6038,False,(12/139^3) x^2 sin(139x) [-] (24/139^4) x cos(139x) ,high,role_target=symbolic; picked depth=60.3%,symbolic,symbolic,False
+ibp_ptc_n5_b83,-,+,3629,0.8382,0.1035,0.8441,False,") - (24/83^4) x sin(83x) [-] (24/83^5) cos(83x)
+
+Now",high,role_target=symbolic; picked depth=83.8%,symbolic,symbolic,False
+ibp_ptc_n7_b4,-,+,4218,0.5855,0.0607,0.5853,False,4x) + (3/16) x^2 cos(4x) [-] (3/32) x sin(4x) - (3/1,high,role_target=symbolic; picked depth=58.5%,symbolic,symbolic,False
+ibp_pts_n5_b97,+,-,2286,0.574,0.1339,0.585,False,"97x) dx
+= -x cos(97x)/97 [+] sin(97x)/97^2
+
+Now, sub",high,role_target=symbolic; picked depth=57.4%,symbolic,symbolic,False
+ibp_ptc_n3_b8,-,+,2397,0.8597,0.2223,0.8612,False,"x^2 - (3/2048) ] cos(8x) [-] (3/8)C
+
+Simplify the co",high,role_target=symbolic; picked depth=86.0%,symbolic,symbolic,False
+ibp_ptc_n8_b311,+,-,4287,0.5836,0.0633,0.5838,False,"
+= -(1/311)x^3 cos(311x) [+] (3/311) · [(1/311)x^2 s",high,role_target=symbolic; picked depth=58.4%,symbolic,symbolic,False
+ibp_pts_n7_b227,-,+,5402,0.8609,0.0698,0.8628,False,") + 720x/227^6 cos(227x) [-] 720/227^7 sin(227x)
+
+No",high,role_target=symbolic; picked depth=86.1%,symbolic,symbolic,False
+ibp_pts_n5_b179,-,+,2274,0.5803,0.1061,0.5809,False,"9) (sin(179x)/179) + C
+= [-]x cos(179x)/179 + sin(17",high,role_target=symbolic; picked depth=58.0%,symbolic,symbolic,False
+ibp_ptc_n7_b37,+,-,5393,0.8618,0.0696,0.8661,False," + (720/37^6) x sin(37x) [+] (720/37^7) cos(37x)
+
+Fi",high,role_target=symbolic; picked depth=86.2%,symbolic,symbolic,False
+ibp_ptc_n7_b181,+,-,3730,0.5795,0.0713,0.5778,False,= -(1/181) x^2 cos(181x) [+] (2/181^2) x sin(181x) +,high,role_target=symbolic; picked depth=58.0%,symbolic,symbolic,False
+ibp_ptc_n7_b101,+,-,5586,0.8632,0.0733,0.8735,False," (720/101^6) x sin(101x) [+] (720/101^7) cos(101x)
+
+",high,role_target=symbolic; picked depth=86.3%,symbolic,symbolic,False
+ibp_ptc_n10_b41,+,-,5916,0.573,0.0422,0.5733,False, + (3/41^2) x^2 sin(41x) [+] (6/41^3) x cos(41x) - (,high,role_target=symbolic; picked depth=57.3%,symbolic,symbolic,False
+ibp_ptc_n7_b41,-,+,5356,0.8849,0.072,0.8774,False,":
+
+= (1/41) x^7 sin(41x) [-] (7/41) · [-(1/41) x^6 c",high,role_target=symbolic; picked depth=88.5%,symbolic,symbolic,False
+ibp_ptc_n1_b13,+,-,897,0.5308,0.3384,0.5688,False,"x) dx = (-1/13) cos(13x) [+] C, where C is the const",high,role_target=symbolic; picked depth=53.1%,symbolic,symbolic,False
+ibp_pts_n7_b173,-,+,3679,0.5668,0.0702,0.5677,False," + (2/173^2) x cos(173x) [-] (2/173^3) sin(173x)
+
+No",high,role_target=symbolic; picked depth=56.7%,symbolic,symbolic,False
+ibp_ptc_n9_b29,+,-,4946,0.5659,0.0506,0.5673,False,"9x) + (2/29^3) cos(29x)] [+] C
+
+Simplify the express",high,role_target=symbolic; picked depth=56.6%,symbolic,symbolic,False
+ibp_ptc_n8_b59,+,-,4253,0.5682,0.0595,0.5666,False,"C
+
+= (1/59) x^2 sin(59x) [+] (2/59^2) x cos(59x) - (",high,role_target=symbolic; picked depth=56.8%,symbolic,symbolic,False
+ibp_ptc_n5_b181,+,-,3828,0.8747,0.1038,0.8805,False,"- (24/181^4) x sin(181x) [+] (24/181^5) cos(181x)]
+
+",high,role_target=symbolic; picked depth=87.5%,symbolic,symbolic,False
+ibp_ptc_n8_b71,-,+,4355,0.5656,0.057,0.5658,False,"x) + (2/71^2) x cos(71x) [-] (2/71^3) sin(71x)
+
+Now,",high,role_target=symbolic; picked depth=56.6%,symbolic,symbolic,False
+ibp_ptc_n8_b131,+,-,4453,0.5639,0.0544,0.5644,False,"
+= (1/131) x^2 sin(131x) [+] (2/131^2) x cos(131x) -",high,role_target=symbolic; picked depth=56.4%,symbolic,symbolic,False
+ibp_ptc_n7_b223,-,+,5678,0.8845,0.069,0.8834,False, = (1/223) x^7 sin(223x) [-] (7/223) [-(1/223) x^6 c,high,role_target=symbolic; picked depth=88.5%,symbolic,symbolic,False
+ibp_ptc_n8_b83,-,+,6582,0.8785,0.0612,0.8851,False,"+ (5040/83^7) x cos(83x) [-] (5040/83^8) sin(83x)
+
+N",high,role_target=symbolic; picked depth=87.8%,symbolic,symbolic,False
+ibp_ptc_n8_b283,-,+,4584,0.5625,0.058,0.5617,False, + (2/283^2) x cos(283x) [-] (2/283^3) sin(283x) + C,high,role_target=symbolic; picked depth=56.2%,symbolic,symbolic,False
+ibp_pts_n5_b167,-,+,3403,0.8887,0.1089,0.8856,False,"plify the expression:
+
+= [-]1/167 x^5 cos(167x) + 5/",high,role_target=symbolic; picked depth=88.9%,symbolic,symbolic,False
+ibp_ptc_n7_b233,-,+,5780,0.8865,0.0678,0.8861,False, = (1/233) x^7 sin(233x) [-] (7/233) [-(1/233) x^6 c,high,role_target=symbolic; picked depth=88.7%,symbolic,symbolic,False
+ibp_ptc_n7_b67,+,-,5479,0.8877,0.0705,0.8867,False, + (6/67^2) x^5 sin(67x) [+] (30/67^3) x^4 cos(67x) ,high,role_target=symbolic; picked depth=88.8%,symbolic,symbolic,False
+ibp_ptc_n8_b241,-,+,4378,0.5594,0.0592,0.5589,False, + (2/241^2) x cos(241x) [-] (2/241^3) sin(241x) + C,high,role_target=symbolic; picked depth=55.9%,symbolic,symbolic,False
+ibp_ptc_n7_b29,+,-,5647,0.8882,0.0683,0.8875,False, · [-(1/29) x^6 cos(29x) [+] (6/29^2) x^5 sin(29x) +,high,role_target=symbolic; picked depth=88.8%,symbolic,symbolic,False
+ibp_pts_n7_b107,+,-,5719,0.8868,0.0673,0.8883,False,07) · (x^6/107 sin(107x) [+] (6x^5/107^2) cos(107x) ,high,role_target=symbolic; picked depth=88.7%,symbolic,symbolic,False
+ibp_pts_n10_b223,-,+,3005,0.8924,0.1572,0.8884,False,"iderivative is:
+
+\boxed{ [-]1/223 x^10 \cos(223x) + ",high,role_target=symbolic; picked depth=89.2%,symbolic,symbolic,False
+ibp_ptc_n3_b2,-,+,2260,0.8953,0.2346,0.8885,False,"on terms:
+
+I = [(1/2)x^3 [-] (3/4)x] sin(2x) + [(3/4",high,role_target=symbolic; picked depth=89.5%,symbolic,symbolic,False
+ibp_pts_n5_b173,+,-,3922,0.8882,0.1024,0.8888,False,"173^5) (1/173 sin(173x)) [+] C
+
+Simplify the express",high,role_target=symbolic; picked depth=88.8%,symbolic,symbolic,False
+ibp_ptc_n7_b83,+,-,3347,0.5564,0.0732,0.555,False,"83x) + (1/83^2) cos(83x) [+] C
+
+Now, substitute back",high,role_target=symbolic; picked depth=55.6%,symbolic,symbolic,False
+ibp_ptc_n7_b73,+,-,5669,0.8886,0.068,0.8894,False, · [-(1/73) x^6 cos(73x) [+] (6/73^2) x^5 sin(73x) +,high,role_target=symbolic; picked depth=88.9%,symbolic,symbolic,False
+ibp_ptc_n5_b53,-,+,3615,0.8926,0.116,0.8898,False, + (12/53^3)x^2 cos(53x) [-] (24/53^4)x sin(53x) - (,high,role_target=symbolic; picked depth=89.3%,symbolic,symbolic,False
+ibp_ptc_n8_b307,-,+,4445,0.5526,0.0552,0.551,False, = (1/307) x^2 sin(307x) [-] (2/307) · [-(1/307) x c,high,role_target=symbolic; picked depth=55.3%,symbolic,symbolic,False
+ibp_ptc_n5_b47,-,+,3599,0.8921,0.1165,0.8902,False, + (12/47^3)x^2 cos(47x) [-] (24/47^4)x sin(47x) - (,high,role_target=symbolic; picked depth=89.2%,symbolic,symbolic,False
+ibp_ptc_n10_b29,+,-,5752,0.5487,0.0447,0.5498,False,29) [(1/29) x^2 sin(29x) [+] (2/841) x cos(29x) - (2,high,role_target=symbolic; picked depth=54.9%,symbolic,symbolic,False
+ibp_ptc_n8_b257,-,+,7156,0.8952,0.0574,0.8905,False, = (1/257) x^8 sin(257x) [-] (8/257) [-(1/257) x^7 c,high,role_target=symbolic; picked depth=89.5%,symbolic,symbolic,False
+ibp_ptc_n8_b7,-,+,5947,0.892,0.0636,0.8906,False,"sion:
+
+(1/7) x^8 sin(7x) [-] (8/7) [(-1/7) x^7 cos(7",high,role_target=symbolic; picked depth=89.2%,symbolic,symbolic,False
+ibp_ptc_n8_b167,-,+,6894,0.8928,0.0596,0.8907,False, = (1/167) x^8 sin(167x) [-] (8/167) [-(1/167) x^7 c,high,role_target=symbolic; picked depth=89.3%,symbolic,symbolic,False
+ibp_ptc_n7_b107,+,-,5879,0.8898,0.066,0.8912,False, (6/107^2) x^5 sin(107x) [+] (30/107^3) x^4 cos(107x,high,role_target=symbolic; picked depth=89.0%,symbolic,symbolic,False
+ibp_ptc_n8_b211,+,-,4205,0.5485,0.0586,0.5492,False,"1) [(-1/211) x cos(211x) [+] (1/211^2) sin(211x)]
+
+S",high,role_target=symbolic; picked depth=54.9%,symbolic,symbolic,False
+ibp_pts_n7_b223,+,-,5488,0.8915,0.0772,0.8917,False,223 (1/223 x^6 sin(223x) [+] 6/223^2 x^5 cos(223x) -,high,role_target=symbolic; picked depth=89.2%,symbolic,symbolic,False
+ibp_ptc_n8_b197,-,+,6996,0.8925,0.0586,0.8924,False, = (1/197) x^8 sin(197x) [-] (8/197) [-(1/197) x^7 c,high,role_target=symbolic; picked depth=89.2%,symbolic,symbolic,False
+ibp_pts_n7_b109,+,-,3663,0.5479,0.0682,0.5472,False," is:
+
+= -x/109 cos(109x) [+] (1/109) * (1/109 sin(10",high,role_target=symbolic; picked depth=54.8%,symbolic,symbolic,False
+ibp_ptc_n7_b109,+,-,5758,0.8926,0.0677,0.8933,False, (6/109^2) x^5 sin(109x) [+] (30/109^3) x^4 cos(109x,high,role_target=symbolic; picked depth=89.3%,symbolic,symbolic,False
+ibp_ptc_n8_b5,-,+,6244,0.8932,0.0604,0.8946,False,/5) x^8 sin(5x) - (8/5) [[-](1/5) x^7 cos(5x) + (7/2,high,role_target=symbolic; picked depth=89.3%,symbolic,symbolic,False
+ibp_ptc_n8_b109,-,+,1406,0.4679,0.1588,0.5445,False, (8/109^2) x^7 cos(109x) [-] (56/109^2) ∫ x^6 cos(10,high,role_target=symbolic; picked depth=46.8%,symbolic,symbolic,False
+ibp_ptc_n8_b97,+,-,6474,0.8972,0.0639,0.8967,False,7) [-(1/97) x^7 cos(97x) [+] (7/97^2) x^6 sin(97x) +,high,role_target=symbolic; picked depth=89.7%,symbolic,symbolic,False
+ibp_ptc_n8_b173,+,-,7039,0.899,0.0587,0.8987,False, [-(1/173) x^7 cos(173x) [+] (7/173^2) x^6 sin(173x),high,role_target=symbolic; picked depth=89.9%,symbolic,symbolic,False
+ibp_pts_n5_b223,-,+,4072,0.8978,0.0971,0.8996,False, - 12x^2/223^3 sin(223x) [-] 24x/223^4 cos(223x) + 2,high,role_target=symbolic; picked depth=89.8%,symbolic,symbolic,False
+ibp_ptc_n10_b73,-,+,8907,0.9001,0.0461,0.9005,False,x = (1/73) x^10 sin(73x) [-] (10/73) [-(1/73) x^9 co,high,role_target=symbolic; picked depth=90.0%,symbolic,symbolic,False
+ibp_ptc_n10_b79,-,+,5267,0.536,0.045,0.5378,False,"x) + (2/79^2) x cos(79x) [-] (2/79^3) sin(79x)
+
+Now,",high,role_target=symbolic; picked depth=53.6%,symbolic,symbolic,False
+ibp_pts_n2_b4,-,+,1547,0.8999,0.2719,0.9008,False,"nts:
+= 1/8 x sin(4x) + ( [-]8x^2 + 1 )/32 cos(4x)
+
+T",high,role_target=symbolic; picked depth=90.0%,symbolic,symbolic,False
+ibp_ptc_n5_b101,+,-,3996,0.9043,0.094,0.9009,False,"
+
+= (1/101)x^5 sin(101x) [+] (5/101^2)x^4 cos(101x) ",high,role_target=symbolic; picked depth=90.4%,symbolic,symbolic,False
+ibp_ptc_n7_b173,-,+,5740,0.8999,0.0611,0.901,False,120/173^4) x^3 sin(173x) [-] (360/173^5) x^2 cos(173,high,role_target=symbolic; picked depth=90.0%,symbolic,symbolic,False
+ibp_ptc_n6_b10,-,+,4747,0.9008,0.0826,0.9013,False,) - (3/500) x^2 sin(10x) [-] (3/2500) x cos(10x) + (,high,role_target=symbolic; picked depth=90.1%,symbolic,symbolic,False
+ibp_ptc_n4_b5,+,-,2496,0.9052,0.1896,0.9016,False,"(5x) - (24/625)x cos(5x) [+] (24/3125)sin(5x) + C
+
+W",high,role_target=symbolic; picked depth=90.5%,symbolic,symbolic,False
+ibp_ptc_n8_b193,-,+,6798,0.9023,0.0614,0.9021,False,(42/193^3) x^5 cos(193x) [-] (210/193^4) x^4 sin(193,high,role_target=symbolic; picked depth=90.2%,symbolic,symbolic,False
+ibp_pts_n5_b127,+,-,4045,0.904,0.0982,0.9027,False," C
+
+= -x^5 cos(127x)/127 [+] (5x^4 sin(127x)/127^2) ",high,role_target=symbolic; picked depth=90.4%,symbolic,symbolic,False
+ibp_ptc_n1_b7,+,-,1168,0.9646,0.3957,0.904,False,d{\dfrac{1}{7}x \sin(7x) [+] \dfrac{1}{49}\cos(7x) +,high,role_target=symbolic; picked depth=96.5%,symbolic,symbolic,False
+ibp_ptc_n8_b107,-,+,4256,0.5339,0.057,0.5313,False,"ion:
+
+∫ x sin(107x) dx = [-](1/107) x cos(107x) + (1",high,role_target=symbolic; picked depth=53.4%,symbolic,symbolic,False
+ibp_pts_n7_b103,-,+,5835,0.9027,0.0674,0.9053,False, (720/103^6) x cos(103x) [-] (720/103^7) sin(103x) ],high,role_target=symbolic; picked depth=90.3%,symbolic,symbolic,False
+ibp_ptc_n10_b211,-,+,9335,0.9063,0.045,0.9061,False,(72/211^3) x^7 cos(211x) [-] (504/211^4) x^6 sin(211,high,role_target=symbolic; picked depth=90.6%,symbolic,symbolic,False
+ibp_ptc_n10_b233,-,+,9331,0.9063,0.045,0.9066,False,(72/233^3) x^7 cos(233x) [-] (504/233^4) x^6 sin(233,high,role_target=symbolic; picked depth=90.6%,symbolic,symbolic,False
+ibp_ptc_n8_b251,-,+,6831,0.9068,0.0621,0.9073,False,210/251^4) x^4 sin(251x) [-] (840/251^5) x^3 cos(251,high,role_target=symbolic; picked depth=90.7%,symbolic,symbolic,False
+ibp_pts_n7_b181,+,-,3487,0.5223,0.0687,0.5282,False,"ion:
+
+= -x/181 cos(181x) [+] (1/181) ∫ cos(181x) dx
+",high,role_target=symbolic; picked depth=52.2%,symbolic,symbolic,False
+ibp_ptc_n5_b61,+,-,3539,0.9081,0.1168,0.9082,False," C
+
+= (1/61)x^5 sin(61x) [+] (5/61^2)x^4 cos(61x) - ",high,role_target=symbolic; picked depth=90.8%,symbolic,symbolic,False
+ibp_ptc_n10_b61,-,+,9156,0.9104,0.0447,0.9114,False, (504/61^4) x^6 sin(61x) [-] (3024/61^5) x^5 cos(61x,high,role_target=symbolic; picked depth=91.0%,symbolic,symbolic,False
+ibp_ptc_n7_b263,-,+,3586,0.5324,0.0646,0.5251,False,"x) dx:
+
+∫ sin(263x) dx = [-](1/263) cos(263x) + C
+
+S",high,role_target=symbolic; picked depth=53.2%,symbolic,symbolic,False
+ibp_ptc_n7_b47,-,+,3486,0.52,0.0711,0.5202,False,"on:
+
+= (1/47) x sin(47x) [-] (1/47) ∫ sin(47x) dx
+
+N",high,role_target=symbolic; picked depth=52.0%,symbolic,symbolic,False
+ibp_ptc_n8_b199,-,+,7015,0.916,0.061,0.9209,False,(5040/199^7) x cos(199x) [-] (5040/199^8) sin(199x)],high,role_target=symbolic; picked depth=91.6%,symbolic,symbolic,False
+ibp_pts_n2_b8,-,+,1020,0.5329,0.3094,0.5147,False,"s(8x) dx = 1/8 x sin(8x) [-] 1/8 ∫ sin(8x) dx
+= 1/8 ",high,role_target=symbolic; picked depth=53.3%,symbolic,symbolic,False
+ibp_ptc_n10_b67,+,-,9136,0.9311,0.0464,0.9302,False,"
+
+= (1/67) x^10 sin(67x) [+] (10/67^2) x^9 cos(67x) ",high,role_target=symbolic; picked depth=93.1%,symbolic,symbolic,False
+ibp_ptc_n8_b179,-,+,7432,0.9323,0.0575,0.9312,False, (8/179^2) x^7 cos(179x) [-] (56/179^3) x^6 sin(179x,high,role_target=symbolic; picked depth=93.2%,symbolic,symbolic,False
+ibp_pts_n5_b83,+,-,4238,0.9276,0.0961,0.9322,False," - (120/83^5) x cos(83x) [+] (120/83^6) sin(83x)
+
+Fi",high,role_target=symbolic; picked depth=92.8%,symbolic,symbolic,False
+ibp_ptc_n5_b167,+,-,4107,0.932,0.1015,0.9326,False,(60/167^4) x^2 cos(167x) [+] (120/167^5) x sin(167x),high,role_target=symbolic; picked depth=93.2%,symbolic,symbolic,False
+ibp_pts_n7_b139,+,-,6038,0.9313,0.067,0.9329,False,520/139^6) x^2 sin(139x) [+] (5040/139^7) x cos(139x,high,role_target=symbolic; picked depth=93.1%,symbolic,symbolic,False
+ibp_ptc_n10_b83,+,-,4975,0.4902,0.0436,0.4937,False,"n:
+
+= (-1/83) x cos(83x) [+] (1/83) ∫ cos(83x) dx
+
+N",high,role_target=symbolic; picked depth=49.0%,symbolic,symbolic,False
+ibp_ptc_n8_b47,-,+,3504,0.4466,0.0581,0.4589,False,":
+
+= (1/47) x^2 sin(47x) [-] (2/47) ∫ x sin(47x) dx
+",high,role_target=symbolic; picked depth=44.7%,symbolic,symbolic,False
+ibp_ptc_n8_b149,+,-,3126,0.3857,0.0599,0.4062,False,= -(1/149) x^3 cos(149x) [+] (3/149) ∫ x^2 cos(149x),high,role_target=symbolic; picked depth=38.6%,symbolic,symbolic,False
+ibp_pts_n5_b101,-,+,1581,0.3102,0.1112,0.3055,False," dv = sin(101x) dx ⇒ v = [-]1/101 cos(101x)
+
+Apply t",high,role_target=symbolic; picked depth=31.0%,symbolic,symbolic,False
+ibp_ptc_n10_b179,+,-,2444,0.2031,0.0442,0.2064,False,= -(1/179) x^7 cos(179x) [+] (7/179) ∫ x^6 cos(179x),high,role_target=symbolic; picked depth=20.3%,symbolic,symbolic,False
+ibp_ptc_n8_b73,-,+,1758,0.1964,0.0585,0.2054,False,":
+
+= (1/73) x^6 sin(73x) [-] (6/73) ∫ x^5 sin(73x) d",high,role_target=symbolic; picked depth=19.6%,symbolic,symbolic,False
+ibp_pts_n3_b6,-,+,852,0.2128,0.2013,0.2044,False," + ∫ 3x^2/6 cos(6x) dx
+= [-]1/6 x^3 cos(6x) + 1/2 ∫ ",high,role_target=symbolic; picked depth=21.3%,symbolic,symbolic,False
+ibp_ptc_n10_b43,-,+,2172,0.1911,0.044,0.1864,False,x^7 sin(43x) dx = x^7 · ([-](1/43) cos(43x)) - ∫ (-(,high,role_target=symbolic; picked depth=19.1%,symbolic,symbolic,False
+ibp_pts_n7_b89,-,+,1324,0.1635,0.0709,0.1629,False,"side:
+
+= x^6/89 sin(89x) [-] (6/89) ∫ x^5 sin(89x) d",high,role_target=symbolic; picked depth=16.4%,symbolic,symbolic,False
