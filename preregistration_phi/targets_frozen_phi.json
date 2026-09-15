@@ -1,0 +1,60 @@
+{
+  "model": "phi",
+  "model_full": "Phi-4",
+  "n_layers": 40,
+  "frozen_date": "2026-09-11",
+  "human_reviewed": true,
+  "reviewed_by": "PI (name withheld for double-blind review)",
+  "review_basis": "Red-teamed against raw expA/expB JSONs in results/Phi/ (all 6 anchor domains + 10 depthbins), 2026-09-11. Supersedes per-domain pod auto-picks (unstable across domains: [31,33],[35,37],[33,37],[30,39],[37,39]). Pod auto targets.json files in results/Phi/ are preserved untouched as audit trail.",
+  "habit_layers": [
+    37,
+    39
+  ],
+  "habit_rationale": "Peak-layer share in {37,38,39}: 74-100% on deepsign/ibp domains (the regime where causal runs; det causal depth 0.70). L39 is top per-case peak in every deep domain (26/50 det deep, 40-42/50 ibp). det EARLY is the known weak spot (62% share, L32 subpop 9/50) - expected from Phi's inverted depth profile (early det writers idle, L39 mean 0.54 early vs 2.38 deep); causal never runs there.",
+  "check_layer": 38,
+  "check_rationale": "True checker signature: mean DLA negative on ALL four correct domains (-0.13 early det ... -0.50 deep ibp), flips to +1.14 on det errors. Retained from auto-pick (stable across all 6 domains).",
+  "control_layers": [
+    15,
+    25
+  ],
+  "control_rationale": "Quiet in all 16 domains (|mean DLA| <= 0.37, typically < 0.05).",
+  "capture_layers": [
+    34,
+    35,
+    37,
+    38,
+    39,
+    15,
+    25
+  ],
+  "capture_rationale": "Superset so later pick changes never force a pod re-run. L34 added at freeze: real secondary writer (2.31-3.10 mean on ibp domains; 86% of best frozen layer in det bin90). L30 noted as broad mid-stack contributor (2.87 ibp early) but excluded - never a per-case peak leader.",
+  "late_window_start": 30,
+  "causal_probe_positions": {
+    "det_4x4": {
+      "rel_depth": 0.7,
+      "source": "deepsign sidecar (error-matched median)"
+    },
+    "ibp": {
+      "rel_depth": 0.6,
+      "source": "deepsign sidecar (error-matched median)"
+    }
+  },
+  "sign_token_rule": "Per-row wrong_sign_tok / correct_sign_tok ids from each case record (token id varies with context; never use a global sign-token id).",
+  "attention_sites": "pods/phi_head_sites.json",
+  "attention_note": "Attention DLA for Phi peaks at L36 in every measured domain, +1.250 to +2.877. On det_4x4_error the L36 attention peak (+1.708) is essentially equal to the MLP peak at L37 (+1.724); on ibp_error L36 reaches +2.567. Phi's attn/MLP peak ratio (0.991) is the highest of the five models. SUPERSEDES the earlier note claiming attention DLA was <= 0.7 everywhere and that no head sites were needed - that claim was never measured and is contradicted by all 16 domains.",
+  "attn_amp_layers": [
+    36,
+    39
+  ],
+  "attn_ctrl_layers": [
+    15,
+    25
+  ],
+  "attn_layers_rationale": "attn_amp_layers = [36, 39]. L36 is the argmax of mean attention DLA in all 16 measured domains including both error domains. L39 is the stronger of the two MLP habit layers on the deepsign split (+2.384). The earlier [37, 39] mirrored the MLP habit set on the disproven expectation that Phi attention was negligible, and excluded the only layer where Phi attention is large. attn_ctrl_layers = [15, 25] unchanged: both below late_window_start (30), disjoint from story {37,39} and amp {36,39}.",
+  "exclusions": [],
+  "red_team_notes": [
+    "Auto-picker instability was the primary defect: top-2-mean per domain flips under near-ties; this file freezes ONE set for all Phi domains.",
+    "Error rows lean on different layers (L33 3.35, L34 3.10 on ibp errors; L38 flips positive on det errors) - expected, do not retarget.",
+    "Depthbin scan: only det bin90 shows an out-of-freeze layer (L34) above 80% of best frozen layer - covered by capture superset."
+  ]
+}

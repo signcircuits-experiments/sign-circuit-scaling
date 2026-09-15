@@ -1,0 +1,448 @@
+id,wrong_sign_deep,correct_sign_deep,sign_char_offset_deep,rel_pos_deep,rel_pos_c1,target_depth,same_as_c1,context_check_deep,confidence,reasoning,role_deep,role_target,fallback
+NC_4x4_det_0972,-,+,3287,0.8184,0.1108,0.7396,False,"end{vmatrix} = 1 \cdot 0 [-] 0 \cdot (-3) = 0
+\]
+
+\[",high,role_target=arith; picked depth=81.8%,arith,arith,False
+NC_4x4_det_1277,+,-,1889,0.5473,0.1415,0.5455,False,"0) - 2(-16)
+\]
+
+\[
+= -60 [+] 80 + 32 = 52
+\]
+
+Thus, ",high,role_target=arith; picked depth=54.7%,arith,arith,False
+NC_4x4_det_1823,-,+,2367,0.5846,0.1557,0.5841,False,"6} \cdot (-7) = 1 \cdot ([-]7) = -7\).
+
+### Calculat",high,role_target=arith; picked depth=58.5%,arith,arith,False
+NC_4x4_det_1665,-,+,2364,0.6774,0.1275,0.6785,False,(-2)(1) - (-4)(-1)) + 3(([-]2)(1) - (-4)(-4)) + 4((-,high,role_target=arith; picked depth=67.7%,arith,arith,False
+NC_4x4_det_662,-,+,2907,0.8091,0.9682,0.72,False,"5 \end{vmatrix} = (4)(5) [-] (-3)(4) = 20 + 12 = 32
+",high,role_target=arith; picked depth=80.9%,arith,arith,False
+NC_4x4_det_677,-,+,2320,0.7233,0.1403,0.7233,False,"1)(-3)\right)
+\]
+
+\[
+= 3([-]8 - 3) = 3(-11) = -33
+\]",high,role_target=arith; picked depth=72.3%,arith,arith,False
+NC_4x4_det_710,-,+,2787,0.9164,0.2164,0.9169,False,"\cdot (-2) + (-3) \cdot ([-]5) = -10 + 15 = 5
+\]
+
+##",high,role_target=arith; picked depth=91.6%,arith,arith,False
+NC_4x4_det_0882,-,+,3052,0.9219,0.1837,0.9315,False,"1)^{3+2} \det(M_{32}) = ([-]1)(5) = -5
+\]
+
+### Final",high,role_target=arith; picked depth=92.2%,arith,arith,False
+NC_4x4_det_1796,-,+,3609,0.925,0.1107,0.9369,False,"{13} = (-1)^{1+3} \cdot ([-]270) = -270
+\]
+
+### Fina",high,role_target=arith; picked depth=92.5%,arith,arith,False
+NC_4x4_det_0891,+,-,1564,0.388,0.1376,0.3923,False,"= (-1)(-5) - (-4)(5) = 5 [+] 20 = 25
+\]
+
+\[
+\begin{v",high,role_target=arith; picked depth=38.8%,arith,arith,False
+NC_4x4_det_0907,-,+,3037,0.9615,0.1424,0.9575,False,"\[
+\det(A) = -5 \cdot 46 [-] 4 \cdot 244 = -230 - 97",high,role_target=arith; picked depth=96.2%,arith,arith,False
+NC_4x4_det_1381,-,+,3021,0.9601,0.1422,0.9635,False,"\[
+\det(A) = (-4)(51) + ([-]3)(72)
+\]
+
+\[
+= -204 - 2",high,role_target=arith; picked depth=96.0%,arith,arith,False
+NC_4x4_det_0980,-,+,3533,0.9645,0.1468,0.9669,False,"{32} + (-1) \cdot 111 + ([-]5) \cdot 31
+\]
+
+\[
+\det(",high,role_target=arith; picked depth=96.5%,arith,arith,False
+NC_4x4_det_0918,-,+,3866,0.9748,0.1084,0.976,False," - 200 - 80
+\]
+
+\[
+= 136 [-] 280
+\]
+
+\[
+= -144
+\]
+
+T",high,role_target=arith; picked depth=97.5%,arith,arith,False
+NC_4x4_det_1138,-,+,3400,0.9751,0.1597,0.9821,False,"t 7 + (-2) \cdot 29 = 14 [-] 58 = -44
+\]
+
+Thus, the ",high,role_target=arith; picked depth=97.5%,arith,arith,False
+NC_4x4_det_1517,-,+,1780,0.9373,0.4041,0.9833,False,":
+
+\[
+\det(A) = 5 \cdot ([-]52) = -260
+\]
+
+Therefore",high,role_target=arith; picked depth=93.7%,arith,arith,False
+NC_4x4_det_737,-,+,1862,0.3333,0.0915,0.3341,False,"t(M_{11}) = (-1)(-13) - ([-]4)(0) + 2(0) = 13
+\]
+
+Th",high,role_target=arith; picked depth=33.3%,arith,arith,False
+NC_4x4_det_1789,+,-,1761,0.3333,0.0925,0.3312,False,"ck:
+
+\[
+\det(A_{11}) = 0 [+] 5 \cdot 40 + 3 \cdot (-",high,role_target=arith; picked depth=33.3%,arith,arith,False
+NC_4x4_det_1514,-,+,1752,0.3356,0.0941,0.3298,False,"ack:
+
+\[
+\det(A_{11}) = ([-]2)(-7) - (-3)(0) + (-5)(",high,role_target=arith; picked depth=33.6%,arith,arith,False
+NC_4x4_det_0923,-,+,1796,0.319,0.093,0.3238,False," (-2)(-1) - (-2)(-1) = 2 [-] 2 = 0
+\]
+
+\[
+\begin{vma",high,role_target=arith; picked depth=31.9%,arith,arith,False
+NC_4x4_det_1184,-,+,2073,0.4168,0.0933,0.4169,False, -4 & 4 \end{vmatrix} - ([-]4) \begin{vmatrix} 3 & 4,high,role_target=parity; picked depth=41.7%,parity,parity,False
+NC_4x4_det_1646,-,+,1984,0.5316,0.133,0.5313,False," -4(16) + 5(8) + 3(16) = [-]64 + 40 + 48 = 24
+\]
+
+Th",high,role_target=parity; picked depth=53.2%,parity,parity,False
+NC_4x4_det_1112,-,+,2802,0.6798,0.1108,0.6812,False," = (-1)^{1+2} \cdot 80 = [-]80 \).
+
+### Step 3: Calc",high,role_target=parity; picked depth=68.0%,parity,parity,False
+NC_4x4_det_1130,-,+,2878,0.6748,0.103,0.6096,False,"56
+\]
+
+Thus, \(C_{12} = ([-]1)^{1+2} \cdot 56 = -56\",high,role_target=parity; picked depth=67.5%,parity,parity,False
+NC_4x4_det_1276,-,+,1339,0.229,0.0946,0.3186,False, \\ 0 & -2 \end{vmatrix} [-] 1 \begin{vmatrix} 4 & 4,high,role_target=parity; picked depth=22.9%,parity,parity,False
+NC_4x4_det_1483,-,+,2032,0.4586,0.1097,0.4557,False,"_{11}) = 1 \cdot (-14) = [-]14\).
+
+### Step 2: Calcu",high,role_target=parity; picked depth=45.9%,parity,parity,False
+NC_4x4_det_0917,-,+,2787,0.6683,0.1103,0.6718,False,"2(-11) = -48 - 45 - 22 = [-]115
+\]
+
+Thus, \( C_{12} ",high,role_target=parity; picked depth=66.8%,parity,parity,False
+NC_4x4_det_1677,-,+,2745,0.6555,0.1112,0.655,False,"5(25) - 4(10) - 3(-12) = [-]125 - 40 + 36 = -129
+\]
+",high,role_target=parity; picked depth=65.5%,parity,parity,False
+NC_4x4_det_1262,-,+,2787,0.6694,0.1105,0.6744,False,"-2(5) - 4(-10) - 5(-5) = [-]10 + 40 + 25 = 55
+\]
+
+Th",high,role_target=parity; picked depth=66.9%,parity,parity,False
+NC_4x4_det_1727,-,+,1318,0.2661,0.1157,0.2309,False,\\ -5 & -1 \end{vmatrix} [-] 5 \begin{vmatrix} -1 & ,high,role_target=parity; picked depth=26.6%,parity,parity,False
+NC_4x4_det_0881,-,+,2678,0.7056,0.1203,0.6763,False,"row:
+
+\[
+\det(M_{14}) = ([-]1) \begin{vmatrix} 
+-3 &",high,role_target=parity; picked depth=70.6%,parity,parity,False
+NC_4x4_det_676,-,+,3269,0.6702,0.0921,0.6771,False,"(M_{13}) = (-1)^4 (-9) = [-]9
+\]
+
+### Step 3: Calcul",high,role_target=parity; picked depth=67.0%,parity,parity,False
+NC_4x4_det_1652,-,+,3278,0.6667,0.0908,0.6778,False,"M_{13}) = (-1)^4 (-28) = [-]28
+\]
+
+### Step 3: Calcu",high,role_target=parity; picked depth=66.7%,parity,parity,False
+NC_4x4_det_1414,-,+,3325,0.7215,0.0863,0.6857,False,") = 0 - 5(10) + 4(-26) = [-]50 - 104 = -154
+\]
+
+Thus",high,role_target=parity; picked depth=72.2%,parity,parity,False
+NC_4x4_det_1873,-,+,1251,0.2532,0.1221,0.2064,False," is:
+
+\[
+\det(A_{11}) = ([-]5) \begin{vmatrix} 5 & 1",high,role_target=parity; picked depth=25.3%,parity,parity,False
+NC_4x4_det_1937,-,+,2745,0.7018,0.1193,0.697,False,"00
+\]
+
+So,
+
+\[
+C_{12} = ([-]1)^{1+2} \cdot 100 = -10",high,role_target=parity; picked depth=70.2%,parity,parity,False
+NC_4x4_det_1511,-,+,2466,0.7078,0.1802,0.7096,False,") is:
+
+\[
+\det(M_{44}) = [-]5 \begin{vmatrix} 3 & 1 ",high,role_target=parity; picked depth=70.8%,parity,parity,False
+NC_4x4_det_1547,-,+,865,0.2478,0.2478,0.1722,True,) = 2 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=24.8%,parity,parity,False
+NC_4x4_det_1072,-,+,3283,0.7267,0.0973,0.7133,False,") + 1(3) = 18 - 75 + 3 = [-]54
+\]
+
+Thus, \(C_{13} = ",high,role_target=parity; picked depth=72.7%,parity,parity,False
+NC_4x4_det_0837,-,+,1567,0.6033,0.2367,0.716,False, 1 & -4 \end{vmatrix} + ([-]5) \begin{vmatrix} 3 & 5,high,role_target=parity; picked depth=60.3%,parity,parity,False
+NC_4x4_det_1020,-,+,2974,0.6894,0.1056,0.719,False,"M_{13}) = (-1)^4 (-77) = [-]77
+\]
+
+### Step 3: Calcu",high,role_target=parity; picked depth=68.9%,parity,parity,False
+NC_4x4_det_598,-,+,974,0.1856,0.1939,0.1596,False,"t column:
+
+\[
+\det(A) = ([-]4) \cdot \det(A_{11}) + ",high,role_target=parity; picked depth=18.6%,parity,parity,False
+NC_4x4_det_1760,-,+,3438,0.7573,0.1098,0.7207,False,5 \\ 1 & 0 \end{bmatrix} [-] (-2) \cdot \det\begin{b,high,role_target=parity; picked depth=75.7%,parity,parity,False
+NC_4x4_det_611,-,+,3257,0.7578,0.1005,0.7224,False,") is:
+
+\[
+\det(M_{13}) = [-]4 \cdot \begin{vmatrix} ",high,role_target=parity; picked depth=75.8%,parity,parity,False
+NC_4x4_det_1992,-,+,886,0.1348,0.1202,0.1575,False,") + 0 \cdot \det(A_{13}) [-] 3 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=13.5%,parity,parity,False
+NC_4x4_det_1045,-,+,2701,0.7318,0.2721,0.7259,False,"\ 
+3 & -4 
+\end{vmatrix} [-] 3 \begin{vmatrix} 
+-2 &",high,role_target=parity; picked depth=73.2%,parity,parity,False
+NC_4x4_det_613,-,+,1997,0.7084,0.9648,0.729,False,"(-1)\right) = -(4 + 4) = [-]8
+\]
+
+- \( C_{33} \) is ",high,role_target=parity; picked depth=70.8%,parity,parity,False
+NC_4x4_det_1429,-,+,892,0.1389,0.1241,0.1543,False,") + 4 \cdot \det(A_{13}) [-] 0 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=13.9%,parity,parity,False
+NC_4x4_det_629,+,-,3264,0.7605,0.1022,0.7312,False, \\ -2 & 1 \end{vmatrix} [+] 1 \begin{vmatrix} -1 & ,high,role_target=parity; picked depth=76.0%,parity,parity,False
+NC_4x4_det_1585,-,+,886,0.1392,0.1241,0.1505,False,") + 4 \cdot \det(A_{13}) [-] 0 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=13.9%,parity,parity,False
+NC_4x4_det_1002,-,+,2453,0.7463,0.1602,0.7335,False,"
+   \[
+   \det(M_{14}) = [-]3 \begin{vmatrix} 0 & 5 ",high,role_target=parity; picked depth=74.6%,parity,parity,False
+NC_4x4_det_1948,-,+,2588,0.7215,0.1311,0.7362,False, \\ 1 & -4 \end{vmatrix} [-] 1 \begin{vmatrix} -2 & ,high,role_target=parity; picked depth=72.2%,parity,parity,False
+NC_4x4_det_0852,-,+,890,0.1417,0.1265,0.1472,False,") + 5 \cdot \det(A_{13}) [-] 1 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=14.2%,parity,parity,False
+NC_4x4_det_0929,-,+,3691,0.7132,0.0806,0.7391,False,"-1)^{1+3} \cdot (-147) = [-]147\).
+
+### Step 4: Calc",high,role_target=parity; picked depth=71.3%,parity,parity,False
+NC_4x4_det_1880,-,+,2724,0.7463,0.1694,0.7409,False,\\ -5 & -4 \end{vmatrix} [-] 4 \begin{vmatrix} -1 & ,high,role_target=parity; picked depth=74.6%,parity,parity,False
+NC_4x4_det_1967,-,+,890,0.1438,0.1284,0.1444,False,") + 4 \cdot \det(A_{13}) [-] 3 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=14.4%,parity,parity,False
+NC_4x4_det_1998,-,+,3560,0.7399,0.0916,0.7425,False,"6
+\]
+
+Thus, \( C_{13} = ([-]1)^{1+3} \cdot (-36) = -",high,role_target=parity; picked depth=74.0%,parity,parity,False
+NC_4x4_det_1833,-,+,940,0.2719,0.2845,0.1401,False,"nd column:
+
+\[
+\det(A) = [-]3 \cdot \det(A_{12}) + 0",high,role_target=parity; picked depth=27.2%,parity,parity,False
+NC_4x4_det_0959,-,+,2478,0.7437,0.1424,0.7428,False,\\ -5 & -2 \end{vmatrix} [-] 4 \begin{vmatrix} 4 & 3,high,role_target=parity; picked depth=74.4%,parity,parity,False
+NC_4x4_det_1995,-,+,976,0.2009,0.21,0.136,False,"t column:
+
+\[
+\det(A) = ([-]2) \cdot \det(A_{11}) + ",high,role_target=parity; picked depth=20.1%,parity,parity,False
+NC_4x4_det_1423,+,-,2495,0.7279,0.1441,0.745,False, \\ 1 & -2 \end{vmatrix} [+] 1 \begin{vmatrix} -3 & ,high,role_target=parity; picked depth=72.8%,parity,parity,False
+NC_4x4_det_0976,-,+,2932,0.7505,0.1572,0.7478,False,"\\ 
+4 & 2 
+\end{vmatrix} [-] 1 \begin{vmatrix} 
+-2 &",high,role_target=parity; picked depth=75.0%,parity,parity,False
+NC_4x4_det_1274,-,+,842,0.1342,0.1342,0.1355,True,) = 1 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=13.4%,parity,parity,False
+NC_4x4_det_1596,-,+,2755,0.7373,0.9498,0.7497,False,"24 = 12
+\]
+
+\[
+C_{13} = ([-]1)^{1+3} \cdot 12 = 12
+\",high,role_target=parity; picked depth=73.7%,parity,parity,False
+NC_4x4_det_1376,-,+,831,0.1314,0.1314,0.1344,True,) = 1 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=13.1%,parity,parity,False
+NC_4x4_det_1062,-,+,2378,0.7361,0.1421,0.7525,False, 0 & -5 \end{vmatrix} + ([-]1) \begin{vmatrix} -2 & ,high,role_target=parity; picked depth=73.6%,parity,parity,False
+NC_4x4_det_1621,-,+,2624,0.7391,0.1256,0.7541,False,"(-1)^{1+3} \cdot (-32) = [-]32\).
+
+### Step 4: Calcu",high,role_target=parity; picked depth=73.9%,parity,parity,False
+NC_4x4_det_1901,-,+,2519,0.7446,0.1386,0.7552,False, \\ -5 & 1 \end{vmatrix} [-] 2 \begin{vmatrix} -2 & ,high,role_target=parity; picked depth=74.5%,parity,parity,False
+NC_4x4_det_723,-,+,2603,0.7453,0.1336,0.7569,False, \\ 2 & -3 \end{vmatrix} [-] 2 \begin{vmatrix} -3 & ,high,role_target=parity; picked depth=74.5%,parity,parity,False
+NC_4x4_det_648,-,+,3404,0.7543,0.9671,0.7581,False,"(-1)^{1+3} \cdot (-84) = [-]84 \).
+
+### Step 4: Calc",high,role_target=parity; picked depth=75.4%,parity,parity,False
+NC_4x4_det_0859,-,+,886,0.2151,0.2233,0.1336,False,"row:
+
+\[
+\text{det}(A) = [-]5 \cdot C_{31} + 0 \cdot",high,role_target=parity; picked depth=21.5%,parity,parity,False
+NC_4x4_det_774,-,+,899,0.1294,0.1148,0.1311,False,") + 3 \cdot \det(A_{13}) [-] 5 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=12.9%,parity,parity,False
+NC_4x4_det_586,-,+,848,0.1411,0.1411,0.1265,True,) = 2 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=14.1%,parity,parity,False
+NC_4x4_det_1246,-,+,899,0.1492,0.1492,0.1232,True,\det(A) = 0 \cdot C_{11} [-] 0 \cdot C_{12} + (-4) \,high,role_target=parity; picked depth=14.9%,parity,parity,False
+NC_4x4_det_707,-,+,2762,0.8677,0.1425,0.8257,False,"back:
+
+\[
+\det(M_{14}) = [-]3(-12) + 3(-1) - 2(4) = ",high,role_target=parity; picked depth=86.8%,parity,parity,False
+NC_4x4_det_678,-,+,842,0.133,0.133,0.1215,True,\det(A) = 0 \cdot C_{11} [-] 5 \cdot C_{12} + 2 \cdo,high,role_target=parity; picked depth=13.3%,parity,parity,False
+NC_4x4_det_1463,-,+,835,0.1212,0.1212,0.1202,True,) = 1 \cdot \det(A_{11}) [-] 2 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=12.1%,parity,parity,False
+NC_4x4_det_1534,-,+,839,0.142,0.142,0.1193,True,) = 2 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=14.2%,parity,parity,False
+NC_4x4_det_1618,-,+,852,0.1371,0.1371,0.119,True,) = 1 \cdot \det(A_{11}) [-] 3 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=13.7%,parity,parity,False
+NC_4x4_det_1367,-,+,1008,0.1872,0.1872,0.1168,True,) = 4 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=18.7%,parity,parity,False
+NC_4x4_det_1177,-,+,895,0.1531,0.1531,0.1124,True,\det(A) = 0 \cdot C_{11} [-] 4 \cdot C_{12} - 2 \cdo,high,role_target=parity; picked depth=15.3%,parity,parity,False
+NC_4x4_det_1611,-,+,849,0.1229,0.1229,0.1098,True,) = 1 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=12.3%,parity,parity,False
+NC_4x4_det_1491,-,+,832,0.1388,0.1452,0.1079,False,"irst row:
+
+\[
+\det(A) = ([-]4) \cdot C_{11} + 0 \cdo",high,role_target=parity; picked depth=13.9%,parity,parity,False
+NC_4x4_det_1338,-,+,850,0.1253,0.1253,0.1056,True,) = 1 \cdot \det(A_{11}) [-] 2 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=12.5%,parity,parity,False
+NC_4x4_det_1825,-,+,834,0.1374,0.1437,0.1044,False,"irst row:
+
+\[
+\det(A) = ([-]4) \cdot C_{11} + 0 \cdo",high,role_target=parity; picked depth=13.7%,parity,parity,False
+NC_4x4_det_1008,-,+,877,0.1038,0.0921,0.1032,False,") + 2 \cdot \det(A_{13}) [-] 5 \cdot \det(A_{14})
+\]",high,role_target=parity; picked depth=10.4%,parity,parity,False
+NC_4x4_det_1413,-,+,852,0.1059,0.1059,0.1022,True,) = 3 \cdot \det(A_{11}) [-] (-1) \cdot \det(A_{12}),high,role_target=parity; picked depth=10.6%,parity,parity,False
+NC_4x4_det_1043,-,+,876,0.1019,0.0905,0.1016,False,) + 2 \cdot \det(A_{13}) [-] (-4) \cdot \det(A_{14}),high,role_target=parity; picked depth=10.2%,parity,parity,False
+NC_4x4_det_1843,-,+,836,0.0983,0.0975,0.1007,False, 1 \cdot \det(A_{11}) - ([-]1) \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=9.8%,parity,parity,False
+NC_4x4_det_1633,+,-,849,0.1008,0.0948,0.1,False,) - 5 \cdot \det(A_{12}) [+] 3 \cdot \det(A_{13}) - ,high,role_target=parity; picked depth=10.1%,parity,parity,False
+NC_4x4_det_1522,-,+,852,0.1014,0.1014,0.0991,True,) = 4 \cdot \det(A_{11}) [-] 2 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=10.1%,parity,parity,False
+NC_4x4_det_1881,-,+,980,0.2459,0.2459,0.098,True,\det(A) = 0 \cdot C_{11} [-] 0 \cdot C_{21} + 2 \cdo,high,role_target=parity; picked depth=24.6%,parity,parity,False
+NC_4x4_det_1318,-,+,838,0.1004,0.105,0.0973,False,"irst row:
+
+\[
+\det(A) = ([-]1) \cdot C_{11} + (-5) \",high,role_target=parity; picked depth=10.0%,parity,parity,False
+NC_4x4_det_1887,-,+,856,0.1025,0.1025,0.0965,True,) = 1 \cdot \det(A_{11}) [-] (-2) \cdot \det(A_{12}),high,role_target=parity; picked depth=10.2%,parity,parity,False
+NC_4x4_det_1066,+,-,900,0.2359,0.2359,0.0948,True,\det(A) = 0 \cdot C_{41} [+] 1 \cdot C_{42} + 0 \cdo,high,role_target=parity; picked depth=23.6%,parity,parity,False
+NC_4x4_det_1834,-,+,2993,0.8989,0.1382,0.8953,False,")(14) + 1(19) + 5(-16) = [-]28 + 19 - 80 = -89
+\]
+
+T",high,role_target=parity; picked depth=89.9%,parity,parity,False
+NC_4x4_det_1512,-,+,846,0.1281,0.1281,0.0927,True,) = 4 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=12.8%,parity,parity,False
+NC_4x4_det_685,-,+,3024,0.9175,0.1381,0.8987,False,"3
+\]
+
+Thus, \( C_{14} = ([-]1)^{5} \cdot 93 = -93 \)",high,role_target=parity; picked depth=91.8%,parity,parity,False
+NC_4x4_det_1324,-,+,986,0.2182,0.2182,0.0914,True,) = 4 \cdot \det(A_{11}) [-] 2 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=21.8%,parity,parity,False
+NC_4x4_det_1213,-,+,3009,0.9018,0.1517,0.9001,False,"-4(16) + 4(-4) + 1(16) = [-]64 - 16 + 16 = -64
+\]
+
+T",high,role_target=parity; picked depth=90.2%,parity,parity,False
+NC_4x4_det_1509,-,+,4273,0.9204,0.084,0.9006,False,"back:
+
+\[
+\det(M_{14}) = [-]2(7) - 3(-18) - 4(10) = ",high,role_target=parity; picked depth=92.0%,parity,parity,False
+NC_4x4_det_1666,-,+,832,0.0978,0.0978,0.0912,True,) = 1 \cdot \det(A_{11}) [-] 2 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=9.8%,parity,parity,False
+NC_4x4_det_641,-,+,823,0.1027,0.1027,0.0909,True,) = 4 \cdot \det(A_{11}) [-] 1 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=10.3%,parity,parity,False
+NC_4x4_det_1030,-,+,4261,0.9206,0.092,0.9012,False,")(4) + 2(-10) - 3(-20) = [-]20 - 20 + 60 = 20
+\]
+
+Th",high,role_target=parity; picked depth=92.1%,parity,parity,False
+NC_4x4_det_1054,-,+,4152,0.9219,0.0951,0.9021,False,") - (-2)(8) + (-5)(-2) = [-]28 + 16 + 10 = -2
+\]
+
+Th",high,role_target=parity; picked depth=92.2%,parity,parity,False
+NC_4x4_det_1715,-,+,1010,0.203,0.203,0.09,True,) = 1 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{21}) + ,high,role_target=parity; picked depth=20.3%,parity,parity,False
+NC_4x4_det_0955,-,+,3719,0.9117,0.1057,0.9033,False," = 2(-7) + 1(7) + 1(7) = [-]14 + 7 + 7 = 0
+\]
+
+Thus,",high,role_target=parity; picked depth=91.2%,parity,parity,False
+NC_4x4_det_1854,-,+,835,0.1053,0.1102,0.0894,False,"irst row:
+
+\[
+\det(A) = ([-]1) \cdot C_{11} + (-2) \",high,role_target=parity; picked depth=10.5%,parity,parity,False
+NC_4x4_det_0867,-,+,3610,0.9043,0.1081,0.9054,False,"(-10) + 4(-23) - 2(-9) = [-]50 - 92 + 18 = -124
+\]
+
+",high,role_target=parity; picked depth=90.4%,parity,parity,False
+NC_4x4_det_1556,-,+,981,0.1136,0.1174,0.089,False,"urth row:
+
+\[
+\det(A) = ([-]3) \cdot C_{41} + (-3) \",high,role_target=parity; picked depth=11.4%,parity,parity,False
+NC_4x4_det_0952,-,+,2219,0.9056,0.2207,0.9092,False," 0
+\]
+
+Thus, \( C_{21} = [-]\det(M_{21}) = -0 = 0 \)",high,role_target=parity; picked depth=90.6%,parity,parity,False
+NC_4x4_det_1343,-,+,3560,0.9128,0.1117,0.9122,False,"13} \) is:
+
+\[
+C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=91.3%,parity,parity,False
+NC_4x4_det_1393,-,+,3363,0.9006,0.1171,0.9133,False,"26
+\]
+
+Thus, \(C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=90.1%,parity,parity,False
+NC_4x4_det_1859,+,-,3107,0.9555,0.1363,0.9136,False," \cdot 8 - 2 \cdot (-16) [+] 5 \cdot (-16)
+\]
+
+\[
+= ",high,role_target=parity; picked depth=95.5%,parity,parity,False
+NC_4x4_det_0835,-,+,3653,0.9145,0.1056,0.9142,False," - 1(-8) = -8 - 90 + 8 = [-]90
+\]
+
+Thus, \(C_{13} = ",high,role_target=parity; picked depth=91.5%,parity,parity,False
+NC_4x4_det_1916,+,-,946,0.2512,0.2512,0.0877,True,\det(A) = 0 \cdot C_{31} [+] 0 \cdot C_{32} + 0 \cdo,high,role_target=parity; picked depth=25.1%,parity,parity,False
+NC_4x4_det_0809,-,+,3745,0.9104,0.1041,0.9162,False,"{14}\) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.0%,parity,parity,False
+NC_4x4_det_1676,-,+,937,0.126,0.1302,0.0866,False,"econd row:
+
+\[
+\det(A) = [-]2 \cdot C_{21} + 1 \cdot",high,role_target=parity; picked depth=12.6%,parity,parity,False
+NC_4x4_det_0822,-,+,3706,0.9088,0.1077,0.9187,False,"(M_{14}) = (-1)^5 (39) = [-]39
+\]
+
+### Final Calcula",high,role_target=parity; picked depth=90.9%,parity,parity,False
+NC_4x4_det_1471,-,+,3872,0.9188,0.1038,0.9197,False,"13} \) is:
+
+\[
+C_{13} = ([-]1)^{1+3} \cdot (-58) = -",high,role_target=parity; picked depth=91.9%,parity,parity,False
+NC_4x4_det_1347,-,+,3852,0.9122,0.1026,0.9202,False,"14} \) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.2%,parity,parity,False
+NC_4x4_det_1853,-,+,3617,0.9168,0.1094,0.9217,False," 1
+\]
+
+Thus, \(C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=91.7%,parity,parity,False
+NC_4x4_det_0945,+,-,979,0.1621,0.1621,0.0862,True,\det(A) = 5 \cdot C_{41} [+] 0 \cdot C_{42} + 0 \cdo,high,role_target=parity; picked depth=16.2%,parity,parity,False
+NC_4x4_det_0866,-,+,3782,0.9252,0.1071,0.923,False,"1
+\]
+
+Thus, \( C_{13} = ([-]1)^{1+3} \cdot 261 = 261",high,role_target=parity; picked depth=92.5%,parity,parity,False
+NC_4x4_det_1782,-,+,3896,0.9272,0.1041,0.9233,False,"_{13}) = 1 \cdot (-25) = [-]25 \).
+
+### Final Calcul",high,role_target=parity; picked depth=92.7%,parity,parity,False
+NC_4x4_det_1743,+,-,968,0.242,0.242,0.0861,True,\det(A) = 0 \cdot C_{31} [+] 0 \cdot C_{32} + 0 \cdo,high,role_target=parity; picked depth=24.2%,parity,parity,False
+NC_4x4_det_1160,-,+,3841,0.9199,0.1049,0.9235,False,"8
+\]
+
+Thus, \( C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=92.0%,parity,parity,False
+NC_4x4_det_1934,-,+,3750,0.9212,0.1054,0.9239,False,"21
+\]
+
+Thus, \(C_{13} = ([-]1)^{1+3} \cdot 21 = 21\)",high,role_target=parity; picked depth=92.1%,parity,parity,False
+NC_4x4_det_1411,-,+,3920,0.9181,0.1005,0.9265,False,"{14}\) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.8%,parity,parity,False
+NC_4x4_det_590,-,+,3893,0.9188,0.1021,0.9289,False,"14} \) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.9%,parity,parity,False
+NC_4x4_det_1028,-,+,3529,0.9581,0.12,0.9294,False,"
+\det(A) = 1 \cdot (-30) [-] 5 \cdot (-50) + 5 \cdot",high,role_target=parity; picked depth=95.8%,parity,parity,False
+NC_4x4_det_798,-,+,3708,0.9258,0.1064,0.9301,False,"3
+\]
+
+Thus, \( C_{13} = ([-]1)^{1+3} \cdot 13 = 13 \",high,role_target=parity; picked depth=92.6%,parity,parity,False
+NC_4x4_det_1952,-,+,3957,0.9175,0.1001,0.9305,False,"M_{14}) = (-1)^5 (138) = [-]138
+\]
+
+### Final Calcul",high,role_target=parity; picked depth=91.8%,parity,parity,False
+NC_4x4_det_1929,-,+,3899,0.9174,0.1021,0.9309,False,"14} \) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.7%,parity,parity,False
+NC_4x4_det_1772,-,+,3326,0.9178,0.9647,0.9315,False," M_{44} = (-1)^8 (-61) = [-]61 \).
+
+### Final Calcul",high,role_target=parity; picked depth=91.8%,parity,parity,False
+NC_4x4_det_0962,+,-,3227,0.9109,0.1191,0.9318,False,"- 15) - 1 \cdot (8 + 15) [+] 1 \cdot (-12)
+\]
+
+\[
+= ",high,role_target=parity; picked depth=91.1%,parity,parity,False
+NC_4x4_det_1574,-,+,3586,0.9095,0.1106,0.9331,False,"{14}\) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.0%,parity,parity,False
+NC_4x4_det_724,-,+,819,0.1146,0.1146,0.0857,True,) = 3 \cdot \det(A_{11}) [-] 1 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=11.5%,parity,parity,False
+NC_4x4_det_1167,-,+,839,0.1227,0.1227,0.0853,True,) = 1 \cdot \det(A_{11}) [-] 0 \cdot \det(A_{12}) + ,high,role_target=parity; picked depth=12.3%,parity,parity,False
+NC_4x4_det_1690,-,+,3592,0.9192,0.112,0.9345,False,"8
+\]
+
+Thus, \( C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=91.9%,parity,parity,False
+NC_4x4_det_680,-,+,3872,0.9175,0.1016,0.9349,False,"{14}\) is:
+
+\[
+C_{14} = ([-]1)^{1+4} \det(M_{14}) = ",high,role_target=parity; picked depth=91.8%,parity,parity,False
+NC_4x4_det_1047,-,+,2824,0.7876,0.1292,0.9355,False, \\ 5 & -5 \end{vmatrix} [-] 2 \begin{vmatrix} 5 & -,high,role_target=parity; picked depth=78.8%,parity,parity,False
+NC_4x4_det_0857,-,+,3881,0.9225,0.1016,0.9363,False,"M_{14}) = (-1)^5 (117) = [-]117
+\]
+
+### Final Calcul",high,role_target=parity; picked depth=92.2%,parity,parity,False
+NC_4x4_det_1110,-,+,3964,0.9475,0.1035,0.9371,False,\det(A) = 0 \cdot C_{11} [-] 2 \cdot 124 - 5 \cdot 4,high,role_target=parity; picked depth=94.8%,parity,parity,False
+NC_4x4_det_1075,-,+,3030,0.9227,0.972,0.9381,False,"{44}\) is:
+
+\[
+C_{44} = ([-]1)^{4+4} M_{44} = (-1)^8",high,role_target=parity; picked depth=92.3%,parity,parity,False
+NC_4x4_det_1153,-,+,848,0.1015,0.1015,0.0849,True,\det(A) = 0 \cdot C_{11} [-] 3 \cdot C_{12} + 3 \cdo,high,role_target=parity; picked depth=10.2%,parity,parity,False
+NC_4x4_det_0964,-,+,3490,0.953,0.1226,0.9399,False,"
+\det(A) = 1 \cdot (-42) [-] 0 \cdot \det(A_{12}) - ",high,role_target=parity; picked depth=95.3%,parity,parity,False
+NC_4x4_det_1458,-,+,3440,0.949,0.1227,0.9417,False,\det(A) = 1 \cdot (-146) [-] 1 \cdot (-84) + 0 \cdot,high,role_target=parity; picked depth=94.9%,parity,parity,False
+NC_4x4_det_649,-,+,3785,0.9209,0.1033,0.9431,False,"33
+\]
+
+Thus, \(C_{13} = ([-]1)^{1+3} \det(M_{13}) = ",high,role_target=parity; picked depth=92.1%,parity,parity,False
