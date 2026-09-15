@@ -1,0 +1,94 @@
+{
+  "model": "phi",
+  "domain": "ibp_correct_deepsign",
+  "n_layers": 40,
+  "human_reviewed": true,
+  "habit_layers": [
+    37,
+    39
+  ],
+  "check_layer": 38,
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    36,
+    37,
+    39
+  ],
+  "late_window_start": 30,
+  "n_cases": {
+    "total": 50,
+    "emb_peak": 0,
+    "late_peak": 50,
+    "minus_writers": 37,
+    "plus_writers": 13
+  },
+  "emb_peak_ids": [],
+  "peak_layer_histogram": {
+    "32": 1,
+    "35": 1,
+    "37": 3,
+    "39": 45
+  },
+  "sign_token_modes": [
+    {
+      "wrong_sign_tok": 482,
+      "correct_sign_tok": 489,
+      "written_sign": "-",
+      "n": 30
+    },
+    {
+      "wrong_sign_tok": 489,
+      "correct_sign_tok": 482,
+      "written_sign": "+",
+      "n": 13
+    },
+    {
+      "wrong_sign_tok": 12,
+      "correct_sign_tok": 10,
+      "written_sign": "-",
+      "n": 7
+    }
+  ],
+  "evidence_mean_mlp_dla": {
+    "late_all": {
+      "30": 1.4146,
+      "31": 0.2801,
+      "32": 2.0955,
+      "33": 1.6636,
+      "34": 1.5569,
+      "35": 2.0262,
+      "36": 0.0863,
+      "37": 2.3263,
+      "38": 0.2989,
+      "39": 4.4023
+    },
+    "late_minus": {
+      "30": 1.6283,
+      "31": -0.165,
+      "32": 1.7906,
+      "33": 1.856,
+      "34": 1.8688,
+      "35": 2.3471,
+      "36": -0.0107,
+      "37": 3.0568,
+      "38": 0.2778,
+      "39": 4.4607
+    },
+    "late_plus": {
+      "30": 0.8063,
+      "31": 1.5471,
+      "32": 2.9632,
+      "33": 1.1162,
+      "34": 0.6693,
+      "35": 1.1127,
+      "36": 0.3624,
+      "37": 0.2473,
+      "38": 0.3589,
+      "39": 4.2362
+    }
+  },
+  "frozen_source": "phi_targets_frozen.json (PI-approved 2026-09-11)"
+}

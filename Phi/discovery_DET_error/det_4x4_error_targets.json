@@ -1,0 +1,106 @@
+{
+  "model": "phi",
+  "domain": "det_4x4_error",
+  "n_layers": 40,
+  "human_reviewed": true,
+  "habit_layers": [
+    37,
+    39
+  ],
+  "check_layer": 38,
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    30,
+    33,
+    37
+  ],
+  "late_window_start": 30,
+  "n_cases": {
+    "total": 61,
+    "emb_peak": 4,
+    "late_peak": 57,
+    "minus_writers": 55,
+    "plus_writers": 6
+  },
+  "emb_peak_ids": [
+    "NC_4x4_det_1061",
+    "NC_4x4_det_240",
+    "NC_4x4_det_450",
+    "C_4x4_det_012_arch"
+  ],
+  "peak_layer_histogram": {
+    "2": 3,
+    "5": 1,
+    "10": 2,
+    "29": 2,
+    "30": 1,
+    "34": 1,
+    "36": 6,
+    "37": 22,
+    "39": 23
+  },
+  "sign_token_modes": [
+    {
+      "wrong_sign_tok": 482,
+      "correct_sign_tok": 489,
+      "written_sign": "-",
+      "n": 55
+    },
+    {
+      "wrong_sign_tok": 489,
+      "correct_sign_tok": 482,
+      "written_sign": "+",
+      "n": 6
+    }
+  ],
+  "evidence_mean_mlp_dla": {
+    "late_all": {
+      "30": -0.1005,
+      "31": 0.9462,
+      "32": 1.4246,
+      "33": 1.5062,
+      "34": 1.2562,
+      "35": 0.8279,
+      "36": 0.4605,
+      "37": 1.724,
+      "38": 1.1416,
+      "39": 0.804
+    },
+    "late_minus": {
+      "30": -0.0005,
+      "31": 1.0246,
+      "32": 1.368,
+      "33": 1.6606,
+      "34": 1.3623,
+      "35": 0.7723,
+      "36": 0.4554,
+      "37": 1.9242,
+      "38": 1.2711,
+      "39": 0.8735
+    },
+    "late_plus": {
+      "30": -1.0177,
+      "31": 0.2281,
+      "32": 1.9433,
+      "33": 0.0914,
+      "34": 0.2841,
+      "35": 1.3377,
+      "36": 0.5074,
+      "37": -0.1115,
+      "38": -0.0459,
+      "39": 0.1661
+    }
+  },
+  "attn_amp_layers": [
+    36,
+    39
+  ],
+  "attn_ctrl_layers": [
+    15,
+    25
+  ],
+  "frozen_source": "targets_frozen_phi.json (PI-approved 2026-09-11, attn keys added 2026-09-13)"
+}

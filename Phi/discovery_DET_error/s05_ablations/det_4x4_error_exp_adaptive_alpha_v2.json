@@ -1,0 +1,252 @@
+{
+  "C_4x4_det_012_arch": {
+    "id": "C_4x4_det_012_arch",
+    "baseline_ld": 0.625,
+    "estimated_slope": 0.0,
+    "slope_source": "missing_from_combined",
+    "slope_near_zero": true,
+    "adaptive_alpha": 15.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 11.875,
+        "delta_ld": 11.25,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": -20.125,
+        "delta_ld": -20.75,
+        "flipped": true
+      },
+      "CTRL_RAND": {
+        "edit_ld": 0.5,
+        "delta_ld": -0.125,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_1061": {
+    "id": "NC_4x4_det_1061",
+    "baseline_ld": 0.75,
+    "estimated_slope": 0.0,
+    "slope_source": "missing_from_combined",
+    "slope_near_zero": true,
+    "adaptive_alpha": 15.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 14.25,
+        "delta_ld": 13.5,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": -40.625,
+        "delta_ld": -41.375,
+        "flipped": true
+      },
+      "CTRL_RAND": {
+        "edit_ld": 1.0,
+        "delta_ld": 0.25,
+        "flipped": false
+      }
+    }
+  },
+  "C_4x4_det_016_arch": {
+    "id": "C_4x4_det_016_arch",
+    "baseline_ld": 1.75,
+    "estimated_slope": 0.875,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 2.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 3.625,
+        "delta_ld": 1.875,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": 2.625,
+        "delta_ld": 0.875,
+        "flipped": false
+      },
+      "CTRL_RAND": {
+        "edit_ld": 1.75,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_450": {
+    "id": "NC_4x4_det_450",
+    "baseline_ld": 2.0,
+    "estimated_slope": 0.0,
+    "slope_source": "missing_from_combined",
+    "slope_near_zero": true,
+    "adaptive_alpha": 15.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": -5.25,
+        "delta_ld": -7.25,
+        "flipped": true
+      },
+      "L37_L39_joint": {
+        "edit_ld": -76.25,
+        "delta_ld": -78.25,
+        "flipped": true
+      },
+      "CTRL_RAND": {
+        "edit_ld": 2.25,
+        "delta_ld": 0.25,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_1049": {
+    "id": "NC_4x4_det_1049",
+    "baseline_ld": 2.25,
+    "estimated_slope": 1.5,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 1.5,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 4.5,
+        "delta_ld": 2.25,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": 4.25,
+        "delta_ld": 2.0,
+        "flipped": false
+      },
+      "CTRL_RAND": {
+        "edit_ld": 2.25,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_1497": {
+    "id": "NC_4x4_det_1497",
+    "baseline_ld": 3.5,
+    "estimated_slope": 0.5,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 7.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 8.5,
+        "delta_ld": 5.0,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": -11.75,
+        "delta_ld": -15.25,
+        "flipped": true
+      },
+      "CTRL_RAND": {
+        "edit_ld": 3.5,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_1863": {
+    "id": "NC_4x4_det_1863",
+    "baseline_ld": 3.75,
+    "estimated_slope": -0.5,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 7.5,
+    "arms": {
+      "L39_only": {
+        "edit_ld": -0.5,
+        "delta_ld": -4.25,
+        "flipped": true
+      },
+      "L37_L39_joint": {
+        "edit_ld": -21.75,
+        "delta_ld": -25.5,
+        "flipped": true
+      },
+      "CTRL_RAND": {
+        "edit_ld": 3.75,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "C_4x4_det_009_arch": {
+    "id": "C_4x4_det_009_arch",
+    "baseline_ld": 5.25,
+    "estimated_slope": 1.625,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 3.2308,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 10.5,
+        "delta_ld": 5.25,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": 8.625,
+        "delta_ld": 3.375,
+        "flipped": false
+      },
+      "CTRL_RAND": {
+        "edit_ld": 5.25,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_446": {
+    "id": "NC_4x4_det_446",
+    "baseline_ld": 6.625,
+    "estimated_slope": 2.25,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 2.9444,
+    "arms": {
+      "L39_only": {
+        "edit_ld": 12.875,
+        "delta_ld": 6.25,
+        "flipped": false
+      },
+      "L37_L39_joint": {
+        "edit_ld": 9.125,
+        "delta_ld": 2.5,
+        "flipped": false
+      },
+      "CTRL_RAND": {
+        "edit_ld": 6.625,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  },
+  "NC_4x4_det_0873": {
+    "id": "NC_4x4_det_0873",
+    "baseline_ld": 7.0,
+    "estimated_slope": -1.0,
+    "slope_source": "combined_ablation",
+    "slope_near_zero": false,
+    "adaptive_alpha": 7.0,
+    "arms": {
+      "L39_only": {
+        "edit_ld": -1.25,
+        "delta_ld": -8.25,
+        "flipped": true
+      },
+      "L37_L39_joint": {
+        "edit_ld": 5.75,
+        "delta_ld": -1.25,
+        "flipped": false
+      },
+      "CTRL_RAND": {
+        "edit_ld": 7.0,
+        "delta_ld": 0.0,
+        "flipped": false
+      }
+    }
+  }
+}
