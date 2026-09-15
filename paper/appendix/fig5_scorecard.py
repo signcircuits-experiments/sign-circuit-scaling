@@ -11,9 +11,9 @@ fig5_scorecard.md and in figs 3/B.
 
 Verdict sources (see fig5_scorecard.md for the full 12x4 table):
 - ICML_paper/preregistration_{llama,qwen}/PREREGISTRATION.md (frozen bars)
-- sign-circuit-anon/preregistration_llama/{PREREGISTRATION_IBP,FINDINGS_IBP}.md
-- GITHUB UPLOADS/Qwen/workbooks_{4x4_DET,IBP}/FINDINGS_*.md
-- GITHUB UPLOADS/{Llama,Qwen}/heldout_*/s01-s09 JSONs
+- Llama IBP preregistration + findings (frozen archive)
+- Qwen findings workbooks (frozen archive)
+- Llama/Qwen held-out stage JSONs (frozen archive)
 
 This script renders the verdicts; it does not recompute them (verify_all.py
 in this folder re-derives the checkable numbers from the raw JSONs).

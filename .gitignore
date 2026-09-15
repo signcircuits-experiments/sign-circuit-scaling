@@ -4,3 +4,5 @@ __pycache__/
 .~lock*
 *.tmp
 *.part.json
+Mistral-Small-24B/discovery_DET_error/det_4x4_error_targets_autopick.json
+Mistral-Small-24B/discovery_IBP_error/ibp_error_targets_autopick.json
