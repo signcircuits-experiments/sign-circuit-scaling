@@ -169,8 +169,9 @@ def fig1(data, path):
     fig, axes = plt.subplots(2, 1, figsize=(9.6, 8.2), sharex=True)
     width = 0.2
     groups = ["err", "plus", "cminus", "cplus"]
-    labels = ["minus-written errors flipped", "plus-written errors flipped",
-              "correct-minus broken", "correct-plus broken"]
+    labels = ["error — minus-written: flipped",
+              "error — plus-written: flipped",
+              "correct — minus: broken", "correct — plus: broken"]
     colors = ["#2166ac", "#92c5de", "#b2182b", "#bdbdbd"]
     for ax, (task, tname) in zip(axes, TASKS):
         for gi, (grp, lab, col) in enumerate(zip(groups, labels, colors)):

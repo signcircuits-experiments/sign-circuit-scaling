@@ -513,7 +513,7 @@ paper/appendix/fig5_scorecard.py,11b00d06d01deef62e8d83fd34f0a56b,3705,analysis_
 paper/appendix/figA_stamper_vs_adaptive.py,53b46e3bb29319740215c2822a5f3f7f,5353,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
 paper/appendix/figB_joint_ablation.py,7cfcff1ea082c97dd61513cf90be06f4,5383,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
 paper/appendix/fig_B1_layer0_lean.py,f2dc3d1e6f3f4eb92aad76caa33b0e29,4916,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
-paper/appendix/fig_G_specificity.py,20786c8786c8d915954caf8c67af6413,13140,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
+paper/appendix/fig_G_specificity.py,b53f765d3476a2cf7e7f69b1d47a34ee,13172,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
 paper/appendix/lean_tests/gemma_context_lean.py,e51bf2fbf95b910b8052c21225c2d5a5,6926,analysis_script,,n/a,n/a,n/a,n/a,n/a,,0,
 paper/appendix/lean_tests/gemma_context_lean_results.json,3895c5c90f03b53d515b4d4ea834194c,10835,paper_asset,,n/a,n/a,n/a,n/a,n/a,,0,
 paper/appendix/lean_tests/gemma_data/expA_logit_lens.json,6b7610b96b4962faa8f116997795cebe,62704,paper_asset,,n/a,n/a,n/a,n/a,n/a,,0,
