@@ -1,0 +1,142 @@
+{
+  "n_sites": 8,
+  "resolved": [
+    {
+      "name": "L38_H7_push",
+      "layer": 38,
+      "head": 7,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        896,
+        1024
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H6_push",
+      "layer": 38,
+      "head": 6,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        768,
+        896
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H5_corr",
+      "layer": 38,
+      "head": 5,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        640,
+        768
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H28_corr",
+      "layer": 38,
+      "head": 28,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3584,
+        3712
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H30_corr",
+      "layer": 38,
+      "head": 30,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3840,
+        3968
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H4_push",
+      "layer": 38,
+      "head": 4,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        512,
+        640
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L39_H16_ctrl",
+      "layer": 39,
+      "head": 16,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        2048,
+        2176
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L32_H26_ctrl",
+      "layer": 32,
+      "head": 26,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3328,
+        3456
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    }
+  ],
+  "failed": []
+}

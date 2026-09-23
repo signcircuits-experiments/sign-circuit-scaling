@@ -1,0 +1,142 @@
+{
+  "n_sites": 8,
+  "resolved": [
+    {
+      "name": "L38_H7_push",
+      "layer": 38,
+      "head": 7,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        896,
+        1024
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H5_corr",
+      "layer": 38,
+      "head": 5,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        640,
+        768
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H29_push",
+      "layer": 38,
+      "head": 29,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3712,
+        3840
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L38_H30_corr",
+      "layer": 38,
+      "head": 30,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3840,
+        3968
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L36_H30_corr",
+      "layer": 36,
+      "head": 30,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        3840,
+        3968
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L36_H2_push",
+      "layer": 36,
+      "head": 2,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        256,
+        384
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L32_H22_ctrl",
+      "layer": 32,
+      "head": 22,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        2816,
+        2944
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    },
+    {
+      "name": "L36_H9_ctrl",
+      "layer": 36,
+      "head": 9,
+      "module_class": "Linear",
+      "in_features": 4096,
+      "out_features": 5120,
+      "expected_in_features": 4096,
+      "in_features_match": true,
+      "head_slice": [
+        1152,
+        1280
+      ],
+      "head_slice_in_bounds": true,
+      "hook_registerable": true,
+      "status": "OK"
+    }
+  ],
+  "failed": []
+}

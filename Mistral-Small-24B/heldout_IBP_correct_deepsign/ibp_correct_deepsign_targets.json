@@ -1,0 +1,42 @@
+{
+  "model": "mistral_heldout",
+  "domain": "ibp_correct_deepsign",
+  "human_reviewed": true,
+  "habit_layers": [
+    37,
+    38,
+    39
+  ],
+  "check_layer": 32,
+  "check_layers": [
+    32
+  ],
+  "control_layers": [
+    15,
+    25
+  ],
+  "capture_layers": [
+    31,
+    37,
+    38
+  ],
+  "target_set": [
+    34,
+    36,
+    37,
+    38,
+    39
+  ],
+  "steering_pair": [
+    38,
+    39
+  ],
+  "attn_amp_layers": [
+    38,
+    39
+  ],
+  "attn_ctrl_layers": [
+    15,
+    25
+  ]
+}

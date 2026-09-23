@@ -1,0 +1,7394 @@
+{
+  "NC_4x4_det_1550": {
+    "id": "NC_4x4_det_1550",
+    "written_sign": "-",
+    "baseline_ld": -3.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 1.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1054": {
+    "id": "NC_4x4_det_1054",
+    "written_sign": "-",
+    "baseline_ld": 5.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.6875,
+          "delta_ld": -1.8125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -3.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.4375,
+          "delta_ld": -0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1225": {
+    "id": "NC_4x4_det_1225",
+    "written_sign": "+",
+    "baseline_ld": 7.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.875,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.625,
+          "delta_ld": 0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 7.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_607": {
+    "id": "NC_4x4_det_607",
+    "written_sign": "-",
+    "baseline_ld": 4.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.375,
+          "delta_ld": 2.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0907": {
+    "id": "NC_4x4_det_0907",
+    "written_sign": "-",
+    "baseline_ld": 1.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": -1.625,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_358": {
+    "id": "NC_4x4_det_358",
+    "written_sign": "-",
+    "baseline_ld": 4.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -2.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": -3.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1606": {
+    "id": "NC_4x4_det_1606",
+    "written_sign": "-",
+    "baseline_ld": 1.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": 3.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0991": {
+    "id": "NC_4x4_det_0991",
+    "written_sign": "-",
+    "baseline_ld": -1.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1481": {
+    "id": "NC_4x4_det_1481",
+    "written_sign": "-",
+    "baseline_ld": -3.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": 0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 1.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.0,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.0,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1098": {
+    "id": "NC_4x4_det_1098",
+    "written_sign": "-",
+    "baseline_ld": -7.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.5,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.625,
+          "delta_ld": 2.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": 3.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -7.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_080": {
+    "id": "NC_4x4_det_080",
+    "written_sign": "-",
+    "baseline_ld": 3.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.375,
+          "delta_ld": -2.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": -2.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1306": {
+    "id": "NC_4x4_det_1306",
+    "written_sign": "+",
+    "baseline_ld": 1.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": 0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_797": {
+    "id": "NC_4x4_det_797",
+    "written_sign": "-",
+    "baseline_ld": -3.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1955": {
+    "id": "NC_4x4_det_1955",
+    "written_sign": "-",
+    "baseline_ld": 4.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_068": {
+    "id": "NC_4x4_det_068",
+    "written_sign": "-",
+    "baseline_ld": 3.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1755": {
+    "id": "NC_4x4_det_1755",
+    "written_sign": "+",
+    "baseline_ld": 3.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": 0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1470": {
+    "id": "NC_4x4_det_1470",
+    "written_sign": "-",
+    "baseline_ld": 1.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_126": {
+    "id": "NC_4x4_det_126",
+    "written_sign": "-",
+    "baseline_ld": 1.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.125,
+          "delta_ld": 2.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_776": {
+    "id": "NC_4x4_det_776",
+    "written_sign": "+",
+    "baseline_ld": 3.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 2.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_455": {
+    "id": "NC_4x4_det_455",
+    "written_sign": "-",
+    "baseline_ld": -4.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": 2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.25,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1128": {
+    "id": "NC_4x4_det_1128",
+    "written_sign": "-",
+    "baseline_ld": -1.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.0,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.0,
+          "delta_ld": -1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1029": {
+    "id": "NC_4x4_det_1029",
+    "written_sign": "-",
+    "baseline_ld": 3.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.125,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_019": {
+    "id": "NC_4x4_det_019",
+    "written_sign": "-",
+    "baseline_ld": 0.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.75,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1976": {
+    "id": "NC_4x4_det_1976",
+    "written_sign": "-",
+    "baseline_ld": -4.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 1.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.625,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_467": {
+    "id": "NC_4x4_det_467",
+    "written_sign": "-",
+    "baseline_ld": 1.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0868": {
+    "id": "NC_4x4_det_0868",
+    "written_sign": "-",
+    "baseline_ld": -2.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": -1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_751": {
+    "id": "NC_4x4_det_751",
+    "written_sign": "-",
+    "baseline_ld": 5.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.5,
+          "delta_ld": 1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.625,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1014": {
+    "id": "NC_4x4_det_1014",
+    "written_sign": "-",
+    "baseline_ld": 4.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": -4.125,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1756": {
+    "id": "NC_4x4_det_1756",
+    "written_sign": "-",
+    "baseline_ld": -1.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": -0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": -1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1930": {
+    "id": "NC_4x4_det_1930",
+    "written_sign": "+",
+    "baseline_ld": 9.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 8.125,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.125,
+          "delta_ld": -3.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.625,
+          "delta_ld": -3.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 9.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 9.5,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 9.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0898": {
+    "id": "NC_4x4_det_0898",
+    "written_sign": "-",
+    "baseline_ld": 4.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0828": {
+    "id": "NC_4x4_det_0828",
+    "written_sign": "-",
+    "baseline_ld": -8.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.5,
+          "delta_ld": 1.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": 3.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.875,
+          "delta_ld": 2.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -9.0,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -8.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_512": {
+    "id": "NC_4x4_det_512",
+    "written_sign": "+",
+    "baseline_ld": -5.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.625,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 1.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -5.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0888": {
+    "id": "NC_4x4_det_0888",
+    "written_sign": "-",
+    "baseline_ld": -3.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_783": {
+    "id": "NC_4x4_det_783",
+    "written_sign": "-",
+    "baseline_ld": -3.875,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.875,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.125,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.125,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_684": {
+    "id": "NC_4x4_det_684",
+    "written_sign": "-",
+    "baseline_ld": 3.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.25,
+          "delta_ld": 2.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1355": {
+    "id": "NC_4x4_det_1355",
+    "written_sign": "-",
+    "baseline_ld": 5.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.625,
+          "delta_ld": 2.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_410": {
+    "id": "NC_4x4_det_410",
+    "written_sign": "-",
+    "baseline_ld": -8.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -6.375,
+          "delta_ld": 2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.5,
+          "delta_ld": 3.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -8.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0960": {
+    "id": "NC_4x4_det_0960",
+    "written_sign": "-",
+    "baseline_ld": 5.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": -1.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.25,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1516": {
+    "id": "NC_4x4_det_1516",
+    "written_sign": "-",
+    "baseline_ld": 6.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": -1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.625,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_739": {
+    "id": "NC_4x4_det_739",
+    "written_sign": "-",
+    "baseline_ld": 1.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": 1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1953": {
+    "id": "NC_4x4_det_1953",
+    "written_sign": "-",
+    "baseline_ld": 6.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.125,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1645": {
+    "id": "NC_4x4_det_1645",
+    "written_sign": "-",
+    "baseline_ld": 3.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0843": {
+    "id": "NC_4x4_det_0843",
+    "written_sign": "-",
+    "baseline_ld": -6.5,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.5,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -6.875,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -6.75,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -6.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -6.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -6.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_081": {
+    "id": "NC_4x4_det_081",
+    "written_sign": "-",
+    "baseline_ld": 7.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.625,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": -4.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.375,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_553": {
+    "id": "NC_4x4_det_553",
+    "written_sign": "+",
+    "baseline_ld": -4.0,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.0,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.125,
+          "delta_ld": -1.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_015": {
+    "id": "C_4x4_det_015",
+    "written_sign": "-",
+    "baseline_ld": 0.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.25,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": true
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1811": {
+    "id": "NC_4x4_det_1811",
+    "written_sign": "-",
+    "baseline_ld": -1.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1635": {
+    "id": "NC_4x4_det_1635",
+    "written_sign": "-",
+    "baseline_ld": 3.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1670": {
+    "id": "NC_4x4_det_1670",
+    "written_sign": "+",
+    "baseline_ld": 2.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.125,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.625,
+          "delta_ld": 3.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_541": {
+    "id": "NC_4x4_det_541",
+    "written_sign": "+",
+    "baseline_ld": 4.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.375,
+          "delta_ld": 1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0925": {
+    "id": "NC_4x4_det_0925",
+    "written_sign": "-",
+    "baseline_ld": -0.6875,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0625,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.5,
+          "delta_ld": 0.1875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.8125,
+          "delta_ld": -1.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.0625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.6875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.6875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0879": {
+    "id": "NC_4x4_det_0879",
+    "written_sign": "-",
+    "baseline_ld": 4.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.875,
+          "delta_ld": 2.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_029": {
+    "id": "NC_4x4_det_029",
+    "written_sign": "-",
+    "baseline_ld": 2.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.625,
+          "delta_ld": -2.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_351": {
+    "id": "NC_4x4_det_351",
+    "written_sign": "-",
+    "baseline_ld": -3.875,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 2.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1821": {
+    "id": "NC_4x4_det_1821",
+    "written_sign": "-",
+    "baseline_ld": 3.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.625,
+          "delta_ld": -2.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_064": {
+    "id": "NC_4x4_det_064",
+    "written_sign": "-",
+    "baseline_ld": 4.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.125,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1620": {
+    "id": "NC_4x4_det_1620",
+    "written_sign": "-",
+    "baseline_ld": 13.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 8.125,
+          "delta_ld": -4.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": -7.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": -7.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 13.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 13.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 13.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1977": {
+    "id": "NC_4x4_det_1977",
+    "written_sign": "-",
+    "baseline_ld": -1.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.125,
+          "delta_ld": 1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_483": {
+    "id": "NC_4x4_det_483",
+    "written_sign": "-",
+    "baseline_ld": 5.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_066": {
+    "id": "NC_4x4_det_066",
+    "written_sign": "-",
+    "baseline_ld": 0.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": 0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0884": {
+    "id": "NC_4x4_det_0884",
+    "written_sign": "-",
+    "baseline_ld": 3.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_244": {
+    "id": "NC_4x4_det_244",
+    "written_sign": "-",
+    "baseline_ld": 2.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": 0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_288": {
+    "id": "NC_4x4_det_288",
+    "written_sign": "+",
+    "baseline_ld": 6.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.5,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.0,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.25,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1499": {
+    "id": "NC_4x4_det_1499",
+    "written_sign": "-",
+    "baseline_ld": -4.5,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.625,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_634": {
+    "id": "NC_4x4_det_634",
+    "written_sign": "-",
+    "baseline_ld": 1.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.625,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": 1.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.25,
+          "delta_ld": -1.25,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_556": {
+    "id": "NC_4x4_det_556",
+    "written_sign": "-",
+    "baseline_ld": -1.5,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.0,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": 0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_470": {
+    "id": "NC_4x4_det_470",
+    "written_sign": "-",
+    "baseline_ld": 3.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1711": {
+    "id": "NC_4x4_det_1711",
+    "written_sign": "-",
+    "baseline_ld": 3.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": -2.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -2.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1927": {
+    "id": "NC_4x4_det_1927",
+    "written_sign": "-",
+    "baseline_ld": -4.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": 2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1426": {
+    "id": "NC_4x4_det_1426",
+    "written_sign": "+",
+    "baseline_ld": 2.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_408": {
+    "id": "NC_4x4_det_408",
+    "written_sign": "-",
+    "baseline_ld": 4.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.5,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": -2.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.875,
+          "delta_ld": 1.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_340": {
+    "id": "NC_4x4_det_340",
+    "written_sign": "-",
+    "baseline_ld": -0.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.5,
+          "delta_ld": 0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.0,
+          "delta_ld": -1.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1347": {
+    "id": "NC_4x4_det_1347",
+    "written_sign": "-",
+    "baseline_ld": -0.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.375,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": -1.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1906": {
+    "id": "NC_4x4_det_1906",
+    "written_sign": "-",
+    "baseline_ld": 2.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": -2.25,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_432": {
+    "id": "NC_4x4_det_432",
+    "written_sign": "-",
+    "baseline_ld": -1.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": -2.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1832": {
+    "id": "NC_4x4_det_1832",
+    "written_sign": "-",
+    "baseline_ld": 6.625,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.75,
+          "delta_ld": -1.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.875,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 8.5,
+          "delta_ld": 1.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.5,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.625,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_007": {
+    "id": "C_4x4_det_007",
+    "written_sign": "-",
+    "baseline_ld": -0.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.875,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0964": {
+    "id": "NC_4x4_det_0964",
+    "written_sign": "-",
+    "baseline_ld": -1.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": -1.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.125,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1987": {
+    "id": "NC_4x4_det_1987",
+    "written_sign": "-",
+    "baseline_ld": -3.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 1.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1313": {
+    "id": "NC_4x4_det_1313",
+    "written_sign": "-",
+    "baseline_ld": -3.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": 0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_459": {
+    "id": "NC_4x4_det_459",
+    "written_sign": "-",
+    "baseline_ld": 5.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.125,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.625,
+          "delta_ld": 1.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_767": {
+    "id": "NC_4x4_det_767",
+    "written_sign": "-",
+    "baseline_ld": -3.5,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_045": {
+    "id": "NC_4x4_det_045",
+    "written_sign": "-",
+    "baseline_ld": 3.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -1.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_012": {
+    "id": "C_4x4_det_012",
+    "written_sign": "-",
+    "baseline_ld": 5.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.8125,
+          "delta_ld": -0.5625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": -2.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.4375,
+          "delta_ld": 0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1954": {
+    "id": "NC_4x4_det_1954",
+    "written_sign": "-",
+    "baseline_ld": 5.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.625,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_718": {
+    "id": "NC_4x4_det_718",
+    "written_sign": "+",
+    "baseline_ld": 6.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.75,
+          "delta_ld": -1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.875,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 10.375,
+          "delta_ld": 3.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1144": {
+    "id": "NC_4x4_det_1144",
+    "written_sign": "+",
+    "baseline_ld": 6.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.375,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": -2.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_005": {
+    "id": "C_4x4_det_005",
+    "written_sign": "-",
+    "baseline_ld": -3.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.875,
+          "delta_ld": 1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": -0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0918": {
+    "id": "NC_4x4_det_0918",
+    "written_sign": "-",
+    "baseline_ld": -1.0,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": -1.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.875,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.875,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.875,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_717": {
+    "id": "NC_4x4_det_717",
+    "written_sign": "-",
+    "baseline_ld": 5.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": -1.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.375,
+          "delta_ld": 2.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1766": {
+    "id": "NC_4x4_det_1766",
+    "written_sign": "-",
+    "baseline_ld": 1.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.125,
+          "delta_ld": -1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": 0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1968": {
+    "id": "NC_4x4_det_1968",
+    "written_sign": "-",
+    "baseline_ld": -3.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_014": {
+    "id": "C_4x4_det_014",
+    "written_sign": "-",
+    "baseline_ld": -3.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 1.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_488": {
+    "id": "NC_4x4_det_488",
+    "written_sign": "-",
+    "baseline_ld": 2.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.5,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": -2.625,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_006": {
+    "id": "C_4x4_det_006",
+    "written_sign": "-",
+    "baseline_ld": 3.6875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.3125,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0625,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -2.5625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.6875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.8125,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_650": {
+    "id": "NC_4x4_det_650",
+    "written_sign": "-",
+    "baseline_ld": -0.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.75,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.0,
+          "delta_ld": -0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": 1.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.25,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_604": {
+    "id": "NC_4x4_det_604",
+    "written_sign": "-",
+    "baseline_ld": -3.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_633": {
+    "id": "NC_4x4_det_633",
+    "written_sign": "-",
+    "baseline_ld": 5.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.0,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.5,
+          "delta_ld": 2.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1378": {
+    "id": "NC_4x4_det_1378",
+    "written_sign": "-",
+    "baseline_ld": 3.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": 1.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_374": {
+    "id": "NC_4x4_det_374",
+    "written_sign": "-",
+    "baseline_ld": 1.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.125,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.125,
+          "delta_ld": -2.0,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.625,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1807": {
+    "id": "NC_4x4_det_1807",
+    "written_sign": "-",
+    "baseline_ld": -2.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1086": {
+    "id": "NC_4x4_det_1086",
+    "written_sign": "-",
+    "baseline_ld": 3.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.75,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1883": {
+    "id": "NC_4x4_det_1883",
+    "written_sign": "-",
+    "baseline_ld": -3.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.125,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1961": {
+    "id": "NC_4x4_det_1961",
+    "written_sign": "-",
+    "baseline_ld": -4.0,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.0,
+          "delta_ld": 2.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.125,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.125,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_233": {
+    "id": "NC_4x4_det_233",
+    "written_sign": "-",
+    "baseline_ld": -8.375,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.375,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.75,
+          "delta_ld": 3.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.875,
+          "delta_ld": 2.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.25,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -8.75,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -8.5,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_289": {
+    "id": "NC_4x4_det_289",
+    "written_sign": "-",
+    "baseline_ld": 4.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.5,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.625,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.75,
+          "delta_ld": 1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1120": {
+    "id": "NC_4x4_det_1120",
+    "written_sign": "-",
+    "baseline_ld": 2.0,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.25,
+          "delta_ld": -2.25,
+          "edit_correct": true,
+          "flipped": true
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1971": {
+    "id": "NC_4x4_det_1971",
+    "written_sign": "-",
+    "baseline_ld": 1.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.75,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.5,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_076": {
+    "id": "NC_4x4_det_076",
+    "written_sign": "-",
+    "baseline_ld": -2.875,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.25,
+          "delta_ld": -0.375,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": 0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": 0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.875,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_545": {
+    "id": "NC_4x4_det_545",
+    "written_sign": "-",
+    "baseline_ld": -2.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.375,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.0,
+          "delta_ld": -1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1391": {
+    "id": "NC_4x4_det_1391",
+    "written_sign": "-",
+    "baseline_ld": 7.375,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.9375,
+          "delta_ld": -0.4375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.4375,
+          "delta_ld": -1.9375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.4375,
+          "delta_ld": -5.9375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.375,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": -0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_485": {
+    "id": "NC_4x4_det_485",
+    "written_sign": "+",
+    "baseline_ld": 3.125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.25,
+          "delta_ld": 4.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1384": {
+    "id": "NC_4x4_det_1384",
+    "written_sign": "-",
+    "baseline_ld": 10.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 8.6875,
+          "delta_ld": -1.5625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.375,
+          "delta_ld": -5.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.625,
+          "delta_ld": -9.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 10.3125,
+          "delta_ld": 0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 10.1875,
+          "delta_ld": -0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 10.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1476": {
+    "id": "NC_4x4_det_1476",
+    "written_sign": "-",
+    "baseline_ld": 3.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": -1.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.75,
+          "delta_ld": 2.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_0903": {
+    "id": "NC_4x4_det_0903",
+    "written_sign": "+",
+    "baseline_ld": 2.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.875,
+          "delta_ld": 5.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_220": {
+    "id": "NC_4x4_det_220",
+    "written_sign": "+",
+    "baseline_ld": 3.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.75,
+          "delta_ld": -1.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.0,
+          "delta_ld": -0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "C_4x4_det_011": {
+    "id": "C_4x4_det_011",
+    "written_sign": "-",
+    "baseline_ld": -3.125,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 1.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.875,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -3.125,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_008": {
+    "id": "NC_4x4_det_008",
+    "written_sign": "-",
+    "baseline_ld": -2.25,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 1.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.25,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_377": {
+    "id": "NC_4x4_det_377",
+    "written_sign": "-",
+    "baseline_ld": -1.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": -0.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.375,
+          "delta_ld": -2.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1812": {
+    "id": "NC_4x4_det_1812",
+    "written_sign": "-",
+    "baseline_ld": -7.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.5,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -5.875,
+          "delta_ld": 1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -4.5,
+          "delta_ld": 3.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -7.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -7.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1863": {
+    "id": "NC_4x4_det_1863",
+    "written_sign": "-",
+    "baseline_ld": 4.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.25,
+          "delta_ld": -0.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.5,
+          "delta_ld": -1.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": -1.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.25,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_756": {
+    "id": "NC_4x4_det_756",
+    "written_sign": "-",
+    "baseline_ld": 4.8125,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": 0.1875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.3125,
+          "delta_ld": -1.5,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.0625,
+          "delta_ld": -3.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.8125,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.875,
+          "delta_ld": 0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_636": {
+    "id": "NC_4x4_det_636",
+    "written_sign": "-",
+    "baseline_ld": -1.625,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.75,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.5,
+          "delta_ld": -0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.375,
+          "delta_ld": -1.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.625,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1190": {
+    "id": "NC_4x4_det_1190",
+    "written_sign": "-",
+    "baseline_ld": 10.25,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.875,
+          "delta_ld": -3.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.625,
+          "delta_ld": -5.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.625,
+          "delta_ld": -8.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 10.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 10.375,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 10.25,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1956": {
+    "id": "NC_4x4_det_1956",
+    "written_sign": "-",
+    "baseline_ld": 6.6875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.3125,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.9375,
+          "delta_ld": -1.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5625,
+          "delta_ld": -4.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.6875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 6.6875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 6.6875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_002": {
+    "id": "NC_4x4_det_002",
+    "written_sign": "-",
+    "baseline_ld": -2.75,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.875,
+          "delta_ld": -0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.25,
+          "delta_ld": 1.5,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.5,
+          "delta_ld": -0.75,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -3.0,
+          "delta_ld": -0.25,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -2.75,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_291": {
+    "id": "NC_4x4_det_291",
+    "written_sign": "-",
+    "baseline_ld": -1.5,
+    "baseline_correct": true,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -2.125,
+          "delta_ld": -0.625,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -0.625,
+          "delta_ld": 0.875,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.375,
+          "delta_ld": 0.125,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": -1.5,
+          "delta_ld": 0.0,
+          "edit_correct": true,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1320": {
+    "id": "NC_4x4_det_1320",
+    "written_sign": "-",
+    "baseline_ld": 1.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.875,
+          "delta_ld": -1.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 0.25,
+          "delta_ld": -1.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 1.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_422": {
+    "id": "NC_4x4_det_422",
+    "written_sign": "-",
+    "baseline_ld": 4.5,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.25,
+          "delta_ld": 0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.1875,
+          "delta_ld": -0.3125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.375,
+          "delta_ld": -2.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 4.5,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 4.4375,
+          "delta_ld": -0.0625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1725": {
+    "id": "NC_4x4_det_1725",
+    "written_sign": "+",
+    "baseline_ld": 5.75,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.0,
+          "delta_ld": -0.75,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.125,
+          "delta_ld": -0.625,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 7.625,
+          "delta_ld": 1.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 5.875,
+          "delta_ld": 0.125,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 5.75,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  },
+  "NC_4x4_det_1769": {
+    "id": "NC_4x4_det_1769",
+    "written_sign": "+",
+    "baseline_ld": 2.875,
+    "baseline_correct": false,
+    "edits": {
+      "L37_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.5,
+          "delta_ld": -0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L38_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.0,
+          "delta_ld": -0.875,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L39_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 3.25,
+          "delta_ld": 0.375,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L15_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "L25_mlp": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      },
+      "CTRL_RAND": {
+        "alpha_3.0": {
+          "edit_ld": 2.875,
+          "delta_ld": 0.0,
+          "edit_correct": false,
+          "flipped": false
+        }
+      }
+    }
+  }
+}

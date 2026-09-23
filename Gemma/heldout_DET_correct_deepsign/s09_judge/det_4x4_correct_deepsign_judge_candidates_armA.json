@@ -1,0 +1,4839 @@
+{
+  "meta": {
+    "arm": "A",
+    "n_questions": 138,
+    "prediction": "L77 A1 breaks more than A2; L79 weak; L30 null"
+  },
+  "results": {
+    "NC_4x4_det_248": {
+      "id": "NC_4x4_det_248",
+      "written_sign": "+",
+      "baseline_ld": 8.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.5,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.5,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.125,
+            "delta_ld": 1.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.75,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_249": {
+      "id": "NC_4x4_det_249",
+      "written_sign": "-",
+      "baseline_ld": 5.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_250": {
+      "id": "NC_4x4_det_250",
+      "written_sign": "-",
+      "baseline_ld": 7.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.0,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.875,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.875,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.0,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_251": {
+      "id": "NC_4x4_det_251",
+      "written_sign": "-",
+      "baseline_ld": 10.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_252": {
+      "id": "NC_4x4_det_252",
+      "written_sign": "-",
+      "baseline_ld": 11.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_253": {
+      "id": "NC_4x4_det_253",
+      "written_sign": "-",
+      "baseline_ld": 11.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_254": {
+      "id": "NC_4x4_det_254",
+      "written_sign": "+",
+      "baseline_ld": 11.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.0,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_255": {
+      "id": "NC_4x4_det_255",
+      "written_sign": "-",
+      "baseline_ld": 11.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.5,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_256": {
+      "id": "NC_4x4_det_256",
+      "written_sign": "+",
+      "baseline_ld": 7.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.875,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_257": {
+      "id": "NC_4x4_det_257",
+      "written_sign": "+",
+      "baseline_ld": 0.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.375,
+            "delta_ld": -1.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.125,
+            "delta_ld": -1.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.125,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_258": {
+      "id": "NC_4x4_det_258",
+      "written_sign": "-",
+      "baseline_ld": 11.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.125,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.125,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.125,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_260": {
+      "id": "NC_4x4_det_260",
+      "written_sign": "-",
+      "baseline_ld": 9.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.125,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_262": {
+      "id": "NC_4x4_det_262",
+      "written_sign": "+",
+      "baseline_ld": -2.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -3.125,
+            "delta_ld": -1.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -2.75,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -2.25,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -2.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_265": {
+      "id": "NC_4x4_det_265",
+      "written_sign": "+",
+      "baseline_ld": -0.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -2.0,
+            "delta_ld": -1.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.625,
+            "delta_ld": -1.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.125,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.5,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_266": {
+      "id": "NC_4x4_det_266",
+      "written_sign": "-",
+      "baseline_ld": 10.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_268": {
+      "id": "NC_4x4_det_268",
+      "written_sign": "-",
+      "baseline_ld": 6.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.5,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_269": {
+      "id": "NC_4x4_det_269",
+      "written_sign": "-",
+      "baseline_ld": 12.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.5,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_270": {
+      "id": "NC_4x4_det_270",
+      "written_sign": "-",
+      "baseline_ld": 6.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.25,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.0,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_271": {
+      "id": "NC_4x4_det_271",
+      "written_sign": "-",
+      "baseline_ld": 10.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.125,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.0,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.875,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.0,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_272": {
+      "id": "NC_4x4_det_272",
+      "written_sign": "+",
+      "baseline_ld": 9.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.25,
+            "delta_ld": 0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.875,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_273": {
+      "id": "NC_4x4_det_273",
+      "written_sign": "-",
+      "baseline_ld": 7.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.875,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_275": {
+      "id": "NC_4x4_det_275",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.875,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_276": {
+      "id": "NC_4x4_det_276",
+      "written_sign": "-",
+      "baseline_ld": 3.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.375,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_278": {
+      "id": "NC_4x4_det_278",
+      "written_sign": "-",
+      "baseline_ld": 6.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_280": {
+      "id": "NC_4x4_det_280",
+      "written_sign": "+",
+      "baseline_ld": 1.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.375,
+            "delta_ld": -1.375,
+            "broken": true
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.125,
+            "delta_ld": -1.125,
+            "broken": true
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.125,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_281": {
+      "id": "NC_4x4_det_281",
+      "written_sign": "+",
+      "baseline_ld": 7.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.0,
+            "delta_ld": 1.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.875,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_284": {
+      "id": "NC_4x4_det_284",
+      "written_sign": "-",
+      "baseline_ld": 7.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.375,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_286": {
+      "id": "NC_4x4_det_286",
+      "written_sign": "-",
+      "baseline_ld": 8.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.375,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_287": {
+      "id": "NC_4x4_det_287",
+      "written_sign": "-",
+      "baseline_ld": 7.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_289": {
+      "id": "NC_4x4_det_289",
+      "written_sign": "+",
+      "baseline_ld": 3.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.25,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.0,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_291": {
+      "id": "NC_4x4_det_291",
+      "written_sign": "+",
+      "baseline_ld": 2.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.25,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.125,
+            "delta_ld": 0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.875,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_292": {
+      "id": "NC_4x4_det_292",
+      "written_sign": "-",
+      "baseline_ld": 7.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_294": {
+      "id": "NC_4x4_det_294",
+      "written_sign": "-",
+      "baseline_ld": 7.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.5,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_295": {
+      "id": "NC_4x4_det_295",
+      "written_sign": "-",
+      "baseline_ld": 6.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.75,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.0,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_296": {
+      "id": "NC_4x4_det_296",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_297": {
+      "id": "NC_4x4_det_297",
+      "written_sign": "+",
+      "baseline_ld": 0.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.5,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.5,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.0,
+            "delta_ld": 1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.25,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_298": {
+      "id": "NC_4x4_det_298",
+      "written_sign": "-",
+      "baseline_ld": 8.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.5,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_299": {
+      "id": "NC_4x4_det_299",
+      "written_sign": "-",
+      "baseline_ld": 4.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.125,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.25,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.625,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_300": {
+      "id": "NC_4x4_det_300",
+      "written_sign": "-",
+      "baseline_ld": 12.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_301": {
+      "id": "NC_4x4_det_301",
+      "written_sign": "+",
+      "baseline_ld": 4.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.75,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.375,
+            "delta_ld": -2.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.375,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_302": {
+      "id": "NC_4x4_det_302",
+      "written_sign": "-",
+      "baseline_ld": 11.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.5,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_303": {
+      "id": "NC_4x4_det_303",
+      "written_sign": "+",
+      "baseline_ld": 12.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.0,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.0,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_304": {
+      "id": "NC_4x4_det_304",
+      "written_sign": "-",
+      "baseline_ld": 12.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_305": {
+      "id": "NC_4x4_det_305",
+      "written_sign": "+",
+      "baseline_ld": 3.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.875,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.625,
+            "delta_ld": 0.75,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_307": {
+      "id": "NC_4x4_det_307",
+      "written_sign": "-",
+      "baseline_ld": 11.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.5,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_308": {
+      "id": "NC_4x4_det_308",
+      "written_sign": "-",
+      "baseline_ld": 11.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.625,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_309": {
+      "id": "NC_4x4_det_309",
+      "written_sign": "-",
+      "baseline_ld": 9.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.5,
+            "delta_ld": 1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_310": {
+      "id": "NC_4x4_det_310",
+      "written_sign": "+",
+      "baseline_ld": 0.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.5,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.5,
+            "delta_ld": 0.5,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_311": {
+      "id": "NC_4x4_det_311",
+      "written_sign": "-",
+      "baseline_ld": 10.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_312": {
+      "id": "NC_4x4_det_312",
+      "written_sign": "-",
+      "baseline_ld": 9.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.875,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_313": {
+      "id": "NC_4x4_det_313",
+      "written_sign": "+",
+      "baseline_ld": -3.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -3.75,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -3.5,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.75,
+            "delta_ld": 1.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -3.0,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_314": {
+      "id": "NC_4x4_det_314",
+      "written_sign": "-",
+      "baseline_ld": 12.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_315": {
+      "id": "NC_4x4_det_315",
+      "written_sign": "-",
+      "baseline_ld": 8.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.25,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_317": {
+      "id": "NC_4x4_det_317",
+      "written_sign": "-",
+      "baseline_ld": 7.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_318": {
+      "id": "NC_4x4_det_318",
+      "written_sign": "-",
+      "baseline_ld": 11.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.5,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_319": {
+      "id": "NC_4x4_det_319",
+      "written_sign": "+",
+      "baseline_ld": 1.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.125,
+            "delta_ld": -1.5,
+            "broken": true
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.25,
+            "delta_ld": -1.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.75,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.5,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_321": {
+      "id": "NC_4x4_det_321",
+      "written_sign": "+",
+      "baseline_ld": -0.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -2.5,
+            "delta_ld": -1.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -2.0,
+            "delta_ld": -1.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.75,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_322": {
+      "id": "NC_4x4_det_322",
+      "written_sign": "-",
+      "baseline_ld": 6.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.875,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.625,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.5,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_323": {
+      "id": "NC_4x4_det_323",
+      "written_sign": "+",
+      "baseline_ld": 0.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.5,
+            "delta_ld": -1.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.375,
+            "delta_ld": -1.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.375,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_326": {
+      "id": "NC_4x4_det_326",
+      "written_sign": "-",
+      "baseline_ld": 7.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_327": {
+      "id": "NC_4x4_det_327",
+      "written_sign": "+",
+      "baseline_ld": -0.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.375,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.125,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_328": {
+      "id": "NC_4x4_det_328",
+      "written_sign": "-",
+      "baseline_ld": 6.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.375,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_329": {
+      "id": "NC_4x4_det_329",
+      "written_sign": "-",
+      "baseline_ld": 9.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.75,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_330": {
+      "id": "NC_4x4_det_330",
+      "written_sign": "-",
+      "baseline_ld": 10.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_331": {
+      "id": "NC_4x4_det_331",
+      "written_sign": "+",
+      "baseline_ld": 2.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.25,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.125,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_332": {
+      "id": "NC_4x4_det_332",
+      "written_sign": "-",
+      "baseline_ld": 8.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_333": {
+      "id": "NC_4x4_det_333",
+      "written_sign": "-",
+      "baseline_ld": 11.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_334": {
+      "id": "NC_4x4_det_334",
+      "written_sign": "-",
+      "baseline_ld": 10.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_335": {
+      "id": "NC_4x4_det_335",
+      "written_sign": "-",
+      "baseline_ld": 9.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.25,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.125,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_336": {
+      "id": "NC_4x4_det_336",
+      "written_sign": "-",
+      "baseline_ld": 8.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": -0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.375,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_337": {
+      "id": "NC_4x4_det_337",
+      "written_sign": "+",
+      "baseline_ld": 0.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.75,
+            "delta_ld": -1.375,
+            "broken": true
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.5,
+            "delta_ld": -1.125,
+            "broken": true
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.625,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_338": {
+      "id": "NC_4x4_det_338",
+      "written_sign": "+",
+      "baseline_ld": 9.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -1.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -1.875,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.375,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_339": {
+      "id": "NC_4x4_det_339",
+      "written_sign": "-",
+      "baseline_ld": 6.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.5,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.0,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.875,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_343": {
+      "id": "NC_4x4_det_343",
+      "written_sign": "+",
+      "baseline_ld": 2.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.875,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.875,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.875,
+            "delta_ld": 0.625,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_344": {
+      "id": "NC_4x4_det_344",
+      "written_sign": "+",
+      "baseline_ld": 2.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.375,
+            "delta_ld": -1.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.625,
+            "delta_ld": -1.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.125,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_345": {
+      "id": "NC_4x4_det_345",
+      "written_sign": "+",
+      "baseline_ld": 5.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.375,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.25,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.625,
+            "delta_ld": -1.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.0,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_346": {
+      "id": "NC_4x4_det_346",
+      "written_sign": "-",
+      "baseline_ld": 12.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 13.0,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_347": {
+      "id": "NC_4x4_det_347",
+      "written_sign": "+",
+      "baseline_ld": 6.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.25,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.125,
+            "delta_ld": -0.625,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.625,
+            "delta_ld": -1.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_348": {
+      "id": "NC_4x4_det_348",
+      "written_sign": "-",
+      "baseline_ld": 9.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.625,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_349": {
+      "id": "NC_4x4_det_349",
+      "written_sign": "-",
+      "baseline_ld": 7.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.875,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_350": {
+      "id": "NC_4x4_det_350",
+      "written_sign": "-",
+      "baseline_ld": 8.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.0,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_351": {
+      "id": "NC_4x4_det_351",
+      "written_sign": "+",
+      "baseline_ld": 12.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 13.25,
+            "delta_ld": 0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 13.125,
+            "delta_ld": 0.5,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_353": {
+      "id": "NC_4x4_det_353",
+      "written_sign": "+",
+      "baseline_ld": -0.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.75,
+            "delta_ld": -1.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.25,
+            "delta_ld": -0.875,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.125,
+            "delta_ld": -0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.625,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_354": {
+      "id": "NC_4x4_det_354",
+      "written_sign": "-",
+      "baseline_ld": 7.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.5,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_355": {
+      "id": "NC_4x4_det_355",
+      "written_sign": "-",
+      "baseline_ld": 4.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.75,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.875,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.375,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.125,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_356": {
+      "id": "NC_4x4_det_356",
+      "written_sign": "+",
+      "baseline_ld": 5.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": 0.75,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_357": {
+      "id": "NC_4x4_det_357",
+      "written_sign": "-",
+      "baseline_ld": 12.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.75,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.625,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_358": {
+      "id": "NC_4x4_det_358",
+      "written_sign": "+",
+      "baseline_ld": 5.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.0,
+            "delta_ld": -0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.0,
+            "delta_ld": -0.625,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": 0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.875,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_359": {
+      "id": "NC_4x4_det_359",
+      "written_sign": "-",
+      "baseline_ld": 9.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_361": {
+      "id": "NC_4x4_det_361",
+      "written_sign": "-",
+      "baseline_ld": 8.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_362": {
+      "id": "NC_4x4_det_362",
+      "written_sign": "-",
+      "baseline_ld": 8.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.25,
+            "delta_ld": -0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.5,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_363": {
+      "id": "NC_4x4_det_363",
+      "written_sign": "-",
+      "baseline_ld": 12.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_364": {
+      "id": "NC_4x4_det_364",
+      "written_sign": "-",
+      "baseline_ld": 7.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_367": {
+      "id": "NC_4x4_det_367",
+      "written_sign": "-",
+      "baseline_ld": 8.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.5,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.375,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_368": {
+      "id": "NC_4x4_det_368",
+      "written_sign": "-",
+      "baseline_ld": 9.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.625,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_369": {
+      "id": "NC_4x4_det_369",
+      "written_sign": "-",
+      "baseline_ld": 10.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.625,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_370": {
+      "id": "NC_4x4_det_370",
+      "written_sign": "-",
+      "baseline_ld": 11.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 12.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_371": {
+      "id": "NC_4x4_det_371",
+      "written_sign": "-",
+      "baseline_ld": 8.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.125,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_373": {
+      "id": "NC_4x4_det_373",
+      "written_sign": "+",
+      "baseline_ld": 1.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.625,
+            "delta_ld": -0.875,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.0,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.125,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.5,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_374": {
+      "id": "NC_4x4_det_374",
+      "written_sign": "-",
+      "baseline_ld": 11.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_375": {
+      "id": "NC_4x4_det_375",
+      "written_sign": "+",
+      "baseline_ld": 3.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.875,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.125,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.625,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.875,
+            "delta_ld": 0.75,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_376": {
+      "id": "NC_4x4_det_376",
+      "written_sign": "-",
+      "baseline_ld": 4.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.0,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.125,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.375,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_377": {
+      "id": "NC_4x4_det_377",
+      "written_sign": "+",
+      "baseline_ld": 3.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.875,
+            "delta_ld": -0.875,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.0,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.875,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_378": {
+      "id": "NC_4x4_det_378",
+      "written_sign": "-",
+      "baseline_ld": 9.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.0,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.875,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.125,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.0,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_379": {
+      "id": "NC_4x4_det_379",
+      "written_sign": "+",
+      "baseline_ld": 1.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.625,
+            "delta_ld": -1.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.875,
+            "delta_ld": -1.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.5,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.625,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_380": {
+      "id": "NC_4x4_det_380",
+      "written_sign": "-",
+      "baseline_ld": 7.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.5,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_381": {
+      "id": "NC_4x4_det_381",
+      "written_sign": "-",
+      "baseline_ld": 11.125,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_384": {
+      "id": "NC_4x4_det_384",
+      "written_sign": "+",
+      "baseline_ld": 4.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.75,
+            "delta_ld": -1.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.125,
+            "delta_ld": -1.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.5,
+            "delta_ld": 1.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.875,
+            "delta_ld": 0.5,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_385": {
+      "id": "NC_4x4_det_385",
+      "written_sign": "-",
+      "baseline_ld": 7.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.125,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.5,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_386": {
+      "id": "NC_4x4_det_386",
+      "written_sign": "-",
+      "baseline_ld": 9.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.25,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_388": {
+      "id": "NC_4x4_det_388",
+      "written_sign": "-",
+      "baseline_ld": 5.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.5,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.125,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_389": {
+      "id": "NC_4x4_det_389",
+      "written_sign": "-",
+      "baseline_ld": 11.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_390": {
+      "id": "NC_4x4_det_390",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.75,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_391": {
+      "id": "NC_4x4_det_391",
+      "written_sign": "-",
+      "baseline_ld": 6.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.0,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.0,
+            "delta_ld": 0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.125,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_392": {
+      "id": "NC_4x4_det_392",
+      "written_sign": "-",
+      "baseline_ld": 10.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.0,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_393": {
+      "id": "NC_4x4_det_393",
+      "written_sign": "+",
+      "baseline_ld": 10.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.0,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.625,
+            "delta_ld": -1.375,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_394": {
+      "id": "NC_4x4_det_394",
+      "written_sign": "-",
+      "baseline_ld": 10.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.25,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_395": {
+      "id": "NC_4x4_det_395",
+      "written_sign": "-",
+      "baseline_ld": 4.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.875,
+            "delta_ld": -0.625,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.0,
+            "delta_ld": -0.5,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.75,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.5,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_396": {
+      "id": "NC_4x4_det_396",
+      "written_sign": "-",
+      "baseline_ld": 6.375,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.25,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.5,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.375,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.25,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_398": {
+      "id": "NC_4x4_det_398",
+      "written_sign": "-",
+      "baseline_ld": 8.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.125,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.25,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_399": {
+      "id": "NC_4x4_det_399",
+      "written_sign": "+",
+      "baseline_ld": 10.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.875,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 10.375,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.875,
+            "delta_ld": -0.625,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_401": {
+      "id": "NC_4x4_det_401",
+      "written_sign": "+",
+      "baseline_ld": 3.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.0,
+            "delta_ld": -1.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.0,
+            "delta_ld": -1.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_402": {
+      "id": "NC_4x4_det_402",
+      "written_sign": "+",
+      "baseline_ld": -1.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -2.75,
+            "delta_ld": -1.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -2.375,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -1.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -1.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_403": {
+      "id": "NC_4x4_det_403",
+      "written_sign": "+",
+      "baseline_ld": 4.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.875,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": -1.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.125,
+            "delta_ld": -0.75,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_404": {
+      "id": "NC_4x4_det_404",
+      "written_sign": "-",
+      "baseline_ld": 7.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.75,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.75,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.5,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.5,
+            "delta_ld": -0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_405": {
+      "id": "NC_4x4_det_405",
+      "written_sign": "-",
+      "baseline_ld": 8.625,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.125,
+            "delta_ld": 0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.25,
+            "delta_ld": 0.625,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.625,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.875,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_406": {
+      "id": "NC_4x4_det_406",
+      "written_sign": "-",
+      "baseline_ld": 7.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.125,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_407": {
+      "id": "NC_4x4_det_407",
+      "written_sign": "-",
+      "baseline_ld": 2.5,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.5,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.625,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 2.875,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 2.875,
+            "delta_ld": 0.375,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_408": {
+      "id": "NC_4x4_det_408",
+      "written_sign": "+",
+      "baseline_ld": 1.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.25,
+            "delta_ld": -1.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.5,
+            "delta_ld": -0.75,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 1.5,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 1.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_409": {
+      "id": "NC_4x4_det_409",
+      "written_sign": "-",
+      "baseline_ld": 6.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 5.75,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 5.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 6.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 6.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_411": {
+      "id": "NC_4x4_det_411",
+      "written_sign": "-",
+      "baseline_ld": 7.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_412": {
+      "id": "NC_4x4_det_412",
+      "written_sign": "+",
+      "baseline_ld": 4.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 4.0,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 3.75,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 3.5,
+            "delta_ld": -0.5,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 4.625,
+            "delta_ld": 0.625,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_413": {
+      "id": "NC_4x4_det_413",
+      "written_sign": "+",
+      "baseline_ld": 0.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": -0.375,
+            "delta_ld": -1.125,
+            "broken": true
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": -0.125,
+            "delta_ld": -0.875,
+            "broken": true
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 0.375,
+            "delta_ld": -0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 0.5,
+            "delta_ld": -0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_415": {
+      "id": "NC_4x4_det_415",
+      "written_sign": "-",
+      "baseline_ld": 9.75,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 10.0,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.75,
+            "delta_ld": 0.0,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.75,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_416": {
+      "id": "NC_4x4_det_416",
+      "written_sign": "-",
+      "baseline_ld": 11.875,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 12.125,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": -0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.875,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_417": {
+      "id": "NC_4x4_det_417",
+      "written_sign": "-",
+      "baseline_ld": 9.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.25,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.5,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 9.125,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 9.375,
+            "delta_ld": 0.125,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_418": {
+      "id": "NC_4x4_det_418",
+      "written_sign": "-",
+      "baseline_ld": 11.25,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.625,
+            "delta_ld": 0.375,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.25,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 11.375,
+            "delta_ld": 0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 11.5,
+            "delta_ld": 0.25,
+            "broken": false
+          }
+        }
+      }
+    },
+    "NC_4x4_det_419": {
+      "id": "NC_4x4_det_419",
+      "written_sign": "-",
+      "baseline_ld": 8.0,
+      "patches": {
+        "L56_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 8.0,
+            "delta_ld": 0.0,
+            "broken": false
+          }
+        },
+        "L23_mlp": {
+          "A1_error_mean": {
+            "label": "A1_error_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          },
+          "A2_self_mean": {
+            "label": "A2_self_mean",
+            "edit_ld": 7.875,
+            "delta_ld": -0.125,
+            "broken": false
+          }
+        }
+      }
+    }
+  }
+}
