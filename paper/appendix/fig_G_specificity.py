@@ -1,30 +1,37 @@
 #!/usr/bin/env python3
-"""Appendix G figures: five-model steering specificity (held-out, condition C2).
+"""Appendix G figures: five-model steering specificity (held-out, C2 condition).
+
+Terminology and symbols follow the main draft (sec2/sec4/sec5) and
+fig3_steering.py: the *sign lead* is the written wrong sign's logit minus the
+correct sign's logit; the *sign direction* was extracted on discovery data and
+frozen; the C2 condition adds a scaled negative of the sign direction at the
+habit layers; alpha controls dose; CTRL_MAG is the magnitude-matched random
+control.
 
 Generates two images with NO figure numbers or captions baked in (captions
 live in the paper so numbering can change):
 
   figG1_specificity.png    the specificity fingerprint: per model, at alpha=3,
-                           fraction of minus-written errors flipped, of
-                           correct-minus answers broken, of correct-plus
-                           answers broken; CTRL_MAG flips/breaks are zero
-                           everywhere except one Llama det control flip
-                           (one flip in 5,529 control evaluations overall).
-  figG2_dose_response.png  mean delta-lead on minus-written errors vs alpha,
-                           one line per model, grey band = spread of the
-                           magnitude-matched control means.
+                           fraction of wrong '-' errors flipped, of correct '-'
+                           answers broken, of correct '+' answers broken;
+                           CTRL_MAG flips/breaks are zero everywhere except
+                           one Llama det control flip (one flip in 5,529
+                           CTRL_MAG evaluations overall).
+  figG2_dose_response.png  mean shift in the wrong sign's lead on wrong '-'
+                           errors vs alpha, one line per model, grey band =
+                           spread of the CTRL_MAG means.
 
 Data: {Model}/heldout_*/s08_c2_steering/*.json. Sign conventions:
   - error files: written_sign is the sign the model wrote (the wrong one);
-    minus-written errors are written_sign == "-".
+    wrong '-' errors are written_sign == "-".
   - correct files: the field named written_sign comes from row["wrong_sign"]
     but, because correct-cohort rows reuse the error-row schema (where that
     column holds the sign actually present in the text), it equals the sign
     the model wrote = the TRUE sign. See exp_c2_on_correct.py line 98, which
-    asserts the input text carries this sign. So correct-minus answers are
+    asserts the input text carries this sign. So correct '-' answers are
     written_sign == "-".
   - "flipped" on errors / "broken" on corrects: strict zero-crossing of the
-    tracked lead (baseline_ld > 0 and post-edit ld < 0).
+    sign lead (baseline lead > 0 and post-edit lead < 0).
 
 Every count and mean plotted here equals the corresponding row in
 paper/appendix/ledger_results.csv (n_flipped_minus[C2|a*], n_broken[C2|a*],
@@ -39,14 +46,14 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 ALPHAS = ["a1.0", "a2.0", "a3.0"]
-MODELS = [  # (repo dir, display name, color)
+MODELS = [  # (repo dir, display name per main-draft Table 1, color)
     ("Gemma",             "Gemma-3-27B",       "#4c78a8"),
     ("Qwen",              "Qwen2.5-72B",       "#f58518"),
     ("Llama",             "Llama-3.3-70B",     "#54a24b"),
-    ("Phi",               "Phi-4-14B",         "#b279a2"),
+    ("Phi",               "Phi-4",             "#b279a2"),
     ("Mistral-Small-24B", "Mistral-Small-24B", "#e45756"),
 ]
-TASKS = [("det", "4×4 determinant"), ("ibp", "Integration by parts")]
+TASKS = [("det", "4×4 determinant"), ("ibp", "integration by parts")]
 
 
 def _leaf(cond, a):
@@ -107,8 +114,8 @@ def load(repo):
 def fig1(data, path):
     fig, axes = plt.subplots(2, 1, figsize=(9.2, 6.4), sharex=True)
     width, groups = 0.26, ["err", "cminus", "cplus"]
-    labels = ["minus-written errors flipped", "correct-minus broken",
-              "correct-plus broken"]
+    labels = ["wrong '$-$' errors flipped", "correct '$-$' broken",
+              "correct '$+$' broken"]
     colors = ["#2166ac", "#b2182b", "#bdbdbd"]
     for ax, (task, tname) in zip(axes, TASKS):
         for gi, (grp, lab, col) in enumerate(zip(groups, labels, colors)):
@@ -133,7 +140,7 @@ def fig1(data, path):
                             rotation=0, xytext=(0, 1.5),
                             textcoords="offset points")
         ax.set_ylim(0, 1.12)
-        ax.set_ylabel("fraction of cases")
+        ax.set_ylabel("fraction of held-out cases")
         ax.set_title(f"{tname} — held-out, α = 3", fontsize=11)
         ax.axhline(0, color="0.4", lw=0.8)
         ax.spines[["top", "right"]].set_visible(False)
@@ -159,15 +166,16 @@ def fig2(data, path):
             ctrl_all += [rec[f"ctrl_{a}"] for a in ALPHAS]
         lo, hi = min(ctrl_all), max(ctrl_all)
         pad = 0.15
-        ax.axhspan(lo - pad, hi + pad, color="0.82", alpha=0.5, zorder=0)
+        ax.axhspan(lo - pad, hi + pad, color="0.82", alpha=0.5, zorder=0,
+                   label="random control (CTRL_MAG)" if ax is axes[0] else None)
         ax.axhline(0, color="0.4", lw=0.8)
         ax.set_xticks(xs)
-        ax.set_xlabel("steering strength α")
+        ax.set_xlabel(r"steering strength $\alpha$")
         ax.set_title(tname, fontsize=11)
         ax.spines[["top", "right"]].set_visible(False)
         ax.legend(fontsize=7.6, frameon=False, loc="lower left")
-    axes[0].set_ylabel("mean shift in the wrong sign's lead (logits)\n"
-                       "minus-written errors, condition C2")
+    axes[0].set_ylabel("Mean shift in the wrong\nsign's lead (logits)\n"
+                       "(wrong '$-$' errors, C2)")
     fig.tight_layout()
     fig.savefig(path, dpi=200)
     plt.close(fig)
