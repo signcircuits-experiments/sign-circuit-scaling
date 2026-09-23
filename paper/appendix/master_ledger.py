@@ -367,10 +367,10 @@ def main():
 
 # Named layers per model for detailed DLA reporting (from the paper).
 NAMED_LAYERS = {
-    "Gemma-3-27B":        [58, 60],
-    "Qwen-2.5-72B":       [75],
+    "Gemma-3-27B":        [55, 56, 58, 60],
+    "Qwen-2.5-72B":       [75, 77, 78],
     "Llama-3.3-70B":      [77, 78, 79],
-    "Phi-4-14B":          [37, 39],
+    "Phi-4-14B":          [34, 37, 39],
     "Mistral-Small-24B":  [37, 38, 39],
     "Mistral-Large-675B": [],
 }
@@ -891,12 +891,24 @@ def x_meta_results(data, model):
     per, flags = {}, {}
     base = []
     n = 0
+    # Sign-restricted accumulators (added in the crosswalk audit so the
+    # paper's minus-written steering numbers — Fig. 6/7 denominators, flip
+    # counts, corrective/harmful splits — are answerable directly from
+    # ledger rows instead of raw JSONs). "Corrective" follows the paper's
+    # definition: flipped AND the case's baseline top-1 was the wrong sign
+    # (baseline_top1_is_wrong_sign), NOT top1_now_correct.
+    n_sign = {"-": 0, "+": 0}
+    per_minus, flip_minus, corr_minus = {}, {}, {}
     for cid, c in results.items():
         if not isinstance(c, dict):
             continue
         n += 1
         if c.get("baseline_ld") is not None:
             base.append(float(c["baseline_ld"]))
+        ws = str(c.get("written_sign", "")).strip()
+        if ws in n_sign:
+            n_sign[ws] += 1
+        bwrong = bool(c.get("baseline_top1_is_wrong_sign"))
         for tree_key in ("conditions", "boosts", "patches"):
             for ck, cv in c.get(tree_key, {}).items():
                 if not isinstance(cv, dict):
@@ -904,18 +916,51 @@ def x_meta_results(data, model):
                 if "delta_ld" in cv:                   # leaf directly
                     per.setdefault((ck,), []).append(float(cv["delta_ld"]))
                     _count_flags(flags, (ck,), cv)
+                    if ws == "-":
+                        _acc_minus(per_minus, flip_minus, corr_minus,
+                                   (ck,), cv, bwrong)
                 else:                                  # alpha/gamma level
                     for sk, leaf in cv.items():
                         if isinstance(leaf, dict) and "delta_ld" in leaf:
                             per.setdefault((ck, sk), []).append(
                                 float(leaf["delta_ld"]))
                             _count_flags(flags, (ck, sk), leaf)
+                            if ws == "-":
+                                _acc_minus(per_minus, flip_minus, corr_minus,
+                                           (ck, sk), leaf, bwrong)
     m.append(("n_cases_all", n, n, ""))
+    if n_sign["-"] or n_sign["+"]:
+        m.append(("n_wrote_minus_all", n_sign["-"], n, ""))
+        m.append(("n_wrote_plus_all", n_sign["+"], n, ""))
     mm = _mean_metric("mean_baseline_ld", base)
     if mm:
         m.append(mm)
     _emit_keyed(m, per, flags)
+    for key in sorted(per_minus):
+        label = "|".join(key)
+        vals = per_minus[key]
+        m.append((f"mean_delta_ld_minus[{label}]",
+                  _r6(statistics.mean(vals)), len(vals), ""))
+        if key in flip_minus:
+            nf = flip_minus[key]
+            nc = corr_minus.get(key, 0)
+            m.append((f"n_flipped_minus[{label}]", nf, len(vals), ""))
+            m.append((f"n_flipped_corrective_minus[{label}]", nc, len(vals),
+                      "flipped & baseline_top1_is_wrong_sign"))
+            m.append((f"n_flipped_harmful_minus[{label}]", nf - nc,
+                      len(vals), "flipped & baseline top-1 already correct"))
     return m
+
+
+def _acc_minus(per_minus, flip_minus, corr_minus, key, leaf, bwrong):
+    per_minus.setdefault(key, []).append(float(leaf["delta_ld"]))
+    if "flipped" in leaf:
+        flip_minus.setdefault(key, 0)
+        corr_minus.setdefault(key, 0)
+        if leaf["flipped"]:
+            flip_minus[key] += 1
+            if bwrong:
+                corr_minus[key] += 1
 
 
 def x_scalar_report(data, model):
